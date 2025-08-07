@@ -1,0 +1,20 @@
+{
+  "name": "@aily-project/board-esp32alot",
+  "nickname": "ESP32ALOT board",
+  "version": "1.0.0",
+  "description": "ESP32ALOT开发板通用配置",
+  "main": "index.js",
+  "disabled": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "boardDependencies":{
+      "@aily-project/compiler-esp-x32": "14.2.0",
+      "@aily-project/tool-esptool_py": "4.8.1",
+      "@aily-project/sdk-esp32": "3.2.0",
+      "@aily-project/tool-idf_esp32s3": "5.4.0",
+      "@aily-project/tool-ctags": "5.8.0"
+  }
+}
