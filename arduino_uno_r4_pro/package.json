@@ -1,6 +1,6 @@
 {
   "name": "@aily-project/board-arduino_uno_r4_pro",
-  "nickname": "Arduino UNO R4 增强版",
+  "nickname": "UNO R4 WIFI 增强版",
   "version": "1.5.1",
   "description": "改进升级的Arduino UNO R4 增强版采用了来自瑞萨的强大32位微控制器。预备迎接增加的处理能力、扩展的内存和全新的板载外设。最棒的是，与现有的扩展板和配件兼容性不受影响，无需对标准形式或5V工作电压进行任何更改。",
   "main": "index.js",

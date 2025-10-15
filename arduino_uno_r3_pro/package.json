@@ -1,6 +1,6 @@
 {
   "name": "@aily-project/board-arduino_uno_r3_pro",
-  "nickname": "Arduino UNO R3 增强版",
+  "nickname": "UNO R3 增强版",
   "version": "1.8.6",
   "description": "Arduino UNO R3 增强版是基于ATmega328P的开源电子原型平台，包含数字I/O口14个（其中6个支持PWM输出），模拟输入口6个，16MHz晶振，USB接口，电源接口，ICSP接口等。",
   "main": "index.js",

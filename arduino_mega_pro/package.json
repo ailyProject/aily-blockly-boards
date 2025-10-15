@@ -1,6 +1,6 @@
 {
   "name": "@aily-project/board-arduino_mega_pro",
-  "nickname": "Arduino MEGA 增强版",
+  "nickname": "MEGA 2560增强版",
   "version": "1.8.6",
   "description": "Arduino MEGA 增强版是基于ATmega2560的开源电子原型平台，包含数字I/O口54个（其中14个支持PWM输出），模拟输入口16个，16MHz晶振，USB接口，电源接口，ICSP接口等。",
   "main": "index.js",
