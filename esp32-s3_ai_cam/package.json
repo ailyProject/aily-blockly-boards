@@ -1,0 +1,20 @@
+{
+    "name": "@aily-project/board-esp32-s3_ai_cam",
+    "nickname": "ESP32-S3 AI CAM",
+    "version": "3.3.1",
+    "description": "DFRobot ESP32-S3 AI CAM Board",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "vonweller",
+    "license": "ISC",
+    "brand": "DFRobot",
+    "boardDependencies": {
+        "@aily-project/sdk-esp32": "3.3.1",
+        "@aily-project/compiler-esp-x32": "14.2.0",
+        "@aily-project/tool-esptool_py": "5.1.0",
+        "@aily-project/tool-idf_esp32s3": "5.5.0",
+        "@aily-project/tool-ctags": "5.8.0"
+    }
+}
