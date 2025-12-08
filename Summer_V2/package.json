@@ -1,0 +1,20 @@
+{
+  "name": "@aily-project/board-summer-V2",
+  "nickname": "Summer_V2",
+  "version": "3.3.1",
+  "description": "Summer_V2开发板支持编码电机、TT马达、舵机、超声波传感器、Sentry2避障、红外遥控、蜂鸣器、OLED显示和步进电机控制，适用于多种智能硬件和机器人应用。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "brand": "OpenJumper",
+  "boardDependencies": {
+    "@aily-project/compiler-esp-x32": "14.2.0",
+    "@aily-project/tool-esptool_py": "5.1.0",
+    "@aily-project/sdk-esp32": "3.3.1",
+    "@aily-project/tool-idf_esp32": "5.5.1",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}
