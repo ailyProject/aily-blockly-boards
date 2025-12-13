@@ -1,0 +1,21 @@
+{
+  "name": "@aily-project/board-nl-esp32s3-cam",
+  "nickname": "NL-ESP32S3-CAM",
+  "version": "1.0.0",
+  "description": "ESP32S3 Camera Board configuration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "url": "https://emakefun.github.io/emakefun-docsify/#/zh-cn/esp32/esp32s3-cam/README_zh",
+  "author": "",
+  "license": "ISC",
+  "brand": "Espressif",
+  "boardDependencies": {
+    "@aily-project/compiler-esp-x32": "14.2.0",
+    "@aily-project/tool-esptool_py": "5.1.0",
+    "@aily-project/sdk-esp32": "3.2.1",
+    "@aily-project/tool-idf_esp32s3": "5.4.1",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}
