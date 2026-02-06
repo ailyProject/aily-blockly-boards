@@ -3,6 +3,13 @@
     "languageVersion": 0,
     "blocks": [
       {
+        "type": "arduino_global",
+        "id": "arduino_global_id0",
+        "x": 30,
+        "y": 0,
+        "deletable": false
+      },
+      {
         "type": "arduino_setup",
         "id": "arduino_setup_id0",
         "x": 30,
