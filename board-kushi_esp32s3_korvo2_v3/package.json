@@ -1,0 +1,20 @@
+{
+  "name": "@aily-project/board-kushi_esp32s3_korvo2_v3",
+  "nickname": "酷世DIY ESP32-S3-Korvo-2 V3",
+  "version": "3.2.1",
+  "description": "酷世DIY ESP32-S3-Korvo-2 V3 智能语音开发板配置包，基于ESP32-S3-N16R8模组，集成ES8311音频编解码器、ES7210四通道ADC、ST7789触摸屏",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevincoooool",
+  "license": "MIT",
+  "brand": "酷世DIY",
+  "boardDependencies": {
+    "@aily-project/compiler-esp-x32": "14.2.0",
+    "@aily-project/tool-esptool_py": "5.1.0",
+    "@aily-project/sdk-esp32": "3.2.1",
+    "@aily-project/tool-idf_esp32s3": "5.4.1",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}

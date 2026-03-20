@@ -1431,5 +1431,22 @@
     "mode": [
       "arduino"
     ]
+  },
+  {
+    "name": "@aily-project/board-kushi_esp32s3_korvo2_v3",
+    "nickname": "酷世DIY ESP32-S3-Korvo-2 V3",
+    "version": "1.0.0",
+    "description": "酷世DIY ESP32-S3-Korvo-2 V3 智能语音开发板，基于ESP32-S3-N16R8模组(16MB Flash, 8MB PSRAM)，集成ES8311音频编解码器、ES7210四通道ADC、ST7789触摸屏、CST816S触摸芯片",
+    "author": "Kevincoooool",
+    "brand": "酷世DIY",
+    "url": "",
+    "compatibility": "",
+    "img": "board-kushi_esp32s3_korvo2_v3/board.webp",
+    "pinmap": "board-kushi_esp32s3_korvo2_v3/pinmap.webp",
+    "state": "",
+    "type": "esp32:esp32:esp32s3box:PSRAM=opi,FlashMode=qio,FlashSize=16M,PartitionScheme=default",
+    "mode": [
+      "arduino"
+    ]
   }
 ]
