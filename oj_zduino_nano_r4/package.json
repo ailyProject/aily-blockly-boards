@@ -1,0 +1,33 @@
+{
+  "name": "@aily-project/board-oj_zduino_nano_r4",
+  "nickname": "Zduino Nano R4",
+  "version": "1.5.3",
+  "description": "The OpenJumper Zduino Nano R4 brings the power of a 32-bit Arm Cortex-M4 processor to the beloved Nano form factor. Based on the Renesas RA4M1 microcontroller, it features 256 KB Flash, 32 KB SRAM, and 8 KB EEPROM running at 48 MHz, with a built-in real-time clock (RTC), 14-bit ADC, and 12-bit DAC.",
+  "description_en": "The OpenJumper Zduino Nano R4 brings the power of a 32-bit Arm Cortex-M4 processor to the beloved Nano form factor. Based on the Renesas RA4M1 microcontroller, it features 256 KB Flash, 32 KB SRAM, and 8 KB EEPROM running at 48 MHz, with a built-in real-time clock (RTC), 14-bit ADC, and 12-bit DAC.",
+  "description_zh_cn": "OpenJumper Zduino Nano R4 将强大的 32 位 Arm Cortex-M4 处理器引入深受喜爱的 Nano 外形设计。基于瑞萨 RA4M1 微控制器，具有 256 KB Flash、32 KB SRAM 和 8 KB EEPROM，运行频率 48 MHz，内置实时时钟（RTC）、14 位 ADC 和 12 位 DAC。",
+  "description_zh_hk": "OpenJumper Zduino Nano R4 將強大的 32 位元 Arm Cortex-M4 處理器引入深受喜愛的 Nano 外形設計。基於瑞薩 RA4M1 微控制器，具有 256 KB Flash、32 KB SRAM 和 8 KB EEPROM，運行頻率 48 MHz，內建即時時鐘（RTC）、14 位元 ADC 和 12 位元 DAC。",
+  "description_ja": "OpenJumper Zduino Nano R4は、強力な32ビットArm Cortex-M4プロセッサを人気のNanoフォームファクタに搭載しています。ルネサスRA4M1マイクロコントローラをベースに、256KB Flash、32KB SRAM、8KB EEPROM、48MHz動作、内蔵リアルタイムクロック（RTC）、14ビットADC、12ビットDACを備えています。",
+  "description_ko": "OpenJumper Zduino Nano R4는 강력한 32비트 Arm Cortex-M4 프로세서를 인기 있는 Nano 폼 팩터에 탑재했습니다. Renesas RA4M1 마이크로컨트롤러 기반으로, 256KB Flash, 32KB SRAM, 8KB EEPROM, 48MHz 동작, 내장 실시간 클럭(RTC), 14비트 ADC 및 12비트 DAC를 갖추고 있습니다.",
+  "description_de": "Der OpenJumper Zduino Nano R4 bringt die Leistung eines 32-Bit Arm Cortex-M4 Prozessors in den beliebten Nano-Formfaktor. Basierend auf dem Renesas RA4M1 Mikrocontroller bietet er 256 KB Flash, 32 KB SRAM und 8 KB EEPROM bei 48 MHz, mit eingebauter Echtzeituhr (RTC), 14-Bit-ADC und 12-Bit-DAC.",
+  "description_fr": "L'OpenJumper Zduino Nano R4 apporte la puissance d'un processeur Arm Cortex-M4 32 bits au format Nano bien connu. Basé sur le microcontrôleur Renesas RA4M1, il dispose de 256 Ko de Flash, 32 Ko de SRAM et 8 Ko d'EEPROM fonctionnant à 48 MHz, avec une horloge temps réel (RTC) intégrée, un ADC 14 bits et un DAC 12 bits.",
+  "description_es": "El OpenJumper Zduino Nano R4 lleva la potencia de un procesador Arm Cortex-M4 de 32 bits al querido formato Nano. Basado en el microcontrolador Renesas RA4M1, cuenta con 256 KB de Flash, 32 KB de SRAM y 8 KB de EEPROM funcionando a 48 MHz, con un reloj en tiempo real (RTC) integrado, ADC de 14 bits y DAC de 12 bits.",
+  "description_pt": "O OpenJumper Zduino Nano R4 traz a potência de um processador Arm Cortex-M4 de 32 bits para o querido formato Nano. Baseado no microcontrolador Renesas RA4M1, possui 256 KB de Flash, 32 KB de SRAM e 8 KB de EEPROM operando a 48 MHz, com relógio em tempo real (RTC) integrado, ADC de 14 bits e DAC de 12 bits.",
+  "description_ru": "OpenJumper Zduino Nano R4 привносит мощность 32-битного процессора Arm Cortex-M4 в любимый форм-фактор Nano. На базе микроконтроллера Renesas RA4M1, с 256 КБ Flash, 32 КБ SRAM и 8 КБ EEPROM, работающий на частоте 48 МГц, со встроенными часами реального времени (RTC), 14-битным АЦП и 12-битным ЦАП.",
+  "description_ar": "OpenJumper Zduino Nano R4 يجلب قوة معالج Arm Cortex-M4 32 بت إلى شكل Nano المحبوب. يعتمد على متحكم Renesas RA4M1 الدقيق، ويتميز بـ 256 كيلوبايت فلاش، و32 كيلوبايت SRAM، و8 كيلوبايت EEPROM يعمل بتردد 48 ميغاهرتز، مع ساعة حقيقية مدمجة (RTC)، وADC 14 بت، وDAC 12 بت.",
+  "main": "index.js",
+  "url": "https://arduino.me/a/3203",
+  "pinmap": false,
+  "brand": "OpenJumper",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "boardDependencies": {
+    "@aily-project/compiler-arm-none-eabi-gcc": "7.2.1",
+    "@aily-project/tool-bossac": "1.9.1",
+    "@aily-project/sdk-renesas_uno": "1.5.3",
+    "@aily-project/tool-ctags": "5.8.0",
+    "@aily-project/tool-dfu-util": "0.11.0"
+  }
+}

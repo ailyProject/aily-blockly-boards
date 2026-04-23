@@ -1,0 +1,17 @@
+{
+  "name": "project_",
+  "version": "1.0.0",
+  "description": "",
+  "board": "Zduino Nano R4",
+  "dependencies": {
+    "@aily-project/board-oj_zduino_nano_r4": "1.5.3",
+    "@aily-project/lib-core-io": "1.0.0",
+    "@aily-project/lib-core-logic": "0.0.1",
+    "@aily-project/lib-core-loop": "0.0.1",
+    "@aily-project/lib-core-math":"0.0.1",
+    "@aily-project/lib-core-text": "1.0.0",
+    "@aily-project/lib-core-serial": "0.0.1",
+    "@aily-project/lib-core-time": "0.0.1",
+    "@aily-project/lib-core-variables": "1.0.1"
+  }
+}
