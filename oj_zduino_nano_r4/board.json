@@ -315,6 +315,10 @@
         [
             "Serial",
             "Serial"
+        ],
+        [
+            "Serial1", 
+            "Serial1"
         ]
     ],
     "serialSpeed": [
@@ -403,6 +407,10 @@
         [
             "I2C",
             "Wire"
+        ],
+        [
+            "QWIIC", 
+            "Wire1"
         ]
     ],
     "i2cPins": {
@@ -414,6 +422,16 @@
             [
                 "SCL",
                 "A5"
+            ]
+        ],
+        "Wire1": [
+            [
+                "SDA", 
+                "27"
+            ],
+            [
+                "SCL",
+                "26"
             ]
         ]
     },
