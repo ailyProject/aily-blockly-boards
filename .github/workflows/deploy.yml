@@ -862,6 +862,9 @@ jobs:
       
       - name: Generate JSON
         run: node genjson.js
+
+      - name: Generate AI JSON
+        run: node genjson-ai.js
       
       - name: Generate info.json for all boards
         run: node generate-info.js --all
@@ -887,6 +890,17 @@ jobs:
             cat ./boards-index.json | head -n 10
           else
             echo "boards-index.json does not exist"
+            ls -la
+            exit 1
+          fi
+
+      - name: Check if boards-ai.json file exists
+        run: |
+          if [ -f "./boards-ai.json" ]; then
+            echo "boards-ai.json exists"
+            cat ./boards-ai.json | head -n 10
+          else
+            echo "boards-ai.json does not exist"
             ls -la
             exit 1
           fi
@@ -933,7 +947,7 @@ jobs:
             PREFIX="${PREFIX}/"
           fi
 
-          for file in boards.json boards-index.json; do
+          for file in boards.json boards-index.json boards-ai.json; do
             retry_with_backoff 3 3 aws --endpoint-url "$RUSTFS_ENDPOINT" s3 cp "$file" "s3://${RUSTFS_BUCKET}/${PREFIX}${file}" --no-progress
           done
 
@@ -942,6 +956,7 @@ jobs:
           mkdir -p r2_json
           cp boards.json r2_json/
           cp boards-index.json r2_json/
+          cp boards-ai.json r2_json/
 
       - name: Upload to R2 (尝试 1/3)
         id: upload_r2_json_try_1
