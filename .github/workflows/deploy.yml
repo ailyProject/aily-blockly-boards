@@ -630,7 +630,12 @@ jobs:
             IMAGE_PREFIX="${IMAGE_PREFIX}/"
           fi
 
-          retry_with_backoff 3 3 aws --endpoint-url "$RUSTFS_ENDPOINT" s3 cp "temp_images/${{ matrix.package }}" "s3://${RUSTFS_BUCKET}/${IMAGE_PREFIX}${{ matrix.package }}" --recursive --no-progress
+          while IFS= read -r file; do
+            relative_path="${file#temp_images/}"
+            target_key="${IMAGE_PREFIX}${relative_path}"
+            echo "Uploading $file -> s3://${RUSTFS_BUCKET}/${target_key}"
+            retry_with_backoff 3 3 aws --endpoint-url "$RUSTFS_ENDPOINT" s3 cp "$file" "s3://${RUSTFS_BUCKET}/${target_key}" --no-progress
+          done < <(find "temp_images/${{ matrix.package }}" -type f -name "*.webp")
 
       - name: Upload to R2 (尝试 1/3)
         id: upload_r2_img_try_1
@@ -779,12 +784,16 @@ jobs:
           IMAGE_PREFIX="$RUSTFS_IMG_TARGET"
           IMAGE_PREFIX="${IMAGE_PREFIX#/}"
           IMAGE_PREFIX="${IMAGE_PREFIX%/}"
-
           if [ -n "$IMAGE_PREFIX" ]; then
-            retry_with_backoff 3 3 aws --endpoint-url "$RUSTFS_ENDPOINT" s3 cp "./temp_images" "s3://${RUSTFS_BUCKET}/${IMAGE_PREFIX}" --recursive --no-progress
-          else
-            retry_with_backoff 3 3 aws --endpoint-url "$RUSTFS_ENDPOINT" s3 cp "./temp_images" "s3://${RUSTFS_BUCKET}" --recursive --no-progress
+            IMAGE_PREFIX="${IMAGE_PREFIX}/"
           fi
+
+          while IFS= read -r file; do
+            relative_path="${file#./temp_images/}"
+            target_key="${IMAGE_PREFIX}${relative_path}"
+            echo "Uploading $file -> s3://${RUSTFS_BUCKET}/${target_key}"
+            retry_with_backoff 3 3 aws --endpoint-url "$RUSTFS_ENDPOINT" s3 cp "$file" "s3://${RUSTFS_BUCKET}/${target_key}" --no-progress
+          done < <(find ./temp_images -type f -name "*.webp")
 
       - name: Upload to R2 (尝试 1/3)
         id: upload_all_r2_img_try_1
