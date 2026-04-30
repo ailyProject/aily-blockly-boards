@@ -708,20 +708,14 @@
     [
       "Serial4",
       "Serial4"
+    ],
+    [
+      "Serial5",
+      "Serial5"
     ]
   ],
   "serialPins": {
     "Serial": [
-      [
-        "RX",
-        "PA10"
-      ],
-      [
-        "TX",
-        "PA9"
-      ]
-    ],
-    "Serial1": [
       [
         "RX",
         "PA3"
@@ -731,7 +725,27 @@
         "PA2"
       ]
     ],
+    "Serial1": [
+      [
+        "RX",
+        "PA10"
+      ],
+      [
+        "TX",
+        "PA9"
+      ]
+    ],
     "Serial2": [
+      [
+        "RX",
+        "PA3"
+      ],
+      [
+        "TX",
+        "PA2"
+      ]
+    ],
+    "Serial3": [
       [
         "RX",
         "PB11"
@@ -741,7 +755,7 @@
         "PB10"
       ]
     ],
-    "Serial3": [
+    "Serial4": [
       [
         "RX",
         "PC11"
@@ -751,7 +765,7 @@
         "PC10"
       ]
     ],
-    "Serial4": [
+    "Serial5": [
       [
         "RX",
         "PD2"
