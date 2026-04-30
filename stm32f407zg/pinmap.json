@@ -1,0 +1,84 @@
+{
+  "id": "component_1772690044675",
+  "name": "STM32F407ZG",
+  "width": 300,
+  "height": 520,
+  "images": [
+    {
+      "id": "img_1772690044676",
+      "name": "Image_1772690044676",
+      "width": 300,
+      "height": 520,
+      "x": 0,
+      "y": 0,
+      "aspectRatio": 0.576923,
+      "visible": true,
+      "disabled": false,
+      "locked": true
+    }
+  ],
+  "pins": [],
+  "texts": [],
+  "rects": [],
+  "ellipses": [],
+  "lines": [],
+  "functionTypes": [
+    {
+      "value": "power",
+      "label": "VCC",
+      "color": "#EF4444",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "value": "gnd",
+      "label": "GND",
+      "color": "#000000",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "value": "digital",
+      "label": "Digital",
+      "color": "#3B82F6",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "value": "analog",
+      "label": "Analog",
+      "color": "#10B981",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "value": "uart",
+      "label": "UART",
+      "color": "#F59E0B",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "value": "i2c",
+      "label": "I2C",
+      "color": "#8B5CF6",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "value": "spi",
+      "label": "SPI",
+      "color": "#EC4899",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "value": "pwm",
+      "label": "PWM",
+      "color": "#FCD34D",
+      "textColor": "#000000"
+    },
+    {
+      "value": "other",
+      "label": "Other",
+      "color": "#9CA3AF",
+      "textColor": "#FFFFFF"
+    }
+  ],
+  "visible": true,
+  "disabled": false,
+  "board": "@aily-project/board-stm32f407zg"
+}

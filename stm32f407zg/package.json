@@ -1,0 +1,39 @@
+{
+  "name": "@aily-project/board-stm32f407zg",
+  "nickname": "STM32F407ZG",
+  "version": "2.11.0",
+  "description": "STM32F407ZG development board with Arm Cortex-M4 core (with FPU) at 168 MHz, 1 MB Flash, 192 KB SRAM, 144-pin LQFP package, rich peripheral interfaces for high-performance embedded applications.",
+  "description_en": "STM32F407ZG development board with Arm Cortex-M4 core (with FPU) at 168 MHz, 1 MB Flash, 192 KB SRAM, 144-pin LQFP package, rich peripheral interfaces for high-performance embedded applications.",
+  "description_zh_cn": "STM32F407ZG 开发板，搭载带 FPU 的 Arm Cortex-M4 内核，主频 168 MHz，1 MB Flash，192 KB SRAM，144 引脚 LQFP 封装，丰富的外设接口，适用于高性能嵌入式应用。",
+  "description_zh_hk": "STM32F407ZG 開發板，搭載帶 FPU 的 Arm Cortex-M4 核心，主頻 168 MHz，1 MB Flash，192 KB SRAM，144 引腳 LQFP 封裝，豐富的外設介面，適用於高效能嵌入式應用。",
+  "description_ja": "STM32F407ZG 開発ボード。FPU付き168MHzのArm Cortex-M4コア、1MB Flash、192KB SRAM、144-pin LQFPパッケージ、豊富なペリフェラルインターフェースを備え、高性能組込みアプリケーションに適しています。",
+  "description_ko": "STM32F407ZG 개발 보드. FPU를 갖춘 168MHz의 Arm Cortex-M4 코어, 1MB Flash, 192KB SRAM, 144-pin LQFP 패키지, 풍부한 주변장치 인터페이스를 갖추어 고성능 임베디드 애플리케이션에 적합합니다.",
+  "description_de": "STM32F407ZG Entwicklungsboard mit Arm Cortex-M4 Kern (mit FPU) bei 168 MHz, 1 MB Flash, 192 KB SRAM, 144-pin LQFP-Gehäuse, umfangreichen Peripherieschnittstellen für Hochleistungs-eingebettete Anwendungen.",
+  "description_fr": "Carte de développement STM32F407ZG avec cœur Arm Cortex-M4 (avec FPU) à 168 MHz, 1 Mo de Flash, 192 Ko de SRAM, boîtier 144-pin LQFP, interfaces périphériques riches pour applications embarquées haute performance.",
+  "description_es": "Placa de desarrollo STM32F407ZG con núcleo Arm Cortex-M4 (con FPU) a 168 MHz, 1 MB de Flash, 192 KB de SRAM, encapsulado 144-pin LQFP, interfaces periféricas ricas para aplicaciones embebidas de alto rendimiento.",
+  "description_pt": "Placa de desenvolvimento STM32F407ZG com núcleo Arm Cortex-M4 (com FPU) a 168 MHz, 1 MB de Flash, 192 KB de SRAM, encapsulamento 144-pin LQFP, interfaces periféricas ricas para aplicações embarcadas de alto desempenho.",
+  "description_ru": "Плата разработки STM32F407ZG с ядром Arm Cortex-M4 (с FPU) на частоте 168 МГц, 1 МБ Flash, 192 КБ SRAM, корпус 144-pin LQFP, с богатыми периферийными интерфейсами для высокопроизводительных встроенных приложений.",
+  "description_ar": "لوحة تطوير STM32F407ZG بنواة Arm Cortex-M4 (مع FPU) بتردد 168 ميغاهرتز، و1 ميغابايت فلاش، و192 كيلوبايت SRAM، وحزمة 144-pin LQFP، مع واجهات طرفية غنية للتطبيقات المدمجة عالية الأداء.",
+  "main": "index.js",
+  "brand": "STMicroelectronics",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "STM32",
+    "STM32F407ZG",
+    "Cortex-M4",
+    "ARM"
+  ],
+  "author": "STMicroelectronics",
+  "license": "ISC",
+  "boardDependencies": {
+    "@aily-project/compiler-xpack-arm-none-eabi-gcc": "14.2.1",
+    "@aily-project/tool-STM32Tools": "2.3.1",
+    "@aily-project/sdk-stm32": "2.11.0",
+    "@aily-project/tool-STM32_SVD": "1.18.1",
+    "@aily-project/tool-stm32flash": "0.7.0",
+    "@aily-project/tool-CMSIS": "5.9.0",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}

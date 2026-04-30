@@ -1,13 +1,13 @@
 {
-  "name": "STM32F407ZE",
+  "name": "STM32F407ZG",
   "version": "1.0.0",
-  "description": "STM32F407ZE development board",
+  "description": "STM32F407ZG development board",
   "compilerTool": "aily-builder",
   "core": "STMicroelectronics:stm32",
   "type": "STMicroelectronics:stm32:GenF4",
   "compilerParam": "compile -v -b STMicroelectronics:stm32:GenF4",
   "uploadParam": "stm32flash -w ${'*.bin'} -v -g 0x0 ${serial}",
-  "linkUploadParam": "probe-rs download --chip STM32F407ZE --verify ${'*.elf'};probe-rs reset --chip STM32F407ZE",
+  "linkUploadParam": "probe-rs download --chip STM32F407ZG --verify ${'*.elf'};probe-rs reset --chip STM32F407ZG",
   "analogPins": [
     [
       "PA0",
@@ -764,11 +764,11 @@
     "Serial3": [
       [
         "RX",
-        "PC11"
+        "PA1"
       ],
       [
         "TX",
-        "PC10"
+        "PA0"
       ]
     ],
     "Serial4": [
