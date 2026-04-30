@@ -590,8 +590,6 @@ jobs:
           RUSTFS_SECRET_ACCESS_KEY: ${{ secrets.RUSTFS_SECRET_ACCESS_KEY }}
           RUSTFS_BUCKET: ${{ secrets.RUSTFS_BUCKET }}
           RUSTFS_IMG_TARGET: ${{ secrets.RUSTFS_IMG_TARGET }}
-          LEGACY_IMG_TARGET: ${{ secrets.IMG_TARGET }}
-          FALLBACK_R2_IMG_TARGET: ${{ secrets.R2_IMG_TARGET }}
         run: |
           if [ -z "$RUSTFS_ENDPOINT" ] || [ -z "$RUSTFS_ACCESS_KEY_ID" ] || [ -z "$RUSTFS_SECRET_ACCESS_KEY" ] || [ -z "$RUSTFS_BUCKET" ]; then
             echo "RustFS secrets not set, skipping."
@@ -625,7 +623,7 @@ jobs:
           export AWS_SECRET_ACCESS_KEY="$RUSTFS_SECRET_ACCESS_KEY"
           export AWS_DEFAULT_REGION="us-east-1"
 
-          IMAGE_PREFIX="${RUSTFS_IMG_TARGET:-${FALLBACK_R2_IMG_TARGET:-$LEGACY_IMG_TARGET}}"
+          IMAGE_PREFIX="$RUSTFS_IMG_TARGET"
           IMAGE_PREFIX="${IMAGE_PREFIX#/}"
           IMAGE_PREFIX="${IMAGE_PREFIX%/}"
           if [ -n "$IMAGE_PREFIX" ]; then
@@ -745,8 +743,6 @@ jobs:
           RUSTFS_SECRET_ACCESS_KEY: ${{ secrets.RUSTFS_SECRET_ACCESS_KEY }}
           RUSTFS_BUCKET: ${{ secrets.RUSTFS_BUCKET }}
           RUSTFS_IMG_TARGET: ${{ secrets.RUSTFS_IMG_TARGET }}
-          LEGACY_IMG_TARGET: ${{ secrets.IMG_TARGET }}
-          FALLBACK_R2_IMG_TARGET: ${{ secrets.R2_IMG_TARGET }}
         run: |
           if [ -z "$RUSTFS_ENDPOINT" ] || [ -z "$RUSTFS_ACCESS_KEY_ID" ] || [ -z "$RUSTFS_SECRET_ACCESS_KEY" ] || [ -z "$RUSTFS_BUCKET" ]; then
             echo "RustFS secrets not set, skipping."
@@ -780,7 +776,7 @@ jobs:
           export AWS_SECRET_ACCESS_KEY="$RUSTFS_SECRET_ACCESS_KEY"
           export AWS_DEFAULT_REGION="us-east-1"
 
-          IMAGE_PREFIX="${RUSTFS_IMG_TARGET:-${FALLBACK_R2_IMG_TARGET:-$LEGACY_IMG_TARGET}}"
+          IMAGE_PREFIX="$RUSTFS_IMG_TARGET"
           IMAGE_PREFIX="${IMAGE_PREFIX#/}"
           IMAGE_PREFIX="${IMAGE_PREFIX%/}"
 
@@ -902,7 +898,6 @@ jobs:
           RUSTFS_SECRET_ACCESS_KEY: ${{ secrets.RUSTFS_SECRET_ACCESS_KEY }}
           RUSTFS_BUCKET: ${{ secrets.RUSTFS_BUCKET }}
           RUSTFS_TARGET: ${{ secrets.RUSTFS_TARGET }}
-          LEGACY_TARGET: ${{ secrets.TARGET }}
         run: |
           if [ -z "$RUSTFS_ENDPOINT" ] || [ -z "$RUSTFS_ACCESS_KEY_ID" ] || [ -z "$RUSTFS_SECRET_ACCESS_KEY" ] || [ -z "$RUSTFS_BUCKET" ]; then
             echo "RustFS secrets not set, skipping."
@@ -931,7 +926,7 @@ jobs:
           export AWS_SECRET_ACCESS_KEY="$RUSTFS_SECRET_ACCESS_KEY"
           export AWS_DEFAULT_REGION="us-east-1"
 
-          PREFIX="${RUSTFS_TARGET:-$LEGACY_TARGET}"
+          PREFIX="$RUSTFS_TARGET"
           PREFIX="${PREFIX#/}"
           PREFIX="${PREFIX%/}"
           if [ -n "$PREFIX" ]; then
