@@ -4,7 +4,7 @@
   "description": "",
   "board": "XIAO nRF54L15",
   "dependencies": {
-    "@aily-project/board-xiao_nrf54l15": "0.6.52",
+    "@aily-project/board-xiao_nrf54l15": "0.6.66",
     "@aily-project/lib-core-io": "1.0.0",
     "@aily-project/lib-core-logic": "0.0.1",
     "@aily-project/lib-core-loop": "0.0.1",
