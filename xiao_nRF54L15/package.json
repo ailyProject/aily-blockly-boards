@@ -1,7 +1,7 @@
 {
   "name": "@aily-project/board-xiao_nrf54l15",
   "nickname": "XIAO nRF54L15",
-  "version": "0.6.52",
+  "version": "0.6.66",
   "description": "The Seeed Studio XIAO nRF54L15 features the Nordic nRF54L15 MCU with Arm Cortex-M33 at 128 MHz and RISC-V coprocessor, supporting Bluetooth LE 6.0, Thread, Zigbee, Matter, and NFC in an ultra-compact 21x17.8 mm form factor.",
   "description_en": "The Seeed Studio XIAO nRF54L15 features the Nordic nRF54L15 MCU with Arm Cortex-M33 at 128 MHz and RISC-V coprocessor, supporting Bluetooth LE 6.0, Thread, Zigbee, Matter, and NFC in an ultra-compact 21x17.8 mm form factor.",
   "description_zh_cn": "Seeed Studio XIAO nRF54L15 搭载 Nordic nRF54L15 MCU，采用 128 MHz Arm Cortex-M33 处理器和 RISC-V 协处理器，支持蓝牙 LE 6.0、Thread、Zigbee、Matter 和 NFC，采用超紧凑的 21x17.8 mm 外形，适用于可穿戴设备和物联网项目。",
@@ -25,7 +25,7 @@
   "license": "ISC",
   "boardDependencies": {
     "@aily-project/compiler-arm-none-eabi-gcc": "9.0.0",
-    "@aily-project/sdk-nrf54l15clean": "0.6.52",
+    "@aily-project/sdk-nrf54l15clean": "0.6.66",
     "@aily-project/tool-ctags": "5.8.0"
   }
 }
