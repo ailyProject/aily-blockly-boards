@@ -8,7 +8,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const BOARDS_DIR = __dirname;
+const BOARDS_DIR = path.join(__dirname, '..');
 const OUTPUT_FILE = path.join(BOARDS_DIR, 'boards-index.json');
 
 // 需要排除的目录

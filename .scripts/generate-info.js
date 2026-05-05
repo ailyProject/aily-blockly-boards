@@ -12,7 +12,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const BOARDS_DIR = __dirname;
+const BOARDS_DIR = path.join(__dirname, '..');
 
 // 需要排除的目录
 const EXCLUDE_DIRS = ['node_modules', '.git', '参考', 'archive', 'template'];
