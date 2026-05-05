@@ -13,7 +13,7 @@
         "@aily-project/lib-core-serial": "0.0.1",
         "@aily-project/lib-core-time": "0.0.1",
         "@aily-project/lib-core-variables": "1.0.1",
-        "@aily-project/lib-aily_iic": "0.0.1",
+        "@aily-project/lib-aily-iic": "0.0.1",
         "@aily-project/lib-esp32-camera-webserver": "1.0.0"
     }
 }

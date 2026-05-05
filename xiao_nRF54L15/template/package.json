@@ -13,7 +13,7 @@
     "@aily-project/lib-core-serial": "0.0.1",
     "@aily-project/lib-core-time": "0.0.1",
     "@aily-project/lib-core-variables": "1.0.1",
-    "@aily-project/lib-nrf54_ble": "0.6.7",
+    "@aily-project/lib-nrf54-ble": "0.6.7",
     "@aily-project/lib-nrf54-zigbee": "0.6.7"
   }
 }

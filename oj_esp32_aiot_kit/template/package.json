@@ -4,7 +4,7 @@
   "description": "",
   "dependencies": {
     "@aily-project/board-esp32_aiot_kit": "3.2.1",
-    "@aily-project/lib-adafruit_ina219": "^0.0.1",
+    "@aily-project/lib-adafruit-ina219": "^0.0.1",
     "@aily-project/lib-adafruit-gfx": "^1.0.2",
     "@aily-project/lib-adafruit-vl53l0x": "^1.0.0",
     "@aily-project/lib-core-io": "1.0.0",
@@ -17,12 +17,12 @@
     "@aily-project/lib-core-tone": "^0.0.2",
     "@aily-project/lib-core-variables": "1.0.1",
     "@aily-project/lib-dht": "^1.0.0",
-    "@aily-project/lib-esp32_encoder": "^0.0.1",
+    "@aily-project/lib-esp32-encoder": "^0.0.1",
     "@aily-project/lib-esp32-i2s": "^1.0.0",
     "@aily-project/lib-esp32-sd": "^0.0.1",
     "@aily-project/lib-ntc": "^1.0.0",
-    "@aily-project/lib-sparkfun_bmi270": "^0.0.1",
-    "@aily-project/lib-sparkfun_tb6612": "^0.0.2",
+    "@aily-project/lib-sparkfun-bmi270": "^0.0.1",
+    "@aily-project/lib-sparkfun-tb6612": "^0.0.2",
     "@aily-project/lib-u8g2": "^1.0.0"
   }
 }

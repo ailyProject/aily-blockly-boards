@@ -12,7 +12,7 @@
     "@aily-project/lib-core-serial": "0.0.1",
     "@aily-project/lib-core-time": "0.0.1",
     "@aily-project/lib-core-variables": "1.0.1",
-    "@aily-project/lib-sscma_micro_core": "1.0.0"
+    "@aily-project/lib-sscma-micro-core": "1.0.0"
   },
   "projectConfig": {
     "PSRAM": "opi"

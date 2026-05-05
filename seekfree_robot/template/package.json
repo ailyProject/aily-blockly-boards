@@ -14,7 +14,7 @@
     "@aily-project/lib-core-time": "0.0.1",
     "@aily-project/lib-core-variables": "1.0.1",
     "@aily-project/lib-core-functions": "1.0.1",
-    "@aily-project/lib-seekfree_b1_controller": "^0.0.1",
+    "@aily-project/lib-seekfree-b1-controller": "^0.0.1",
     "@aily-project/lib-tft-espi": "^2.5.43"
   }
 }
