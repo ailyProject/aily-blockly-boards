@@ -889,13 +889,13 @@ jobs:
           registry-url: ${{ secrets.REGISTRY_URL }}
       
       - name: Generate JSON
-        run: node genjson.js
+        run: node .scripts/genjson.js
       
       - name: Generate info.json for all boards
-        run: node generate-info.js --all
+        run: node .scripts/generate-info.js --all
       
       - name: Generate boards-index.json
-        run: node generate-boards-index.js
+        run: node .scripts/generate-boards-index.js
       
       - name: Check if JSON file exists
         run: |

@@ -4,6 +4,7 @@ const path = require('path');
 const url = require('url');
 
 const port = 8080;
+const ROOT = path.join(__dirname, '..');
 
 const server = http.createServer((req, res) => {
   // 启用CORS
@@ -12,21 +13,21 @@ const server = http.createServer((req, res) => {
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
   const parsedUrl = url.parse(req.url, true);
-  let filePath = path.join(__dirname, parsedUrl.pathname);
+  let filePath = path.join(ROOT, parsedUrl.pathname);
 
   // 如果请求的是根目录，返回boards.json
   if (parsedUrl.pathname === '/') {
-    filePath = path.join(__dirname, 'boards.json');
+    filePath = path.join(ROOT, 'boards.json');
   }
 
   // 处理boards.json请求
   if (parsedUrl.pathname === '/boards.json') {
-    filePath = path.join(__dirname, 'boards.json');
+    filePath = path.join(ROOT, 'boards.json');
   }
 
   // 处理libraries.json请求
   if (parsedUrl.pathname === '/libraries.json') {
-    filePath = path.join(__dirname, '../aily-blockly-libraries/libraries.json');
+    filePath = path.join(ROOT, '../aily-blockly-libraries/libraries.json');
   }
 
   // 检查文件是否存在

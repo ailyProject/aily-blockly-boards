@@ -1,11 +1,16 @@
+/**
+ * Generate pinmap.json for directories that have pinmap.webp but no pinmap.json,
+ * and add "pinmap": false to their package.json files.
+ *
+ * Reuses the same generation logic from generate-pinmap.js.
+ */
 const fs = require('fs');
 const path = require('path');
 
-const ROOT = __dirname;
+const ROOT = path.join(__dirname, '..');
 
 // ============ Chip-specific knowledge ============
 
-// Default UART TX/RX pins per chip type (using underlying pin value/number)
 const UART_DEFAULTS = {
   esp32:      [{ tx: '1', rx: '3' }, { tx: '17', rx: '16' }],
   esp32s2:    [{ tx: '43', rx: '44' }],
@@ -22,10 +27,10 @@ const UART_DEFAULTS = {
   rp2350:     [{ tx: '0', rx: '1' }],
   stm32:      [{ tx: 'PA9', rx: 'PA10' }, { tx: 'PA2', rx: 'PA3' }],
   nrf52840:   [],
+  nrf51822:   [],
   renesas:    [],
 };
 
-// Touch pin mappings: chip → { gpioValueStr: touchDisplayName }
 const TOUCH_PINS = {
   esp32: {
     '4': 'TOUCH0', '0': 'TOUCH1', '2': 'TOUCH2', '15': 'TOUCH3',
@@ -36,7 +41,6 @@ const TOUCH_PINS = {
   esp32s3: Object.fromEntries(Array.from({ length: 14 }, (_, i) => [String(i + 1), `TOUCH${i + 1}`])),
 };
 
-// Standard functionType definitions
 const ALL_FUNC_TYPES = [
   { value: 'power',   label: 'VCC',     color: '#EF4444', textColor: '#FFFFFF' },
   { value: 'gnd',     label: 'GND',     color: '#000000', textColor: '#FFFFFF' },
@@ -52,7 +56,6 @@ const ALL_FUNC_TYPES = [
   { value: 'touch',   label: 'TOUCH',   color: '#f98062', textColor: '#FFFFFF' },
 ];
 
-// Base function types always included
 const BASE_TYPES = new Set(['power', 'gnd', 'digital', 'analog', 'uart', 'i2c', 'spi', 'pwm', 'other']);
 
 // ============ Chip detection ============
@@ -62,7 +65,6 @@ function getChipType(board) {
   const core = (board.core || '').toLowerCase();
   const upload = (board.uploadParam || '').toLowerCase();
 
-  // ESP32 family — check specific variants first (order matters)
   if (type.includes('esp32p4') || upload.includes('esp32p4')) return 'esp32p4';
   if (type.includes('esp32s3') || upload.includes('esp32s3')) return 'esp32s3';
   if (type.includes('esp32s2') || upload.includes('esp32s2')) return 'esp32s2';
@@ -71,27 +73,20 @@ function getChipType(board) {
   if (type.includes('esp32h2') || upload.includes('esp32h2')) return 'esp32h2';
   if (core.includes('esp32') || type.includes('esp32')) return 'esp32';
 
-  // STM32 (check before AVR because "STMicroelectronics" contains "micro")
   if (core.includes('stm32') || type.includes('stm32')) return 'stm32';
 
-  // Arduino AVR
   if (type.includes(':mega') || type.endsWith('mega')) return 'atmega2560';
   if (type.includes(':leonardo') || type.includes(':micro')) return 'atmega32u4';
   if (core.includes('avr')) return 'atmega328p';
 
-  // Arduino SAM (Due)
   if (type.includes('due') || core.includes('sam')) return 'sam3x8e';
 
-  // RP2350 (check before RP2040)
   if (core.includes('rp2350') || type.includes('rp2350') || upload.includes('rp2350')) return 'rp2350';
-
-  // RP2040
   if (core.includes('rp2040') || type.includes('rp2040') || upload.includes('rp2040')) return 'rp2040';
 
-  // nRF52
   if (core.includes('nrf52') || type.includes('nrf52')) return 'nrf52840';
+  if (core.includes('nrf51') || type.includes('nrf51')) return 'nrf51822';
 
-  // Renesas
   if (core.includes('renesas') || type.includes('renesas')) return 'renesas';
 
   return 'unknown';
@@ -111,7 +106,6 @@ function generatePinmap(dirName, board, packageJson) {
   const packageName = (packageJson && packageJson.name) || `@aily-project/board-${dirName}`;
   const isEsp = ESP_CHIPS.includes(chipType);
 
-  // pinMap: valueKey(string) → { label, value, functions: [{name, type}] }
   const pinMap = new Map();
 
   function ensurePin(label, value) {
@@ -129,7 +123,6 @@ function generatePinmap(dirName, board, packageJson) {
     pin.functions.push({ name, type });
   }
 
-  // Find pin key by reference (could be value or label)
   function findKey(ref) {
     const s = String(ref);
     if (pinMap.has(s)) return s;
@@ -139,7 +132,7 @@ function generatePinmap(dirName, board, packageJson) {
     return null;
   }
 
-  // --- 1. Digital pins ---
+  // 1. Digital pins
   if (board.digitalPins) {
     for (const [label, value] of board.digitalPins) {
       if (['LED_BUILTIN', 'RGB_BUILTIN'].includes(label)) continue;
@@ -148,7 +141,7 @@ function generatePinmap(dirName, board, packageJson) {
     }
   }
 
-  // --- 2. Analog pins ---
+  // 2. Analog pins
   if (board.analogPins) {
     for (const [label, value] of board.analogPins) {
       if (['ADC_BAT', 'BAT_DET_PIN'].includes(label)) continue;
@@ -158,7 +151,7 @@ function generatePinmap(dirName, board, packageJson) {
     }
   }
 
-  // --- 3. I2C pins ---
+  // 3. I2C pins
   if (board.i2cPins) {
     for (const [wireName, pinPairs] of Object.entries(board.i2cPins)) {
       const suffix = wireName === 'Wire' ? '' : wireName.replace('Wire', '');
@@ -171,7 +164,7 @@ function generatePinmap(dirName, board, packageJson) {
     }
   }
 
-  // --- 4. SPI pins ---
+  // 4. SPI pins
   if (board.spiPins) {
     for (const [spiName, pinPairs] of Object.entries(board.spiPins)) {
       for (const [funcLabel, pinRef] of pinPairs) {
@@ -183,7 +176,7 @@ function generatePinmap(dirName, board, packageJson) {
     }
   }
 
-  // --- 5. UART (chip-specific defaults) ---
+  // 5. UART
   const uartDefs = UART_DEFAULTS[chipType] || [];
   for (let i = 0; i < uartDefs.length; i++) {
     const { tx, rx } = uartDefs[i];
@@ -194,7 +187,7 @@ function generatePinmap(dirName, board, packageJson) {
     if (rxKey) addFunc(rxKey, `RX${suffix}`, 'uart');
   }
 
-  // --- 6. GPIO label (ESP32 family with numeric pin values) ---
+  // 6. GPIO label (ESP32 family)
   if (isEsp) {
     for (const [key, pin] of pinMap) {
       if (isNumStr(key)) {
@@ -203,7 +196,7 @@ function generatePinmap(dirName, board, packageJson) {
     }
   }
 
-  // --- 7. Touch pins (ESP32 / S2 / S3) ---
+  // 7. Touch pins
   const touchMap = TOUCH_PINS[chipType] || {};
   for (const [gpioVal, touchName] of Object.entries(touchMap)) {
     if (pinMap.has(gpioVal)) {
@@ -211,7 +204,7 @@ function generatePinmap(dirName, board, packageJson) {
     }
   }
 
-  // ============ Sort pins ============
+  // Sort pins
   const signalPins = Array.from(pinMap.values());
   signalPins.sort((a, b) => {
     const an = parseInt(a.value, 10);
@@ -222,12 +215,13 @@ function generatePinmap(dirName, board, packageJson) {
     return a.value.localeCompare(b.value);
   });
 
-  // ============ Power / GND pins ============
+  // Power / GND pins
   const powerEntries = [];
   const isAvr = ['atmega328p', 'atmega32u4', 'atmega2560'].includes(chipType);
   const isSam = chipType === 'sam3x8e';
   const isRp = ['rp2040', 'rp2350'].includes(chipType);
   const isStm = chipType === 'stm32';
+  const isNrf = ['nrf52840', 'nrf51822'].includes(chipType);
 
   if (isAvr || isSam) {
     powerEntries.push({ name: '5V', type: 'power' }, { name: '3V3', type: 'power' }, { name: 'VIN', type: 'power' });
@@ -238,25 +232,23 @@ function generatePinmap(dirName, board, packageJson) {
   } else if (isRp) {
     powerEntries.push({ name: '3V3', type: 'power' }, { name: 'VSYS', type: 'power' });
     powerEntries.push({ name: 'GND', type: 'gnd' }, { name: 'GND', type: 'gnd' });
-  } else if (isStm) {
-    powerEntries.push({ name: '3V3', type: 'power' }, { name: '5V', type: 'power' });
-    powerEntries.push({ name: 'GND', type: 'gnd' }, { name: 'GND', type: 'gnd' });
-  } else {
+  } else if (isNrf) {
     powerEntries.push({ name: '3V3', type: 'power' });
     powerEntries.push({ name: 'GND', type: 'gnd' });
+  } else {
+    powerEntries.push({ name: '3V3', type: 'power' }, { name: '5V', type: 'power' });
+    powerEntries.push({ name: 'GND', type: 'gnd' }, { name: 'GND', type: 'gnd' });
   }
 
-  // ============ Layout ============
+  // Layout
   const halfLen = Math.ceil(signalPins.length / 2);
   const leftSignal = signalPins.slice(0, halfLen);
   const rightSignal = signalPins.slice(halfLen);
 
-  // Left: power pins on top, then first half of signals
   const leftItems = [
     ...powerEntries.map(p => ({ functions: [{ name: p.name, type: p.type }] })),
     ...leftSignal.map(p => ({ functions: p.functions })),
   ];
-  // Right: second half of signals
   const rightItems = rightSignal.map(p => ({ functions: p.functions }));
 
   const maxRows = Math.max(leftItems.length, rightItems.length);
@@ -268,7 +260,6 @@ function generatePinmap(dirName, board, packageJson) {
   const pinObjects = [];
   let pinId = 1;
 
-  // Left column
   for (let i = 0; i < leftItems.length; i++) {
     const y = startY + i * spacing;
     pinObjects.push({
@@ -287,7 +278,6 @@ function generatePinmap(dirName, board, packageJson) {
     });
   }
 
-  // Right column
   for (let i = 0; i < rightItems.length; i++) {
     const y = startY + i * spacing;
     pinObjects.push({
@@ -305,7 +295,7 @@ function generatePinmap(dirName, board, packageJson) {
     });
   }
 
-  // ============ Determine functionTypes to include ============
+  // Determine functionTypes
   const usedTypes = new Set();
   pinObjects.forEach(p => p.functions.forEach(f => usedTypes.add(f.type)));
 
@@ -313,7 +303,6 @@ function generatePinmap(dirName, board, packageJson) {
     ft => usedTypes.has(ft.value) || BASE_TYPES.has(ft.value)
   );
 
-  // ============ Build the pinmap object ============
   const ts = Date.now() + Math.floor(Math.random() * 100000);
 
   return {
@@ -349,46 +338,31 @@ function generatePinmap(dirName, board, packageJson) {
 
 // ============ Main ============
 
-// Original directories that had pinmap.json before this script
-const ORIGINAL_PINMAP_DIRS = new Set([
-  'arduino_uno', 'arduino_uno_r4_wifi', 'arduino_uno_r4_minima',
-  'xiao_esp32s3', 'oj_uno_r3_pro',
-]);
-
 function main() {
-  const force = process.argv.includes('--force');
+  const targetDirs = [];
 
-  // Collect directories that should be skipped
-  const skipDirs = new Set();
+  // Find directories with pinmap.webp but no pinmap.json
   for (const entry of fs.readdirSync(ROOT, { withFileTypes: true })) {
     if (!entry.isDirectory()) continue;
     const d = entry.name;
-    // Always skip dirs with pinmap.webp (they have real board images)
-    if (fs.existsSync(path.join(ROOT, d, 'pinmap.webp'))) {
-      skipDirs.add(d);
-    }
-    // Skip original pinmap.json dirs
-    if (ORIGINAL_PINMAP_DIRS.has(d)) {
-      skipDirs.add(d);
-    }
-    // Without force, also skip any dir that already has pinmap.json
-    if (!force && fs.existsSync(path.join(ROOT, d, 'pinmap.json'))) {
-      skipDirs.add(d);
+    const hasWebp = fs.existsSync(path.join(ROOT, d, 'pinmap.webp'));
+    const hasJson = fs.existsSync(path.join(ROOT, d, 'pinmap.json'));
+    if (hasWebp && !hasJson) {
+      targetDirs.push(d);
     }
   }
 
+  console.log(`Found ${targetDirs.length} directories with pinmap.webp but no pinmap.json:`);
+  targetDirs.forEach(d => console.log(`  ${d}`));
+  console.log('');
+
   let generated = 0;
-  let skipped = 0;
-  const results = [];
+  let pkgUpdated = 0;
 
-  for (const entry of fs.readdirSync(ROOT, { withFileTypes: true })) {
-    if (!entry.isDirectory()) continue;
-    const dir = entry.name;
-    if (skipDirs.has(dir)) continue;
-
+  for (const dir of targetDirs) {
     const boardPath = path.join(ROOT, dir, 'board.json');
     if (!fs.existsSync(boardPath)) {
-      skipped++;
+      console.log(`  SKIP ${dir}: no board.json`);
       continue;
     }
 
@@ -400,22 +374,33 @@ function main() {
         pkg = JSON.parse(fs.readFileSync(pkgPath, 'utf8'));
       }
 
+      // Generate pinmap.json
       const pinmap = generatePinmap(dir, board, pkg);
       const outPath = path.join(ROOT, dir, 'pinmap.json');
       fs.writeFileSync(outPath, JSON.stringify(pinmap, null, 2));
 
       const chip = getChipType(board);
-      results.push(`  ${dir} (${pinmap.pins.length} pins, ${chip})`);
+      console.log(`  OK ${dir}: ${pinmap.pins.length} pins (${chip})`);
       generated++;
+
+      // Add "pinmap": false to package.json
+      if (fs.existsSync(pkgPath)) {
+        const pkgContent = JSON.parse(fs.readFileSync(pkgPath, 'utf8'));
+        if (!('pinmap' in pkgContent)) {
+          pkgContent.pinmap = false;
+          fs.writeFileSync(pkgPath, JSON.stringify(pkgContent, null, 2) + '\n');
+          console.log(`    + Added "pinmap": false to package.json`);
+          pkgUpdated++;
+        } else {
+          console.log(`    ~ package.json already has "pinmap" field`);
+        }
+      }
     } catch (err) {
-      console.error(`ERROR ${dir}: ${err.message}`);
-      skipped++;
+      console.error(`  ERROR ${dir}: ${err.message}`);
     }
   }
 
-  console.log('Generated pinmap.json for:');
-  results.forEach(r => console.log(r));
-  console.log(`\nTotal generated: ${generated}, Skipped (no board.json): ${skipped}`);
+  console.log(`\nTotal: generated ${generated} pinmap.json, updated ${pkgUpdated} package.json`);
 }
 
 main();

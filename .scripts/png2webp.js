@@ -7,7 +7,7 @@ const sharp = require('sharp');
  * 扫描所有一级目录，找到PNG文件并转换为WebP格式
  */
 async function convertPngToWebp() {
-    const rootDir = __dirname;
+    const rootDir = path.join(__dirname, '..');
     
     try {
         // 读取根目录下的所有项目
