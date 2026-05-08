@@ -1,0 +1,154 @@
+{
+    "name": "Wio Terminal",
+    "version": "1.8.5",
+    "description": "Seeed Studio Wio Terminal (ATSAMD51P19A)",
+    "compilerTool": "aily-builder",
+    "core": "Seeeduino:samd",
+    "type": "Seeeduino:samd:seeed_wio_terminal",
+    "compilerParam": "compile -v -b Seeeduino:samd:seeed_wio_terminal",
+    "uploadParam": "[--use_1200bps_touch,--wait_for_upload_port] bossac -i -d --port=${serial} -U true -i --offset=0x4000 -e -w -b ${'*.bin'} -R",
+    "analogPins": [
+        ["A0", "0"],
+        ["A1", "1"],
+        ["A2", "2"],
+        ["A3", "3"],
+        ["A4", "4"],
+        ["A5", "5"],
+        ["A6", "6"],
+        ["A7", "7"],
+        ["A8", "8"]
+    ],
+    "digitalPins": [
+        ["D0", "0"],
+        ["D1", "1"],
+        ["D2", "2"],
+        ["D3", "3"],
+        ["D4", "4"],
+        ["D5", "5"],
+        ["D6", "6"],
+        ["D7", "7"],
+        ["D8", "8"],
+        ["A0", "0"],
+        ["A1", "1"],
+        ["A2", "2"],
+        ["A3", "3"],
+        ["A4", "4"],
+        ["A5", "5"],
+        ["A6", "6"],
+        ["A7", "7"],
+        ["A8", "8"],
+        ["WIO_KEY_A", "28"],
+        ["WIO_KEY_B", "29"],
+        ["WIO_KEY_C", "30"],
+        ["WIO_5S_UP", "31"],
+        ["WIO_5S_LEFT", "32"],
+        ["WIO_5S_RIGHT", "33"],
+        ["WIO_5S_DOWN", "34"],
+        ["WIO_5S_PRESS", "35"],
+        ["WIO_BUZZER", "12"],
+        ["WIO_MIC", "39"],
+        ["WIO_LIGHT", "27"],
+        ["LED_BUILTIN", "13"]
+    ],
+    "pwmPins": [
+        ["D0", "0"],
+        ["D1", "1"],
+        ["D2", "2"],
+        ["D6", "6"],
+        ["D8", "8"],
+        ["WIO_BUZZER", "12"],
+        ["LED_BUILTIN", "13"]
+    ],
+    "servoPins": [
+        ["D0", "0"],
+        ["D1", "1"],
+        ["D2", "2"],
+        ["D6", "6"],
+        ["D8", "8"]
+    ],
+    "serialPort": [
+        ["Serial", "Serial"],
+        ["Serial1", "Serial1"],
+        ["Serial2", "Serial2"]
+    ],
+    "serialSpeed": [
+        ["1200", "1200"],
+        ["9600", "9600"],
+        ["14400", "14400"],
+        ["19200", "19200"],
+        ["38400", "38400"],
+        ["57600", "57600"],
+        ["115200", "115200"],
+        ["230400", "230400"],
+        ["460800", "460800"],
+        ["921600", "921600"]
+    ],
+    "spi": [
+        ["SPI", "SPI"]
+    ],
+    "spiPins": {
+        "SPI": [
+            ["MOSI", "48"],
+            ["MISO", "47"],
+            ["SCK", "49"],
+            ["CS", "50"]
+        ]
+    },
+    "spiClockDivide": [
+        ["2 (24MHz)", "SPI_CLOCK_DIV2"],
+        ["4 (12MHz)", "SPI_CLOCK_DIV4"],
+        ["8 (6MHz)", "SPI_CLOCK_DIV8"],
+        ["16 (3MHz)", "SPI_CLOCK_DIV16"],
+        ["32 (1.5MHz)", "SPI_CLOCK_DIV32"],
+        ["64 (750KHz)", "SPI_CLOCK_DIV64"],
+        ["128 (375KHz)", "SPI_CLOCK_DIV128"]
+    ],
+    "i2c": [
+        ["I2C", "Wire"],
+        ["I2C1", "Wire1"]
+    ],
+    "i2cPins": {
+        "Wire": [
+            ["SDA", "46"],
+            ["SCL", "45"]
+        ],
+        "Wire1": [
+            ["SDA", "78"],
+            ["SCL", "77"]
+        ]
+    },
+    "i2cSpeed": [
+        ["100kHz", "100000L"],
+        ["400kHz", "400000L"],
+        ["1MHz", "1000000L"]
+    ],
+    "builtinLed": [
+        ["LED_BUILTIN", "LED_BUILTIN"]
+    ],
+    "interruptPins": [
+        ["D0", "0"],
+        ["D1", "1"],
+        ["D2", "2"],
+        ["D3", "3"],
+        ["D4", "4"],
+        ["D5", "5"],
+        ["D6", "6"],
+        ["D7", "7"],
+        ["D8", "8"],
+        ["WIO_KEY_A", "28"],
+        ["WIO_KEY_B", "29"],
+        ["WIO_KEY_C", "30"],
+        ["WIO_5S_UP", "31"],
+        ["WIO_5S_LEFT", "32"],
+        ["WIO_5S_RIGHT", "33"],
+        ["WIO_5S_DOWN", "34"],
+        ["WIO_5S_PRESS", "35"]
+    ],
+    "interruptMode": [
+        ["RISING", "RISING"],
+        ["FALLING", "FALLING"],
+        ["CHANGE", "CHANGE"],
+        ["LOW", "LOW"],
+        ["HIGH", "HIGH"]
+    ]
+}

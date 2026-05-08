@@ -1660,17 +1660,17 @@
   },
   {
     "name": "@aily-project/board-sd_wio_terminal",
-    "nickname": "sd_wio_terminal",
-    "version": "0.0.1",
-    "description": "Support coming soon",
-    "author": "",
-    "brand": "",
-    "url": "https://aily.rpo",
+    "nickname": "Wio Terminal",
+    "version": "1.8.5",
+    "description": "Seeed Studio Wio Terminal，基于 ATSAMD51P19A（Cortex-M4F @ 120MHz），内置 2.4\" LCD、IMU、麦克风、蜂鸣器、microSD、Wi-Fi/BT（RTL8720DN）、树莓派兼容 40 针 GPIO。",
+    "author": "Seeed",
+    "brand": "SeeedStudio",
+    "url": "https://wiki.seeedstudio.com/cn/Wio-Terminal-Getting-Started/",
     "compatibility": "",
     "img": "sd_wio_terminal/board.webp",
     "pinmap": "sd_wio_terminal/pinmap.webp",
-    "state": "todo",
-    "type": "",
+    "state": "alpha",
+    "type": "Seeeduino:samd:seeed_wio_terminal",
     "mode": [
       "arduino"
     ]

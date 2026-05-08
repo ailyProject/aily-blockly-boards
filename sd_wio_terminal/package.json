@@ -1,0 +1,34 @@
+{
+  "name": "@aily-project/board-sd_wio_terminal",
+  "nickname": "Wio Terminal",
+  "version": "1.8.5",
+  "description": "The Seeed Studio Wio Terminal is a SAMD51-based microcontroller with wireless connectivity powered by Realtek RTL8720DN. It features a 2.4\" LCD (320x240), built-in IMU, microphone, buzzer, microSD card slot, light sensor, IR emitter, 5-way switch, 3 user buttons, and a 40-pin GPIO header.",
+  "description_en": "The Seeed Studio Wio Terminal is a SAMD51-based microcontroller with wireless connectivity powered by Realtek RTL8720DN. It features a 2.4\" LCD (320x240), built-in IMU, microphone, buzzer, microSD card slot, light sensor, IR emitter, 5-way switch, 3 user buttons, and a 40-pin GPIO header.",
+  "description_zh_cn": "Seeed Studio Wio Terminal 是一款基于 SAMD51 的微控制器，内置 Realtek RTL8720DN 无线模块，支持 Wi-Fi 和蓝牙。板载 2.4 英寸 LCD（320x240）、IMU、麦克风、蜂鸣器、microSD 卡槽、光传感器、红外发射器、五向开关、3 个用户按键，并配有树莓派兼容的 40 针 GPIO 接口。",
+  "description_zh_hk": "Seeed Studio Wio Terminal 是一款基於 SAMD51 的微控制器，內建 Realtek RTL8720DN 無線模組，支援 Wi-Fi 和藍牙。板載 2.4 英寸 LCD（320x240）、IMU、麥克風、蜂鳴器、microSD 卡槽、光傳感器、紅外發射器、五向開關、3 個使用者按鍵，並配有樹莓派相容的 40 針 GPIO 介面。",
+  "description_ja": "Seeed Studio Wio Terminalは、Realtek RTL8720DNによるワイヤレス接続を備えたSAMD51ベースのマイクロコントローラです。2.4インチLCD（320x240）、IMU、マイク、ブザー、microSDカードスロット、光センサー、赤外線エミッター、5方向スイッチ、3つのユーザーボタン、およびラズベリーパイ互換の40ピンGPIOヘッダーを搭載しています。",
+  "description_ko": "Seeed Studio Wio Terminal은 Realtek RTL8720DN 무선 연결을 갖춘 SAMD51 기반 마이크로컨트롤러입니다. 2.4인치 LCD(320x240), 내장 IMU, 마이크, 버저, microSD 카드 슬롯, 조도 센서, IR 에미터, 5방향 스위치, 3개의 사용자 버튼, 라즈베리파이 호환 40핀 GPIO 헤더를 갖추고 있습니다.",
+  "description_de": "Das Seeed Studio Wio Terminal ist ein SAMD51-basierter Mikrocontroller mit drahtloser Konnektivität durch den Realtek RTL8720DN. Es verfügt über ein 2,4-Zoll-LCD (320x240), integriertes IMU, Mikrofon, Summer, microSD-Kartensteckplatz, Lichtsensor, IR-Emitter, 5-Wege-Schalter, 3 Benutzertasten und einen Raspberry Pi-kompatiblen 40-Pin-GPIO-Header.",
+  "description_fr": "Le Seeed Studio Wio Terminal est un microcontrôleur basé sur SAMD51 avec connectivité sans fil alimentée par Realtek RTL8720DN. Il dispose d'un LCD 2,4 pouces (320x240), d'un IMU intégré, d'un microphone, d'un buzzer, d'un lecteur microSD, d'un capteur de lumière, d'un émetteur IR, d'un commutateur à 5 voies, de 3 boutons utilisateur et d'un connecteur GPIO 40 broches compatible Raspberry Pi.",
+  "description_es": "El Seeed Studio Wio Terminal es un microcontrolador basado en SAMD51 con conectividad inalámbrica impulsada por Realtek RTL8720DN. Cuenta con una LCD de 2,4\" (320x240), IMU integrado, micrófono, zumbador, ranura para microSD, sensor de luz, emisor IR, interruptor de 5 vías, 3 botones de usuario y un conector GPIO de 40 pines compatible con Raspberry Pi.",
+  "description_pt": "O Seeed Studio Wio Terminal é um microcontrolador baseado em SAMD51 com conectividade sem fio alimentada pelo Realtek RTL8720DN. Possui LCD de 2,4\" (320x240), IMU integrado, microfone, buzzer, slot para microSD, sensor de luz, emissor IR, chave de 5 vias, 3 botões de usuário e conector GPIO de 40 pinos compatível com Raspberry Pi.",
+  "description_ru": "Seeed Studio Wio Terminal — микроконтроллер на базе SAMD51 с беспроводным подключением через Realtek RTL8720DN. Оснащён ЖК-дисплеем 2,4\" (320x240), встроенным IMU, микрофоном, зуммером, слотом microSD, датчиком освещённости, ИК-излучателем, 5-позиционным переключателем, 3 кнопками пользователя и совместимым с Raspberry Pi 40-контактным GPIO-разъёмом.",
+  "description_ar": "Wio Terminal من Seeed Studio هو متحكم دقيق مبني على SAMD51 مع اتصال لاسلكي مدعوم بـ Realtek RTL8720DN. يتميز بشاشة LCD مقاس 2.4 بوصة (320x240)، وحدة IMU مدمجة، ميكروفون، بزر، فتحة microSD، مستشعر ضوء، مُرسل أشعة تحت حمراء، مفتاح 5 اتجاهات، 3 أزرار مستخدم، وموصل GPIO من 40 دبوساً متوافق مع Raspberry Pi.",
+  "main": "index.js",
+  "brand": "SeeedStudio",
+  "url": "https://wiki.seeedstudio.com/cn/Wio-Terminal-Getting-Started/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seeed",
+  "state": "alpha",
+  "license": "ISC",
+  "boardDependencies": {
+    "@aily-project/compiler-arm-none-eabi-gcc": "7.2.1",
+    "@aily-project/tool-bossac": "1.9.1",
+    "@aily-project/sdk-samd": "1.8.5",
+    "@aily-project/tool-CMSIS-Atmel": "1.2.0",
+    "@aily-project/tool-CMSIS": "4.5.0",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}

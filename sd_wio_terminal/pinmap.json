@@ -1,0 +1,513 @@
+{
+  "id": "component_sd_wio_terminal",
+  "name": "Wio Terminal",
+  "width": 400,
+  "height": 300,
+  "images": [
+    {
+      "id": "img_sd_wio_terminal",
+      "name": "Image_sd_wio_terminal",
+      "width": 400,
+      "height": 300,
+      "x": 0,
+      "y": 0,
+      "aspectRatio": 1.333,
+      "visible": true,
+      "disabled": false,
+      "locked": true
+    }
+  ],
+  "pins": [
+    {
+      "id": "pin_1",
+      "x": 15,
+      "y": 30,
+      "labelX": -15,
+      "labelY": 23,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "D0",
+          "type": "digital",
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "name": "A0",
+          "type": "analog",
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "name": "PWM",
+          "type": "pwm",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false,
+      "labelAnchor": "right"
+    },
+    {
+      "id": "pin_2",
+      "x": 15,
+      "y": 50,
+      "labelX": -15,
+      "labelY": 43,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "D1",
+          "type": "digital",
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "name": "A1",
+          "type": "analog",
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "name": "PWM",
+          "type": "pwm",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false,
+      "labelAnchor": "right"
+    },
+    {
+      "id": "pin_3",
+      "x": 15,
+      "y": 70,
+      "labelX": -15,
+      "labelY": 63,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "D2",
+          "type": "digital",
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "name": "A2",
+          "type": "analog",
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "name": "PWM",
+          "type": "pwm",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false,
+      "labelAnchor": "right"
+    },
+    {
+      "id": "pin_4",
+      "x": 15,
+      "y": 90,
+      "labelX": -15,
+      "labelY": 83,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "D3",
+          "type": "digital",
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "name": "A3",
+          "type": "analog",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false,
+      "labelAnchor": "right"
+    },
+    {
+      "id": "pin_5",
+      "x": 15,
+      "y": 110,
+      "labelX": -15,
+      "labelY": 103,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "D4",
+          "type": "digital",
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "name": "A4",
+          "type": "analog",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false,
+      "labelAnchor": "right"
+    },
+    {
+      "id": "pin_6",
+      "x": 15,
+      "y": 130,
+      "labelX": -15,
+      "labelY": 123,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "D5",
+          "type": "digital",
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "name": "A5",
+          "type": "analog",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false,
+      "labelAnchor": "right"
+    },
+    {
+      "id": "pin_7",
+      "x": 15,
+      "y": 150,
+      "labelX": -15,
+      "labelY": 143,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "D6",
+          "type": "digital",
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "name": "A6",
+          "type": "analog",
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "name": "PWM",
+          "type": "pwm",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false,
+      "labelAnchor": "right"
+    },
+    {
+      "id": "pin_8",
+      "x": 15,
+      "y": 170,
+      "labelX": -15,
+      "labelY": 163,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "D7",
+          "type": "digital",
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "name": "A7",
+          "type": "analog",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false,
+      "labelAnchor": "right"
+    },
+    {
+      "id": "pin_9",
+      "x": 15,
+      "y": 190,
+      "labelX": -15,
+      "labelY": 183,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "D8",
+          "type": "digital",
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "name": "A8",
+          "type": "analog",
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "name": "PWM",
+          "type": "pwm",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false,
+      "labelAnchor": "right"
+    },
+    {
+      "id": "pin_10",
+      "x": 15,
+      "y": 210,
+      "labelX": -15,
+      "labelY": 203,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "SDA",
+          "type": "i2c",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false,
+      "labelAnchor": "right"
+    },
+    {
+      "id": "pin_11",
+      "x": 15,
+      "y": 230,
+      "labelX": -15,
+      "labelY": 223,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "SCL",
+          "type": "i2c",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false,
+      "labelAnchor": "right"
+    },
+    {
+      "id": "pin_12",
+      "x": 385,
+      "y": 30,
+      "labelX": 415,
+      "labelY": 23,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "5V",
+          "type": "power",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "id": "pin_13",
+      "x": 385,
+      "y": 50,
+      "labelX": 415,
+      "labelY": 43,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "3V3",
+          "type": "power",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "id": "pin_14",
+      "x": 385,
+      "y": 70,
+      "labelX": 415,
+      "labelY": 63,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "GND",
+          "type": "gnd",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "id": "pin_15",
+      "x": 385,
+      "y": 90,
+      "labelX": 415,
+      "labelY": 83,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "MOSI",
+          "type": "spi",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "id": "pin_16",
+      "x": 385,
+      "y": 110,
+      "labelX": 415,
+      "labelY": 103,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "MISO",
+          "type": "spi",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "id": "pin_17",
+      "x": 385,
+      "y": 130,
+      "labelX": 415,
+      "labelY": 123,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "SCK",
+          "type": "spi",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "id": "pin_18",
+      "x": 385,
+      "y": 150,
+      "labelX": 415,
+      "labelY": 143,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "TX",
+          "type": "uart",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "id": "pin_19",
+      "x": 385,
+      "y": 170,
+      "labelX": 415,
+      "labelY": 163,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "RX",
+          "type": "uart",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "id": "pin_20",
+      "x": 385,
+      "y": 190,
+      "labelX": 415,
+      "labelY": 183,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "WIO_KEY_A",
+          "type": "digital",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "id": "pin_21",
+      "x": 385,
+      "y": 210,
+      "labelX": 415,
+      "labelY": 203,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "WIO_KEY_B",
+          "type": "digital",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "id": "pin_22",
+      "x": 385,
+      "y": 230,
+      "labelX": 415,
+      "labelY": 223,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "WIO_KEY_C",
+          "type": "digital",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false
+    }
+  ]
+}
