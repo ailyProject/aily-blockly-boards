@@ -1,6 +1,6 @@
 {
   "id": "component_1772690036288",
-  "name": "ESP32dev",
+  "name": "Wifiduino ESP32dev",
   "width": 300,
   "height": 400,
   "images": [
@@ -1016,5 +1016,5 @@
   ],
   "visible": true,
   "disabled": false,
-  "board": "@aily-project/board-esp32dev"
+  "board": "@aily-project/board-wifiduino_esp32dev"
 }
