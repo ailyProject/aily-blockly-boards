@@ -1,7 +1,7 @@
 {
-    "name": "ESP32dev",
+    "name": "Wifiduino ESP32dev",
     "version": "1.0.1",
-    "description": "ESP32 Dev compatible board",
+    "description": "Wifiduino ESP32 development board",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
     "type": "esp32:esp32:esp32",
