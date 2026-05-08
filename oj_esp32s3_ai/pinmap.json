@@ -1,6 +1,6 @@
 {
   "id": "component_1772690057942",
-  "name": "esp32s3_ai_board",
+  "name": "Wifiduino ESP32S3cbot19",
   "width": 300,
   "height": 500,
   "images": [
@@ -1291,5 +1291,5 @@
   ],
   "visible": true,
   "disabled": false,
-  "board": "@aily-project/board-esp32s3_ai_board"
+  "board": "@aily-project/board-wifiduino_esp32s3cbot19"
 }

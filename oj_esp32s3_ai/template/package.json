@@ -2,9 +2,9 @@
   "name": "project_",
   "version": "1.0.0",
   "description": "",
-  "board": "esp32s3_ai_board",
+  "board": "wifiduino_esp32s3cbot19",
   "dependencies": {
-    "@aily-project/board-esp32s3_ai_board": "3.2.1",
+    "@aily-project/board-wifiduino_esp32s3cbot19": "3.2.1",
     "@aily-project/lib-core-io": "1.0.0",
     "@aily-project/lib-core-logic": "0.0.1",
     "@aily-project/lib-core-loop": "0.0.1",
