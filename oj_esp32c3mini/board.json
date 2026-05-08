@@ -1,7 +1,7 @@
 {
-    "name": "ESP32C3Mini",
+    "name": "Wifiduino ESP32C3mini",
     "version": "1.0.1",
-    "description": "ESP32C3 Mini compatible board",
+    "description": "Wifiduino ESP32-C3 Mini development board",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
     "type": "esp32:esp32:esp32c3",
