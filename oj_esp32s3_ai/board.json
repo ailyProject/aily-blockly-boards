@@ -1,7 +1,7 @@
 {
-    "name": "Wifiduino ESP32S3cbot19",
+    "name": "Wifiduino cbot19",
     "version": "3.2.1",
-    "description": "Wifiduino ESP32-S3 Cbot19 development board",
+    "description": "Wifiduino Cbot19 development board",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
     "type": "esp32:esp32:esp32s3",
