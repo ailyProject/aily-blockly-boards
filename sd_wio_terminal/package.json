@@ -28,7 +28,7 @@
     "@aily-project/tool-bossac": "1.9.1",
     "@aily-project/sdk-samd": "1.8.5",
     "@aily-project/tool-CMSIS-Atmel": "1.2.1",
-    "@aily-project/tool-CMSIS": "4.5.0",
+    "@aily-project/tool-CMSIS": "5.7.0",
     "@aily-project/tool-ctags": "5.8.0"
   }
 }
