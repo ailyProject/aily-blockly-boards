@@ -1,6 +1,6 @@
 {
   "id": "component_1772690029118",
-  "name": "Wifiduino ESP32C3mini",
+  "name": "Wifiduino C3mini",
   "width": 300,
   "height": 320,
   "images": [
@@ -682,5 +682,5 @@
   ],
   "visible": true,
   "disabled": false,
-  "board": "@aily-project/board-wifiduino_esp32c3mini"
+  "board": "@aily-project/board-wifiduino_c3mini"
 }

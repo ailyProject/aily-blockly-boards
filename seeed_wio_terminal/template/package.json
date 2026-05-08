@@ -8,10 +8,13 @@
     "@aily-project/lib-core-io": "0.0.1",
     "@aily-project/lib-core-logic": "0.0.1",
     "@aily-project/lib-core-loop": "0.0.1",
-    "@aily-project/lib-core-math":"0.0.1",
+    "@aily-project/lib-core-math": "0.0.1",
     "@aily-project/lib-core-text": "1.0.0",
     "@aily-project/lib-core-serial": "0.0.1",
     "@aily-project/lib-core-time": "0.0.1",
-    "@aily-project/lib-core-variables": "1.0.1"
+    "@aily-project/lib-core-variables": "1.0.1",
+    "@aily-project/lib-seeed-gfx": "1.0.0",
+    "@aily-project/lib-seeed-fs": "1.0.0",
+    "@aily-project/lib-seeed-lis3dhtr": "1.0.0"
   }
 }
