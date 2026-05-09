@@ -15,6 +15,12 @@
     "@aily-project/lib-core-variables": "1.0.1",
     "@aily-project/lib-seeed-gfx": "1.0.0",
     "@aily-project/lib-seeed-fs": "1.0.0",
-    "@aily-project/lib-seeed-lis3dhtr": "1.0.0"
+    "@aily-project/lib-seeed-lis3dhtr": "1.0.0",
+    "@aily-project/lib-seeed-rpcwifi": "1.0.0",
+    "@aily-project/lib-seeed-wio-buttons": "1.0.0",
+    "@aily-project/lib-seeed-wio-sound": "1.0.0",
+    "@aily-project/lib-seeed-rpcble": "1.0.0",
+    "@aily-project/lib-seeed-rtc": "1.0.0",
+    "@aily-project/lib-seeed-ir": "1.0.0"
   }
 }
