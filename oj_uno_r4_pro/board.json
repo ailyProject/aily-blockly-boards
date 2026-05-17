@@ -1,7 +1,7 @@
 {
-    "name": "UNO R4 Pro",
+    "name": "Zduino unoR4 WIFI Pro",
     "version": "1.0.1",
-    "description": "Arduino UNO R4 Pro standard compatible board",
+    "description": "Zduino UNO R4 WIFI Pro development board",
     "compilerTool": "aily-builder",
     "core": "arduino:renesas_uno",
     "type": "arduino:renesas_uno:unor4wifi",
@@ -231,6 +231,10 @@
         [
             "Serial",
             "Serial"
+        ],
+        [
+            "Serial1",
+            "Serial1"
         ]
     ],
     "serialSpeed": [
@@ -365,7 +369,7 @@
             "2"
         ],
         [
-            "2",
+            "3",
             "3"
         ]
     ],

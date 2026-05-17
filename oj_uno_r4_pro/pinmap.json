@@ -1,6 +1,6 @@
 {
   "id": "component_1772689999448",
-  "name": "Arduino UNO R4 Pro",
+  "name": "Zduino unoR4 WIFI Pro",
   "width": 300,
   "height": 300,
   "images": [
@@ -555,5 +555,5 @@
   ],
   "visible": true,
   "disabled": false,
-  "board": "@aily-project/board-arduino_uno_r4_pro"
+  "board": "@aily-project/board-zduino_unor4_wifi_pro"
 }
