@@ -671,12 +671,30 @@
         [
             "Serial1",
             "Serial1"
-        ],
-        [
-            "Serial2",
-            "Serial2"
         ]
     ],
+    "serialPins": {
+        "Serial": [
+            [
+                "RX",
+                "38"
+            ],
+            [
+                "TX",
+                "37"
+            ]
+        ],
+        "Serial1": [
+            [
+                "RX",
+                "11"
+            ],
+            [
+                "TX",
+                "10"
+            ]
+        ]
+    },
     "serialSpeed": [
         [
             "1200",
