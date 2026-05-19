@@ -6,7 +6,7 @@
     "core": "Seeeduino:samd",
     "type": "Seeeduino:samd:seeed_wio_terminal",
     "compilerParam": "compile -v -b Seeeduino:samd:seeed_wio_terminal",
-    "uploadParam": "[--use_1200bps_touch,--wait_for_upload_port] bossac -i -d --port=${serial} -U true -i --offset=0x4000 -e -w -b ${'*.bin'} -R",
+    "uploadParam": "[--use_1200bps_touch,--wait_for_upload_port] bossac -i -d --port=${serial} -U -i --offset=0x4000 -w -v ${'*.bin'} -R",
     "analogPins": [
         ["A0", "0"],
         ["A1", "1"],
