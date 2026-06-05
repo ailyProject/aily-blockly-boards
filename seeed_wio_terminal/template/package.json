@@ -13,6 +13,7 @@
     "@aily-project/lib-core-serial": "0.0.1",
     "@aily-project/lib-core-time": "0.0.1",
     "@aily-project/lib-core-variables": "1.0.1",
+    "@aily-project/lib-lvgl": "1.0.1",
     "@aily-project/lib-seeed-gfx": "1.0.0",
     "@aily-project/lib-seeed-fs": "1.0.0",
     "@aily-project/lib-seeed-lis3dhtr": "1.0.0",
