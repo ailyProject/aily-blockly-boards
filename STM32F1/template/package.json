@@ -4,7 +4,7 @@
   "description": "",
   "board": "STM32F1 Series",
   "dependencies": {
-    "@aily-project/board-stm32f1": "2.11.0",
+    "@aily-project/board-stm32f1": "2.12.0",
     "@aily-project/lib-core-io": "1.0.0",
     "@aily-project/lib-core-logic": "0.0.1",
     "@aily-project/lib-core-loop": "0.0.1",

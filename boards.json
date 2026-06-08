@@ -1706,7 +1706,7 @@
   {
     "name": "@aily-project/board-stm32c0",
     "nickname": "STM32C0 Series",
-    "version": "2.11.0",
+    "version": "2.12.0",
     "description": "STM32C0 Series development board featuring an Arm Cortex-M0+ core at up to 48 MHz, 32-256 KB Flash, 12-36 KB RAM, with rich peripheral interfaces suitable for cost-effective embedded applications.",
     "author": "STMicroelectronics",
     "brand": "STMicroelectronics",
@@ -1734,7 +1734,7 @@
   {
     "name": "@aily-project/board-stm32f0",
     "nickname": "STM32F0 Series",
-    "version": "2.11.0",
+    "version": "2.12.0",
     "description": "STM32F0 Series development board featuring an Arm Cortex-M0 core at up to 48 MHz, 16-256 KB Flash, 4-32 KB RAM, with rich peripheral interfaces suitable for entry-level embedded applications.",
     "author": "STMicroelectronics",
     "brand": "STMicroelectronics",
@@ -1762,7 +1762,7 @@
   {
     "name": "@aily-project/board-stm32f1",
     "nickname": "STM32F1 Series",
-    "version": "2.11.0",
+    "version": "2.12.0",
     "description": "STM32F1 Series development board featuring an Arm Cortex-M3 core at 24-72 MHz, 16 KB - 1 MB Flash, 4-96 KB RAM, with rich peripheral interfaces suitable for general-purpose embedded applications.",
     "author": "STMicroelectronics",
     "brand": "STMicroelectronics",
@@ -1790,7 +1790,7 @@
   {
     "name": "@aily-project/board-stm32f2",
     "nickname": "STM32F2 Series",
-    "version": "2.11.0",
+    "version": "2.12.0",
     "description": "STM32F2 Series development board featuring an Arm Cortex-M3 core at up to 120 MHz, 128 KB - 1 MB Flash, 64-128 KB RAM, with rich peripheral interfaces suitable for various embedded applications.",
     "author": "STMicroelectronics",
     "brand": "STMicroelectronics",
@@ -1818,7 +1818,7 @@
   {
     "name": "@aily-project/board-stm32f3",
     "nickname": "STM32F3 Series",
-    "version": "2.11.0",
+    "version": "2.12.0",
     "description": "STM32F3 Series development board featuring an Arm Cortex-M4 core with FPU at up to 72 MHz, 16-512 KB Flash, 16-80 KB RAM, with integrated analog peripherals suitable for mixed-signal embedded applications.",
     "author": "STMicroelectronics",
     "brand": "STMicroelectronics",
@@ -1846,7 +1846,7 @@
   {
     "name": "@aily-project/board-stm32f4",
     "nickname": "STM32F4 Series",
-    "version": "2.11.0",
+    "version": "2.12.0",
     "description": "STM32F4 Series development board featuring an Arm Cortex-M4 core with FPU at 84-180 MHz, 64 KB - 2 MB Flash, 32-320 KB RAM, with rich peripheral interfaces suitable for high-performance embedded applications.",
     "author": "STMicroelectronics",
     "brand": "STMicroelectronics",
@@ -1874,7 +1874,7 @@
   {
     "name": "@aily-project/board-stm32f7",
     "nickname": "STM32F7 Series",
-    "version": "2.11.0",
+    "version": "2.12.0",
     "description": "STM32F7 Series development board featuring an Arm Cortex-M7 core at up to 216 MHz, 64 KB - 2 MB Flash, 256-512 KB RAM, with rich peripheral interfaces suitable for advanced embedded applications.",
     "author": "STMicroelectronics",
     "brand": "STMicroelectronics",
@@ -1902,7 +1902,7 @@
   {
     "name": "@aily-project/board-stm32g0",
     "nickname": "STM32G0 Series",
-    "version": "2.11.0",
+    "version": "2.12.0",
     "description": "STM32G0 Series development board featuring an Arm Cortex-M0+ core at up to 64 MHz, 16-512 KB Flash, 8-144 KB RAM, with rich peripheral interfaces suitable for cost-effective embedded applications.",
     "author": "STMicroelectronics",
     "brand": "STMicroelectronics",
@@ -1930,7 +1930,7 @@
   {
     "name": "@aily-project/board-stm32g4",
     "nickname": "STM32G4 Series",
-    "version": "2.11.0",
+    "version": "2.12.0",
     "description": "STM32G4 Series development board featuring an Arm Cortex-M4 core with FPU at up to 170 MHz, 32-512 KB Flash, 32-128 KB RAM, with advanced analog features suitable for mixed-signal and motor control applications.",
     "author": "STMicroelectronics",
     "brand": "STMicroelectronics",
@@ -1958,7 +1958,7 @@
   {
     "name": "@aily-project/board-stm32h5",
     "nickname": "STM32H5 Series",
-    "version": "2.11.0",
+    "version": "2.12.0",
     "description": "STM32H5 Series development board featuring an Arm Cortex-M33 core at up to 250 MHz, 128 KB - 2 MB Flash, 32-640 KB RAM, with enhanced security features suitable for high-performance embedded applications.",
     "author": "STMicroelectronics",
     "brand": "STMicroelectronics",
@@ -1986,7 +1986,7 @@
   {
     "name": "@aily-project/board-stm32h7",
     "nickname": "STM32H7 Series",
-    "version": "2.11.0",
+    "version": "2.12.0",
     "description": "STM32H7 Series development board featuring an Arm Cortex-M7 core at up to 480 MHz, 128 KB - 2 MB Flash, 32 KB - 1 MB RAM, with rich peripheral interfaces suitable for compute-intensive embedded applications.",
     "author": "STMicroelectronics",
     "brand": "STMicroelectronics",
@@ -2014,7 +2014,7 @@
   {
     "name": "@aily-project/board-stm32l0",
     "nickname": "STM32L0 Series",
-    "version": "2.11.0",
+    "version": "2.12.0",
     "description": "STM32L0 Series development board featuring an ultra-low-power Arm Cortex-M0+ core at up to 32 MHz, 16-192 KB Flash, 2-20 KB RAM, with rich peripheral interfaces suitable for battery-powered and low-power embedded applications.",
     "author": "STMicroelectronics",
     "brand": "STMicroelectronics",
@@ -2042,7 +2042,7 @@
   {
     "name": "@aily-project/board-stm32l1",
     "nickname": "STM32L1 Series",
-    "version": "2.11.0",
+    "version": "2.12.0",
     "description": "STM32L1 Series development board featuring an ultra-low-power Arm Cortex-M3 core at up to 32 MHz, 32-512 KB Flash, 4-80 KB RAM, with rich peripheral interfaces suitable for energy-efficient embedded applications.",
     "author": "STMicroelectronics",
     "brand": "STMicroelectronics",
@@ -2070,7 +2070,7 @@
   {
     "name": "@aily-project/board-stm32l4",
     "nickname": "STM32L4 Series",
-    "version": "2.11.0",
+    "version": "2.12.0",
     "description": "STM32L4 Series development board featuring an ultra-low-power Arm Cortex-M4 core with FPU at up to 80 MHz, 128-1024 KB Flash, 40-320 KB RAM, optimized for low-power performance in embedded applications.",
     "author": "STMicroelectronics",
     "brand": "STMicroelectronics",
@@ -2098,7 +2098,7 @@
   {
     "name": "@aily-project/board-stm32l5",
     "nickname": "STM32L5 Series",
-    "version": "2.11.0",
+    "version": "2.12.0",
     "description": "STM32L5 Series development board featuring an Arm Cortex-M33 core with TrustZone at up to 110 MHz, 256-512 KB Flash, 256 KB RAM, with enhanced security features suitable for secure low-power embedded applications.",
     "author": "STMicroelectronics",
     "brand": "STMicroelectronics",
@@ -2126,7 +2126,7 @@
   {
     "name": "@aily-project/board-stm32wb",
     "nickname": "STM32WB Series",
-    "version": "2.11.0",
+    "version": "2.12.0",
     "description": "STM32WB Series development board featuring a dual-core architecture with Arm Cortex-M4 (up to 64 MHz) and Cortex-M0+ cores, 320 KB - 1 MB Flash, 48-256 KB RAM. Supports Bluetooth Low Energy, Zigbee, Thread, and Matter wireless connectivity protocols.",
     "author": "STMicroelectronics",
     "brand": "STMicroelectronics",

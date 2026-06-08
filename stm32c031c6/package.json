@@ -1,7 +1,7 @@
 {
   "name": "@aily-project/board-c031c6",
   "nickname": "STM32C031C6",
-  "version": "2.11.0",
+  "version": "2.12.0",
   "description": "STM32C031C6 development board with Arm Cortex-M0+ core at 48 MHz, 32 KB Flash, 12 KB SRAM, 48-pin LQFP package, suitable for cost-effective embedded applications.",
   "description_en": "STM32C031C6 development board with Arm Cortex-M0+ core at 48 MHz, 32 KB Flash, 12 KB SRAM, 48-pin LQFP package, suitable for cost-effective embedded applications.",
   "description_zh_cn": "STM32C031C6 开发板，搭载 Arm Cortex-M0+ 内核，主频 48 MHz，32 KB Flash，12 KB SRAM，48 引脚 LQFP 封装，适用于高性价比嵌入式应用。",
@@ -30,7 +30,7 @@
   "boardDependencies": {
     "@aily-project/compiler-xpack-arm-none-eabi-gcc": "14.2.1",
     "@aily-project/tool-STM32Tools": "2.3.1",
-    "@aily-project/sdk-stm32": "2.11.0",
+    "@aily-project/sdk-stm32": "2.12.0",
     "@aily-project/tool-STM32_SVD": "1.18.1",
     "@aily-project/tool-stm32flash": "0.7.0",
     "@aily-project/tool-CMSIS": "5.9.0",

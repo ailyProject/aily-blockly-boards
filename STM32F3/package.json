@@ -1,7 +1,7 @@
 {
   "name": "@aily-project/board-stm32f3",
   "nickname": "STM32F3 Series",
-  "version": "2.11.0",
+  "version": "2.12.0",
   "description": "STM32F3 Series development board featuring an Arm Cortex-M4 core with FPU at up to 72 MHz, 16-512 KB Flash, 16-80 KB RAM, with integrated analog peripherals suitable for mixed-signal embedded applications.",
   "description_en": "STM32F3 Series development board featuring an Arm Cortex-M4 core with FPU at up to 72 MHz, 16-512 KB Flash, 16-80 KB RAM, with integrated analog peripherals suitable for mixed-signal embedded applications.",
   "description_zh_cn": "STM32F3 系列开发板，搭载带 FPU 的 Arm Cortex-M4 内核，主频高达 72 MHz，16-512 KB Flash，16-80 KB RAM，集成模拟外设，适用于混合信号嵌入式应用。",
@@ -31,7 +31,7 @@
   "boardDependencies": {
     "@aily-project/compiler-xpack-arm-none-eabi-gcc": "14.2.1",
     "@aily-project/tool-STM32Tools": "2.3.1",
-    "@aily-project/sdk-stm32": "2.11.0",
+    "@aily-project/sdk-stm32": "2.12.0",
     "@aily-project/tool-STM32_SVD": "1.18.1",
     "@aily-project/tool-stm32flash": "0.7.0",
     "@aily-project/tool-CMSIS": "5.9.0",
