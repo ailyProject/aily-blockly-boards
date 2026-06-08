@@ -25,7 +25,7 @@
   "license": "ISC",
   "boardDependencies": {
     "@aily-project/compiler-arm-none-eabi-gcc": "7.2.1",
-    "@aily-project/tool-bossac": "1.9.1",
+    "@aily-project/tool-bossac": "1.8.0",
     "@aily-project/sdk-samd": "1.8.5",
     "@aily-project/tool-CMSIS-Atmel": "1.2.1",
     "@aily-project/tool-CMSIS": "5.7.0",
