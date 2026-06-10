@@ -22,7 +22,7 @@
     "@aily-project/lib-esp32-sd": "^0.0.1",
     "@aily-project/lib-ntc": "^1.0.0",
     "@aily-project/lib-sparkfun-bmi270": "^0.0.1",
-    "@aily-project/lib-sparkfun-tb6612": "^0.0.2",
+    "@aily-project/lib-sparkfun-tb6612fng": "^0.0.1",
     "@aily-project/lib-u8g2": "^1.0.0"
   }
 }
