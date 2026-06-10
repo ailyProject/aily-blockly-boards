@@ -4,7 +4,7 @@
   "description": "",
   "board": "Seeed Studio XIAO RA4M1",
   "dependencies": {
-    "@aily-project/board-xiao_ra4m1": "^1.5.3",
+    "@aily-project/board-xiao_ra4m1": "^1.2.0",
     "@aily-project/lib-core-io": "1.0.0",
     "@aily-project/lib-core-logic": "0.0.1",
     "@aily-project/lib-core-loop": "0.0.1",

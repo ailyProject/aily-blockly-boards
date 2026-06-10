@@ -1,7 +1,7 @@
 {
   "name": "@aily-project/board-xiao_ra4m1",
   "nickname": "XIAO RA4M1",
-  "version": "1.5.3",
+  "version": "1.2.0",
   "description": "The Seeed Studio XIAO RA4M1 features the Renesas RA4M1 microcontroller (32-bit ARM Cortex-M4, up to 48 MHz) with 256 KB Flash, 32 KB SRAM, 8 KB EEPROM, 19 GPIO pins, built-in RGB LED, ultra-low-power design (45 uA deep sleep), hardware encryption, and battery management.",
   "description_en": "The Seeed Studio XIAO RA4M1 features the Renesas RA4M1 microcontroller (32-bit ARM Cortex-M4, up to 48 MHz) with 256 KB Flash, 32 KB SRAM, 8 KB EEPROM, 19 GPIO pins, built-in RGB LED, ultra-low-power design (45 uA deep sleep), hardware encryption, and battery management.",
   "description_zh_cn": "Seeed Studio XIAO RA4M1 搭载瑞萨 RA4M1 微控制器（32 位 ARM Cortex-M4，主频高达 48 MHz），256 KB Flash，32 KB SRAM，8 KB EEPROM，19 个 GPIO 引脚，内置 RGB LED，超低功耗设计（深度睡眠 45 μA），硬件加密和电池管理。",
@@ -25,8 +25,8 @@
   "license": "ISC",
   "boardDependencies": {
     "@aily-project/compiler-arm-none-eabi-gcc": "7.2.1",
-    "@aily-project/tool-bossac": "1.9.1",
-    "@aily-project/sdk-renesas_uno": "1.5.3",
+    "@aily-project/tool-bossac": "1.8.0",
+    "@aily-project/sdk-renesas_uno": "1.2.0",
     "@aily-project/tool-ctags": "5.8.0",
     "@aily-project/tool-dfu-util": "0.11.0"
   },
