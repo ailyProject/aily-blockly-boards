@@ -1,7 +1,7 @@
 {
   "name": "@aily-project/board-arduino_nano_esp32",
   "nickname": "Arduino Nano ESP32",
-  "version": "3.2.1",
+  "version": "3.3.1",
   "description": "The Arduino Nano ESP32 is based on the ESP32-S3 (Xtensa LX7 dual-core at 240 MHz) in the compact Nano form factor, featuring Wi-Fi 802.11 b/g/n and Bluetooth 5.0 LE connectivity, 8 MB Flash, 512 KB SRAM, up to 16 MB PSRAM, 14 digital I/O pins, 8 analog inputs, and USB-C. It is fully supported by the Arduino ecosystem and MicroPython.",
   "description_en": "The Arduino Nano ESP32 is based on the ESP32-S3 (Xtensa LX7 dual-core at 240 MHz) in the compact Nano form factor, featuring Wi-Fi 802.11 b/g/n and Bluetooth 5.0 LE connectivity, 8 MB Flash, 512 KB SRAM, up to 16 MB PSRAM, 14 digital I/O pins, 8 analog inputs, and USB-C. It is fully supported by the Arduino ecosystem and MicroPython.",
   "description_zh_cn": "Arduino Nano ESP32 基于 ESP32-S3（Xtensa LX7 双核 240 MHz），采用紧凑的 Nano 外形设计，支持 Wi-Fi 802.11 b/g/n 和蓝牙 5.0 LE 连接，配备 8 MB Flash、512 KB SRAM、最高 16 MB PSRAM、14 个数字 I/O 引脚、8 个模拟输入和 USB-C。完全兼容 Arduino 生态系统和 MicroPython。",
@@ -26,8 +26,8 @@
   "boardDependencies": {
     "@aily-project/compiler-esp-x32": "14.2.0",
     "@aily-project/tool-esptool_py": "5.1.0",
-    "@aily-project/sdk-esp32": "3.2.1",
-    "@aily-project/tool-idf_esp32s3": "5.4.1",
+    "@aily-project/sdk-esp32": "3.3.1",
+    "@aily-project/tool-idf_esp32s3": "5.5.1",
     "@aily-project/tool-ctags": "5.8.0"
   },
   "pinmap": false
