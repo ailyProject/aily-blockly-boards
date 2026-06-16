@@ -970,7 +970,7 @@ jobs:
         continue-on-error: true
         uses: jakejarvis/s3-sync-action@master
         with:
-          args: --endpoint-url https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com --acl public-read --follow-symlinks
+          args: --endpoint-url https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com --acl public-read --follow-symlinks --cache-control no-store,no-cache,must-revalidate,max-age=0
         env:
           AWS_S3_BUCKET: ${{ secrets.R2_BUCKET }}
           AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -989,7 +989,7 @@ jobs:
         continue-on-error: true
         uses: jakejarvis/s3-sync-action@master
         with:
-          args: --endpoint-url https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com --acl public-read --follow-symlinks
+          args: --endpoint-url https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com --acl public-read --follow-symlinks --cache-control no-store,no-cache,must-revalidate,max-age=0
         env:
           AWS_S3_BUCKET: ${{ secrets.R2_BUCKET }}
           AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -1008,7 +1008,7 @@ jobs:
         continue-on-error: true
         uses: jakejarvis/s3-sync-action@master
         with:
-          args: --endpoint-url https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com --acl public-read --follow-symlinks
+          args: --endpoint-url https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com --acl public-read --follow-symlinks --cache-control no-store,no-cache,must-revalidate,max-age=0
         env:
           AWS_S3_BUCKET: ${{ secrets.R2_BUCKET }}
           AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
