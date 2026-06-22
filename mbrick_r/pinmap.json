@@ -16,16 +16,16 @@
       "version": "v1",
       "visible": true,
       "disabled": false,
-      "locked": true
+      "locked": false
     }
   ],
   "pins": [
     {
       "id": "pin_1",
       "x": 9.2,
-      "y": 95.4,
+      "y": 76.7,
       "labelX": -22.1,
-      "labelY": 88.4,
+      "labelY": 69.7,
       "layout": "horizontal",
       "functions": [
         {
@@ -54,9 +54,9 @@
     {
       "id": "pin_1772702123911_524",
       "x": 9.2,
-      "y": 175.4,
+      "y": 194,
       "labelX": -22.1,
-      "labelY": 168.4,
+      "labelY": 187,
       "layout": "horizontal",
       "functions": [
         {
@@ -85,9 +85,9 @@
     {
       "id": "pin_1772702234233_704",
       "x": 9.2,
-      "y": 155.4,
+      "y": 175.4,
       "labelX": -22.1,
-      "labelY": 148.4,
+      "labelY": 168.4,
       "layout": "horizontal",
       "functions": [
         {
@@ -240,9 +240,9 @@
     {
       "id": "pin_1772702856786_975",
       "x": 300.2,
-      "y": 155.4,
+      "y": 138,
       "labelX": 339.6,
-      "labelY": 148.4,
+      "labelY": 131,
       "layout": "horizontal",
       "functions": [
         {
@@ -270,10 +270,10 @@
     },
     {
       "id": "pin_1772703050064_116",
-      "x": 300.2,
-      "y": 175.4,
+      "x": 300,
+      "y": 156,
       "labelX": 339.6,
-      "labelY": 168.4,
+      "labelY": 149,
       "layout": "horizontal",
       "functions": [
         {
@@ -302,9 +302,9 @@
     {
       "id": "pin_1772703117650_769",
       "x": 300.2,
-      "y": 95.4,
+      "y": 112.6,
       "labelX": 339.6,
-      "labelY": 88.4,
+      "labelY": 105.6,
       "layout": "horizontal",
       "functions": [
         {
@@ -367,7 +367,7 @@
       "id": "pin_1772704545786_816",
       "x": 77,
       "y": 153.9,
-      "labelX": -20.6,
+      "labelX": -22.1,
       "labelY": 29.5,
       "layout": "horizontal",
       "functions": [
@@ -460,14 +460,236 @@
       "disabled": false,
       "labelAnchor": "left",
       "lineAlgorithm": "astar"
+    },
+    {
+      "id": "pin_15",
+      "x": 300.2,
+      "y": 95.4,
+      "labelX": 339.6,
+      "labelY": 88.4,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "5V",
+          "type": "power",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "id": "pin_1782095433665_461",
+      "x": 300.2,
+      "y": 76.7,
+      "labelX": 339.6,
+      "labelY": 69.7,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "GND",
+          "type": "gnd",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "id": "pin_1782095486390_539",
+      "x": 300.2,
+      "y": 175.4,
+      "labelX": 339.6,
+      "labelY": 168.4,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "3V3",
+          "type": "power",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "id": "pin_1782095505029_752",
+      "x": 300.2,
+      "y": 194,
+      "labelX": 339.6,
+      "labelY": 187,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "GND",
+          "type": "gnd",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "id": "pin_1782095624978_259",
+      "x": 9.2,
+      "y": 156,
+      "labelX": -21.6,
+      "labelY": 149,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "3V3",
+          "type": "power",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false,
+      "labelAnchor": "right"
+    },
+    {
+      "id": "pin_1782095624978_731",
+      "x": 9.2,
+      "y": 138,
+      "labelX": -22.1,
+      "labelY": 131,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "GND",
+          "type": "gnd",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false,
+      "labelAnchor": "right"
+    },
+    {
+      "id": "pin_1782095750342_406",
+      "x": 9.2,
+      "y": 95.4,
+      "labelX": -22.1,
+      "labelY": 88.4,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "5V",
+          "type": "power",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false,
+      "labelAnchor": "right"
+    },
+    {
+      "id": "pin_1782095750342_591",
+      "x": 9.2,
+      "y": 112.6,
+      "labelX": -20.6,
+      "labelY": 105.6,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "GND",
+          "type": "gnd",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false,
+      "labelAnchor": "right"
+    },
+    {
+      "id": "pin_1782095807075_566",
+      "x": 134.7,
+      "y": 124,
+      "labelX": 118.1,
+      "labelY": 131,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "GND",
+          "type": "gnd",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "id": "pin_1782095821600_896",
+      "x": 103.6,
+      "y": 123.5,
+      "labelX": 118.1,
+      "labelY": 130.5,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "5V",
+          "type": "power",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false,
+      "labelAnchor": "right"
+    },
+    {
+      "id": "pin_1782095861387_345",
+      "x": 236.1,
+      "y": 124,
+      "labelX": 218.8,
+      "labelY": 131,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "GND",
+          "type": "gnd",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false
+    },
+    {
+      "id": "pin_1782095875500_622",
+      "x": 204.3,
+      "y": 123.5,
+      "labelX": 218.8,
+      "labelY": 130.5,
+      "layout": "horizontal",
+      "functions": [
+        {
+          "name": "5V",
+          "type": "power",
+          "visible": true,
+          "disabled": false
+        }
+      ],
+      "visible": true,
+      "disabled": false,
+      "labelAnchor": "right"
     }
   ],
   "texts": [
     {
       "id": "text_1781747047117",
       "content": "加*表示引脚复用",
-      "x": 100.1,
-      "y": 265.8,
+      "x": 99.1,
+      "y": 266.45,
       "fontSize": 12,
       "color": "#ff0000",
       "visible": true,
@@ -550,5 +772,5 @@
   "imagePositionAnchor": "center",
   "x": 0,
   "y": 0,
-  "locked": true
+  "locked": false
 }
