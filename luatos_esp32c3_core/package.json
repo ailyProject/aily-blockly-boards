@@ -15,6 +15,7 @@
   "description_ru": "LuatOS ESP32-C3 Core — компактная плата разработки от OpenLuat на базе чипа RISC-V ESP32-C3, с подключением Wi-Fi и BLE 5.0, двумя встроенными светодиодами и форм-фактором, совместимым с макетной платой, для разработки IoT-приложений.",
   "description_ar": "LuatOS ESP32-C3 Core هي لوحة تطوير مدمجة من OpenLuat تعتمد على شريحة RISC-V ESP32-C3، مع اتصال Wi-Fi وBLE 5.0، واثنين من LED المدمجة، وشكل متوافق مع لوحة التجارب لتطوير تطبيقات إنترنت الأشياء.",
   "main": "index.js",
+  "brand":"OpenLuat",
   "disabled": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
