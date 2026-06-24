@@ -21,7 +21,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Seeed",
-  "state": "alpha",
   "license": "ISC",
   "boardDependencies": {
     "@aily-project/compiler-esp-x32": "14.2.0",
