@@ -1,0 +1,31 @@
+{
+  "name": "@aily-project/board-beginner_a1",
+  "nickname": "Beginner A1",
+  "version": "3.3.1",
+  "description": "Beginner A1 is an entry-level learning board with two DC motors, two servos, and built-in ESP-NOW wireless communication.",
+  "description_en": "Beginner A1 is an entry-level learning board with two DC motors, two servos, and built-in ESP-NOW wireless communication.",
+  "description_zh_cn": "Beginner A1 是一款入门学习板，板载两路直流电机、两路舵机，并支持 ESP-NOW 无线通信。",
+  "description_zh_hk": "Beginner A1 是一款入門學習板，板載兩路直流電機、兩路舵機，並支援 ESP-NOW 無線通訊。",
+  "description_ja": "Beginner A1 は入門学習ボードで、2つのDCモーターと2つのサーボを搭載し、ESP-NOW 無線通信に対応しています。",
+  "description_ko": "Beginner A1은 입문용 학습 보드로, 2개의 DC 모터와 2개의 서보를 탑재하고 ESP-NOW 무선 통신을 지원합니다.",
+  "description_de": "Beginner A1 ist ein Einsteiger-Lernboard mit zwei DC-Motoren, zwei Servos und integrierter ESP-NOW-Funkkommunikation.",
+  "description_fr": "Beginner A1 est une carte d'apprentissage d'entrée de gamme avec deux moteurs CC, deux servos et une communication sans fil ESP-NOW intégrée.",
+  "description_es": "Beginner A1 es una placa de aprendizaje de nivel básico con dos motores CC, dos servos y comunicación inalámbrica ESP-NOW integrada.",
+  "description_pt": "Beginner A1 é uma placa de aprendizagem de nível básico com dois motores CC, dois servos e comunicação sem fio ESP-NOW integrada.",
+  "description_ru": "Beginner A1 — начальная обучающая плата с двумя двигателями постоянного тока, двумя сервоприводами и встроенной беспроводной связью ESP-NOW.",
+  "description_ar": "Beginner A1 هي لوحة تعليمية مبتدئة مزودة بمحركي تيار مستمر، ومؤازرين (servo)، واتصال ESP-NOW اللاسلكي المدمج.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "brand": "OpenJumper",
+  "boardDependencies": {
+    "@aily-project/compiler-esp-rv32": "14.2.0",
+    "@aily-project/tool-esptool_py": "5.1.0",
+    "@aily-project/sdk-esp32": "3.3.1",
+    "@aily-project/tool-idf_esp32c3": "5.5.1",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}
