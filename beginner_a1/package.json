@@ -20,7 +20,7 @@
   },
   "author": "",
   "license": "ISC",
-  "brand": "OpenJumper",
+  "brand": "Other",
   "boardDependencies": {
     "@aily-project/compiler-esp-rv32": "14.2.0",
     "@aily-project/tool-esptool_py": "5.1.0",
