@@ -1,0 +1,31 @@
+{
+  "name": "@aily-project/board-mbrick-t",
+  "nickname": "mBrick-T",
+  "version": "3.3.1",
+  "description": "mBrick-T is a general-purpose development board based on ESP32-C3, designed as a transmitter board for 3D printing ecosystems. With dimensions of 34x31mm, it is compatible with the size and interfaces of the CyberBrick transmitter baseboard. It features a 160MHz processor, 4MB Flash, and 400KB SRAM.",
+  "description_en": "mBrick-T is a general-purpose development board based on ESP32-C3, designed as a transmitter board for 3D printing ecosystems. With dimensions of 34x31mm, it is compatible with the size and interfaces of the CyberBrick transmitter baseboard. It features a 160MHz processor, 4MB Flash, and 400KB SRAM.",
+  "description_zh_cn": "mBrick-T是基于ESP32-C3的通用开发板，可用于3D打印生态的发射板，尺寸34x31mm，兼容CyberBrick发射底板尺寸及接口。处理器主频160MHz，4MB Flash，400KB SRAM。",
+  "description_zh_hk": "mBrick-T是基於ESP32-C3的通用開發板，可用於3D打印生態的發射板，尺寸34x31mm，兼容CyberBrick發射底板尺寸及接口。處理器主頻160MHz，4MB Flash，400KB SRAM。",
+  "description_ja": "mBrick-TはESP32-C3をベースにした汎用開発ボードで、3Dプリンティングエコシステムの送信機ボードとして使用できます。サイズは34x31mmで、CyberBrick送信機ベースボードのサイズとインターフェースに互換性があります。プロセッサのクロック周波数は160MHz、4MB Flash、400KB SRAMを搭載しています。",
+  "description_ko": "mBrick-T는 ESP32-C3 기반의 범용 개발 보드로, 3D 프린팅 생태계의 송신기 보드로 사용할 수 있습니다. 크기는 34x31mm이며 CyberBrick 송신기 베이스보드의 크기와 인터페이스와 호환됩니다. 프로세서 주파수 160MHz, 4MB Flash, 400KB SRAM을 탑재했습니다.",
+  "description_de": "mBrick-T ist ein universelles Entwicklungsboard basierend auf ESP32-C3, konzipiert als Senderboard für 3D-Druck-Ökosysteme. Mit Abmessungen von 34x31mm ist es kompatibel mit der Größe und den Schnittstellen des CyberBrick-Sender-Basisboards. Es verfügt über einen 160MHz-Prozessor, 4MB Flash und 400KB SRAM.",
+  "description_fr": "mBrick-T est une carte de développement polyvalente basée sur l'ESP32-C3, conçue comme carte émettrice pour les écosystèmes d'impression 3D. Avec des dimensions de 34x31mm, elle est compatible avec la taille et les interfaces de la carte de base émettrice CyberBrick. Elle intègre un processeur 160MHz, 4MB Flash et 400KB SRAM.",
+  "description_es": "mBrick-T es una placa de desarrollo de propósito general basada en ESP32-C3, diseñada como placa transmisora para ecosistemas de impresión 3D. Con dimensiones de 34x31mm, es compatible con el tamaño y las interfaces de la placa base transmisora CyberBrick. Cuenta con un procesador de 160MHz, 4MB Flash y 400KB SRAM.",
+  "description_pt": "mBrick-T é uma placa de desenvolvimento de propósito geral baseada no ESP32-C3, projetada como placa transmissora para ecossistemas de impressão 3D. Com dimensões de 34x31mm, é compatível com o tamanho e as interfaces da placa base transmissora CyberBrick. Possui um processador de 160MHz, 4MB Flash e 400KB SRAM.",
+  "description_ru": "mBrick-T - универсальная плата разработки на основе ESP32-C3, предназначенная в качестве передающей платы для экосистем 3D-печати. Размеры 34x31мм, совместима с размерами и интерфейсами базовой передающей платы CyberBrick. Оснащена процессором 160МГц, 4МБ Flash, 400КБ SRAM.",
+  "description_ar": "mBrick-T هي لوحة تطوير للأغراض العامة تعتمد على ESP32-C3، مصممة كلوحة إرسال لأنظمة الطباعة ثلاثية الأبعاد. بأبعاد 34x31مم، وهي متوافقة مع أحجام وواجهات لوحة القاعدة المرسلة CyberBrick. تتميز بمعالج 160ميجاهرتز، وذاكرة فلاش 4ميجابايت، وذاكرة SRAM 400كيلوبايت.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "brand": "mBrick",
+  "boardDependencies": {
+    "@aily-project/compiler-esp-rv32": "14.2.0",
+    "@aily-project/tool-esptool_py": "5.1.0",
+    "@aily-project/sdk-esp32": "3.3.1",
+    "@aily-project/tool-idf_esp32c3": "5.5.1",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}
