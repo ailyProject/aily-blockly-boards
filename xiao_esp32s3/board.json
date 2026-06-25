@@ -72,6 +72,24 @@
             "Serial2"
         ]
     ],
+    "cdcSerialPort": [
+        [
+            "Serial(USB CDC)",
+            "Serial"
+        ]
+    ],
+    "serialPins": {
+        "Serial": [
+            [
+                "RX",
+                "D7"
+            ],
+            [
+                "TX",
+                "D6"
+            ]
+        ]
+    },
     "serialSpeed": [
         ["1200","1200"],
         ["9600","9600"],
