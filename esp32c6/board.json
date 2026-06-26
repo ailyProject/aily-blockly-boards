@@ -329,6 +329,12 @@
             "Serial1"
         ]
     ],
+    "cdcSerialPort": [
+        [
+            "Serial(USB CDC)",
+            "Serial"
+        ]
+    ],
     "serialPins": {
         "Serial": [
             [
