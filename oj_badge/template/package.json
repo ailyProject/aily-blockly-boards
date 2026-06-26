@@ -5,13 +5,19 @@
   "board": "OJBadge",
   "dependencies": {
     "@aily-project/board-ojbadge": "3.3.1",
+    "@aily-project/lib-aily-iic": "^0.0.1",
+    "@aily-project/lib-bq27220": "^1.0.0",
     "@aily-project/lib-core-io": "1.0.0",
     "@aily-project/lib-core-logic": "0.0.1",
     "@aily-project/lib-core-loop": "0.0.1",
-    "@aily-project/lib-core-math":"0.0.1",
-    "@aily-project/lib-core-text": "1.0.0",
+    "@aily-project/lib-core-math": "0.0.1",
     "@aily-project/lib-core-serial": "0.0.1",
+    "@aily-project/lib-core-text": "1.0.0",
     "@aily-project/lib-core-time": "0.0.1",
-    "@aily-project/lib-core-variables": "1.0.1"
+    "@aily-project/lib-core-variables": "1.0.1",
+    "@aily-project/lib-cst816s": "^1.0.0",
+    "@aily-project/lib-es8311": "^1.0.0",
+    "@aily-project/lib-lvgl": "^1.0.1",
+    "@aily-project/lib-tft-espi": "^2.5.43"
   }
 }
