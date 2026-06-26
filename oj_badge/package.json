@@ -1,0 +1,31 @@
+{
+  "name": "@aily-project/board-ojbadge",
+  "nickname": "OJBadge",
+  "version": "3.3.1",
+  "description": "OJBadge is an ESP32-S3 smart terminal with color screen, touch control, I2S audio, battery management, supporting USB and Wi-Fi/Bluetooth.",
+  "description_en": "OJBadge is an ESP32-S3 smart terminal with color screen, touch control, I2S audio, battery management, supporting USB and Wi-Fi/Bluetooth.",
+  "description_zh_cn": "OJBadge是一块ESP32-S3 智能终端，带彩屏触控、I2S 音频、电池管理，支持 USB 与 Wi-Fi/蓝牙。",
+  "description_zh_hk": "OJBadge是一塊ESP32-S3 智能終端，帶彩屏觸控、I2S 音頻、電池管理，支持 USB 與 Wi-Fi/藍牙。",
+  "description_ja": "OJBadgeはカラースクリーン、タッチコントロール、I2S オーディオ、バッテリー管理を備えたESP32-S3スマートターミナルで、USBおよびWi-Fi/Bluetoothをサポートしています。",
+  "description_ko": "OJBadge는 컬러 스크린, 터치 제어, I2S 오디오, 배터리 관리를 갖춘 ESP32-S3 스마트 터미널로 USB 및 Wi-Fi/Bluetooth를 지원합니다.",
+  "description_de": "OJBadge ist ein ESP32-S3 Smart Terminal mit Farbbildschirm, Touchscreen-Steuerung, I2S-Audio und Batteriemanagementsystem mit USB- und Wi-Fi/Bluetooth-Unterstützung.",
+  "description_fr": "OJBadge est un terminal intelligent ESP32-S3 avec écran couleur, contrôle tactile, audio I2S, gestion de batterie, prenant en charge USB et Wi-Fi/Bluetooth.",
+  "description_es": "OJBadge es una terminal inteligente ESP32-S3 con pantalla a color, control táctil, audio I2S, gestión de batería, compatible con USB y Wi-Fi/Bluetooth.",
+  "description_pt": "OJBadge é um terminal inteligente ESP32-S3 com tela colorida, controle por toque, áudio I2S, gerenciamento de bateria, suportando USB e Wi-Fi/Bluetooth.",
+  "description_ru": "OJBadge — это интеллектуальный терминал на базе ESP32-S3 с цветным экраном, сенсорным управлением, аудио I2S, управлением батареей, поддерживающий USB и Wi-Fi/Bluetooth.",
+  "description_ar": "OJBadge هو محطة ذكية قائمة على ESP32-S3 مع شاشة ملونة وتحكم باللمس وصوت I2S وإدارة البطارية مع دعم USB و Wi-Fi/Bluetooth.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "brand": "OpenJumper",
+  "boardDependencies": {
+    "@aily-project/compiler-esp-x32": "14.2.0",
+    "@aily-project/tool-esptool_py": "5.1.0",
+    "@aily-project/sdk-esp32": "3.3.1",
+    "@aily-project/tool-idf_esp32s3": "5.5.0",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}
