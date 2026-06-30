@@ -221,8 +221,18 @@
             "Serial"
         ],
         [
+            "Serial0",
+            "Serial0"
+        ],
+        [
             "Serial1",
             "Serial1"
+        ]
+    ],
+    "cdcSerialPort": [
+        [
+            "Serial(USB CDC)",
+            "Serial"
         ]
     ],
     "serialPins": {
@@ -236,14 +246,24 @@
                 "21"
             ]
         ],
-        "Serial1": [
+        "Serial0": [
             [
                 "RX",
-                "18"
+                "20"
             ],
             [
                 "TX",
-                "19"
+                "21"
+            ]
+        ],
+        "Serial1": [
+            [
+                "RX",
+                "10"
+            ],
+            [
+                "TX",
+                "9"
             ]
         ]
     },
@@ -339,11 +359,11 @@
         "Wire": [
             [
                 "SDA",
-                "7"
+                "10"
             ],
             [
                 "SCL",
-                "8"
+                "9"
             ]
         ]
     },

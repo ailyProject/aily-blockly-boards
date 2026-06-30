@@ -35,7 +35,7 @@
           "disabled": false
         },
         {
-          "name": "D1",
+          "name": "D2",
           "type": "pwm",
           "visible": true,
           "disabled": false
@@ -314,7 +314,7 @@
           "disabled": false
         },
         {
-          "name": "D2",
+          "name": "D1",
           "type": "pwm",
           "visible": true,
           "disabled": false
