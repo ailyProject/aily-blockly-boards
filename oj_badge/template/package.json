@@ -20,4 +20,5 @@
     "@aily-project/lib-lvgl": "^1.0.1",
     "@aily-project/lib-tft-espi": "^2.5.43"
   }
+  
 }
