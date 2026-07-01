@@ -221,10 +221,6 @@
             "Serial"
         ],
         [
-            "Serial0",
-            "Serial0"
-        ],
-        [
             "Serial1",
             "Serial1"
         ]
@@ -237,16 +233,6 @@
     ],
     "serialPins": {
         "Serial": [
-            [
-                "RX",
-                "20"
-            ],
-            [
-                "TX",
-                "21"
-            ]
-        ],
-        "Serial0": [
             [
                 "RX",
                 "20"
