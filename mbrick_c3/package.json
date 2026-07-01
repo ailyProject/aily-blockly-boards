@@ -1,0 +1,31 @@
+{
+  "name": "@aily-project/board-mbrick-c3",
+  "nickname": "mBrick-C3",
+  "version": "3.3.1",
+  "description": "mBrick-C3 is an ESP32-C3-based universal core board that can be used as the core control board in the 3D printing ecosystem. Measuring 22x27mm, it is compatible with the dimensions and interfaces of the CyberBrick core board. It supports 5V or battery power supply, and provides 3.3V/2A output. Its processor runs at 160MHz, with 4MB Flash and 400KB SRAM.",
+  "description_en": "mBrick-C3 is an ESP32-C3-based universal core board that can be used as the core control board in the 3D printing ecosystem. Measuring 22x27mm, it is compatible with the dimensions and interfaces of the CyberBrick core board. It supports 5V or battery power supply, and provides 3.3V/2A output. Its processor runs at 160MHz, with 4MB Flash and 400KB SRAM.",
+  "description_zh_cn": "mBrick-C3是基于ESP32-C3的通用核心板，可用作3D打印生态的核心控制板，尺寸22x27mm，兼容CyberBrick核心板尺寸及接口。支持5V或电池供电，及对外3.3V/2A供电。处理器主频160MHz，4MB Flash，400KB SRAM。",
+  "description_zh_hk": "mBrick-C3是基於ESP32-C3的通用核心板，可用作3D打印生態的核心控制板，尺寸22x27mm，兼容CyberBrick核心板尺寸及接口。支援5V或電池供電，及對外3.3V/2A供電。處理器主頻160MHz，4MB Flash，400KB SRAM。",
+  "description_ja": "mBrick-C3はESP32-C3ベースの汎用コアボードで、3Dプリンティングエコシステムのコア制御ボードとして使用できます。サイズは22x27mmで、CyberBrickコアボードのサイズとインターフェースに互換性があります。5Vまたはバッテリー電源に対応し、3.3V/2Aの外部出力を提供します。プロセッサのクロック周波数は160MHz、4MB Flash、400KB SRAMを搭載しています。",
+  "description_ko": "mBrick-C3는 ESP32-C3 기반 범용 코어 보드로, 3D 프린팅 생태계의 코어 제어 보드로 사용할 수 있습니다. 크기는 22x27mm이며 CyberBrick 코어 보드의 크기 및 인터페이스와 호환됩니다. 5V 또는 배터리 전원을 지원하며, 외부 3.3V/2A 출력을 제공합니다. 프로세서 주파수는 160MHz이고, 4MB Flash와 400KB SRAM을 갖추고 있습니다.",
+  "description_de": "mBrick-C3 ist ein universelles Core-Board auf Basis des ESP32-C3, das als Core-Steuerungsboard im 3D-Druck-Ökosystem eingesetzt werden kann. Mit Abmessungen von 22x27mm ist es mit den Abmessungen und Schnittstellen des CyberBrick-Core-Boards kompatibel. Es unterstützt 5V- oder Batteriestromversorgung und bietet 3,3V/2A Ausgangsleistung. Der Prozessor läuft mit 160MHz, dazu kommen 4MB Flash und 400KB SRAM.",
+  "description_fr": "mBrick-C3 est une carte cœur universelle basée sur l'ESP32-C3 pouvant servir de carte de contrôle centrale dans l'écosystème de l'impression 3D. Avec des dimensions de 22x27mm, elle est compatible avec les dimensions et les interfaces de la carte cœur CyberBrick. Elle prend en charge l'alimentation 5V ou par batterie, et fournit une sortie 3,3V/2A. Son processeur fonctionne à 160MHz, avec 4MB Flash et 400KB SRAM.",
+  "description_es": "mBrick-C3 es una placa núcleo universal basada en ESP32-C3 que puede usarse como placa de control central en el ecosistema de impresión 3D. Con dimensiones de 22x27mm, es compatible con las dimensiones y las interfaces de la placa núcleo CyberBrick. Admite alimentación de 5V o por batería, y proporciona salida de 3,3V/2A. Su procesador funciona a 160MHz, con 4MB Flash y 400KB SRAM.",
+  "description_pt": "mBrick-C3 é uma placa núcleo universal baseada no ESP32-C3 que pode ser usada como placa de controle central no ecossistema de impressão 3D. Com dimensões de 22x27mm, é compatível com as dimensões e interfaces da placa núcleo CyberBrick. Suporta alimentação de 5V ou por bateria, e fornece saída de 3,3V/2A. Seu processador opera a 160MHz, com 4MB Flash e 400KB SRAM.",
+  "description_ru": "mBrick-C3 - универсальная базовая плата на основе ESP32-C3, которую можно использовать как основную плату управления в экосистеме 3D-печати. При размерах 22x27мм она совместима с размерами и интерфейсами базовой платы CyberBrick. Поддерживает питание 5В или от аккумулятора, а также выход 3,3В/2А. Процессор работает на частоте 160МГц, предусмотрены 4МБ Flash и 400КБ SRAM.",
+  "description_ar": "mBrick-C3 هي لوحة أساسية عالمية تعتمد على ESP32-C3، ويمكن استخدامها كلوحة تحكم أساسية في منظومة الطباعة ثلاثية الأبعاد. بأبعاد 22x27مم، تتوافق مع أبعاد وواجهات اللوحة الأساسية CyberBrick. تدعم مصدر طاقة 5V أو البطارية، وتوفر خرج 3.3V/2A خارجي. يعمل المعالج بتردد 160ميجاهرتز، مع 4MB Flash و400KB SRAM.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "brand": "mBrick",
+  "boardDependencies": {
+    "@aily-project/compiler-esp-rv32": "14.2.0",
+    "@aily-project/tool-esptool_py": "5.1.0",
+    "@aily-project/sdk-esp32": "3.3.1",
+    "@aily-project/tool-idf_esp32c3": "5.5.1",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}
