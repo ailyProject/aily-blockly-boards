@@ -1,7 +1,7 @@
 {
   "name": "@aily-project/board-esp32s2",
-  "nickname": "ESP32S2 board",
-  "version": "3.3.1",
+  "nickname": "ESP32S2 chip",
+  "version": "3.3.10",
   "description": "Generic ESP32-S2 development board configuration. The ESP32-S2 is a highly integrated, cost-effective, low-power, security-focused single-core Wi-Fi SoC with powerful capabilities and rich I/O interfaces.",
   "description_en": "Generic ESP32-S2 development board configuration. The ESP32-S2 is a highly integrated, cost-effective, low-power, security-focused single-core Wi-Fi SoC with powerful capabilities and rich I/O interfaces.",
   "description_zh_cn": "ESP32-S2 开发板通用配置。ESP32-S2 是一款高度集成、高性价比、低功耗、注重安全的单核 Wi-Fi SoC，具有强大的功能和丰富的 I/O 接口。",
@@ -26,8 +26,8 @@
   "boardDependencies": {
     "@aily-project/compiler-esp-x32": "14.2.0",
     "@aily-project/tool-esptool_py": "5.1.0",
-    "@aily-project/sdk-esp32": "3.3.1",
-    "@aily-project/tool-idf_esp32s2": "5.5.1",
+    "@aily-project/sdk-esp32": "3.3.10",
+    "@aily-project/tool-esp32s2-libs": "3.3.10",
     "@aily-project/tool-ctags": "5.8.0"
   }
 }

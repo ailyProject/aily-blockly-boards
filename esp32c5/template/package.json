@@ -4,7 +4,7 @@
   "description": "",
   "board": "ESP32C5 board",
   "dependencies": {
-    "@aily-project/board-esp32c5": "3.3.1",
+    "@aily-project/board-esp32c5": "3.3.10",
     "@aily-project/lib-core-io": "1.0.0",
     "@aily-project/lib-core-logic": "0.0.1",
     "@aily-project/lib-core-loop": "0.0.1",

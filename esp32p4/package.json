@@ -1,7 +1,7 @@
 {
   "name": "@aily-project/board-esp32p4",
-  "nickname": "ESP32P4 board",
-  "version": "3.3.1",
+  "nickname": "ESP32P4 chip",
+  "version": "3.3.10",
   "description": "Generic ESP32-P4 development board configuration. The ESP32-P4 features a dual-core RISC-V processor at up to 400 MHz with AI instruction extensions, supporting USB 2.0, MIPI-CSI, MIPI-DSI, and other peripheral interfaces, suitable for HMI and AIoT product prototyping.",
   "description_en": "Generic ESP32-P4 development board configuration. The ESP32-P4 features a dual-core RISC-V processor at up to 400 MHz with AI instruction extensions, supporting USB 2.0, MIPI-CSI, MIPI-DSI, and other peripheral interfaces, suitable for HMI and AIoT product prototyping.",
   "description_zh_cn": "ESP32-P4 开发板通用配置。ESP32-P4 搭载双核 RISC-V 处理器，主频高达 400 MHz，具有 AI 指令扩展，支持 USB 2.0、MIPI-CSI、MIPI-DSI 等外设接口，适用于 HMI 和 AIoT 产品原型开发。",
@@ -26,8 +26,8 @@
   "boardDependencies": {
     "@aily-project/compiler-esp-rv32": "14.2.0",
     "@aily-project/tool-esptool_py": "5.1.0",
-    "@aily-project/sdk-esp32": "3.3.1",
-    "@aily-project/tool-idf_esp32p4": "5.5.1",
+    "@aily-project/sdk-esp32": "3.3.10",
+    "@aily-project/tool-esp32p4-libs": "3.3.10",
     "@aily-project/tool-ctags": "5.8.0"
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "@aily-project/board-esp32",
-  "nickname": "ESP32 board",
-  "version": "3.3.1",
+  "nickname": "ESP32 chip",
+  "version": "3.3.10",
   "description": "Generic ESP32 development board configuration. The ESP32 is a dual-core Xtensa LX6 MCU with integrated 2.4 GHz Wi-Fi and Bluetooth dual-mode communication, supporting 802.11 b/g/n and Bluetooth v4.2 BR/EDR/BLE standards.",
   "description_en": "Generic ESP32 development board configuration. The ESP32 is a dual-core Xtensa LX6 MCU with integrated 2.4 GHz Wi-Fi and Bluetooth dual-mode communication, supporting 802.11 b/g/n and Bluetooth v4.2 BR/EDR/BLE standards.",
   "description_zh_cn": "ESP32 开发板通用配置。ESP32 是一款双核 Xtensa LX6 MCU，集成 2.4 GHz Wi-Fi 和蓝牙双模通信，支持 802.11 b/g/n 和蓝牙 v4.2 BR/EDR/BLE 标准。",
@@ -24,8 +24,8 @@
   "boardDependencies": {
     "@aily-project/compiler-esp-x32": "14.2.0",
     "@aily-project/tool-esptool_py": "5.1.0",
-    "@aily-project/sdk-esp32": "3.3.1",
-    "@aily-project/tool-idf_esp32": "5.5.1",
+    "@aily-project/sdk-esp32": "3.3.10",
+    "@aily-project/tool-esp32-libs": "3.3.10",
     "@aily-project/tool-ctags": "5.8.0"
   }
 }

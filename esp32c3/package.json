@@ -1,7 +1,7 @@
 {
   "name": "@aily-project/board-esp32c3",
-  "nickname": "ESP32C3 board",
-  "version": "3.3.1",
+  "nickname": "ESP32C3 chip",
+  "version": "3.3.10",
   "description": "Generic ESP32-C3 development board configuration. The ESP32-C3 features a RISC-V 32-bit single-core processor, supporting 2.4 GHz Wi-Fi and Bluetooth 5 (LE), providing industry-leading RF performance, robust security mechanisms, and ample memory resources for IoT applications.",
   "description_en": "Generic ESP32-C3 development board configuration. The ESP32-C3 features a RISC-V 32-bit single-core processor, supporting 2.4 GHz Wi-Fi and Bluetooth 5 (LE), providing industry-leading RF performance, robust security mechanisms, and ample memory resources for IoT applications.",
   "description_zh_cn": "ESP32-C3 开发板通用配置。ESP32-C3 搭载 RISC-V 32 位单核处理器，支持 2.4 GHz Wi-Fi 和蓝牙 5（LE），提供业界领先的射频性能、强大的安全机制和充足的内存资源，适用于物联网应用。",
@@ -24,8 +24,8 @@
   "boardDependencies": {
     "@aily-project/compiler-esp-rv32": "14.2.0",
     "@aily-project/tool-esptool_py": "5.1.0",
-    "@aily-project/sdk-esp32": "3.3.1",
-    "@aily-project/tool-idf_esp32c3": "5.5.1",
+    "@aily-project/sdk-esp32": "3.3.10",
+    "@aily-project/tool-esp32c3-libs": "3.3.10",
     "@aily-project/tool-ctags": "5.8.0"
   }
 }

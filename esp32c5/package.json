@@ -1,7 +1,7 @@
 {
   "name": "@aily-project/board-esp32c5",
-  "nickname": "ESP32C5 board",
-  "version": "3.3.1",
+  "nickname": "ESP32C5 chip",
+  "version": "3.3.10",
   "description": "Generic ESP32-C5 development board configuration. The ESP32-C5 features full Wi-Fi 6, Bluetooth Low Energy, Zigbee, and Thread capabilities for versatile wireless connectivity.",
   "description_en": "Generic ESP32-C5 development board configuration. The ESP32-C5 features full Wi-Fi 6, Bluetooth Low Energy, Zigbee, and Thread capabilities for versatile wireless connectivity.",
   "description_zh_cn": "ESP32-C5 开发板通用配置。ESP32-C5 支持完整的 Wi-Fi 6、低功耗蓝牙、Zigbee 和 Thread 功能，提供多样化的无线连接能力。",
@@ -26,8 +26,8 @@
   "boardDependencies": {
     "@aily-project/compiler-esp-rv32": "14.2.0",
     "@aily-project/tool-esptool_py": "5.1.0",
-    "@aily-project/sdk-esp32": "3.3.1",
-    "@aily-project/tool-idf_esp32c5": "5.5.1",
+    "@aily-project/sdk-esp32": "3.3.10",
+    "@aily-project/tool-esp32c5-libs": "3.3.10",
     "@aily-project/tool-ctags": "5.8.0"
   }
 }
