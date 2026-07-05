@@ -25,7 +25,7 @@
   "state": "alpha",
   "boardDependencies": {
     "@aily-project/compiler-esp-rv32": "14.2.0",
-    "@aily-project/tool-esptool_py": "5.1.0",
+    "@aily-project/tool-esptool_py": "5.3.0",
     "@aily-project/sdk-esp32": "3.3.10",
     "@aily-project/tool-esp32p4_es-libs": "3.3.10",
     "@aily-project/tool-ctags": "5.8.0"
