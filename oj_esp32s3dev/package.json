@@ -1,6 +1,6 @@
 {
   "name": "@aily-project/board-esp32s3dev",
-  "nickname": "Wifiduino ESP32S3dev board",
+  "nickname": "Wifiduino ESP32S3dev",
   "version": "3.2.1",
   "description": "Wifiduino ESP32S3dev board configuration with default pin mappings and settings.",
   "description_en": "Wifiduino ESP32S3dev board configuration with default pin mappings and settings.",
