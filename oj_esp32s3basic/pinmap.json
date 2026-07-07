@@ -257,7 +257,7 @@
           "disabled": false
         },
         {
-          "name": "SDA",
+          "name": "SDA1",
           "type": "i2c",
           "visible": true,
           "disabled": false
@@ -300,7 +300,7 @@
           "disabled": false
         },
         {
-          "name": "SCL",
+          "name": "SCL1",
           "type": "i2c",
           "visible": true,
           "disabled": false
@@ -343,12 +343,6 @@
           "disabled": false
         },
         {
-          "name": "SDA1",
-          "type": "i2c",
-          "visible": true,
-          "disabled": false
-        },
-        {
           "name": "GPIO6",
           "type": "gpio",
           "visible": true,
@@ -382,12 +376,6 @@
         {
           "name": "7",
           "type": "analog",
-          "visible": true,
-          "disabled": false
-        },
-        {
-          "name": "SCL1",
-          "type": "i2c",
           "visible": true,
           "disabled": false
         },
@@ -429,6 +417,12 @@
           "disabled": false
         },
         {
+          "name": "SDA",
+          "type": "i2c",
+          "visible": true,
+          "disabled": false
+        },
+        {
           "name": "GPIO8",
           "type": "gpio",
           "visible": true,
@@ -462,6 +456,12 @@
         {
           "name": "9",
           "type": "analog",
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "name": "SCL",
+          "type": "i2c",
           "visible": true,
           "disabled": false
         },
