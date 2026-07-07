@@ -3,3 +3,5 @@ package-lock.json
 **/node_modules
 **/.temp
 **/*.png
+boards.json
+boards-ai.json
