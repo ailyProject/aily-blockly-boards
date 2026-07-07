@@ -1,0 +1,32 @@
+{
+  "name": "@aily-project/board-esp32s31",
+  "nickname": "ESP32S31 chip",
+  "version": "3.3.10",
+  "description": "Generic ESP32-S31-WROOM-3 module configuration. The ESP32-S31 is a dual-core 32-bit RISC-V MCU running up to 320 MHz with 2.4 GHz Wi-Fi 6, Bluetooth 5.4, Bluetooth Classic, Zigbee, Thread, USB 2.0 HS OTG, USB Serial/JTAG, Ethernet MAC, 54 GPIO, touch, ADC, and DAC peripherals.",
+  "description_en": "Generic ESP32-S31-WROOM-3 module configuration. The ESP32-S31 is a dual-core 32-bit RISC-V MCU running up to 320 MHz with 2.4 GHz Wi-Fi 6, Bluetooth 5.4, Bluetooth Classic, Zigbee, Thread, USB 2.0 HS OTG, USB Serial/JTAG, Ethernet MAC, 54 GPIO, touch, ADC, and DAC peripherals.",
+  "description_zh_cn": "ESP32-S31-WROOM-3 模组通用配置。ESP32-S31 采用双核 32 位 RISC-V MCU，主频最高 320 MHz，集成 2.4 GHz Wi-Fi 6、Bluetooth 5.4、经典蓝牙、Zigbee、Thread、USB 2.0 高速 OTG、USB 串口/JTAG、以太网 MAC、54 个 GPIO、触摸、ADC 和 DAC 外设。",
+  "description_zh_hk": "ESP32-S31-WROOM-3 模組通用配置。ESP32-S31 採用雙核 32 位 RISC-V MCU，主頻最高 320 MHz，整合 2.4 GHz Wi-Fi 6、Bluetooth 5.4、經典藍牙、Zigbee、Thread、USB 2.0 高速 OTG、USB 串口/JTAG、以太網 MAC、54 個 GPIO、觸摸、ADC 和 DAC 外設。",
+  "description_ja": "ESP32-S31-WROOM-3 モジュール向けの汎用設定です。ESP32-S31 は最大 320 MHz のデュアルコア 32 ビット RISC-V MCU で、2.4 GHz Wi-Fi 6、Bluetooth 5.4、Bluetooth Classic、Zigbee、Thread、USB 2.0 HS OTG、USB Serial/JTAG、Ethernet MAC、54 本の GPIO、タッチ、ADC、DAC 周辺機能を備えます。",
+  "description_ko": "ESP32-S31-WROOM-3 모듈용 범용 설정입니다. ESP32-S31은 최대 320 MHz로 동작하는 듀얼 코어 32비트 RISC-V MCU이며 2.4 GHz Wi-Fi 6, Bluetooth 5.4, Bluetooth Classic, Zigbee, Thread, USB 2.0 HS OTG, USB Serial/JTAG, Ethernet MAC, 54개 GPIO, 터치, ADC, DAC 주변장치를 제공합니다.",
+  "description_de": "Generische ESP32-S31-WROOM-3-Modulkonfiguration. Der ESP32-S31 ist ein Dual-Core-32-Bit-RISC-V-MCU mit bis zu 320 MHz und 2,4-GHz-Wi-Fi 6, Bluetooth 5.4, Bluetooth Classic, Zigbee, Thread, USB 2.0 HS OTG, USB Serial/JTAG, Ethernet MAC, 54 GPIOs, Touch, ADC und DAC.",
+  "description_fr": "Configuration générique du module ESP32-S31-WROOM-3. Le module ESP32-S31 utilise un MCU RISC-V 32 bits double coeur jusqu à 320 MHz avec Wi-Fi 6 2,4 GHz, Bluetooth 5.4, Bluetooth Classic, Zigbee, Thread, USB 2.0 HS OTG, USB Serial/JTAG, Ethernet MAC, 54 GPIO, tactile, ADC et DAC.",
+  "description_es": "Configuración genérica del módulo ESP32-S31-WROOM-3. El ESP32-S31 es un MCU RISC-V de 32 bits y doble núcleo de hasta 320 MHz con Wi-Fi 6 de 2,4 GHz, Bluetooth 5.4, Bluetooth Classic, Zigbee, Thread, USB 2.0 HS OTG, USB Serial/JTAG, Ethernet MAC, 54 GPIO, táctil, ADC y DAC.",
+  "description_pt": "Configuração genérica do módulo ESP32-S31-WROOM-3. O ESP32-S31 é um MCU RISC-V de 32 bits e dois núcleos de até 320 MHz com Wi-Fi 6 de 2,4 GHz, Bluetooth 5.4, Bluetooth Classic, Zigbee, Thread, USB 2.0 HS OTG, USB Serial/JTAG, Ethernet MAC, 54 GPIOs, toque, ADC e DAC.",
+  "description_ru": "Универсальная конфигурация модуля ESP32-S31-WROOM-3. ESP32-S31 это двухъядерный 32-битный MCU RISC-V с частотой до 320 МГц, Wi-Fi 6 2,4 ГГц, Bluetooth 5.4, Bluetooth Classic, Zigbee, Thread, USB 2.0 HS OTG, USB Serial/JTAG, Ethernet MAC, 54 GPIO, touch, ADC и DAC.",
+  "description_ar": "تكوين عام لوحدة ESP32-S31-WROOM-3. يعتمد ESP32-S31 على متحكم RISC-V ثنائي النواة 32 بت بتردد يصل إلى 320 MHz ويدعم Wi-Fi 6 بتردد 2.4 GHz وBluetooth 5.4 وBluetooth Classic وZigbee وThread وUSB 2.0 HS OTG وUSB Serial/JTAG وEthernet MAC و54 GPIO واللمس وADC وDAC.",
+  "main": "index.js",
+  "url": "https://documentation.espressif.com/esp32-s31-wroom-3_datasheet_cn.pdf",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "brand": "Espressif",
+  "state": "todo",
+  "boardDependencies": {
+    "@aily-project/compiler-esp-rv32": "14.2.0",
+    "@aily-project/tool-esptool_py": "5.3.0",
+    "@aily-project/sdk-esp32": "3.3.10",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}
