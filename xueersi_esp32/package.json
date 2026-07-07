@@ -1,0 +1,25 @@
+{
+  "name": "@aily-project/board-xueersi_esp32",
+  "nickname": "Xueersi XiaoMiao ESP32",
+  "version": "3.3.10",
+  "description": "Xueersi XiaoMiao ESP32 handheld board with SPI TFT display, MicroSD card, six buttons, passive buzzer, light and temperature ADC sensors, I2C, UART0, and four GPIO expansion ports.",
+  "description_en": "Xueersi XiaoMiao ESP32 handheld board with SPI TFT display, MicroSD card, six buttons, passive buzzer, light and temperature ADC sensors, I2C, UART0, and four GPIO expansion ports.",
+  "description_zh_cn": "学而思 ESP32 小喵掌机开发板，集成 SPI TFT 显示屏、MicroSD 卡、6 个按键、无源蜂鸣器、光照和温度 ADC 传感器、I2C、UART0 以及 4 个 GPIO 扩展口。",
+  "description_zh_hk": "學而思 ESP32 小喵掌機開發板，整合 SPI TFT 顯示屏、MicroSD 卡、6 個按鍵、無源蜂鳴器、光照和溫度 ADC 感測器、I2C、UART0 以及 4 個 GPIO 擴展口。",
+  "main": "index.js",
+  "brand": "Xueersi",
+  "url": "https://github.com/pysn2012/xueersi-xiaomiao",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kittenbot",
+  "state": "alpha",
+  "license": "Apache-2.0",
+  "boardDependencies": {
+    "@aily-project/compiler-esp-x32": "14.2.0",
+    "@aily-project/tool-esptool_py": "5.3.0",
+    "@aily-project/sdk-esp32": "3.3.10",
+    "@aily-project/tool-esp32-libs": "3.3.10",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}
