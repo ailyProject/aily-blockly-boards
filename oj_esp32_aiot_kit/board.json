@@ -75,71 +75,71 @@
             "1"
         ],
         [
-            "GPIO2",
+            "GPIO2/MIC_SD",
             "2"
         ],
         [
-            "GPIO3",
+            "GPIO3/SD_CLK",
             "3"
         ],
         [
-            "GPIO4",
+            "GPIO4/CAM_SIOD",
             "4"
         ],
         [
-            "GPIO5",
+            "GPIO5/CAM_SIOC",
             "5"
         ],
         [
-            "GPIO6",
+            "GPIO6/CAM_VSYNC",
             "6"
         ],
         [
-            "GPIO7",
+            "GPIO7/CAM_HREF",
             "7"
         ],
         [
-            "GPIO8",
+            "GPIO8/CAM_Y4",
             "8"
         ],
         [
-            "GPIO9",
+            "GPIO9/CAM_Y3",
             "9"
         ],
         [
-            "GPIO10",
+            "GPIO10/CAM_Y5",
             "10"
         ],
         [
-            "GPIO11",
+            "GPIO11/CAM_Y2",
             "11"
         ],
         [
-            "GPIO12",
+            "GPIO12/CAM_Y6",
             "12"
         ],
         [
-            "GPIO13",
+            "GPIO13/CAM_PCLK",
             "13"
         ],
         [
-            "GPIO14",
+            "GPIO14/SD_MOSI",
             "14"
         ],
         [
-            "GPIO15",
+            "GPIO15/CAM_XCLK",
             "15"
         ],
         [
-            "GPIO16",
+            "GPIO16/CAM_Y9",
             "16"
         ],
         [
-            "GPIO17",
+            "GPIO17/CAM_Y8",
             "17"
         ],
         [
-            "GPIO18",
+            "GPIO18/CAM_Y7",
             "18"
         ],
         [
@@ -151,11 +151,11 @@
             "20"
         ],
         [
-            "GPIO21",
+            "GPIO21/LCD_SCLK",
             "21"
         ],
         [
-            "GPIO35",
+            "GPIO35/SD_MISO",
             "35"
         ],
         [
@@ -167,31 +167,31 @@
             "37"
         ],
         [
-            "GPIO38",
+            "GPIO38/SPK_DIN",
             "38"
         ],
         [
-            "GPIO39",
+            "GPIO39/SPK_BCLK",
             "39"
         ],
         [
-            "GPIO40",
+            "GPIO40/SPK_LRC",
             "40"
         ],
         [
-            "GPIO41",
+            "GPIO41/MIC_SCK",
             "41"
         ],
         [
-            "GPIO42",
+            "GPIO42/MIC_WS",
             "42"
         ],
         [
-            "GPIO43",
+            "GPIO43/LCD_DC",
             "43"
         ],
         [
-            "GPIO44",
+            "GPIO44/LCD_CS",
             "44"
         ],
         [
@@ -199,11 +199,11 @@
             "45"
         ],
         [
-            "GPIO46",
+            "GPIO46/SD_CS",
             "46"
         ],
         [
-            "GPIO47",
+            "GPIO47/LCD_MOSI",
             "47"
         ],
         [
@@ -483,43 +483,21 @@
         [
             "SPI",
             "SPI"
-        ],
-        [
-            "SPI1",
-            "SPI1"
-        ],
-        [
-            "SPI2",
-            "SPI2"
         ]
     ],
     "spiPins": {
         "SPI": [
             [
                 "MOSI",
-                "11"
+                "14"
             ],
             [
                 "MISO",
-                "13"
-            ],
-            [
-                "SCK",
-                "12"
-            ]
-        ],
-        "SPI1": [
-            [
-                "MOSI",
                 "35"
             ],
             [
-                "MISO",
-                "37"
-            ],
-            [
                 "SCK",
-                "36"
+                "3"
             ]
         ]
     },
@@ -577,11 +555,11 @@
         "Wire1": [
             [
                 "SDA",
-                "37"
+                "4"
             ],
             [
                 "SCL",
-                "38"
+                "5"
             ]
         ]
     },
@@ -606,7 +584,7 @@
         ]
     ],
     "interruptPins": [
-         [
+        [
             "GPIO0",
             "0"
         ],

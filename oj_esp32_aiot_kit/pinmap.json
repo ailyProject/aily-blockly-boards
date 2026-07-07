@@ -214,6 +214,12 @@
           "disabled": false
         },
         {
+          "name": "SCK",
+          "type": "spi",
+          "visible": true,
+          "disabled": false
+        },
+        {
           "name": "GPIO3",
           "type": "gpio",
           "visible": true,
@@ -251,6 +257,12 @@
           "disabled": false
         },
         {
+          "name": "SDA1",
+          "type": "i2c",
+          "visible": true,
+          "disabled": false
+        },
+        {
           "name": "GPIO4",
           "type": "gpio",
           "visible": true,
@@ -284,6 +296,12 @@
         {
           "name": "GPIO5",
           "type": "analog",
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "name": "SCL1",
+          "type": "i2c",
           "visible": true,
           "disabled": false
         },
@@ -522,12 +540,6 @@
           "disabled": false
         },
         {
-          "name": "MOSI",
-          "type": "spi",
-          "visible": true,
-          "disabled": false
-        },
-        {
           "name": "GPIO11",
           "type": "gpio",
           "visible": true,
@@ -561,12 +573,6 @@
         {
           "name": "GPIO12",
           "type": "analog",
-          "visible": true,
-          "disabled": false
-        },
-        {
-          "name": "SCK",
-          "type": "spi",
           "visible": true,
           "disabled": false
         },
@@ -608,12 +614,6 @@
           "disabled": false
         },
         {
-          "name": "MISO",
-          "type": "spi",
-          "visible": true,
-          "disabled": false
-        },
-        {
           "name": "GPIO13",
           "type": "gpio",
           "visible": true,
@@ -647,6 +647,12 @@
         {
           "name": "GPIO14",
           "type": "analog",
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "name": "MOSI",
+          "type": "spi",
           "visible": true,
           "disabled": false
         },
@@ -853,7 +859,7 @@
           "disabled": false
         },
         {
-          "name": "MOSI",
+          "name": "MISO",
           "type": "spi",
           "visible": true,
           "disabled": false
@@ -883,12 +889,6 @@
           "disabled": false
         },
         {
-          "name": "SCK",
-          "type": "spi",
-          "visible": true,
-          "disabled": false
-        },
-        {
           "name": "GPIO36",
           "type": "gpio",
           "visible": true,
@@ -913,18 +913,6 @@
           "disabled": false
         },
         {
-          "name": "SDA1",
-          "type": "i2c",
-          "visible": true,
-          "disabled": false
-        },
-        {
-          "name": "MISO",
-          "type": "spi",
-          "visible": true,
-          "disabled": false
-        },
-        {
           "name": "GPIO37",
           "type": "gpio",
           "visible": true,
@@ -945,12 +933,6 @@
         {
           "name": "GPIO38",
           "type": "digital",
-          "visible": true,
-          "disabled": false
-        },
-        {
-          "name": "SCL1",
-          "type": "i2c",
           "visible": true,
           "disabled": false
         },
