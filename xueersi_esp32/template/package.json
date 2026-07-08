@@ -17,6 +17,7 @@
     "@aily-project/lib-esp32-i2c": "1.0.0",
     "@aily-project/lib-esp32-sd": "1.0.0",
     "@aily-project/lib-tft-espi": "2.5.43",
-    "@aily-project/lib-xueersi-esp32-button": "1.0.0"
+    "@aily-project/lib-xueersi-esp32-button": "1.0.0",
+    "@aily-project/lib-tft-screen": "1.0.0"
   }
 }
