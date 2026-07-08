@@ -14,9 +14,6 @@
     "@aily-project/lib-core-time": "0.0.1",
     "@aily-project/lib-core-tone": "0.0.2",
     "@aily-project/lib-core-variables": "1.0.1",
-    "@aily-project/lib-esp32-i2c": "1.0.0",
-    "@aily-project/lib-esp32-sd": "1.0.0",
-    "@aily-project/lib-tft-espi": "2.5.43",
     "@aily-project/lib-xueersi-esp32-button": "1.0.0",
     "@aily-project/lib-tft-screen": "1.0.0"
   }
