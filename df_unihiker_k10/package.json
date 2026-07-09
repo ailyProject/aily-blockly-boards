@@ -1,7 +1,7 @@
 {
   "name": "@aily-project/board-df_unihiker_k10",
   "nickname": "行空板K10",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The UNIHIKER K10 is an ESP32-S3-based educational development board by DFRobot, featuring a 2.8-inch touchscreen display, Wi-Fi and Bluetooth connectivity, built-in camera, microphone, speaker, RGB indicator, and various sensors, designed for AI and IoT education.",
   "description_en": "The UNIHIKER K10 is an ESP32-S3-based educational development board by DFRobot, featuring a 2.8-inch touchscreen display, Wi-Fi and Bluetooth connectivity, built-in camera, microphone, speaker, RGB indicator, and various sensors, designed for AI and IoT education.",
   "description_zh_cn": "行空板 K10 是 DFRobot 推出的基于 ESP32-S3 的教育开发板，配备 2.8 英寸触摸屏显示器、Wi-Fi 和蓝牙连接、内置摄像头、麦克风、扬声器、RGB 指示灯和多种传感器，专为 AI 和物联网教育设计。",
