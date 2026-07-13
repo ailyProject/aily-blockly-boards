@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "@aily-project/board-df_unihiker_k10": "0.0.4",
+    "@aily-project/board-df_unihiker_k10": "0.0.5",
     "@aily-project/lib-core-io": "1.0.0",
     "@aily-project/lib-core-logic": "0.0.1",
     "@aily-project/lib-core-loop": "0.0.1",
@@ -13,11 +13,14 @@
     "@aily-project/lib-core-time": "0.0.1",
     "@aily-project/lib-core-variables": "1.0.1",
     "@aily-project/lib-unihiker-k10-button": "0.3.0",
-    "@aily-project/lib-unihiker-k10-camera-ai": "0.1.6",
-    "@aily-project/lib-unihiker-k10-display": "0.3.0",
+    "@aily-project/lib-unihiker-k10-camera-ai": "0.1.14",
+    "@aily-project/lib-unihiker-k10-display": "0.3.1",
     "@aily-project/lib-unihiker-k10-led": "0.2.0",
     "@aily-project/lib-unihiker-k10-music": "0.2.0",
     "@aily-project/lib-unihiker-k10-sensor": "0.3.0",
-    "@aily-project/lib-unihiker-k10-speech": "0.2.0"
+    "@aily-project/lib-unihiker-k10-speech": "0.3.2"
+  },
+  "projectConfig": {
+    "Model": "Hi_eps"
   }
 }

@@ -1,11 +1,11 @@
 {
     "name": "Unihiker K10",
-    "version":"0.0.4",
+    "version":"0.0.5",
     "description": "行空板K10是一款专为信息科技课程中的编程学习、物联网及AI项目教学需求而开发的学习板。它集摄像头、LCD彩屏、麦克风、扬声器、WiFi蓝牙模块、RGB指示灯及多种传感器和扩展接口于一体，无需额外设备即可实现传感器控制、物联网应用、图像检测、语音识别、语音合成等AI项目。",
     "compilerTool": "aily-builder",
     "core": "UNIHIKER:esp32",
     "type": "UNIHIKER:esp32:k10",
-    "compilerParam": "compile -v -b UNIHIKER:esp32:k10 --build-property build.cdc_on_boot=1",
+    "compilerParam": "compile --verbose -b UNIHIKER:esp32:k10 --board-options Model=Hi_eps --build-property build.cdc_on_boot=1",
     "uploadParam": "esptool --chip esp32s3 --port ${serial} --baud ${baud} --before default_reset --after hard_reset write_flash -z --flash_mode keep --flash_freq keep --flash_size keep 0x0 ${bootloader} 0x8000 ${partitions} 0xe000 ${boot_app0} 0x10000 ${'*.bin'}",
     "analogPins": [
         [
