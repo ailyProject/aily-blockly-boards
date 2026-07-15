@@ -19,6 +19,12 @@
     "@aily-project/lib-es8311": "^1.0.0",
     "@aily-project/lib-lvgl": "^1.0.1",
     "@aily-project/lib-tft-espi": "^2.5.43"
+  },
+   "projectConfig": {
+    "FlashSize": "16M",
+    "PartitionScheme": "app3M_fat9M_16MB",
+    "CDCOnBoot": "cdc",
+    "PSRAM": "opi"
   }
   
 }
