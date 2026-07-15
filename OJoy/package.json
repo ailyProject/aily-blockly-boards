@@ -1,0 +1,31 @@
+{
+    "name": "@aily-project/board-ojoy",
+    "nickname": "OJoy",
+    "version": "3.3.10",
+    "description": "OJoy 1.6-inch round AMOLED dev board (ESP32-S3 + CH13613)",
+    "description_en": "OJoy 1.6-inch round AMOLED dev board (ESP32-S3 + CH13613)",
+    "description_zh_cn": "OJoy 1.6\" 圆屏开发板 (ESP32-S3 + CH13613 AMOLED)",
+    "description_zh_hk": "ESP32-S3 開發板通用配置。ESP32-S3 是一款雙核 Xtensa LX7 MCU，整合 2.4 GHz Wi-Fi 和藍牙 5（LE），支援遠距離模式和 AI 加速功能。",
+    "description_ja": "ESP32-S3開発ボード汎用設定。ESP32-S3は2.4GHz Wi-FiとBluetooth 5（LE）を統合したデュアルコアXtensa LX7 MCUで、ロングレンジモードとAIアクセラレーション機能に対応しています。",
+    "description_ko": "ESP32-S3 개발 보드 범용 구성. ESP32-S3는 2.4GHz Wi-Fi 및 Bluetooth 5(LE)를 통합한 듀얼코어 Xtensa LX7 MCU로, 장거리 모드 지원 및 AI 가속 기능을 갖추고 있습니다.",
+    "description_de": "Generische ESP32-S3-Entwicklungsboard-Konfiguration. Der ESP32-S3 ist ein Dual-Core Xtensa LX7 MCU mit integriertem 2,4-GHz-Wi-Fi und Bluetooth 5 (LE) mit Long-Range-Modus-Unterstützung und KI-Beschleunigungsfähigkeiten.",
+    "description_fr": "Configuration générique de carte de développement ESP32-S3. L'ESP32-S3 est un MCU double cœur Xtensa LX7 intégrant le Wi-Fi 2,4 GHz et le Bluetooth 5 (LE) avec prise en charge du mode longue portée et des capacités d'accélération IA.",
+    "description_es": "Configuración genérica de placa de desarrollo ESP32-S3. El ESP32-S3 es un MCU de doble núcleo Xtensa LX7 que integra Wi-Fi de 2,4 GHz y Bluetooth 5 (LE) con soporte de modo de largo alcance y capacidades de aceleración IA.",
+    "description_pt": "Configuração genérica de placa de desenvolvimento ESP32-S3. O ESP32-S3 é um MCU de duplo núcleo Xtensa LX7 que integra Wi-Fi de 2,4 GHz e Bluetooth 5 (LE) com suporte ao modo de longo alcance e capacidades de aceleração IA.",
+    "description_ru": "Универсальная конфигурация платы разработки ESP32-S3. ESP32-S3 — двухъядерный МК Xtensa LX7 с интегрированным Wi-Fi 2,4 ГГц и Bluetooth 5 (LE) с поддержкой режима дальнего действия и возможностями ИИ-ускорения.",
+    "description_ar": "تكوين عام للوحة تطوير ESP32-S3. ESP32-S3 هو متحكم ثنائي النواة Xtensa LX7 يدمج Wi-Fi 2.4 جيجاهرتز وBluetooth 5 (LE) مع دعم وضع المدى الطويل وقدرات تسريع الذكاء الاصطناعي.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "brand": "Espressif",
+    "boardDependencies": {
+        "@aily-project/compiler-esp-x32": "14.2.0",
+        "@aily-project/tool-esptool_py": "5.3.0",
+        "@aily-project/sdk-esp32": "3.3.10",
+        "@aily-project/tool-esp32s3-libs": "3.3.10",
+        "@aily-project/tool-ctags": "5.8.0"
+    }
+}
