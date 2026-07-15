@@ -16,7 +16,7 @@
     "@aily-project/lib-lvgl": "1.0.1",
     "@aily-project/lib-seeed-wio-gfx": "1.0.0",
     "@aily-project/lib-seeed-wio-sd": "1.0.0",
-    "@aily-project/lib-seeed-wio-buttons": "1.0.0",
+    "@aily-project/lib-seeed-wio-buttons": "1.0.1",
     "@aily-project/lib-seeed-wio-sound": "1.0.0",
     "@aily-project/lib-seeed-rpcble": "1.0.0",
     "@aily-project/lib-seeed-wio-accel": "1.0.0",
