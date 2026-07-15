@@ -1,0 +1,23 @@
+{
+  "name": "project_",
+  "version": "1.0.0",
+  "description": "",
+  "board": "ESP32S3 board",
+  "dependencies": {
+    "@aily-project/lib-core-io": "1.0.0",
+    "@aily-project/lib-core-logic": "0.0.1",
+    "@aily-project/lib-core-loop": "0.0.1",
+    "@aily-project/lib-core-math": "0.0.1",
+    "@aily-project/lib-core-text": "1.0.0",
+    "@aily-project/lib-core-serial": "0.0.1",
+    "@aily-project/lib-core-time": "0.0.1",
+    "@aily-project/lib-core-variables": "1.0.1",
+    "@aily-project/board-ojoy": "3.3.10"
+  },
+   "projectConfig": {
+    "FlashSize": "16M",
+    "PartitionScheme": "app3M_fat9M_16MB",
+    "CDCOnBoot": "cdc",
+    "PSRAM": "opi"
+  }
+}
