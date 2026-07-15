@@ -155,11 +155,11 @@
             "42"
         ],
         [
-            "TOUCH_SDA",
+            "TOUCH_SDA/GAUGE_SDA",
             "43"
         ],
         [
-            "TOUCH_SCL",
+            "TOUCH_SCL/GAUGE_SCL",
             "44"
         ],
         [
