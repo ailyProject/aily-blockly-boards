@@ -1,0 +1,31 @@
+{
+  "name": "@aily-project/board-aithinker-bw16-type-c",
+  "nickname": "BW16 Type-C",
+  "version": "1.0.0",
+  "description": "Ai-Thinker BW16 Type-C partner development board based on the RTL8720DN, using the official BW16 Arduino target.",
+  "description_en": "Ai-Thinker BW16 Type-C partner development board based on the RTL8720DN, using the official BW16 Arduino target.",
+  "description_zh_cn": "安信可 BW16 Type-C 是一款基于 RTL8720DN 的合作开发板，在官方 Arduino 核心中使用 BW16 板型。",
+  "main": "index.js",
+  "url": "https://www.amebaiot.com/en/ameba-arduino-summary/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Ameba",
+    "BW16",
+    "RTL8720DN",
+    "USB-C",
+    "WiFi",
+    "Bluetooth"
+  ],
+  "author": "Ai-Thinker",
+  "brand": "Ai-Thinker",
+  "license": "MIT",
+  "state": "todo",
+  "boardDependencies": {
+    "@aily-project/compiler-ameba_d_asdk_toolchain": "1.0.0",
+    "@aily-project/tool-ameba_d_tools": "1.0.0",
+    "@aily-project/sdk-amebad": "1.0.0",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}

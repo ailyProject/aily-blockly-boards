@@ -1,0 +1,29 @@
+{
+  "name": "@aily-project/board-ameba-amb01",
+  "nickname": "AMB01",
+  "version": "1.0.0",
+  "description": "Realtek AMB01 development board based on the RTL8195AM Arm Cortex-M3 Wi-Fi microcontroller.",
+  "description_en": "Realtek AMB01 development board based on the RTL8195AM Arm Cortex-M3 Wi-Fi microcontroller.",
+  "description_zh_cn": "Realtek AMB01 是一款基于 RTL8195AM Arm Cortex-M3 Wi-Fi 微控制器的开发板。",
+  "main": "index.js",
+  "url": "https://www.amebaiot.com/en/ameba-arduino-summary/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Ameba",
+    "AMB01",
+    "RTL8195AM",
+    "WiFi"
+  ],
+  "author": "Realtek",
+  "brand": "Realtek",
+  "license": "MIT",
+  "state": "todo",
+  "boardDependencies": {
+    "@aily-project/compiler-ameba_1_arm-none-eabi-gcc": "1.0.0",
+    "@aily-project/tool-ameba_1_tools": "1.0.0",
+    "@aily-project/sdk-ameba1": "1.0.0",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}

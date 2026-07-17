@@ -1,0 +1,30 @@
+{
+  "name": "@aily-project/board-ameba-amb26",
+  "nickname": "AMB26",
+  "version": "1.0.0",
+  "description": "Realtek AMB26 development board based on the RTL8720DF, with Wi-Fi and Bluetooth LE connectivity.",
+  "description_en": "Realtek AMB26 development board based on the RTL8720DF, with Wi-Fi and Bluetooth LE connectivity.",
+  "description_zh_cn": "Realtek AMB26 是一款基于 RTL8720DF 的开发板，支持 Wi-Fi 和蓝牙低功耗连接。",
+  "main": "index.js",
+  "url": "https://www.amebaiot.com/en/ameba-arduino-summary/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Ameba",
+    "AMB26",
+    "RTL8720DF",
+    "WiFi",
+    "Bluetooth"
+  ],
+  "author": "Realtek",
+  "brand": "Realtek",
+  "license": "MIT",
+  "state": "todo",
+  "boardDependencies": {
+    "@aily-project/compiler-ameba_d_asdk_toolchain": "1.0.0",
+    "@aily-project/tool-ameba_d_tools": "1.0.0",
+    "@aily-project/sdk-amebad": "1.0.0",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}

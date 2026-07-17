@@ -1,0 +1,33 @@
+{
+  "name": "@aily-project/board-ameba-amb82-mini",
+  "nickname": "AMB82 MINI",
+  "version": "1.0.0",
+  "description": "Realtek AMB82 MINI development board based on the RTL8735B, with Wi-Fi, Bluetooth LE, camera, audio, and edge AI capabilities.",
+  "description_en": "Realtek AMB82 MINI development board based on the RTL8735B, with Wi-Fi, Bluetooth LE, camera, audio, and edge AI capabilities.",
+  "description_zh_cn": "Realtek AMB82 MINI 是一款基于 RTL8735B 的开发板，支持 Wi-Fi、蓝牙低功耗、摄像头、音频和边缘 AI 功能。",
+  "main": "index.js",
+  "url": "https://www.amebaiot.com/en/ameba-arduino-summary/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Ameba",
+    "AMB82",
+    "RTL8735B",
+    "AI",
+    "Camera",
+    "WiFi"
+  ],
+  "author": "Realtek",
+  "brand": "Realtek",
+  "license": "MIT",
+  "state": "todo",
+  "boardDependencies": {
+    "@aily-project/compiler-ameba_pro2_toolchain": "1.0.0",
+    "@aily-project/compiler-ameba_pro2_toolchain2": "1.0.0",
+    "@aily-project/tool-ameba_pro2_tools": "1.0.0",
+    "@aily-project/tool-ameba_pro2_nn_models": "1.0.0",
+    "@aily-project/sdk-amebapro2": "1.0.0",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}
