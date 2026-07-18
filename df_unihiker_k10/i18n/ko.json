@@ -1,0 +1,19 @@
+{
+  "ESP32": {
+    "UPLOAD_SPEED": "업로드 속도",
+    "USB_MODE": "USB 모드",
+    "CDC_ON_BOOT": "부팅 시 USB CDC 활성화",
+    "MSC_ON_BOOT": "부팅 시 USB 펌웨어 MSC 활성화",
+    "DFU_ON_BOOT": "부팅 시 USB DFU 활성화",
+    "UPLOAD_MODE": "업로드 방법",
+    "CPU_FREQ": "CPU 주파수",
+    "PARTITION_SCHEME": "파티션 스킴",
+    "DEBUG_LEVEL": "코어 디버그 레벨",
+    "PSRAM": "PSRAM",
+    "LOOP_CORE": "Arduino 실행 코어",
+    "EVENTS_CORE": "이벤트 실행 코어",
+    "ERASE_FLASH": "업로드 전 플래시 전체 지우기",
+    "JTAG_ADAPTER": "JTAG 어댑터",
+    "MODEL": "모델"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ESP32": {
+    "UPLOAD_SPEED": "Vitesse de téléversement",
+    "USB_MODE": "Mode USB",
+    "CDC_ON_BOOT": "USB CDC au démarrage",
+    "MSC_ON_BOOT": "MSC du micrologiciel USB au démarrage",
+    "DFU_ON_BOOT": "USB DFU au démarrage",
+    "UPLOAD_MODE": "Méthode de téléversement",
+    "CPU_FREQ": "Fréquence du processeur",
+    "PARTITION_SCHEME": "Schéma de partition",
+    "DEBUG_LEVEL": "Niveau de débogage du cœur",
+    "PSRAM": "PSRAM",
+    "LOOP_CORE": "Arduino s’exécute sur",
+    "EVENTS_CORE": "Les événements s’exécutent sur",
+    "ERASE_FLASH": "Effacer toute la mémoire flash avant le téléversement",
+    "JTAG_ADAPTER": "Adaptateur JTAG",
+    "MODEL": "Modèle"
+  }
+}

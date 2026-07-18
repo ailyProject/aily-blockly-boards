@@ -1,0 +1,12 @@
+{
+  "WIO_TERMINAL": {
+    "ROLE": "الدور",
+    "CACHE": "ذاكرة التخزين المؤقت",
+    "CPU_SPEED": "سرعة المعالج",
+    "OPTIMIZATION": "التحسين",
+    "MAX_QSPI": "أقصى سرعة QSPI",
+    "USB_STACK": "مكدس USB",
+    "DEBUG": "تصحيح الأخطاء",
+    "TX_RX_LED": "مؤشر TX/RX"
+  }
+}

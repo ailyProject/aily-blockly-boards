@@ -1,0 +1,12 @@
+{
+  "WIO_TERMINAL": {
+    "ROLE": "역할",
+    "CACHE": "캐시",
+    "CPU_SPEED": "CPU 속도",
+    "OPTIMIZATION": "최적화",
+    "MAX_QSPI": "최대 QSPI 속도",
+    "USB_STACK": "USB 스택",
+    "DEBUG": "디버그",
+    "TX_RX_LED": "TX/RX LED"
+  }
+}

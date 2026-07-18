@@ -1,0 +1,53 @@
+[
+  {
+    "sep": true
+  },
+  {
+    "name": "WIO_TERMINAL.ROLE",
+    "icon": "fa-light fa-user-gear",
+    "children": [],
+    "key": "role"
+  },
+  {
+    "name": "WIO_TERMINAL.CACHE",
+    "icon": "fa-light fa-memory",
+    "children": [],
+    "key": "cache"
+  },
+  {
+    "name": "WIO_TERMINAL.CPU_SPEED",
+    "icon": "fa-light fa-microchip",
+    "children": [],
+    "key": "speed"
+  },
+  {
+    "name": "WIO_TERMINAL.OPTIMIZATION",
+    "icon": "fa-light fa-gauge-high",
+    "children": [],
+    "key": "opt"
+  },
+  {
+    "name": "WIO_TERMINAL.MAX_QSPI",
+    "icon": "fa-light fa-bolt",
+    "children": [],
+    "key": "maxqspi"
+  },
+  {
+    "name": "WIO_TERMINAL.USB_STACK",
+    "icon": "fa-brands fa-usb",
+    "children": [],
+    "key": "usbstack"
+  },
+  {
+    "name": "WIO_TERMINAL.DEBUG",
+    "icon": "fa-light fa-bug",
+    "children": [],
+    "key": "debug"
+  },
+  {
+    "name": "WIO_TERMINAL.TX_RX_LED",
+    "icon": "fa-light fa-lightbulb",
+    "children": [],
+    "key": "txrxled"
+  }
+]

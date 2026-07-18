@@ -1,0 +1,19 @@
+{
+  "ESP32": {
+    "UPLOAD_SPEED": "書き込み速度",
+    "USB_MODE": "USBモード",
+    "CDC_ON_BOOT": "起動時にUSB CDCを有効化",
+    "MSC_ON_BOOT": "起動時にUSBファームウェアMSCを有効化",
+    "DFU_ON_BOOT": "起動時にUSB DFUを有効化",
+    "UPLOAD_MODE": "書き込み方法",
+    "CPU_FREQ": "CPU周波数",
+    "PARTITION_SCHEME": "パーティション方式",
+    "DEBUG_LEVEL": "コアデバッグレベル",
+    "PSRAM": "PSRAM",
+    "LOOP_CORE": "Arduino実行コア",
+    "EVENTS_CORE": "イベント実行コア",
+    "ERASE_FLASH": "書き込み前にフラッシュを全消去",
+    "JTAG_ADAPTER": "JTAGアダプター",
+    "MODEL": "モデル"
+  }
+}

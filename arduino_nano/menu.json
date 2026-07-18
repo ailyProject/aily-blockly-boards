@@ -1,0 +1,14 @@
+[
+  {
+    "sep": true
+  },
+  {
+    "name": "ARDUINO_NANO.PROCESSOR",
+    "icon": "fa-light fa-microchip",
+    "children": [],
+    "key": "cpu",
+    "extra": {
+      "selectFirstByDefault": true
+    }
+  }
+]

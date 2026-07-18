@@ -1,0 +1,14 @@
+{
+  "ESP32": {
+    "UPLOAD_SPEED": "سرعة الرفع",
+    "USB_MODE": "وضع USB",
+    "UPLOAD_MODE": "طريقة الرفع",
+    "FLASH_MODE": "وضع الفلاش",
+    "FLASH_SIZE": "حجم الفلاش",
+    "PARTITION_SCHEME": "مخطط التقسيم",
+    "DEBUG_LEVEL": "مستوى تصحيح أخطاء النواة",
+    "CDC_ON_BOOT": "USB CDC عند التشغيل",
+    "PSRAM": "PSRAM",
+    "PIN_NUMBERS": "ترقيم الأطراف"
+  }
+}

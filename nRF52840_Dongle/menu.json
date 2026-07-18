@@ -1,0 +1,15 @@
+[
+  {
+    "sep": true
+  },
+  {
+    "name": "NRF5.SOFTDEVICE",
+    "icon": "fa-light fa-microchip",
+    "children": [],
+    "key": "softdevice",
+    "extra": {
+      "selectAction": "flash-softdevice",
+      "selectPortMessage": "SERIAL.SELECT_PORT_FIRST"
+    }
+  }
+]

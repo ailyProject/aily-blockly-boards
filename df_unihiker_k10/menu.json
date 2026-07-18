@@ -1,0 +1,95 @@
+[
+  {
+    "sep": true
+  },
+  {
+    "name": "ESP32.UPLOAD_SPEED",
+    "icon": "fa-light fa-up-from-line",
+    "children": [],
+    "key": "UploadSpeed"
+  },
+  {
+    "name": "ESP32.USB_MODE",
+    "icon": "fa-brands fa-usb",
+    "children": [],
+    "key": "USBMode"
+  },
+  {
+    "name": "ESP32.CDC_ON_BOOT",
+    "icon": "fa-light fa-plug",
+    "children": [],
+    "key": "CDCOnBoot"
+  },
+  {
+    "name": "ESP32.MSC_ON_BOOT",
+    "icon": "fa-light fa-hard-drive",
+    "children": [],
+    "key": "MSCOnBoot"
+  },
+  {
+    "name": "ESP32.DFU_ON_BOOT",
+    "icon": "fa-light fa-code-branch",
+    "children": [],
+    "key": "DFUOnBoot"
+  },
+  {
+    "name": "ESP32.UPLOAD_MODE",
+    "icon": "fa-light fa-cloud-arrow-up",
+    "children": [],
+    "key": "UploadMode"
+  },
+  {
+    "name": "ESP32.CPU_FREQ",
+    "icon": "fa-light fa-gauge-high",
+    "children": [],
+    "key": "CPUFreq"
+  },
+  {
+    "name": "ESP32.PARTITION_SCHEME",
+    "icon": "fa-light fa-table-columns",
+    "children": [],
+    "key": "PartitionScheme"
+  },
+  {
+    "name": "ESP32.DEBUG_LEVEL",
+    "icon": "fa-light fa-bug",
+    "children": [],
+    "key": "DebugLevel"
+  },
+  {
+    "name": "ESP32.PSRAM",
+    "icon": "fa-light fa-memory",
+    "children": [],
+    "key": "PSRAM"
+  },
+  {
+    "name": "ESP32.LOOP_CORE",
+    "icon": "fa-light fa-microchip",
+    "children": [],
+    "key": "LoopCore"
+  },
+  {
+    "name": "ESP32.EVENTS_CORE",
+    "icon": "fa-light fa-bolt",
+    "children": [],
+    "key": "EventsCore"
+  },
+  {
+    "name": "ESP32.ERASE_FLASH",
+    "icon": "fa-light fa-eraser",
+    "children": [],
+    "key": "EraseFlash"
+  },
+  {
+    "name": "ESP32.JTAG_ADAPTER",
+    "icon": "fa-light fa-screwdriver-wrench",
+    "children": [],
+    "key": "JTAGAdapter"
+  },
+  {
+    "name": "ESP32.MODEL",
+    "icon": "fa-light fa-cubes",
+    "children": [],
+    "key": "Model"
+  }
+]

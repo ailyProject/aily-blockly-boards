@@ -1,0 +1,7 @@
+{
+  "STM32": {
+    "BOARD": "開發板型號選擇",
+    "USB": "USB配置",
+    "UPLOAD_METHOD": "燒錄方式"
+  }
+}

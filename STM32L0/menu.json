@@ -1,0 +1,24 @@
+[
+  {
+    "sep": true
+  },
+  {
+    "name": "STM32.BOARD",
+    "data": {},
+    "icon": "fa-light fa-microchip",
+    "children": [],
+    "key": "pnum",
+    "extra": {
+      "optionNameIncludes": "Generic",
+      "selectFirstByDefault": true,
+      "syncPinConfig": true
+    }
+  },
+  {
+    "name": "STM32.USB",
+    "data": {},
+    "icon": "fa-light fa-usb-drive",
+    "children": [],
+    "key": "usb"
+  }
+]

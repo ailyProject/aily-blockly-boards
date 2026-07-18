@@ -1,0 +1,12 @@
+{
+  "WIO_TERMINAL": {
+    "ROLE": "Role",
+    "CACHE": "Cache",
+    "CPU_SPEED": "CPU Speed",
+    "OPTIMIZATION": "Optimization",
+    "MAX_QSPI": "Max QSPI Speed",
+    "USB_STACK": "USB Stack",
+    "DEBUG": "Debug",
+    "TX_RX_LED": "TX/RX LED"
+  }
+}

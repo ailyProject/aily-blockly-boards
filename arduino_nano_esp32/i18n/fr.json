@@ -1,0 +1,14 @@
+{
+  "ESP32": {
+    "UPLOAD_SPEED": "Vitesse de téléchargement",
+    "USB_MODE": "Mode USB",
+    "UPLOAD_MODE": "Méthode de Téléversement",
+    "FLASH_MODE": "Mode Flash",
+    "FLASH_SIZE": "Taille Flash",
+    "PARTITION_SCHEME": "Schéma de partition",
+    "DEBUG_LEVEL": "Niveau de débogage du cœur",
+    "CDC_ON_BOOT": "USB CDC au démarrage",
+    "PSRAM": "PSRAM",
+    "PIN_NUMBERS": "Numérotation des broches"
+  }
+}

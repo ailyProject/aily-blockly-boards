@@ -1,0 +1,7 @@
+{
+  "STM32": {
+    "BOARD": "Seleção do modelo da placa",
+    "USB": "Configurações USB",
+    "UPLOAD_METHOD": "Método de Upload"
+  }
+}

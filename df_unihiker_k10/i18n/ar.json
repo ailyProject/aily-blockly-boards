@@ -1,0 +1,19 @@
+{
+  "ESP32": {
+    "UPLOAD_SPEED": "سرعة الرفع",
+    "USB_MODE": "وضع USB",
+    "CDC_ON_BOOT": "USB CDC عند التشغيل",
+    "MSC_ON_BOOT": "USB Firmware MSC عند التشغيل",
+    "DFU_ON_BOOT": "USB DFU عند التشغيل",
+    "UPLOAD_MODE": "طريقة الرفع",
+    "CPU_FREQ": "تردد المعالج",
+    "PARTITION_SCHEME": "مخطط التقسيم",
+    "DEBUG_LEVEL": "مستوى تصحيح أخطاء النواة",
+    "PSRAM": "PSRAM",
+    "LOOP_CORE": "النواة التي يعمل عليها Arduino",
+    "EVENTS_CORE": "النواة التي تعمل عليها الأحداث",
+    "ERASE_FLASH": "مسح ذاكرة الفلاش بالكامل قبل الرفع",
+    "JTAG_ADAPTER": "محوّل JTAG",
+    "MODEL": "الطراز"
+  }
+}

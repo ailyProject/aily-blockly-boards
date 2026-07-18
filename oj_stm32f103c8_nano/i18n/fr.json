@@ -1,0 +1,7 @@
+{
+  "STM32": {
+    "BOARD": "Sélection du modèle de la carte",
+    "USB": "Paramètres USB",
+    "UPLOAD_METHOD": "Méthode de Téléversement"
+  }
+}

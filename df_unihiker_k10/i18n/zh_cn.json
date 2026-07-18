@@ -1,0 +1,19 @@
+{
+  "ESP32": {
+    "UPLOAD_SPEED": "烧录速度",
+    "USB_MODE": "USB 模式",
+    "CDC_ON_BOOT": "启动时启用 USB CDC",
+    "MSC_ON_BOOT": "启动时启用 USB 固件 MSC",
+    "DFU_ON_BOOT": "启动时启用 USB DFU",
+    "UPLOAD_MODE": "烧录方式",
+    "CPU_FREQ": "CPU 频率",
+    "PARTITION_SCHEME": "分区方案",
+    "DEBUG_LEVEL": "核心调试级别",
+    "PSRAM": "PSRAM",
+    "LOOP_CORE": "Arduino 运行核心",
+    "EVENTS_CORE": "事件运行核心",
+    "ERASE_FLASH": "烧录前擦除全部闪存",
+    "JTAG_ADAPTER": "JTAG 适配器",
+    "MODEL": "模型"
+  }
+}

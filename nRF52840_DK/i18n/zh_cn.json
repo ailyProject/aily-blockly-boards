@@ -1,0 +1,5 @@
+{
+  "NRF5": {
+    "SOFTDEVICE": "SoftDevice"
+  }
+}

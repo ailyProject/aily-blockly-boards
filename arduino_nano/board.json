@@ -6,7 +6,6 @@
     "core": "arduino:avr",
     "type": "arduino:avr:nano",
     "compilerParam": "compile -v -b arduino:avr:nano",
-    "uploadParam": "avrdude -C${'avrdude.conf'} -v -V -patmega328p -carduino -P${serial} -b115200 -D -Uflash:w:${'*.hex'}:i",
     "analogPins": [
         [
             "A0",

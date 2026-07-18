@@ -1,0 +1,29 @@
+[
+  {
+    "sep": true
+  },
+  {
+    "name": "ESP32.USB_MODE",
+    "icon": "fa-brands fa-usb",
+    "children": [],
+    "key": "USBMode"
+  },
+  {
+    "name": "ESP32.PARTITION_SCHEME",
+    "icon": "fa-light fa-hard-drive",
+    "children": [],
+    "key": "PartitionScheme"
+  },
+  {
+    "name": "ESP32.DEBUG_LEVEL",
+    "icon": "fa-light fa-bug",
+    "children": [],
+    "key": "DebugLevel"
+  },
+  {
+    "name": "ESP32.PIN_NUMBERS",
+    "icon": "fa-light fa-hashtag",
+    "children": [],
+    "key": "PinNumbers"
+  }
+]

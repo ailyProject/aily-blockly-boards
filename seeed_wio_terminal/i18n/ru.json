@@ -1,0 +1,12 @@
+{
+  "WIO_TERMINAL": {
+    "ROLE": "Роль",
+    "CACHE": "Кэш",
+    "CPU_SPEED": "Частота CPU",
+    "OPTIMIZATION": "Оптимизация",
+    "MAX_QSPI": "Максимальная частота QSPI",
+    "USB_STACK": "Стек USB",
+    "DEBUG": "Отладка",
+    "TX_RX_LED": "Индикатор TX/RX"
+  }
+}

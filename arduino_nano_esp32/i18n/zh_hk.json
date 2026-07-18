@@ -1,0 +1,14 @@
+{
+  "ESP32": {
+    "UPLOAD_SPEED": "燒錄速度",
+    "USB_MODE": "USB 模式",
+    "UPLOAD_MODE": "燒錄方式",
+    "FLASH_MODE": "閃存模式",
+    "FLASH_SIZE": "閃存大小",
+    "PARTITION_SCHEME": "分區方案",
+    "DEBUG_LEVEL": "核心偵錯級別",
+    "CDC_ON_BOOT": "USB模擬串口",
+    "PSRAM": "PSRAM",
+    "PIN_NUMBERS": "引腳編號"
+  }
+}

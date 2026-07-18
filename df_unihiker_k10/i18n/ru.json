@@ -1,0 +1,19 @@
+{
+  "ESP32": {
+    "UPLOAD_SPEED": "Скорость загрузки",
+    "USB_MODE": "Режим USB",
+    "CDC_ON_BOOT": "USB CDC при загрузке",
+    "MSC_ON_BOOT": "USB Firmware MSC при загрузке",
+    "DFU_ON_BOOT": "USB DFU при загрузке",
+    "UPLOAD_MODE": "Метод загрузки",
+    "CPU_FREQ": "Частота CPU",
+    "PARTITION_SCHEME": "Схема разделов",
+    "DEBUG_LEVEL": "Уровень отладки ядра",
+    "PSRAM": "PSRAM",
+    "LOOP_CORE": "Ядро выполнения Arduino",
+    "EVENTS_CORE": "Ядро обработки событий",
+    "ERASE_FLASH": "Стирать всю Flash-память перед загрузкой",
+    "JTAG_ADAPTER": "Адаптер JTAG",
+    "MODEL": "Модель"
+  }
+}

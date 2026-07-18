@@ -1,0 +1,19 @@
+{
+  "ESP32": {
+    "UPLOAD_SPEED": "Upload-Geschwindigkeit",
+    "USB_MODE": "USB-Modus",
+    "CDC_ON_BOOT": "USB CDC beim Start",
+    "MSC_ON_BOOT": "USB-Firmware-MSC beim Start",
+    "DFU_ON_BOOT": "USB DFU beim Start",
+    "UPLOAD_MODE": "Upload-Methode",
+    "CPU_FREQ": "CPU-Frequenz",
+    "PARTITION_SCHEME": "Partitionierungsschema",
+    "DEBUG_LEVEL": "Core-Debug-Level",
+    "PSRAM": "PSRAM",
+    "LOOP_CORE": "Arduino läuft auf",
+    "EVENTS_CORE": "Ereignisse laufen auf",
+    "ERASE_FLASH": "Gesamten Flash vor dem Upload löschen",
+    "JTAG_ADAPTER": "JTAG-Adapter",
+    "MODEL": "Modell"
+  }
+}
