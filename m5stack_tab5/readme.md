@@ -1,0 +1,1 @@
+开发板文档：https://docs.espressif.com/projects/esp-dev-kits/zh_CN/latest/esp32p4/esp32-p4-function-ev-board/index.html

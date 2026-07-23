@@ -1,0 +1,24 @@
+{
+  "name": "@aily-project/board-m5stack_stickc_plus",
+  "nickname": "M5StickCPlus",
+  "version": "3.3.10",
+  "description": "M5StickCPlus board configuration for aily blockly, based on the official Arduino-ESP32 3.3.10 FQBN esp32:esp32:m5stack_stickc_plus.",
+  "description_en": "M5StickCPlus board configuration for aily blockly, based on the official Arduino-ESP32 3.3.10 FQBN esp32:esp32:m5stack_stickc_plus.",
+  "description_zh_cn": "M5StickCPlus 的 aily blockly 开发板配置，基于 Arduino-ESP32 3.3.10 官方板型 esp32:esp32:m5stack_stickc_plus。",
+  "main": "index.js",
+  "url": "https://docs.m5stack.com/en/core/m5stickc_plus",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "M5Stack",
+  "license": "ISC",
+  "brand": "M5Stack",
+  "state": "alpha",
+  "boardDependencies": {
+    "@aily-project/compiler-esp-x32": "14.2.0",
+    "@aily-project/tool-esptool_py": "5.3.0",
+    "@aily-project/sdk-esp32": "3.3.10",
+    "@aily-project/tool-esp32-libs": "3.3.10",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}

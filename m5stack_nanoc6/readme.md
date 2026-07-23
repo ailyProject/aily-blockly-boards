@@ -1,0 +1,1 @@
+文档地址：https://docs.espressif.com/projects/esp-dev-kits/zh_CN/latest/esp32c6/esp32-c6-devkitc-1/index.html

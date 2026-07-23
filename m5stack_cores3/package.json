@@ -1,0 +1,24 @@
+{
+  "name": "@aily-project/board-m5stack_cores3",
+  "nickname": "M5CoreS3",
+  "version": "3.3.10",
+  "description": "M5CoreS3 board configuration for aily blockly, based on the official Arduino-ESP32 3.3.10 FQBN esp32:esp32:m5stack_cores3.",
+  "description_en": "M5CoreS3 board configuration for aily blockly, based on the official Arduino-ESP32 3.3.10 FQBN esp32:esp32:m5stack_cores3.",
+  "description_zh_cn": "M5CoreS3 的 aily blockly 开发板配置，基于 Arduino-ESP32 3.3.10 官方板型 esp32:esp32:m5stack_cores3。",
+  "main": "index.js",
+  "url": "https://docs.m5stack.com/en/core/CoreS3",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "M5Stack",
+  "license": "ISC",
+  "brand": "M5Stack",
+  "state": "alpha",
+  "boardDependencies": {
+    "@aily-project/compiler-esp-x32": "14.2.0",
+    "@aily-project/tool-esptool_py": "5.3.0",
+    "@aily-project/sdk-esp32": "3.3.10",
+    "@aily-project/tool-esp32s3-libs": "3.3.10",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}

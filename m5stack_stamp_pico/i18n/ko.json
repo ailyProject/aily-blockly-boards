@@ -1,0 +1,11 @@
+{
+  "ESP32": {
+    "UPLOAD_SPEED": "업로드 속도",
+    "UPLOAD_MODE": "업로드 방법",
+    "FLASH_MODE": "플래시 모드",
+    "FLASH_SIZE": "플래시 크기",
+    "PARTITION_SCHEME": "파티션 스킴",
+    "CDC_ON_BOOT": "USB 시리얼 통신",
+    "PSRAM": "PSRAM"
+  }
+}

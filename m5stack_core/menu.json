@@ -1,0 +1,35 @@
+[
+  {
+    "sep": true
+  },
+  {
+    "name": "ESP32.UPLOAD_SPEED",
+    "icon": "fa-light fa-up-from-line",
+    "children": [],
+    "key": "UploadSpeed"
+  },
+  {
+    "name": "ESP32.FLASH_MODE",
+    "icon": "fa-light fa-tablet-rugged",
+    "children": [],
+    "key": "FlashMode"
+  },
+  {
+    "name": "ESP32.FLASH_SIZE",
+    "icon": "fa-light fa-database",
+    "children": [],
+    "key": "FlashSize"
+  },
+  {
+    "name": "ESP32.PARTITION_SCHEME",
+    "icon": "fa-light fa-hard-drive",
+    "children": [],
+    "key": "PartitionScheme"
+  },
+  {
+    "name": "ESP32.PSRAM",
+    "icon": "fa-light fa-memory",
+    "children": [],
+    "key": "PSRAM"
+  }
+]
