@@ -5,6 +5,8 @@
   "board": "M5StickCPlus2",
   "dependencies": {
     "@aily-project/board-m5stack_stickc_plus2": "3.3.10",
+    "@aily-project/lib-m5stack-unified": "0.1.0",
+    "@aily-project/lib-m5stack-ir": "0.1.0",
     "@aily-project/lib-core-io": "1.0.0",
     "@aily-project/lib-core-logic": "0.0.1",
     "@aily-project/lib-core-loop": "0.0.1",
