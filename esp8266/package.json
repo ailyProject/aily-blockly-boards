@@ -1,0 +1,32 @@
+{
+  "name": "@aily-project/board-esp8266",
+  "nickname": "ESP8266 chip",
+  "version": "3.1.2",
+  "description": "Generic ESP8266 development board configuration. The ESP8266EX is a single-core 32-bit Tensilica L106 MCU with integrated 2.4 GHz Wi-Fi, supporting the IEEE 802.11 b/g/n standards.",
+  "description_en": "Generic ESP8266 development board configuration. The ESP8266EX is a single-core 32-bit Tensilica L106 MCU with integrated 2.4 GHz Wi-Fi, supporting the IEEE 802.11 b/g/n standards.",
+  "description_zh_cn": "ESP8266 开发板通用配置。ESP8266EX 是一款单核 32 位 Tensilica L106 MCU，集成 2.4 GHz Wi-Fi，支持 IEEE 802.11 b/g/n 标准。",
+  "description_zh_hk": "ESP8266 開發板通用設定。ESP8266EX 是一款單核心 32 位元 Tensilica L106 MCU，整合 2.4 GHz Wi-Fi，支援 IEEE 802.11 b/g/n 標準。",
+  "description_ja": "ESP8266開発ボードの汎用設定です。ESP8266EXは、2.4 GHz Wi-Fiを統合し、IEEE 802.11 b/g/n規格に対応するシングルコア32ビットTensilica L106 MCUです。",
+  "description_ko": "ESP8266 개발 보드 범용 구성입니다. ESP8266EX는 2.4 GHz Wi-Fi를 통합하고 IEEE 802.11 b/g/n 표준을 지원하는 싱글 코어 32비트 Tensilica L106 MCU입니다.",
+  "description_de": "Generische ESP8266-Entwicklungsboard-Konfiguration. Der ESP8266EX ist ein 32-Bit-Tensilica-L106-MCU mit einem Kern und integriertem 2,4-GHz-WLAN nach IEEE 802.11 b/g/n.",
+  "description_fr": "Configuration générique de carte de développement ESP8266. L'ESP8266EX est un MCU Tensilica L106 32 bits monocœur avec Wi-Fi 2,4 GHz intégré, compatible avec les normes IEEE 802.11 b/g/n.",
+  "description_es": "Configuración genérica de placa de desarrollo ESP8266. El ESP8266EX es un MCU Tensilica L106 de 32 bits y un núcleo con Wi-Fi de 2,4 GHz integrado, compatible con los estándares IEEE 802.11 b/g/n.",
+  "description_pt": "Configuração genérica de placa de desenvolvimento ESP8266. O ESP8266EX é um MCU Tensilica L106 de 32 bits e núcleo único com Wi-Fi de 2,4 GHz integrado, compatível com os padrões IEEE 802.11 b/g/n.",
+  "description_ru": "Универсальная конфигурация платы разработки ESP8266. ESP8266EX — одноядерный 32-разрядный МК Tensilica L106 со встроенным Wi-Fi 2,4 ГГц и поддержкой стандартов IEEE 802.11 b/g/n.",
+  "description_ar": "تكوين عام للوحة تطوير ESP8266. ESP8266EX هو متحكم Tensilica L106 أحادي النواة بمعمارية 32 بت مع Wi-Fi مدمج بتردد 2.4 جيجاهرتز ودعم معايير IEEE 802.11 b/g/n.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "brand": "Espressif",
+  "boardDependencies": {
+    "@aily-project/compiler-xtensa-lx106-elf-gcc": "5.100300.220621",
+    "@aily-project/sdk-esp8266": "3.1.2",
+    "@aily-project/tool-python3": "3.7.2",
+    "@aily-project/tool-mkspiffs": "5.100300.220621",
+    "@aily-project/tool-mklittlefs": "5.100300.220621",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}

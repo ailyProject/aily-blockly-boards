@@ -1,0 +1,12 @@
+{
+  "ESP8266": {
+    "UPLOAD_SPEED": "Upload-Geschwindigkeit",
+    "CPU_FREQUENCY": "CPU-Frequenz",
+    "FLASH_MODE": "Flash-Modus",
+    "FLASH_FREQUENCY": "Flash-Frequenz",
+    "FLASH_SIZE": "Flash-Größe",
+    "BUILTIN_LED": "Integrierter LED-Pin",
+    "RESET_METHOD": "Reset-Methode",
+    "ERASE_FLASH": "Flash löschen"
+  }
+}

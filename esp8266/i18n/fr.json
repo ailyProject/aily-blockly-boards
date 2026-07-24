@@ -1,0 +1,12 @@
+{
+  "ESP8266": {
+    "UPLOAD_SPEED": "Vitesse de téléversement",
+    "CPU_FREQUENCY": "Fréquence du processeur",
+    "FLASH_MODE": "Mode de la mémoire flash",
+    "FLASH_FREQUENCY": "Fréquence de la mémoire flash",
+    "FLASH_SIZE": "Taille de la mémoire flash",
+    "BUILTIN_LED": "Broche de LED intégrée",
+    "RESET_METHOD": "Méthode de réinitialisation",
+    "ERASE_FLASH": "Effacer la mémoire flash"
+  }
+}

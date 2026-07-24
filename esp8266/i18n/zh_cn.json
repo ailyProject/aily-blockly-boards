@@ -1,0 +1,12 @@
+{
+  "ESP8266": {
+    "UPLOAD_SPEED": "烧录速度",
+    "CPU_FREQUENCY": "CPU 频率",
+    "FLASH_MODE": "闪存模式",
+    "FLASH_FREQUENCY": "闪存频率",
+    "FLASH_SIZE": "闪存大小",
+    "BUILTIN_LED": "板载 LED 引脚",
+    "RESET_METHOD": "复位方式",
+    "ERASE_FLASH": "擦除闪存"
+  }
+}

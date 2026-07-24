@@ -1,0 +1,12 @@
+{
+  "ESP8266": {
+    "UPLOAD_SPEED": "書き込み速度",
+    "CPU_FREQUENCY": "CPU周波数",
+    "FLASH_MODE": "フラッシュモード",
+    "FLASH_FREQUENCY": "フラッシュ周波数",
+    "FLASH_SIZE": "フラッシュサイズ",
+    "BUILTIN_LED": "内蔵LEDピン",
+    "RESET_METHOD": "リセット方式",
+    "ERASE_FLASH": "フラッシュ消去"
+  }
+}

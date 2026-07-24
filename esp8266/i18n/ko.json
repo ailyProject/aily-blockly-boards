@@ -1,0 +1,12 @@
+{
+  "ESP8266": {
+    "UPLOAD_SPEED": "업로드 속도",
+    "CPU_FREQUENCY": "CPU 주파수",
+    "FLASH_MODE": "플래시 모드",
+    "FLASH_FREQUENCY": "플래시 주파수",
+    "FLASH_SIZE": "플래시 크기",
+    "BUILTIN_LED": "내장 LED 핀",
+    "RESET_METHOD": "재설정 방식",
+    "ERASE_FLASH": "플래시 지우기"
+  }
+}

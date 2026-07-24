@@ -1,0 +1,53 @@
+[
+  {
+    "sep": true
+  },
+  {
+    "name": "ESP8266.UPLOAD_SPEED",
+    "icon": "fa-light fa-up-from-line",
+    "children": [],
+    "key": "baud"
+  },
+  {
+    "name": "ESP8266.CPU_FREQUENCY",
+    "icon": "fa-light fa-microchip",
+    "children": [],
+    "key": "xtal"
+  },
+  {
+    "name": "ESP8266.FLASH_MODE",
+    "icon": "fa-light fa-tablet-rugged",
+    "children": [],
+    "key": "FlashMode"
+  },
+  {
+    "name": "ESP8266.FLASH_FREQUENCY",
+    "icon": "fa-light fa-wave-square",
+    "children": [],
+    "key": "FlashFreq"
+  },
+  {
+    "name": "ESP8266.FLASH_SIZE",
+    "icon": "fa-light fa-database",
+    "children": [],
+    "key": "eesz"
+  },
+  {
+    "name": "ESP8266.BUILTIN_LED",
+    "icon": "fa-light fa-lightbulb",
+    "children": [],
+    "key": "led"
+  },
+  {
+    "name": "ESP8266.RESET_METHOD",
+    "icon": "fa-light fa-rotate-right",
+    "children": [],
+    "key": "ResetMethod"
+  },
+  {
+    "name": "ESP8266.ERASE_FLASH",
+    "icon": "fa-light fa-eraser",
+    "children": [],
+    "key": "wipe"
+  }
+]

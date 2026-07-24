@@ -1,0 +1,12 @@
+{
+  "ESP8266": {
+    "UPLOAD_SPEED": "燒錄速度",
+    "CPU_FREQUENCY": "CPU 頻率",
+    "FLASH_MODE": "快閃記憶體模式",
+    "FLASH_FREQUENCY": "快閃記憶體頻率",
+    "FLASH_SIZE": "快閃記憶體大小",
+    "BUILTIN_LED": "板載 LED 接腳",
+    "RESET_METHOD": "重設方式",
+    "ERASE_FLASH": "清除快閃記憶體"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "ESP8266": {
+    "UPLOAD_SPEED": "سرعة الرفع",
+    "CPU_FREQUENCY": "تردد المعالج",
+    "FLASH_MODE": "وضع ذاكرة الفلاش",
+    "FLASH_FREQUENCY": "تردد ذاكرة الفلاش",
+    "FLASH_SIZE": "حجم ذاكرة الفلاش",
+    "BUILTIN_LED": "طرف LED المدمج",
+    "RESET_METHOD": "طريقة إعادة الضبط",
+    "ERASE_FLASH": "مسح ذاكرة الفلاش"
+  }
+}
