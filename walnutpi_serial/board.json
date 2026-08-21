@@ -1,0 +1,99 @@
+{
+  "name": "WalnutPi Serial",
+  "version": "1.0.0",
+  "description": "Independent WalnutPi Linux Python board over SERIAL-A shell",
+  "core": "linux:python",
+  "type": "linux:python:walnutpi-serial",
+  "mode": ["python"],
+  "runtime": {
+    "kind": "python",
+    "adapter": "linux-serial-shell",
+    "entry": "main.py",
+    "execution": {
+      "transport": "serial-shell",
+      "output": "pty-combined",
+      "input": "pty",
+      "stop": "process-group",
+      "files": "serial-transfer",
+      "temporaryRun": true
+    },
+    "deployment": {
+      "autostart": {
+        "kind": "boot-start-sh",
+        "directory": "/boot/start",
+        "backgroundRequired": true
+      }
+    }
+  },
+  "capabilities": {
+    "camera": true,
+    "display": false,
+    "touch": false,
+    "audioInput": true,
+    "audioOutput": true,
+    "imu": false,
+    "wifi": true,
+    "bluetooth": true,
+    "gpio": true,
+    "pwm": true,
+    "uart": true,
+    "i2c": true,
+    "spi": true
+  },
+  "analogPins": [],
+  "digitalPins": [
+    ["GPIO2", "2"],
+    ["GPIO3", "3"],
+    ["GPIO4", "4"],
+    ["GPIO14", "14"],
+    ["GPIO15", "15"],
+    ["GPIO17", "17"],
+    ["GPIO18", "18"],
+    ["GPIO22", "22"],
+    ["GPIO23", "23"],
+    ["GPIO24", "24"],
+    ["GPIO25", "25"],
+    ["GPIO27", "27"]
+  ],
+  "pwmPins": [
+    ["PWM0 (GPIO18)", "18"]
+  ],
+  "serialPort": [
+    ["SERIAL-A", "SERIAL-A"]
+  ],
+  "serialSpeed": [
+    ["115200", "115200"]
+  ],
+  "i2c": [
+    ["I2C1", "I2C1"]
+  ],
+  "i2cPins": {
+    "I2C1": [
+      ["SDA", "2"],
+      ["SCL", "3"]
+    ]
+  },
+  "spi": [
+    ["SPI0", "SPI0"]
+  ],
+  "spiPins": {
+    "SPI0": [
+      ["SCLK", "11"],
+      ["MOSI", "10"],
+      ["MISO", "9"]
+    ]
+  },
+  "builtinLed": [
+    ["GPIO17", "17"]
+  ],
+  "cameraConfig": {
+    "interface": "v4l2",
+    "supportedModels": ["usb-uvc"],
+    "device": "/dev/video0",
+    "pins": {}
+  },
+  "specialPins": {
+    "led": "17",
+    "camera": "/dev/video0"
+  }
+}

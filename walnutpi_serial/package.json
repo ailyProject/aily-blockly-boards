@@ -1,0 +1,34 @@
+{
+  "name": "@aily-project/board-walnutpi_serial",
+  "nickname": "WalnutPi Serial",
+  "version": "1.0.0",
+  "description": "Independent WalnutPi Linux board for Python Blockly over a user-selected SERIAL-A shell. Uses CPython on Debian, not the CyberCAM K230 CanMV USBDBG path.",
+  "description_en": "Independent WalnutPi Linux board for Python Blockly over a user-selected SERIAL-A shell. Uses CPython on Debian, not the CyberCAM K230 CanMV USBDBG path.",
+  "description_zh_cn": "独立核桃派 Linux 开发板，通过用户明确选择的 SERIAL-A shell 运行 Python Blockly。面向 Debian 上的 CPython，不是 CyberCAM K230 的 CanMV USBDBG 路径。",
+  "description_zh_hk": "獨立核桃派 Linux 開發板，透過使用者明確選擇的 SERIAL-A shell 執行 Python Blockly。面向 Debian 上的 CPython，不是 CyberCAM K230 的 CanMV USBDBG 路徑。",
+  "description_ja": "ユーザーが選んだ SERIAL-A シェル経由で Python Blockly を実行する独立 WalnutPi Linux ボード。CyberCAM K230 の CanMV USBDBG ではなく、Debian 上の CPython 向けです。",
+  "description_ko": "사용자가 선택한 SERIAL-A 셸로 Python Blockly를 실행하는 독립 WalnutPi Linux 보드입니다. CyberCAM K230 CanMV USBDBG가 아니라 Debian의 CPython을 사용합니다.",
+  "description_de": "Unabhängiges WalnutPi-Linux-Board für Python Blockly über eine vom Benutzer gewählte SERIAL-A-Shell. Nutzt CPython unter Debian, nicht den CanMV-USBDBG-Pfad der CyberCAM K230.",
+  "description_fr": "Carte WalnutPi Linux indépendante pour Python Blockly via un shell SERIAL-A choisi par l’utilisateur. Utilise CPython sous Debian, et non le chemin CanMV USBDBG de la CyberCAM K230.",
+  "description_es": "Placa WalnutPi Linux independiente para Python Blockly por un shell SERIAL-A elegido por el usuario. Usa CPython en Debian, no la ruta CanMV USBDBG de CyberCAM K230.",
+  "description_pt": "Placa WalnutPi Linux independente para Python Blockly via um shell SERIAL-A escolhido pelo usuário. Usa CPython no Debian, não o caminho CanMV USBDBG da CyberCAM K230.",
+  "description_ru": "Независимая плата WalnutPi Linux для Python Blockly через выбранную пользователем оболочку SERIAL-A. Использует CPython в Debian, а не путь CanMV USBDBG у CyberCAM K230.",
+  "description_ar": "لوحة WalnutPi Linux مستقلة لـ Python Blockly عبر صدفة SERIAL-A يختارها المستخدم. تستخدم CPython على Debian وليس مسار CanMV USBDBG الخاص بـ CyberCAM K230.",
+  "brand": "WalnutPi",
+  "url": "https://github.com/walnutpi",
+  "scripts": {
+    "test": "node ../.scripts/validate-boards-compliance.js ."
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "board",
+    "WalnutPi",
+    "Linux",
+    "Python",
+    "serial"
+  ],
+  "author": "WalnutPi",
+  "license": "MIT",
+  "boardDependencies": {}
+}

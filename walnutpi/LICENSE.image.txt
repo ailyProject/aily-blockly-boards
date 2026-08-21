@@ -1,0 +1,8 @@
+WalnutPi Linux board image attribution
+
+Asset: board.webp
+Source: official WalnutPi 2B product photograph from the WalnutPi wiki.
+URL: https://wiki.walnutpi.com/assets/images/2b-2c2063f9f0b0c85cb81f80df6cd147bc.png
+Derived work: cropped to a square and resized to 200 x 200 pixels for this board package.
+This package is not CyberCAM K230.
+Upstream copyright belongs to WalnutPi / 01Studio. Used here as product identification for the unpublished Linux board catalog.

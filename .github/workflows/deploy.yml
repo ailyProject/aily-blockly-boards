@@ -138,6 +138,12 @@ jobs:
         run: |
           cd ${{ matrix.package }}
           npm run build --if-present
+
+      - name: Test package
+        if: steps.check-update-all.outputs.should_skip != 'true' && steps.check-pkg.outputs.has_package == 'true'
+        run: |
+          cd ${{ matrix.package }}
+          npm test --if-present
       
       - name: Publish to CN npm registry
         if: steps.check-update-all.outputs.should_skip != 'true' && steps.check-pkg.outputs.has_package == 'true'
@@ -266,6 +272,12 @@ jobs:
         run: |
           cd ${{ matrix.package }}
           npm run build --if-present
+
+      - name: Test package
+        if: steps.check-update-all.outputs.should_skip != 'true' && steps.check-pkg.outputs.has_package == 'true'
+        run: |
+          cd ${{ matrix.package }}
+          npm test --if-present
 
       - name: Publish to EU npm registry
         if: steps.check-update-all.outputs.should_skip != 'true' && steps.check-pkg.outputs.has_package == 'true'
@@ -448,6 +460,7 @@ jobs:
               CURRENT_VERSION=$(node -p "require('./package.json').version")
               PACKAGE_NAME=$(node -p "require('./package.json').name")
               echo "当前版本: $CURRENT_VERSION"
+              npm test --if-present
 
               if npm view $PACKAGE_NAME@$CURRENT_VERSION version &> /dev/null; then
                 echo "版本 $CURRENT_VERSION 已存在于国内 npm 仓库，尝试取消发布..."
@@ -586,6 +599,7 @@ jobs:
               CURRENT_VERSION=$(node -p "require('./package.json').version")
               PACKAGE_NAME=$(node -p "require('./package.json').name")
               echo "当前版本: $CURRENT_VERSION"
+              npm test --if-present
 
               if npm view $PACKAGE_NAME@$CURRENT_VERSION version &> /dev/null; then
                 echo "Version $CURRENT_VERSION exists on EU npm registry, unpublishing..."

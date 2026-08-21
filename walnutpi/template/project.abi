@@ -1,0 +1,21 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "python_start",
+        "id": "python_start_id0",
+        "x": 30,
+        "y": 60,
+        "deletable": false
+      },
+      {
+        "type": "python_forever",
+        "id": "python_forever_id0",
+        "x": 30,
+        "y": 300,
+        "deletable": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+Raspberry Pi Linux board image attribution
+
+Asset: board.webp
+Source: Raspberry Pi 5 product brief, page 2 board photograph.
+URL: https://datasheets.raspberrypi.com/rpi5/raspberry-pi-5-product-brief.pdf
+Derived work: cropped to the PCB photo and resized to 200 x 200 pixels for this board package.
+This package is not the RP2040 Pico Arduino board.
+Upstream copyright belongs to Raspberry Pi Ltd. Used here as product identification for the unpublished Linux board catalog.

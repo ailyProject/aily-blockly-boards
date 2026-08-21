@@ -1,0 +1,291 @@
+{
+  "name": "CyberCAM",
+  "version": "1.1.0",
+  "description": "01Studio CyberCAM K230 Python AI camera",
+  "core": "python:k230",
+  "type": "python:k230:cybercam",
+  "mode": [
+    "python"
+  ],
+  "runtime": {
+    "kind": "python",
+    "adapter": "canmv-k230",
+    "entry": "main.py",
+    "execution": {
+      "transport": "canmv-usbdbg",
+      "output": "event-stream",
+      "input": "repl",
+      "stop": "device-interrupt",
+      "files": "canmv-io",
+      "temporaryRun": true
+    },
+    "deployment": {
+      "autostart": {
+        "kind": "boot-start-sh",
+        "directory": "/boot/start",
+        "backgroundRequired": true
+      }
+    }
+  },
+  "capabilities": {
+    "camera": true,
+    "display": true,
+    "touch": true,
+    "audioInput": true,
+    "audioOutput": true,
+    "imu": true,
+    "wifi": true,
+    "bluetooth": true,
+    "gpio": true,
+    "pwm": true,
+    "uart": true,
+    "i2c": true,
+    "spi": true
+  },
+  "usbVid": "1209",
+  "usbPid": "abd1",
+  "analogPins": [],
+  "digitalPins": [
+    [
+      "GPIO11 (UART2 TX / I2C2 SCL)",
+      "11"
+    ],
+    [
+      "GPIO12 (UART2 RX / I2C2 SDA)",
+      "12"
+    ],
+    [
+      "GPIO14 (SPI0 CS0)",
+      "14"
+    ],
+    [
+      "GPIO15 (SPI0 SCLK)",
+      "15"
+    ],
+    [
+      "GPIO16 (SPI0 MOSI)",
+      "16"
+    ],
+    [
+      "GPIO17 (SPI0 MISO)",
+      "17"
+    ],
+    [
+      "GPIO60 (PWM0)",
+      "60"
+    ],
+    [
+      "GPIO61 (PWM1)",
+      "61"
+    ],
+    [
+      "LED (GPIO52)",
+      "52"
+    ],
+    [
+      "KEY (GPIO21)",
+      "21"
+    ],
+    [
+      "Fill light (GPIO46 / PWM2)",
+      "46"
+    ],
+    [
+      "Buzzer (GPIO47 / PWM3)",
+      "47"
+    ]
+  ],
+  "pwmPins": [
+    [
+      "PWM0 (GPIO60)",
+      "60"
+    ],
+    [
+      "PWM1 (GPIO61)",
+      "61"
+    ],
+    [
+      "PWM2 / Fill light (GPIO46)",
+      "46"
+    ],
+    [
+      "PWM3 / Buzzer (GPIO47)",
+      "47"
+    ]
+  ],
+  "serialPort": [
+    [
+      "UART2",
+      "UART2"
+    ]
+  ],
+  "serialPins": {
+    "UART2": [
+      [
+        "TX",
+        "11"
+      ],
+      [
+        "RX",
+        "12"
+      ]
+    ]
+  },
+  "serialSpeed": [
+    [
+      "9600",
+      "9600"
+    ],
+    [
+      "19200",
+      "19200"
+    ],
+    [
+      "38400",
+      "38400"
+    ],
+    [
+      "57600",
+      "57600"
+    ],
+    [
+      "115200",
+      "115200"
+    ]
+  ],
+  "i2c": [
+    [
+      "I2C2",
+      "I2C2"
+    ],
+    [
+      "I2C1 (onboard IMU)",
+      "I2C1"
+    ]
+  ],
+  "i2cPins": {
+    "I2C2": [
+      [
+        "SCL",
+        "11"
+      ],
+      [
+        "SDA",
+        "12"
+      ]
+    ],
+    "I2C1": [
+      [
+        "SCL",
+        "40"
+      ],
+      [
+        "SDA",
+        "41"
+      ]
+    ]
+  },
+  "spi": [
+    [
+      "SPI0",
+      "SPI0"
+    ]
+  ],
+  "spiPins": {
+    "SPI0": [
+      [
+        "CS0",
+        "14"
+      ],
+      [
+        "SCLK",
+        "15"
+      ],
+      [
+        "MOSI",
+        "16"
+      ],
+      [
+        "MISO",
+        "17"
+      ]
+    ]
+  },
+  "builtinLed": [
+    [
+      "LED",
+      "52"
+    ]
+  ],
+  "builtinButton": [
+    [
+      "KEY",
+      "21"
+    ]
+  ],
+  "interruptPins": [
+    [
+      "GPIO11",
+      "11"
+    ],
+    [
+      "GPIO12",
+      "12"
+    ],
+    [
+      "GPIO14",
+      "14"
+    ],
+    [
+      "GPIO15",
+      "15"
+    ],
+    [
+      "GPIO16",
+      "16"
+    ],
+    [
+      "GPIO17",
+      "17"
+    ],
+    [
+      "KEY (GPIO21)",
+      "21"
+    ]
+  ],
+  "cameraConfig": {
+    "interface": "mipi-csi",
+    "supportedModels": [
+      "gc2093",
+      "ov5647"
+    ],
+    "pins": {}
+  },
+  "displayConfig": {
+    "controller": "st7701s",
+    "interface": "mipi-dsi",
+    "width": 640,
+    "height": 480,
+    "pins": {}
+  },
+  "audioConfig": {
+    "pins": {}
+  },
+  "specialPins": {
+    "led": "52",
+    "key": "21",
+    "fillLight": {
+      "pin": "46",
+      "pwm": "PWM2"
+    },
+    "buzzer": {
+      "pin": "47",
+      "pwm": "PWM3"
+    },
+    "imu": {
+      "bus": "I2C1",
+      "scl": "40",
+      "sda": "41"
+    }
+  }
+}

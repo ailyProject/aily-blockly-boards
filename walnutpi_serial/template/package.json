@@ -1,0 +1,12 @@
+{
+  "name": "project_",
+  "version": "1.0.0",
+  "description": "",
+  "board": "WalnutPi Serial",
+  "devmode": "python",
+  "dependencies": {
+    "@aily-project/board-walnutpi_serial": "1.0.0",
+    "@aily-project/lib-python-core": "1.0.0",
+    "@aily-project/lib-linux-python": "1.0.0"
+  }
+}

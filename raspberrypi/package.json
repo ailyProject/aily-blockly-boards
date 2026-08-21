@@ -1,0 +1,34 @@
+{
+  "name": "@aily-project/board-raspberrypi",
+  "nickname": "Raspberry Pi",
+  "version": "1.0.0",
+  "description": "Raspberry Pi Linux board for Python Blockly over SSH. Uses CPython on Raspberry Pi OS, not the RP2040 Pico Arduino core.",
+  "description_en": "Raspberry Pi Linux board for Python Blockly over SSH. Uses CPython on Raspberry Pi OS, not the RP2040 Pico Arduino core.",
+  "description_zh_cn": "树莓派 Linux 开发板，通过 SSH 运行 Python Blockly。面向 Raspberry Pi OS 上的 CPython，不是 RP2040 Pico 的 Arduino 核心。",
+  "description_zh_hk": "樹莓派 Linux 開發板，透過 SSH 執行 Python Blockly。面向 Raspberry Pi OS 上的 CPython，不是 RP2040 Pico 的 Arduino 核心。",
+  "description_ja": "SSH 経由で Python Blockly を実行する Raspberry Pi Linux ボード。RP2040 Pico の Arduino コアではなく、Raspberry Pi OS 上の CPython 向けです。",
+  "description_ko": "SSH로 Python Blockly를 실행하는 Raspberry Pi Linux 보드입니다. RP2040 Pico Arduino 코어가 아니라 Raspberry Pi OS의 CPython을 사용합니다.",
+  "description_de": "Raspberry-Pi-Linux-Board für Python Blockly über SSH. Nutzt CPython unter Raspberry Pi OS, nicht den RP2040-Pico-Arduino-Core.",
+  "description_fr": "Carte Raspberry Pi Linux pour Python Blockly via SSH. Utilise CPython sous Raspberry Pi OS, et non le cœur Arduino RP2040 Pico.",
+  "description_es": "Placa Raspberry Pi Linux para Python Blockly por SSH. Usa CPython en Raspberry Pi OS, no el núcleo Arduino de RP2040 Pico.",
+  "description_pt": "Placa Raspberry Pi Linux para Python Blockly via SSH. Usa CPython no Raspberry Pi OS, não o núcleo Arduino do RP2040 Pico.",
+  "description_ru": "Плата Raspberry Pi Linux для Python Blockly по SSH. Использует CPython в Raspberry Pi OS, а не ядро Arduino RP2040 Pico.",
+  "description_ar": "لوحة Raspberry Pi Linux لـ Python Blockly عبر SSH. تستخدم CPython على Raspberry Pi OS وليس نواة Arduino الخاصة بـ RP2040 Pico.",
+  "brand": "RaspberryPi",
+  "url": "https://www.raspberrypi.com/documentation/",
+  "scripts": {
+    "test": "node ../.scripts/validate-boards-compliance.js ."
+  },
+  "keywords": [
+    "aily",
+    "blockly",
+    "board",
+    "RaspberryPi",
+    "Linux",
+    "Python",
+    "SSH"
+  ],
+  "author": "RaspberryPi",
+  "license": "MIT",
+  "boardDependencies": {}
+}

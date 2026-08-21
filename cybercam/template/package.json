@@ -1,0 +1,11 @@
+{
+  "name": "project_",
+  "version": "1.0.0",
+  "description": "",
+  "board": "CyberCAM",
+  "devmode": "python",
+  "dependencies": {
+    "@aily-project/board-cybercam": "1.1.0",
+    "@aily-project/lib-cybercam": "1.0.0"
+  }
+}

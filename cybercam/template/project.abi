@@ -1,0 +1,21 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "cybercam_start",
+        "id": "cybercam_start_id0",
+        "x": 30,
+        "y": 60,
+        "deletable": false
+      },
+      {
+        "type": "cybercam_forever",
+        "id": "cybercam_forever_id0",
+        "x": 30,
+        "y": 300,
+        "deletable": false
+      }
+    ]
+  }
+}
