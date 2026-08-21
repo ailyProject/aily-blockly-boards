@@ -1,0 +1,19 @@
+{
+  "ESP32": {
+    "CHIP_VARIANT": "Variante de puce",
+    "JTAG_ADAPTER": "Adaptateur JTAG",
+    "PSRAM": "PSRAM",
+    "USB_MODE": "Mode USB",
+    "CDC_ON_BOOT": "USB CDC au démarrage",
+    "MSC_ON_BOOT": "MSC du micrologiciel USB au démarrage",
+    "DFU_ON_BOOT": "USB DFU au démarrage",
+    "UPLOAD_MODE": "Méthode de Téléversement",
+    "PARTITION_SCHEME": "Schéma de partition",
+    "FLASH_MODE": "Mode Flash",
+    "FLASH_FREQUENCY": "Fréquence de la mémoire flash",
+    "FLASH_SIZE": "Taille Flash",
+    "UPLOAD_SPEED": "Vitesse de téléchargement",
+    "DEBUG_LEVEL": "Niveau de débogage du cœur",
+    "ERASE_FLASH": "Effacer toute la mémoire flash avant le téléversement"
+  }
+}

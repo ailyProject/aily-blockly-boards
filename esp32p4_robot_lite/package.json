@@ -1,0 +1,25 @@
+{
+  "name": "@aily-project/board-esp32p4_robot_lite",
+  "nickname": "ESP32P4 Robot-Lite V1.1",
+  "version": "3.3.11",
+  "description": "ESP32P4 Robot-Lite V1.1 configuration using the generic ESP32-P4 target, with board-specific power, ESP32-C6 Hosted SDIO, and ES8311/ES7243E audio pin metadata.",
+  "description_en": "ESP32P4 Robot-Lite V1.1 configuration using the generic ESP32-P4 target, with board-specific power, ESP32-C6 Hosted SDIO, and ES8311/ES7243E audio pin metadata.",
+  "description_zh_cn": "ESP32P4 Robot-Lite V1.1 的 aily blockly 配置，使用通用 ESP32-P4 构建目标，并登记板级电源、ESP32-C6 Hosted SDIO 与 ES8311/ES7243E 音频引脚。",
+  "description_zh_hk": "ESP32P4 Robot-Lite V1.1 的 aily blockly 設定，使用通用 ESP32-P4 建置目標，並登記板級電源、ESP32-C6 Hosted SDIO 與 ES8311/ES7243E 音訊引腳。",
+  "main": "index.js",
+  "url": "https://github.com/ailyProject/aily-blockly-boards/issues/114",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ailyProject",
+  "license": "ISC",
+  "brand": "Robot-Lite",
+  "state": "alpha",
+  "boardDependencies": {
+    "@aily-project/compiler-esp-rv32": "14.2.0",
+    "@aily-project/tool-esptool_py": "5.3.1",
+    "@aily-project/sdk-esp32": "3.3.11",
+    "@aily-project/tool-esp32p4-libs": "3.3.11",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}

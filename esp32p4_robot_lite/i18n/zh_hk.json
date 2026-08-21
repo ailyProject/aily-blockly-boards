@@ -1,0 +1,19 @@
+{
+  "ESP32": {
+    "CHIP_VARIANT": "晶片版本",
+    "JTAG_ADAPTER": "JTAG 轉接器",
+    "PSRAM": "PSRAM",
+    "USB_MODE": "USB 模式",
+    "CDC_ON_BOOT": "USB 模擬串口",
+    "MSC_ON_BOOT": "啟動時啟用 USB 韌體 MSC",
+    "DFU_ON_BOOT": "啟動時啟用 USB DFU",
+    "UPLOAD_MODE": "燒錄方式",
+    "PARTITION_SCHEME": "分區方案",
+    "FLASH_MODE": "閃存模式",
+    "FLASH_FREQUENCY": "快閃記憶體頻率",
+    "FLASH_SIZE": "閃存大小",
+    "UPLOAD_SPEED": "燒錄速度",
+    "DEBUG_LEVEL": "核心偵錯級別",
+    "ERASE_FLASH": "燒錄前清除全部快閃記憶體"
+  }
+}

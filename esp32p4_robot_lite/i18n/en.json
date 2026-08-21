@@ -1,0 +1,19 @@
+{
+  "ESP32": {
+    "CHIP_VARIANT": "Chip Variant",
+    "JTAG_ADAPTER": "JTAG Adapter",
+    "PSRAM": "PSRAM",
+    "USB_MODE": "USB Mode",
+    "CDC_ON_BOOT": "USB CDC on Boot",
+    "MSC_ON_BOOT": "USB Firmware MSC on Boot",
+    "DFU_ON_BOOT": "USB DFU on Boot",
+    "UPLOAD_MODE": "Upload Method",
+    "PARTITION_SCHEME": "Partition Scheme",
+    "FLASH_MODE": "Flash Mode",
+    "FLASH_FREQUENCY": "Flash Frequency",
+    "FLASH_SIZE": "Flash Size",
+    "UPLOAD_SPEED": "Upload Speed",
+    "DEBUG_LEVEL": "Core Debug Level",
+    "ERASE_FLASH": "Erase All Flash Before Upload"
+  }
+}

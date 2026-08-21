@@ -1,0 +1,37 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "arduino_global",
+        "id": "arduino_global_id0",
+        "x": 30,
+        "y": 60,
+        "deletable": false
+      },
+      {
+        "type": "arduino_setup",
+        "id": "arduino_setup_id0",
+        "x": 30,
+        "y": 180,
+        "deletable": false,
+        "inputs": {
+          "ARDUINO_SETUP": {
+            "block": {
+              "type": "esp32p4_robot_lite_begin",
+              "id": "robot_lite_begin_id0",
+              "deletable": false
+            }
+          }
+        }
+      },
+      {
+        "type": "arduino_loop",
+        "id": "arduino_loop_id0",
+        "x": 30,
+        "y": 340,
+        "deletable": false
+      }
+    ]
+  }
+}

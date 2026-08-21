@@ -1,0 +1,19 @@
+{
+  "ESP32": {
+    "CHIP_VARIANT": "Вариант чипа",
+    "JTAG_ADAPTER": "Адаптер JTAG",
+    "PSRAM": "PSRAM",
+    "USB_MODE": "Режим USB",
+    "CDC_ON_BOOT": "USB CDC при загрузке",
+    "MSC_ON_BOOT": "USB Firmware MSC при загрузке",
+    "DFU_ON_BOOT": "USB DFU при загрузке",
+    "UPLOAD_MODE": "Метод загрузки",
+    "PARTITION_SCHEME": "Схема разделов",
+    "FLASH_MODE": "Режим Flash",
+    "FLASH_FREQUENCY": "Частота флеш-памяти",
+    "FLASH_SIZE": "Размер Flash",
+    "UPLOAD_SPEED": "Скорость загрузки",
+    "DEBUG_LEVEL": "Уровень отладки ядра",
+    "ERASE_FLASH": "Стирать всю Flash-память перед загрузкой"
+  }
+}

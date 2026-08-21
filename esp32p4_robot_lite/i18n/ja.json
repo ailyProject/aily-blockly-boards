@@ -1,0 +1,19 @@
+{
+  "ESP32": {
+    "CHIP_VARIANT": "チップバリアント",
+    "JTAG_ADAPTER": "JTAGアダプター",
+    "PSRAM": "PSRAM",
+    "USB_MODE": "USBモード",
+    "CDC_ON_BOOT": "USBシリアル通信",
+    "MSC_ON_BOOT": "起動時にUSBファームウェアMSCを有効化",
+    "DFU_ON_BOOT": "起動時にUSB DFUを有効化",
+    "UPLOAD_MODE": "書き込み方法",
+    "PARTITION_SCHEME": "パーティション方式",
+    "FLASH_MODE": "フラッシュモード",
+    "FLASH_FREQUENCY": "フラッシュ周波数",
+    "FLASH_SIZE": "フラッシュサイズ",
+    "UPLOAD_SPEED": "書き込み速度",
+    "DEBUG_LEVEL": "コアデバッグレベル",
+    "ERASE_FLASH": "書き込み前にフラッシュを全消去"
+  }
+}

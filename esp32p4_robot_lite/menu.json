@@ -1,0 +1,98 @@
+[
+  {
+    "sep": true
+  },
+  {
+    "name": "ESP32.CHIP_VARIANT",
+    "icon": "fa-light fa-microchip",
+    "children": [],
+    "key": "ChipVariant"
+  },
+  {
+    "name": "ESP32.JTAG_ADAPTER",
+    "icon": "fa-light fa-screwdriver-wrench",
+    "children": [],
+    "key": "JTAGAdapter"
+  },
+  {
+    "name": "ESP32.PSRAM",
+    "icon": "fa-light fa-memory",
+    "children": [],
+    "key": "PSRAM"
+  },
+  {
+    "name": "ESP32.USB_MODE",
+    "icon": "fa-brands fa-usb",
+    "children": [],
+    "key": "USBMode"
+  },
+  {
+    "name": "ESP32.CDC_ON_BOOT",
+    "icon": "fa-brands fa-usb",
+    "children": [],
+    "key": "CDCOnBoot",
+    "extra": {
+      "refreshRuntimeBoardConfig": true
+    }
+  },
+  {
+    "name": "ESP32.MSC_ON_BOOT",
+    "icon": "fa-light fa-hard-drive",
+    "children": [],
+    "key": "MSCOnBoot"
+  },
+  {
+    "name": "ESP32.DFU_ON_BOOT",
+    "icon": "fa-light fa-code-branch",
+    "children": [],
+    "key": "DFUOnBoot"
+  },
+  {
+    "name": "ESP32.UPLOAD_MODE",
+    "icon": "fa-light fa-cloud-arrow-up",
+    "children": [],
+    "key": "UploadMode"
+  },
+  {
+    "name": "ESP32.PARTITION_SCHEME",
+    "icon": "fa-light fa-hard-drive",
+    "children": [],
+    "key": "PartitionScheme"
+  },
+  {
+    "name": "ESP32.FLASH_MODE",
+    "icon": "fa-light fa-tablet-rugged",
+    "children": [],
+    "key": "FlashMode"
+  },
+  {
+    "name": "ESP32.FLASH_FREQUENCY",
+    "icon": "fa-light fa-wave-square",
+    "children": [],
+    "key": "FlashFreq"
+  },
+  {
+    "name": "ESP32.FLASH_SIZE",
+    "icon": "fa-light fa-database",
+    "children": [],
+    "key": "FlashSize"
+  },
+  {
+    "name": "ESP32.UPLOAD_SPEED",
+    "icon": "fa-light fa-up-from-line",
+    "children": [],
+    "key": "UploadSpeed"
+  },
+  {
+    "name": "ESP32.DEBUG_LEVEL",
+    "icon": "fa-light fa-bug",
+    "children": [],
+    "key": "DebugLevel"
+  },
+  {
+    "name": "ESP32.ERASE_FLASH",
+    "icon": "fa-light fa-eraser",
+    "children": [],
+    "key": "EraseFlash"
+  }
+]
