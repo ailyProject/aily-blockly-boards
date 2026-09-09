@@ -1,0 +1,42 @@
+{
+  "name": "@aily-project/board-nano-stm32f103vx",
+  "nickname": "NANO_STM32F103VX_V520",
+  "version": "2.12.0",
+  "description": "NANO_STM32F103VX_V520 development board configuration (SanZhi LanJing / Three Blue Whales), based on STM32F103VET6 (compatible with VC/VD/VG). Onboard: LED0(PB5)/LED1(PE5), KEY0(PE4)/KEY1(PE3)/WK_UP(PA0), passive buzzer(PB8), IR receiver(PB9), NTC(PC5), DHT11/DS18B20(PD1), W25Q16 SPI flash(PB12-15), SD card(SDIO PC8-12/PD2), RS485(PB10/11,PE0), SPI/IIC OLED, USB(PA11/12), integrated ST-LINK V2.1 and CH340.",
+  "description_en": "NANO_STM32F103VX_V520 development board configuration (SanZhi LanJing / Three Blue Whales), based on STM32F103VET6 (compatible with VC/VD/VG). Onboard: LED0(PB5)/LED1(PE5), KEY0(PE4)/KEY1(PE3)/WK_UP(PA0), passive buzzer(PB8), IR receiver(PB9), NTC(PC5), DHT11/DS18B20(PD1), W25Q16 SPI flash(PB12-15), SD card(SDIO PC8-12/PD2), RS485(PB10/11,PE0), SPI/IIC OLED, USB(PA11/12), integrated ST-LINK V2.1 and CH340.",
+  "description_zh_cn": "三只蓝鲸 NANO_STM32F103VX V5.20 开发板配置，主控 STM32F103VET6（兼容 VC/VD/VG）。板载：LED0(PB5)/LED1(PE5)、按键 KEY0(PE4)/KEY1(PE3)/WK_UP(PA0)、无源蜂鸣器(PB8)、红外接收(PB9)、NTC热敏(PC5)、DHT11/DS18B20接口(PD1)、W25Q16 SPI Flash(PB12~15)、SD卡(SDIO PC8~12/PD2)、RS485(PB10/11、PE0)、SPI/IIC OLED、USB(PA11/12)，集成 ST-LINK V2.1 仿真器与 CH340 串口。",
+  "description_zh_hk": "三隻藍鯨 NANO_STM32F103VX V5.20 開發板配置，主控 STM32F103VET6（兼容 VC/VD/VG）。板載：LED0(PB5)/LED1(PE5)、按鍵 KEY0(PE4)/KEY1(PE3)/WK_UP(PA0)、無源蜂鳴器(PB8)、紅外接收(PB9)、NTC熱敏(PC5)、DHT11/DS18B20接口(PD1)、W25Q16 SPI Flash(PB12~15)、SD卡(SDIO PC8~12/PD2)、RS485(PB10/11、PE0)、SPI/IIC OLED、USB(PA11/12)，集成 ST-LINK V2.1 仿真器與 CH340 串口。",
+  "description_ja": "三匹のクジラ NANO_STM32F103VX V5.20 開発ボード設定。STM32F103VET6ベース（VC/VD/VG互換）。オンボード：LED0(PB5)/LED1(PE5)、ボタン KEY0(PE4)/KEY1(PE3)/WK_UP(PA0)、パッシブブザー(PB8)、赤外線受信(PB9)、NTCサーミスタ(PC5)、DHT11/DS18B20接続(PD1)、W25Q16 SPI Flash(PB12-15)、SDカード(SDIO PC8-12/PD2)、RS485(PB10/11、PE0)、SPI/IIC OLED、USB(PA11/12)、ST-LINK V2.1とCH340内蔵。",
+  "description_ko": "산즈란징(세 마리 고래) NANO_STM32F103VX V5.20 개발 보드 구성. STM32F103VET6 기반(VC/VD/VG 호환). 온보드: LED0(PB5)/LED1(PE5), 버튼 KEY0(PE4)/KEY1(PE3)/WK_UP(PA0), 수동 부저(PB8), 적외선 수신(PB9), NTC 서미스터(PC5), DHT11/DS18B20 연결(PD1), W25Q16 SPI 플래시(PB12-15), SD 카드(SDIO PC8-12/PD2), RS485(PB10/11, PE0), SPI/IIC OLED, USB(PA11/12), ST-LINK V2.1 및 CH340 내장.",
+  "description_de": "NANO_STM32F103VX_V520-Entwicklungsboard-Konfiguration (SanZhi LanJing), basierend auf STM32F103VET6 (kompatibel mit VC/VD/VG). Onboard: LED0(PB5)/LED1(PE5), Tasten KEY0(PE4)/KEY1(PE3)/WK_UP(PA0), passiver Summer(PB8), IR-Empfänger(PB9), NTC(PC5), DHT11/DS18B20(PD1), W25Q16 SPI-Flash(PB12-15), SD-Karte(SDIO PC8-12/PD2), RS485(PB10/11, PE0), SPI/IIC OLED, USB(PA11/12), integriert ST-LINK V2.1 und CH340.",
+  "description_fr": "Configuration de carte de développement NANO_STM32F103VX_V520 (SanZhi LanJing), basée sur STM32F103VET6 (compatible VC/VD/VG). Intégré : LED0(PB5)/LED1(PE5), boutons KEY0(PE4)/KEY1(PE3)/WK_UP(PA0), buzzer passif(PB8), récepteur IR(PB9), NTC(PC5), DHT11/DS18B20(PD1), flash SPI W25Q16(PB12-15), carte SD(SDIO PC8-12/PD2), RS485(PB10/11, PE0), OLED SPI/IIC, USB(PA11/12), ST-LINK V2.1 et CH340 intégrés.",
+  "description_es": "Configuración de placa de desarrollo NANO_STM32F103VX_V520 (SanZhi LanJing), basada en STM32F103VET6 (compatible con VC/VD/VG). Integra: LED0(PB5)/LED1(PE5), botones KEY0(PE4)/KEY1(PE3)/WK_UP(PA0), zumbador pasivo(PB8), receptor IR(PB9), NTC(PC5), DHT11/DS18B20(PD1), flash SPI W25Q16(PB12-15), tarjeta SD(SDIO PC8-12/PD2), RS485(PB10/11, PE0), OLED SPI/IIC, USB(PA11/12), ST-LINK V2.1 y CH340 integrados.",
+  "description_pt": "Configuração de placa de desenvolvimento NANO_STM32F103VX_V520 (SanZhi LanJing), baseada em STM32F103VET6 (compatível com VC/VD/VG). Integra: LED0(PB5)/LED1(PE5), botões KEY0(PE4)/KEY1(PE3)/WK_UP(PA0), buzzer passivo(PB8), receptor IR(PB9), NTC(PC5), DHT11/DS18B20(PD1), flash SPI W25Q16(PB12-15), cartão SD(SDIO PC8-12/PD2), RS485(PB10/11, PE0), OLED SPI/IIC, USB(PA11/12), ST-LINK V2.1 e CH340 integrados.",
+  "description_ru": "Конфигурация платы разработки NANO_STM32F103VX_V520 (SanZhi LanJing), на базе STM32F103VET6 (совместима с VC/VD/VG). Встроено: LED0(PB5)/LED1(PE5), кнопки KEY0(PE4)/KEY1(PE3)/WK_UP(PA0), пассивный зуммер(PB8), ИК-приемник(PB9), NTC(PC5), DHT11/DS18B20(PD1), SPI-флеш W25Q16(PB12-15), SD-карта(SDIO PC8-12/PD2), RS485(PB10/11, PE0), OLED SPI/IIC, USB(PA11/12), встроены ST-LINK V2.1 и CH340.",
+  "description_ar": "تكوين لوحة تطوير NANO_STM32F103VX_V520 (SanZhi LanJing)، استنادًا إلى STM32F103VET6 (متوافقة مع VC/VD/VG). مدمج: LED0(PB5)/LED1(PE5)، أزرار KEY0(PE4)/KEY1(PE3)/WK_UP(PA0)، جرس سلبي(PB8)، مستقبل الأشعة تحت الحمراء(PB9)، NTC(PC5)، DHT11/DS18B20(PD1)، ذاكرة SPI W25Q16(PB12-15)، بطاقة SD(SDIO PC8-12/PD2)، RS485(PB10/11, PE0)، شاشة OLED SPI/IIC، USB(PA11/12)، مع ST-LINK V2.1 وCH340.",
+  "main": "index.js",
+  "brand": "STMicroelectronics",
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f103ve.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "STM32",
+    "STM32F103VET6",
+    "NANO_STM32F103VX",
+    "Three Blue Whales",
+    "Cortex-M3"
+  ],
+  "author": "Three Blue Whales",
+  "state": "alpha",
+  "license": "ISC",
+  "boardDependencies": {
+    "@aily-project/compiler-xpack-arm-none-eabi-gcc": "14.2.1",
+    "@aily-project/tool-STM32Tools": "2.3.1",
+    "@aily-project/sdk-stm32": "2.12.0",
+    "@aily-project/tool-STM32_SVD": "1.18.1",
+    "@aily-project/tool-stm32flash": "0.7.0",
+    "@aily-project/tool-CMSIS": "5.9.0",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}

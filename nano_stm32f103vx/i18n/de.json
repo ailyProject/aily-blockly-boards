@@ -1,0 +1,6 @@
+{
+  "STM32": {
+    "BOARD": "Board-Modell auswählen",
+    "USB": "USB-Konfiguration"
+  }
+}

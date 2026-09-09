@@ -1,0 +1,20 @@
+{
+  "name": "project_",
+  "version": "1.0.0",
+  "description": "",
+  "board": "NANO_STM32F103VX_V520",
+  "dependencies": {
+    "@aily-project/board-nano-stm32f103vx": "2.12.0",
+    "@aily-project/lib-core-io": "1.0.0",
+    "@aily-project/lib-core-logic": "0.0.1",
+    "@aily-project/lib-core-loop": "0.0.1",
+    "@aily-project/lib-core-math": "0.0.1",
+    "@aily-project/lib-core-text": "1.0.0",
+    "@aily-project/lib-core-serial": "0.0.1",
+    "@aily-project/lib-core-time": "0.0.1",
+    "@aily-project/lib-core-variables": "1.0.1"
+  },
+  "projectConfig": {
+    "pnum": "GENERIC_F103VETX"
+  }
+}
