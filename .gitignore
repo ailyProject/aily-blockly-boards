@@ -8,3 +8,6 @@ boards-ai.json
 
 # Aily Elements 本地编辑数据与历史版本
 .elements/
+
+# macOS
+.DS_Store
