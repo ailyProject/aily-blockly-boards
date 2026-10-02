@@ -4,6 +4,7 @@
     "description": "DFRobot ESP32-S3 AI CAM Board with OV3660 Camera",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
+    "mcu": "esp32s3",
     "type": "esp32:esp32:esp32s3",
     "mode": [
         "arduino"

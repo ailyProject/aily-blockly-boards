@@ -4,6 +4,7 @@
     "description": "Adafruit Metro ESP32-S2 development board with ESP32-S2 WROVER module",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
+    "mcu": "esp32s2",
     "type": "esp32:esp32:adafruit_metro_esp32s2",
     "compilerParam": "compile -v -b esp32:esp32:adafruit_metro_esp32s2",
     "analogPins": [

@@ -4,6 +4,7 @@
   "description": "M5StampC3 compatible board using the official Arduino-ESP32 m5stack_stamp_c3 variant",
   "compilerTool": "aily-builder",
   "core": "esp32:esp32",
+  "mcu": "esp32c3",
   "type": "esp32:esp32:m5stack_stamp_c3",
   "compilerParam": "compile -v -b esp32:esp32:m5stack_stamp_c3",
   "analogPins": [

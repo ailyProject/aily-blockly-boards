@@ -4,6 +4,7 @@
     "description": "Summer_V2 compatible board",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
+    "mcu": "esp32",
     "type": "esp32:esp32:esp32",
     "compilerParam": "compile -v -b esp32:esp32:esp32",
     "analogPins": [

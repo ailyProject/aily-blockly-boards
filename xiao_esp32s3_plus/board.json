@@ -4,6 +4,7 @@
     "description": "Seeed ESP32S3 compatible board",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
+    "mcu": "esp32s3",
     "type": "esp32:esp32:XIAO_ESP32S3_Plus",
     "compilerParam": "compile -v -b esp32:esp32:XIAO_ESP32S3_Plus",
     "analogPins": [

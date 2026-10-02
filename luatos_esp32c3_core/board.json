@@ -4,6 +4,7 @@
     "description": "LuatOS ESP32C3 Core development board by OpenLuat",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
+    "mcu": "esp32c3",
     "type": "esp32:esp32:esp32c3",
     "compilerParam": "compile -v -b esp32:esp32:esp32c3",
     "analogPins": [

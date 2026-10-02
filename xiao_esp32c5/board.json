@@ -4,6 +4,7 @@
     "description": "Seeed ESP32C5 compatible board",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
+    "mcu": "esp32c5",
     "type": "esp32:esp32:XIAO_ESP32C5",
     "compilerParam": "compile -v -b esp32:esp32:XIAO_ESP32C5",
     "analogPins": [

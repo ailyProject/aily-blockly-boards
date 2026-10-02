@@ -4,6 +4,7 @@
   "description": "STM32C051C8 development board",
   "compilerTool": "aily-builder",
   "core": "STMicroelectronics:stm32",
+  "mcu": "stm32c051c8",
   "type": "STMicroelectronics:stm32:GenC0",
   "compilerParam": "compile -v -b STMicroelectronics:stm32:GenC0",
   "uploadParam": "stm32flash -w ${'*.bin'} -v -g 0x0 ${serial}",

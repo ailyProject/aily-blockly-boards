@@ -4,6 +4,7 @@
   "description": "Generic ESP32-S31 chip configuration using the Arduino ESP32 4.0.0-RC1 esp32s31 variant",
   "compilerTool": "aily-builder",
   "core": "esp32:esp32",
+  "mcu": "esp32s31",
   "type": "esp32:esp32:esp32s31",
   "compilerParam": "compile -v -b esp32:esp32:esp32s31",
   "analogPins": [

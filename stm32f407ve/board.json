@@ -4,6 +4,7 @@
   "description": "STM32F407VE development board",
   "compilerTool": "aily-builder",
   "core": "STMicroelectronics:stm32",
+  "mcu": "stm32f407ve",
   "type": "STMicroelectronics:stm32:GenF4",
   "compilerParam": "compile -v -b STMicroelectronics:stm32:GenF4",
   "uploadParam": "stm32flash -w ${'*.bin'} -v -g 0x0 ${serial}",

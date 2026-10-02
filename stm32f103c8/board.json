@@ -4,6 +4,7 @@
   "description": "STM32F103C8 development board",
   "compilerTool": "aily-builder",
   "core": "STMicroelectronics:stm32",
+  "mcu": "stm32f103c8",
   "type": "STMicroelectronics:stm32:GenF1",
   "compilerParam": "compile -v -b STMicroelectronics:stm32:GenF1",
   "uploadParam": "stm32flash -w ${'*.bin'} -v -g 0x0 ${serial}",

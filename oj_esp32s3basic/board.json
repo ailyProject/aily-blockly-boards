@@ -4,6 +4,7 @@
     "description": "ESP32 AIOT Basic compatible board",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
+    "mcu": "esp32s3",
     "type": "esp32:esp32:esp32s3",
     "compilerParam": "compile -v -b esp32:esp32:esp32s3",
     "analogPins": [

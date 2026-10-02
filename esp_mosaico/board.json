@@ -4,6 +4,7 @@
   "description": "ESP-Mosaico CoreBoard V1.0 with ESP32-S31NRV16, 16 MB flash and 16 MB OPI PSRAM; Arduino ESP32 4.0.0-RC1",
   "compilerTool": "aily-builder",
   "core": "esp32:esp32",
+  "mcu": "esp32s31",
   "type": "esp32:esp32:esp32s31",
   "compilerParam": "compile -v -b esp32:esp32:esp32s31",
   "analogPins": [

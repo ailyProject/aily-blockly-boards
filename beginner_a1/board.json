@@ -4,6 +4,7 @@
     "description": "Beginner A1 compatible board",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
+    "mcu": "esp32c3",
     "type": "esp32:esp32:esp32c3",
     "compilerParam": "compile -v -b esp32:esp32:esp32c3 --build-property build.flash_mode=dio --build-property build.flash_size=4MB --build-property build.partitions=default --build-property build.cdc_on_boot=1",
     "analogPins": [

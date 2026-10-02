@@ -4,6 +4,7 @@
   "description": "M5Tab5 compatible board using the official Arduino-ESP32 m5stack_tab5 variant",
   "compilerTool": "aily-builder",
   "core": "esp32:esp32",
+  "mcu": "esp32p4",
   "type": "esp32:esp32:m5stack_tab5",
   "compilerParam": "compile -v -b esp32:esp32:m5stack_tab5",
   "analogPins": [

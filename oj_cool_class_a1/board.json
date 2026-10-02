@@ -4,6 +4,7 @@
     "description": "Cool Class A1 development board based on ESP32",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
+    "mcu": "esp32",
     "type": "esp32:esp32:esp32",
     "compilerParam": "compile -v -b esp32:esp32:esp32",
     "analogPins": [
