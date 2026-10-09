@@ -1,7 +1,7 @@
 {
   "name": "@aily-project/board-seekfree_stc32g144k246",
   "nickname": "Seekfree STC32G144K246",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Seekfree STC32G144K246 LQFP100 core board with native USB, a P3.2 boot button and an active-low LED on P5.2. Uses the experimental MCS251 C++ core.",
   "description_en": "Seekfree STC32G144K246 LQFP100 core board with native USB, a P3.2 boot button and an active-low LED on P5.2. Uses the experimental MCS251 C++ core.",
   "description_zh_cn": "逐飞 STC32G144K246 LQFP100 核心板，带原生 USB、P3.2 下载按键和 P5.2 低电平点亮 LED，使用实验性的 MCS251 C++ 核心。",
@@ -36,7 +36,7 @@
   "boardDependencies": {
     "@aily-project/compiler-stcxx-toolchain": "0.3.0",
     "@aily-project/tool-stc-cli": "0.1.0",
-    "@aily-project/sdk-mcs251": "0.0.1",
+    "@aily-project/sdk-mcs251": "0.0.2",
     "@aily-project/tool-ctags": "5.8.0"
   }
 }

@@ -331,8 +331,66 @@
     [
       "Serial (UART1)",
       "Serial"
+    ],
+    [
+      "Serial1 (UART1)",
+      "Serial1"
+    ],
+    [
+      "Serial2 (UART2)",
+      "Serial2"
+    ],
+    [
+      "Serial3 (UART3)",
+      "Serial3"
+    ],
+    [
+      "Serial4 (UART4)",
+      "Serial4"
     ]
   ],
+  "serialPins": {
+    "Serial1": [
+      [
+        "RX",
+        "P3_0"
+      ],
+      [
+        "TX",
+        "P3_1"
+      ]
+    ],
+    "Serial2": [
+      [
+        "RX",
+        "P1_0"
+      ],
+      [
+        "TX",
+        "P1_1"
+      ]
+    ],
+    "Serial3": [
+      [
+        "RX",
+        "P0_0"
+      ],
+      [
+        "TX",
+        "P0_1"
+      ]
+    ],
+    "Serial4": [
+      [
+        "RX",
+        "P0_2"
+      ],
+      [
+        "TX",
+        "P0_3"
+      ]
+    ]
+  },
   "serialSpeed": [
     [
       "4800",
@@ -361,7 +419,7 @@
   ],
   "spi": [
     [
-      "SPI (software)",
+      "SPI",
       "SPI"
     ]
   ],
@@ -369,25 +427,55 @@
     "SPI": [
       [
         "MOSI",
-        "P3_2"
+        "P1_3"
       ],
       [
         "MISO",
-        "P3_3"
+        "P1_4"
       ],
       [
         "SCK",
-        "P3_4"
+        "P1_5"
       ],
       [
         "SS",
-        "P3_5"
+        "P1_0"
       ]
     ]
   },
+  "spiClockDivide": [
+    [
+      "2",
+      "SPI_CLOCK_DIV2"
+    ],
+    [
+      "4",
+      "SPI_CLOCK_DIV4"
+    ],
+    [
+      "8",
+      "SPI_CLOCK_DIV8"
+    ],
+    [
+      "16",
+      "SPI_CLOCK_DIV16"
+    ],
+    [
+      "32",
+      "SPI_CLOCK_DIV32"
+    ],
+    [
+      "64",
+      "SPI_CLOCK_DIV64"
+    ],
+    [
+      "128",
+      "SPI_CLOCK_DIV128"
+    ]
+  ],
   "i2c": [
     [
-      "I2C (software)",
+      "I2C",
       "Wire"
     ]
   ],
@@ -395,11 +483,11 @@
     "Wire": [
       [
         "SDA",
-        "P3_2"
+        "P3_3"
       ],
       [
         "SCL",
-        "P3_3"
+        "P3_2"
       ]
     ]
   },

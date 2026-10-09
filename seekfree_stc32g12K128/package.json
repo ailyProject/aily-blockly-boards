@@ -1,7 +1,7 @@
 {
   "name": "@aily-project/board-seekfree_stc32g12k128",
   "nickname": "Seekfree STC32G12K128",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Seekfree core board based on STC32G12K128, with USB-to-UART programming and a blue LED on P5.2. Uses the experimental arduino-stc51 MCS251 C++ core.",
   "description_en": "Seekfree core board based on STC32G12K128, with USB-to-UART programming and a blue LED on P5.2. Uses the experimental arduino-stc51 MCS251 C++ core.",
   "description_zh_cn": "逐飞 STC32G12K128 核心板，板载 USB 转串口下载电路及 P5.2 蓝色 LED，使用实验性的 arduino-stc51 MCS251 C++ 核心。",
@@ -35,7 +35,7 @@
   "boardDependencies": {
     "@aily-project/compiler-stcxx-toolchain": "0.3.0",
     "@aily-project/tool-stc-cli": "0.1.0",
-    "@aily-project/sdk-mcs251": "0.0.1",
+    "@aily-project/sdk-mcs251": "0.0.2",
     "@aily-project/tool-ctags": "5.8.0"
   }
 }

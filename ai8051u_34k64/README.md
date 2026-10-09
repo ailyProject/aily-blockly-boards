@@ -18,8 +18,10 @@ Aily 开发板包版本 **0.0.1**，状态 **todo**。配置取自 arduino-stc51
 
 模板只加载基础 IO、逻辑、循环、数学和时间库，保留仓库已有库版本。没有把依赖 String / Print 重载的文本和通用串口库预装到纯 C 模板；基础库中的扩展积木仍需逐项验证，尤其不要将 C++ 重载、函数引用或随机数双参数调用当作纯 C 已兼容。
 
-- 只声明 UART1：RX=P3.0、TX=P3.1。串口占用 Timer1；波特率误差超过 3% 时核心会拒绝初始化。
-- Wire 与 SPI 为软件主机，时钟值是请求值，实际总线速率需实测。默认总线引脚可能与外部中断及其他外设冲突。
+- 通信配置已按 `sdk-mcs251@0.0.2` 的 `boards.txt`、变体引脚表和驱动核对：提供 `Serial` 及 `Serial1`～`Serial4`，`serialPins` 记录各硬件串口的默认 RX/TX。`Serial` 由 USB CDC 菜单选择 UART1 或 USB CDC；`Serial1` 始终为 UART1。
+- `Wire` 保留软件主机默认 SDA=P3.2、SCL=P3.3；硬件从机默认 SDA=P3.3、SCL=P3.2。IIC 需要外部上拉。
+- `SPI` 默认 MOSI=P3.2、MISO=P3.3、SCK=P3.4、SS=P3.5，仍使用软件接线；可通过 `setPinsChecked()` 选择完整硬件路由。硬件 SPI 默认数据组为 P1.5/P1.6/P1.7，不能与 STC32 的 P1.3/P1.4/P1.5 混用。补齐 2～128 分频选项；频率为请求值，未匹配硬件路由或时钟条件时会回退软件 SPI。
+- UART1 使用 Timer1，其余 UART 按编号使用对应定时器；`Serial2` 与 `tone()` 的 Timer2 存在冲突。各接口还需避开引脚复用冲突，使用 `configurationError()` 检查初始化结果。以上为配置与源码核对，未做实板通信验证。
 - 外部中断仅 P3.2 / INT0、P3.3 / INT1，模式仅 LOW / FALLING。
 - `pwmPins` 按 arduino-stc51 0.0.7 的 `cores/STC/wiring_analog_write.c` 路由表与本型号 GPIO 掩码取交集，列出 28 个 `analogWrite()` 可用引脚（仅正向输出）。同一 PWM 通道的不同映射引脚不能同时独立输出；具体可用引脚仍取决于封装。
 - 裸芯片无板载 LED，因此 `builtinLed` 为空。

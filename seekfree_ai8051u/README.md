@@ -1,6 +1,6 @@
 # Seekfree AI8051U 核心板
 
-逐飞 AI8051U-34K64（LQFP48）核心板配置，硬件依据为 V1.0.2 原理图。包版本 `0.0.1`，使用 `@aily-project/sdk-mcs251@0.0.1`，FQBN 为 `stc:mcs251:ai8051u_34k64`。状态为 `alpha`，尚未进行实板烧录与运行验证。
+逐飞 AI8051U-34K64（LQFP48）核心板配置，硬件依据为 V1.0.2 原理图。包版本 `0.0.2`，使用 `@aily-project/sdk-mcs251@0.0.2`，FQBN 为 `stc:mcs251:ai8051u_34k64`。状态为 `alpha`，尚未进行实板烧录与运行验证。
 
 ## 硬件与引脚
 
@@ -14,11 +14,19 @@
 | 接口 | 当前 SDK 的默认引脚 |
 | --- | --- |
 | UART1 / `Serial` | RX=P3.0，TX=P3.1，连接板载 USB 转串口电路 |
+| UART1 / `Serial1` | RX=P3.0，TX=P3.1；关闭 CDC 时与 `Serial` 是同一串口 |
+| UART2 / `Serial2` | RX=P1.2，TX=P1.3 |
+| UART3 / `Serial3` | RX=P0.0，TX=P0.1 |
+| UART4 / `Serial4` | RX=P0.2，TX=P0.3 |
 | 软件 I²C / `Wire` | SDA=P3.2，SCL=P3.3 |
 | 软件 SPI / `SPI` | MOSI=P3.2，MISO=P3.3，SCK=P3.4，SS=P3.5 |
 | 外部中断 | P3.2 / INT0、P3.3 / INT1；LOW、FALLING |
 
 默认 I²C、SPI 和外部中断共用部分引脚，不能同时占用同一引脚。
+
+通信配置已按 `sdk-mcs251@0.0.2` 的 `boards.txt`、变体引脚表和驱动核对，补齐硬件串口选项、`serialPins` 和 SPI 的 2～128 分频选项。`Serial` 由 CDC 菜单选择 USB CDC 或 UART1，`Serial1` 始终为 UART1；各 UART 按编号占用对应定时器，`Serial2` 与 `tone()` 的 Timer2 存在冲突。
+
+`Wire` 软件主机保持表中接线；无自定义引脚时，`Wire.begin(address)` 的硬件从机默认改用 SDA=P3.3、SCL=P3.2。IIC 需要外部上拉。`SPI` 也保持表中软件接线，可调用 `SPI.setPinsChecked(PIN_SPI1_MOSI, PIN_SPI1_MISO, PIN_SPI1_SCK, PIN_SPI1_SS)` 切换到硬件默认组 MOSI=P1.5、MISO=P1.6、SCK=P1.7、SS=P1.4。SPI 频率为请求值，是否使用硬件还取决于时钟条件，可通过 `usingHardware()` 查询。本次未做实板通信验证。
 
 ## 默认项目与烧录
 

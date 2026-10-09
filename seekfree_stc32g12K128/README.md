@@ -1,6 +1,6 @@
 # Seekfree STC32G12K128 核心板
 
-逐飞 STC32G12K128（LQFP64）核心板配置，硬件依据为 V2.1 原理图。包名为 `@aily-project/board-seekfree_stc32g12k128`，包版本 `0.0.1`，使用 `@aily-project/sdk-mcs251@0.0.1`，FQBN 为 `stc:mcs251:stc32g12k128`。状态为 `alpha`，尚未进行实板烧录与运行验证。
+逐飞 STC32G12K128（LQFP64）核心板配置，硬件依据为 V2.1 原理图。包名为 `@aily-project/board-seekfree_stc32g12k128`，包版本 `0.0.2`，使用 `@aily-project/sdk-mcs251@0.0.2`，FQBN 为 `stc:mcs251:stc32g12k128`。状态为 `alpha`，尚未进行实板烧录与运行验证。
 
 ## 硬件与引脚
 
@@ -14,11 +14,19 @@
 | 接口 | 当前 SDK 的默认引脚 |
 | --- | --- |
 | UART1 / `Serial` | RX=P3.0，TX=P3.1，连接板载 USB 转串口电路 |
+| UART1 / `Serial1` | RX=P3.0，TX=P3.1；关闭 CDC 时与 `Serial` 是同一串口 |
+| UART2 / `Serial2` | RX=P1.0，TX=P1.1 |
+| UART3 / `Serial3` | RX=P0.0，TX=P0.1 |
+| UART4 / `Serial4` | RX=P0.2，TX=P0.3 |
 | 硬件 I²C / `Wire` | SDA=P3.3，SCL=P3.2 |
 | 硬件 SPI / `SPI` | MOSI=P1.3，MISO=P1.4，SCK=P1.5，SS=P1.0 |
 | 外部中断 | P3.2 / INT0、P3.3 / INT1；LOW、FALLING |
 
 默认 I²C 与外部中断共用引脚，SPI 与部分 ADC 输入共用引脚，不能同时占用同一引脚。
+
+通信配置已按 `sdk-mcs251@0.0.2` 的 `boards.txt`、变体引脚表和驱动核对，补齐硬件串口选项、`serialPins` 和 SPI 的 2～128 分频选项。`Serial` 由 CDC 菜单选择 USB CDC 或 UART1，`Serial1` 始终为 UART1；各 UART 按编号占用对应定时器，`Serial2` 与 `tone()` 的 Timer2 存在冲突。UART2 的默认 RX=P1.0 也与 SPI 默认 SS 共用，使用时需另选片选或完整串口路由。
+
+`Wire` 主机和硬件从机均使用表中的默认引脚，需要外部上拉。`SPI` 的默认 SS 仍为 P1.0，不能直接以硬件路由宏 `PIN_SPI1_SS` 的 P5.4 替换，因为板上 P5.4 用于复位。SPI 频率为请求值，硬件运行还取决于路由和时钟条件，可通过 `usingHardware()` 查询。本次未做实板通信验证。
 
 ## 默认项目与烧录
 

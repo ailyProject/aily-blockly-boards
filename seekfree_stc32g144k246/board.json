@@ -515,8 +515,122 @@
     [
       "Serial (USB CDC / UART1)",
       "Serial"
+    ],
+    [
+      "Serial1 (UART1)",
+      "Serial1"
+    ],
+    [
+      "Serial2 (UART2)",
+      "Serial2"
+    ],
+    [
+      "Serial3 (UART3)",
+      "Serial3"
+    ],
+    [
+      "Serial4 (UART4)",
+      "Serial4"
+    ],
+    [
+      "Serial5 (UART5)",
+      "Serial5"
+    ],
+    [
+      "Serial6 (UART6)",
+      "Serial6"
+    ],
+    [
+      "Serial7 (UART7)",
+      "Serial7"
+    ],
+    [
+      "Serial8 (UART8)",
+      "Serial8"
     ]
   ],
+  "serialPins": {
+    "Serial1": [
+      [
+        "RX",
+        "P3_0"
+      ],
+      [
+        "TX",
+        "P3_1"
+      ]
+    ],
+    "Serial2": [
+      [
+        "RX",
+        "P1_0"
+      ],
+      [
+        "TX",
+        "P1_1"
+      ]
+    ],
+    "Serial3": [
+      [
+        "RX",
+        "P0_0"
+      ],
+      [
+        "TX",
+        "P0_1"
+      ]
+    ],
+    "Serial4": [
+      [
+        "RX",
+        "P0_2"
+      ],
+      [
+        "TX",
+        "P0_3"
+      ]
+    ],
+    "Serial5": [
+      [
+        "RX",
+        "P0_4"
+      ],
+      [
+        "TX",
+        "P0_5"
+      ]
+    ],
+    "Serial6": [
+      [
+        "RX",
+        "P0_6"
+      ],
+      [
+        "TX",
+        "P0_7"
+      ]
+    ],
+    "Serial7": [
+      [
+        "RX",
+        "P5_0"
+      ],
+      [
+        "TX",
+        "P5_1"
+      ]
+    ],
+    "Serial8": [
+      [
+        "RX",
+        "P5_2"
+      ],
+      [
+        "TX",
+        "P5_3"
+      ]
+    ]
+  },
   "serialSpeed": [
     [
       "4800",
@@ -545,8 +659,16 @@
   ],
   "spi": [
     [
-      "SPI (software)",
+      "SPI (software default)",
       "SPI"
+    ],
+    [
+      "SPI1 (SPI2)",
+      "SPI1"
+    ],
+    [
+      "SPI2 (SPI3)",
+      "SPI2"
     ]
   ],
   "spiPins": {
@@ -567,12 +689,82 @@
         "SS",
         "P3_5"
       ]
+    ],
+    "SPI1": [
+      [
+        "MOSI",
+        "P6_5"
+      ],
+      [
+        "MISO",
+        "P6_6"
+      ],
+      [
+        "SCK",
+        "P6_7"
+      ],
+      [
+        "SS",
+        "P6_4"
+      ]
+    ],
+    "SPI2": [
+      [
+        "MOSI",
+        "P2_3"
+      ],
+      [
+        "MISO",
+        "P2_4"
+      ],
+      [
+        "SCK",
+        "P2_5"
+      ],
+      [
+        "SS",
+        "P2_2"
+      ]
     ]
   },
+  "spiClockDivide": [
+    [
+      "2",
+      "SPI_CLOCK_DIV2"
+    ],
+    [
+      "4",
+      "SPI_CLOCK_DIV4"
+    ],
+    [
+      "8",
+      "SPI_CLOCK_DIV8"
+    ],
+    [
+      "16",
+      "SPI_CLOCK_DIV16"
+    ],
+    [
+      "32",
+      "SPI_CLOCK_DIV32"
+    ],
+    [
+      "64",
+      "SPI_CLOCK_DIV64"
+    ],
+    [
+      "128",
+      "SPI_CLOCK_DIV128"
+    ]
+  ],
   "i2c": [
     [
-      "I2C",
+      "I2C1",
       "Wire"
+    ],
+    [
+      "I2C2",
+      "Wire1"
     ]
   ],
   "i2cPins": {
@@ -584,6 +776,16 @@
       [
         "SCL",
         "P3_2"
+      ]
+    ],
+    "Wire1": [
+      [
+        "SDA",
+        "P2_6"
+      ],
+      [
+        "SCL",
+        "P2_7"
       ]
     ]
   },

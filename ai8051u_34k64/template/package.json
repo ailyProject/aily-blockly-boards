@@ -10,7 +10,7 @@
     "execution": "mcs51"
   },
   "dependencies": {
-     "@aily-project/board-ai8051u_34k64": "0.0.1",
+     "@aily-project/board-ai8051u_34k64": "0.0.2",
     "@aily-project/lib-core-io": "1.0.0",
     "@aily-project/lib-core-logic": "0.0.1",
     "@aily-project/lib-core-loop": "0.0.1",

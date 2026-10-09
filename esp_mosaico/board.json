@@ -1,7 +1,7 @@
 {
   "name": "ESP-Mosaico",
   "version": "1.0.0",
-  "description": "ESP-Mosaico CoreBoard V1.0 with ESP32-S31NRV16; Arduino SDK integration pending",
+  "description": "ESP-Mosaico CoreBoard V1.2 with ESP32-S31NRV16, 16 MB flash and 16 MB OPI PSRAM; Arduino ESP32 4.0.0-RC1",
   "compilerTool": "aily-builder",
   "core": "esp32:esp32",
   "type": "esp32:esp32:esp32s31",
@@ -11,15 +11,14 @@
     ["GPIO47", "47"],
     ["GPIO48", "48"],
     ["GPIO49 (I2S_WS)", "49"],
-    ["GPIO52 (I2S_DIN)", "52"],
+    ["GPIO52 (I2S_DOUT)", "52"],
     ["GPIO53", "53"],
     ["GPIO54 (I2S_MCLK)", "54"],
     ["GPIO55", "55"]
   ],
   "digitalPins": [
-    ["GPIO0 (SDA)", "0"],
-    ["GPIO1 (SCL)", "1"],
-    ["GPIO3 (LED)", "3"],
+    ["GPIO0 (EXT_SDA)", "0"],
+    ["GPIO1 (EXT_SCL)", "1"],
     ["GPIO4", "4"],
     ["GPIO5", "5"],
     ["GPIO7 (BUTTON)", "7"],
@@ -39,12 +38,12 @@
     ["GPIO37 (I2S_BCK)", "37"],
     ["GPIO38", "38"],
     ["GPIO39 (EEPROM_RIGHT)", "39"],
-    ["GPIO40 (I2S_DOUT)", "40"],
+    ["GPIO40 (I2S_DIN)", "40"],
     ["GPIO46", "46"],
     ["GPIO47", "47"],
     ["GPIO48", "48"],
     ["GPIO49 (I2S_WS)", "49"],
-    ["GPIO52 (I2S_DIN)", "52"],
+    ["GPIO52 (I2S_DOUT)", "52"],
     ["GPIO53", "53"],
     ["GPIO54 (I2S_MCLK)", "54"],
     ["GPIO55", "55"],
@@ -52,7 +51,6 @@
     ["GPIO59 (RX0)", "59"]
   ],
   "pwmPins": [
-    ["GPIO3 (LED)", "3"],
     ["GPIO4", "4"],
     ["GPIO5", "5"],
     ["GPIO8 (MOTOR)", "8"],
@@ -116,18 +114,18 @@
   "spiPins": {},
   "spiClockDivide": [],
   "i2c": [
-    ["I2C", "Wire"]
+    ["I2C (Onboard)", "Wire"],
+    ["I2C1 (Expansion)", "Wire1"]
   ],
   "i2cPins": {
-    "Wire": [["SDA", "0"], ["SCL", "1"]]
+    "Wire": [["SDA", "56"], ["SCL", "3"]],
+    "Wire1": [["SDA", "0"], ["SCL", "1"]]
   },
   "i2cSpeed": [
     ["100kHz", "100000L"],
     ["400kHz", "400000L"]
   ],
-  "builtinLed": [
-    ["BUILTIN_LED (LOW=ON)", "3"]
-  ],
+  "builtinLed": [],
   "interruptPins": [
     ["GPIO4", "4"],
     ["GPIO5", "5"],
@@ -162,14 +160,15 @@
     "interface": "qspi",
     "width": 480,
     "height": 480,
+    "frequency": 40000000,
     "pins": {
-      "sclk": "44",
+      "sclk": "42",
       "cs": "50",
       "data0": "36",
       "data1": "51",
       "data2": "35",
       "data3": "9",
-      "rst": "42",
+      "rst": "44",
       "te": "43"
     }
   },
@@ -177,35 +176,34 @@
     "controller": "cst9220",
     "interface": "i2c",
     "address": "0x5A",
-    "pins": {"sda": "0", "scl": "1", "int": "6"}
+    "pins": {"sda": "56", "scl": "3", "int": "6"}
   },
   "audioConfig": {
     "codec": "es8311",
     "amplifier": "ns4150b",
     "address": "0x19",
     "pins": {
-      "sda": "0",
-      "scl": "1",
+      "sda": "56",
+      "scl": "3",
       "sclk": "37",
-      "dout": "40",
+      "dout": "52",
       "lrck": "49",
-      "din": "52",
+      "din": "40",
       "mclk": "54",
-      "pa": "45",
-      "power": "56"
+      "pa": "45"
     }
   },
   "imuConfig": {
     "model": "bmi270",
     "interface": "i2c",
     "address": "0x69",
-    "pins": {"sda": "0", "scl": "1"}
+    "pins": {"sda": "56", "scl": "3"}
   },
   "magnetometerConfig": {
     "model": "bmm150",
     "interface": "i2c",
     "addresses": ["0x11", "0x12"],
-    "pins": {"sda": "0", "scl": "1"}
+    "pins": {"sda": "56", "scl": "3"}
   },
   "sensorInterruptPin": "2",
   "batteryConfig": {
@@ -215,7 +213,7 @@
     "address": "0x55",
     "capacityMah": 65,
     "voltage": 3.7,
-    "pins": {"sda": "0", "scl": "1"}
+    "pins": {"sda": "56", "scl": "3"}
   },
   "nandFlashConfig": {
     "model": "gd5f1gm7ueyigr",
@@ -240,8 +238,7 @@
   },
   "powerConfig": {
     "systemActiveLevel": 0,
-    "codecActiveLevel": 1,
     "shutdownActiveLevel": 0,
-    "pins": {"system": "60", "codec": "56", "shutdown": "57"}
+    "pins": {"system": "60", "shutdown": "57"}
   }
 }

@@ -1,6 +1,6 @@
 # Seekfree STC32G144K246 核心板
 
-逐飞 STC32G144K246（LQFP100）核心板配置，硬件依据为官方 V1.0 原理图（内部修订 V1.0.2.0）。包名 `@aily-project/board-seekfree_stc32g144k246`，版本 `0.0.1`，状态 `alpha`。使用 `@aily-project/sdk-mcs251@0.0.1`、`@aily-project/compiler-stcxx-toolchain@0.3.0` 和 FQBN `stc:mcs251:stc32g144k246`。
+逐飞 STC32G144K246（LQFP100）核心板配置，硬件依据为官方 V1.0 原理图（内部修订 V1.0.2.0）。包名 `@aily-project/board-seekfree_stc32g144k246`，版本 `0.0.2`，状态 `alpha`。使用 `@aily-project/sdk-mcs251@0.0.2`、`@aily-project/compiler-stcxx-toolchain@0.3.0` 和 FQBN `stc:mcs251:stc32g144k246`。
 
 ## 硬件与引脚
 
@@ -18,12 +18,26 @@
 | 接口 | 当前 SDK 默认引脚 |
 | --- | --- |
 | `Serial`（默认） | 原生 USB CDC，D−=P3.0、D+=P3.1 |
-| UART1（关闭 CDC 并停止 USB 后） | RX=P3.0、TX=P3.1；通过外部 USB 转 TTL 连接排针 |
+| UART1 / `Serial1`（默认引脚需停止 USB） | RX=P3.0、TX=P3.1；通过外部 USB 转 TTL 连接排针 |
+| UART2 / `Serial2` | RX=P1.0、TX=P1.1 |
+| UART3 / `Serial3` | RX=P0.0、TX=P0.1 |
+| UART4 / `Serial4` | RX=P0.2、TX=P0.3 |
+| UART5 / `Serial5` | RX=P0.4、TX=P0.5 |
+| UART6 / `Serial6` | RX=P0.6、TX=P0.7 |
+| UART7 / `Serial7` | RX=P5.0、TX=P5.1 |
+| UART8 / `Serial8` | RX=P5.2、TX=P5.3；RX 与蓝色 LED 共用 |
 | 硬件 I²C / `Wire` | SDA=P3.3、SCL=P3.2 |
+| 硬件 IIC2 / `Wire1` | SDA=P2.6、SCL=P2.7 |
 | 软件 SPI / `SPI` | MOSI=P3.2、MISO=P3.3、SCK=P3.4、SS=P3.5 |
+| SPI2 / `SPI1` | MOSI=P6.5、MISO=P6.6、SCK=P6.7、SS=P6.4 |
+| SPI3 / `SPI2` | MOSI=P2.3、MISO=P2.4、SCK=P2.5、SS=P2.2 |
 | 外部中断 | P3.2 / INT0、P3.3 / INT1；LOW、FALLING |
 
 I²C、软件 SPI、外部中断和 P3.2 按键共享部分引脚，使用时需要避开冲突。
+
+通信配置已按 `sdk-mcs251@0.0.2` 的 `boards.txt`、变体引脚表和驱动核对，补齐 `Serial1`～`Serial8`、`serialPins`、`Wire1`、`SPI1`、`SPI2` 和 SPI 的 2～128 分频选项。`Serial` 仍按 CDC 菜单选择 USB CDC 或 UART1，`Serial1` 始终为 UART1。保留 USB 时，应在 `Serial1.begin()` 前通过 `setPinsChecked(rx, tx)` 选择其他完整硬件路由。各 UART 按编号占用对应定时器，`Serial2` 与 `tone()` 的 Timer2 存在冲突。
+
+两个 IIC 对象均支持主机和硬件从机，需要外部上拉。`SPI` 保留软件默认接线，可显式切换到硬件 SPI1 路由；`SPI1`、`SPI2` 的默认引脚对应独立硬件 SPI2、SPI3。硬件 SPI 需要有效的 HSIO/PLL 配置，驱动不会初始化共享 PLL；路由或时钟条件不满足时回退软件 SPI，通过 `usingHardware()` 查询实际方式。不同 SPI 对象的事务不能重叠。本次未做实板通信验证。
 
 ## 默认项目与下载
 

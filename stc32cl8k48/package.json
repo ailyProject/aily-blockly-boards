@@ -1,7 +1,7 @@
 {
   "name": "@aily-project/board-stc32cl8k48",
   "nickname": "STC32CL8K48",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "STC32CL8K48 bare-MCU configuration for arduino-stc51. GPIO and ADC mappings follow the variant; available physical pins depend on the package. Plain C is the default; C++ support is experimental.",
   "description_en": "STC32CL8K48 bare-MCU configuration for arduino-stc51. GPIO and ADC mappings follow the variant; available physical pins depend on the package. Plain C is the default; C++ support is experimental.",
   "description_zh_cn": "STC32CL8K48 裸芯片开发板配置，基于 arduino-stc51。GPIO 与 ADC 映射遵循对应 variant，实际引出引脚取决于封装。默认使用纯 C，C++ 支持处于实验阶段。",
@@ -35,7 +35,7 @@
   "boardDependencies": {
       "@aily-project/compiler-stcxx-toolchain": "0.3.0",
       "@aily-project/tool-stc-cli": "0.1.0",
-      "@aily-project/sdk-mcs251": "0.0.1",
+      "@aily-project/sdk-mcs251": "0.0.2",
     "@aily-project/tool-ctags": "5.8.0"
   }
 }

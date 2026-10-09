@@ -9,7 +9,7 @@
     "cppcore": "plain"
   },
   "dependencies": {
-     "@aily-project/board-stc32g8k48": "0.0.1",
+     "@aily-project/board-stc32g8k48": "0.0.2",
     "@aily-project/lib-core-io": "1.0.0",
     "@aily-project/lib-core-logic": "0.0.1",
     "@aily-project/lib-core-loop": "0.0.1",
