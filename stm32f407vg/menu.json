@@ -9,7 +9,7 @@
     "children": [],
     "key": "pnum",
     "extra": {
-      "optionNameIncludes": "Generic",
+      "optionNameIncludes": "F407VG",
       "selectFirstByDefault": true,
       "syncPinConfig": true
     }
