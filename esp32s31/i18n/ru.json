@@ -1,11 +1,16 @@
 {
   "ESP32": {
-    "UPLOAD_SPEED": "Скорость загрузки",
-    "UPLOAD_MODE": "Метод загрузки",
-    "FLASH_MODE": "Режим Flash",
+    "JTAG_ADAPTER": "Адаптер JTAG",
     "FLASH_SIZE": "Размер Flash",
-    "PARTITION_SCHEME": "Схема разделов",
+    "USB_MODE": "Режим USB",
     "CDC_ON_BOOT": "USB CDC при загрузке",
-    "PSRAM": "PSRAM"
+    "MSC_ON_BOOT": "USB Firmware MSC при загрузке",
+    "DFU_ON_BOOT": "USB DFU при загрузке",
+    "UPLOAD_MODE": "Метод загрузки",
+    "PARTITION_SCHEME": "Схема разделов",
+    "UPLOAD_SPEED": "Скорость загрузки",
+    "DEBUG_LEVEL": "Уровень отладки ядра",
+    "ERASE_FLASH": "Стирать всю Flash-память перед загрузкой",
+    "ZIGBEE_MODE": "Режим Zigbee"
   }
 }

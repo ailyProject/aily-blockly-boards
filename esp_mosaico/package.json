@@ -1,7 +1,7 @@
 {
   "name": "@aily-project/board-esp_mosaico",
   "nickname": "ESP-Mosaico",
-  "version": "3.3.10",
+  "version": "4.0.0",
   "description": "Espressif ESP-Mosaico is an ESP32-S31 development kit with 16 MB flash, 16 MB PSRAM, a 480 × 480 QSPI touchscreen, ES8311 audio, BMI270 IMU, dual BMM150 magnetometers, 128 MB SPI NAND and two expansion headers.",
   "description_en": "Espressif ESP-Mosaico is an ESP32-S31 development kit with 16 MB flash, 16 MB PSRAM, a 480 × 480 QSPI touchscreen, ES8311 audio, BMI270 IMU, dual BMM150 magnetometers, 128 MB SPI NAND and two expansion headers.",
   "description_zh_cn": "乐鑫 ESP-Mosaico 是基于 ESP32-S31 的开发套件，配备 16 MB flash、16 MB PSRAM、480 × 480 QSPI 触摸屏、ES8311 音频、BMI270 IMU、双 BMM150 磁力计、128 MB SPI NAND 和两组扩展排针。",
@@ -22,11 +22,12 @@
   "author": "",
   "license": "ISC",
   "brand": "Espressif",
-  "state": "todo",
+  "state": "alpha",
   "boardDependencies": {
-    "@aily-project/compiler-esp-rv32": "14.2.0",
-    "@aily-project/tool-esptool_py": "5.3.0",
-    "@aily-project/sdk-esp32": "3.3.10",
+    "@aily-project/compiler-esp-rv32": "15.2.0",
+    "@aily-project/tool-esptool_py": "5.3.1",
+    "@aily-project/sdk-esp32": "4.0.0",
+    "@aily-project/tool-esp32s31-libs": "4.0.0",
     "@aily-project/tool-ctags": "5.8.0"
   }
 }

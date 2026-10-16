@@ -144,6 +144,12 @@
           "type": "gpio",
           "visible": true,
           "disabled": false
+        },
+        {
+          "name": "SDA",
+          "type": "i2c",
+          "visible": true,
+          "disabled": false
         }
       ],
       "visible": true,
@@ -167,6 +173,12 @@
         {
           "name": "GPIO3",
           "type": "gpio",
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "name": "SCL",
+          "type": "i2c",
           "visible": true,
           "disabled": false
         }
@@ -264,12 +276,6 @@
           "disabled": false
         },
         {
-          "name": "SCL",
-          "type": "i2c",
-          "visible": true,
-          "disabled": false
-        },
-        {
           "name": "LP_UART_TXD",
           "type": "uart",
           "visible": true,
@@ -303,12 +309,6 @@
         {
           "name": "TOUCH1",
           "type": "touch",
-          "visible": true,
-          "disabled": false
-        },
-        {
-          "name": "SDA",
-          "type": "i2c",
           "visible": true,
           "disabled": false
         },
@@ -348,12 +348,6 @@
           "type": "touch",
           "visible": true,
           "disabled": false
-        },
-        {
-          "name": "SDA1",
-          "type": "i2c",
-          "visible": true,
-          "disabled": false
         }
       ],
       "visible": true,
@@ -383,12 +377,6 @@
         {
           "name": "TOUCH3",
           "type": "touch",
-          "visible": true,
-          "disabled": false
-        },
-        {
-          "name": "SCL1",
-          "type": "i2c",
           "visible": true,
           "disabled": false
         }
@@ -422,12 +410,6 @@
           "type": "touch",
           "visible": true,
           "disabled": false
-        },
-        {
-          "name": "SS",
-          "type": "spi",
-          "visible": true,
-          "disabled": false
         }
       ],
       "visible": true,
@@ -457,12 +439,6 @@
         {
           "name": "TOUCH5",
           "type": "touch",
-          "visible": true,
-          "disabled": false
-        },
-        {
-          "name": "MOSI",
-          "type": "spi",
           "visible": true,
           "disabled": false
         }
@@ -496,12 +472,6 @@
           "type": "touch",
           "visible": true,
           "disabled": false
-        },
-        {
-          "name": "SCK",
-          "type": "spi",
-          "visible": true,
-          "disabled": false
         }
       ],
       "visible": true,
@@ -531,12 +501,6 @@
         {
           "name": "TOUCH7",
           "type": "touch",
-          "visible": true,
-          "disabled": false
-        },
-        {
-          "name": "MISO",
-          "type": "spi",
           "visible": true,
           "disabled": false
         }
@@ -752,12 +716,6 @@
           "disabled": false
         },
         {
-          "name": "SCK1",
-          "type": "spi",
-          "visible": true,
-          "disabled": false
-        },
-        {
           "name": "SD_D0",
           "type": "sd",
           "visible": true,
@@ -785,12 +743,6 @@
         {
           "name": "GPIO21",
           "type": "gpio",
-          "visible": true,
-          "disabled": false
-        },
-        {
-          "name": "MOSI1",
-          "type": "spi",
           "visible": true,
           "disabled": false
         },
@@ -826,12 +778,6 @@
           "disabled": false
         },
         {
-          "name": "MISO1",
-          "type": "spi",
-          "visible": true,
-          "disabled": false
-        },
-        {
           "name": "SD_D2",
           "type": "sd",
           "visible": true,
@@ -859,12 +805,6 @@
         {
           "name": "GPIO23",
           "type": "gpio",
-          "visible": true,
-          "disabled": false
-        },
-        {
-          "name": "SS1",
-          "type": "spi",
           "visible": true,
           "disabled": false
         },
@@ -1064,6 +1004,12 @@
           "type": "sd",
           "visible": true,
           "disabled": false
+        },
+        {
+          "name": "TX1",
+          "type": "uart",
+          "visible": true,
+          "disabled": false
         }
       ],
       "visible": true,
@@ -1092,6 +1038,12 @@
         {
           "name": "SD2_D1",
           "type": "sd",
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "name": "RX1",
+          "type": "uart",
           "visible": true,
           "disabled": false
         }
@@ -1130,6 +1082,12 @@
           "type": "strap",
           "visible": true,
           "disabled": false
+        },
+        {
+          "name": "SS",
+          "type": "spi",
+          "visible": true,
+          "disabled": false
         }
       ],
       "visible": true,
@@ -1158,6 +1116,12 @@
         {
           "name": "SD2_D3",
           "type": "sd",
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "name": "MOSI",
+          "type": "spi",
           "visible": true,
           "disabled": false
         }
@@ -1190,6 +1154,12 @@
           "type": "sd",
           "visible": true,
           "disabled": false
+        },
+        {
+          "name": "MISO",
+          "type": "spi",
+          "visible": true,
+          "disabled": false
         }
       ],
       "visible": true,
@@ -1218,6 +1188,12 @@
         {
           "name": "SD2_CMD",
           "type": "sd",
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "name": "SCK",
+          "type": "spi",
           "visible": true,
           "disabled": false
         }
@@ -1490,6 +1466,12 @@
           "type": "analog",
           "visible": true,
           "disabled": false
+        },
+        {
+          "name": "SCL1",
+          "type": "i2c",
+          "visible": true,
+          "disabled": false
         }
       ],
       "visible": true,
@@ -1518,6 +1500,12 @@
         {
           "name": "ADC2_CH0_P",
           "type": "analog",
+          "visible": true,
+          "disabled": false
+        },
+        {
+          "name": "SDA1",
+          "type": "i2c",
           "visible": true,
           "disabled": false
         }

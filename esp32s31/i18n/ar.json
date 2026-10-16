@@ -1,11 +1,16 @@
 {
   "ESP32": {
-    "UPLOAD_SPEED": "سرعة الرفع",
-    "UPLOAD_MODE": "طريقة الرفع",
-    "FLASH_MODE": "وضع الفلاش",
+    "JTAG_ADAPTER": "محوّل JTAG",
     "FLASH_SIZE": "حجم الفلاش",
-    "PARTITION_SCHEME": "مخطط التقسيم",
+    "USB_MODE": "وضع USB",
     "CDC_ON_BOOT": "USB CDC عند التشغيل",
-    "PSRAM": "PSRAM"
+    "MSC_ON_BOOT": "USB Firmware MSC عند التشغيل",
+    "DFU_ON_BOOT": "USB DFU عند التشغيل",
+    "UPLOAD_MODE": "طريقة الرفع",
+    "PARTITION_SCHEME": "مخطط التقسيم",
+    "UPLOAD_SPEED": "سرعة الرفع",
+    "DEBUG_LEVEL": "مستوى تصحيح أخطاء النواة",
+    "ERASE_FLASH": "مسح ذاكرة الفلاش بالكامل قبل الرفع",
+    "ZIGBEE_MODE": "وضع Zigbee"
   }
 }

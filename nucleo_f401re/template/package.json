@@ -4,7 +4,7 @@
   "description": "",
   "board": "NUCLEO-F401RE",
   "dependencies": {
-    "@aily-project/board-nucleo_f401re": "2.12.0",
+    "@aily-project/board-nucleo_f401re": "3.0.0",
     "@aily-project/lib-core-io": "1.0.0",
     "@aily-project/lib-core-logic": "0.0.1",
     "@aily-project/lib-core-loop": "0.0.1",

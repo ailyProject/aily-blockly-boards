@@ -1,11 +1,16 @@
 {
   "ESP32": {
-    "UPLOAD_SPEED": "書き込み速度",
-    "UPLOAD_MODE": "書き込み方法",
-    "FLASH_MODE": "フラッシュモード",
+    "JTAG_ADAPTER": "JTAGアダプター",
     "FLASH_SIZE": "フラッシュサイズ",
-    "PARTITION_SCHEME": "パーティション方式",
+    "USB_MODE": "USBモード",
     "CDC_ON_BOOT": "USBシリアル通信",
-    "PSRAM": "PSRAM"
+    "MSC_ON_BOOT": "起動時にUSBファームウェアMSCを有効化",
+    "DFU_ON_BOOT": "起動時にUSB DFUを有効化",
+    "UPLOAD_MODE": "書き込み方法",
+    "PARTITION_SCHEME": "パーティション方式",
+    "UPLOAD_SPEED": "書き込み速度",
+    "DEBUG_LEVEL": "コアデバッグレベル",
+    "ERASE_FLASH": "書き込み前にフラッシュを全消去",
+    "ZIGBEE_MODE": "Zigbee モード"
   }
 }
