@@ -7,6 +7,8 @@ on:
 
 jobs:
   detect-changes:
+    # A visibility-only catalog update must not unpublish/re-publish board packages.
+    if: ${{ !contains(github.event.head_commit.message, '[catalog-only]') }}
     runs-on: ubuntu-latest
     outputs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
@@ -350,7 +352,7 @@ jobs:
   
   build-and-publish-all:
     name: Publish all packages to CN npm registry
-    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/deploy' }}
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/deploy' && !contains(github.event.head_commit.message, '[catalog-only]') }}
     runs-on: [self-hosted, ailydeMac-mini, macOS, ARM64]
     timeout-minutes: 240
     outputs:
@@ -509,7 +511,7 @@ jobs:
 
   publish-registry2-all:
     name: Publish all packages to EU npm registry
-    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/deploy' }}
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/deploy' && !contains(github.event.head_commit.message, '[catalog-only]') }}
     runs-on: ubuntu-latest
     timeout-minutes: 240
     outputs:
@@ -823,6 +825,7 @@ jobs:
           exit 1
   
   upload-all-img:
+    if: ${{ !contains(github.event.head_commit.message, '[catalog-only]') }}
     runs-on: ubuntu-latest
     steps:
       - name: Check UPDATE_ALL_IMG flag
@@ -996,7 +999,9 @@ jobs:
           registry-url: ${{ secrets.REGISTRY_URL }}
       
       - name: Generate JSON
-        run: node .scripts/genjson.js
+        run: |
+          node --test .scripts/catalog-only-deploy.test.cjs
+          node .scripts/genjson.js
       - name: Generate AI JSON
         run: node .scripts/genjson-ai.js
       
