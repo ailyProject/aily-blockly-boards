@@ -1,0 +1,31 @@
+{
+  "name": "@aily-project/board-oj_korvo2_v3",
+  "nickname": "OJ Korvo",
+  "version": "3.3.10",
+  "description": "OJ Korvo is an AI voice development board based on the ESP32-S3-WROOM-1 (N16R8) module, featuring an ES8311 audio codec, ES7210 ADC with dual microphones and AEC, NS4150B speaker amplifier, DVP camera interface, 1.69-inch ST7789 SPI LCD, TF card slot, QMI8658A 6-axis IMU, TCA9554 IO expander, ADC buttons and Li-ion battery charging.",
+  "description_en": "OJ Korvo is an AI voice development board based on the ESP32-S3-WROOM-1 (N16R8) module, featuring an ES8311 audio codec, ES7210 ADC with dual microphones and AEC, NS4150B speaker amplifier, DVP camera interface, 1.69-inch ST7789 SPI LCD, TF card slot, QMI8658A 6-axis IMU, TCA9554 IO expander, ADC buttons and Li-ion battery charging.",
+  "description_zh_cn": "OJ Korvo 是一款基于 ESP32-S3-WROOM-1（N16R8）模组的 AI 语音开发板，板载 ES8311 音频编解码器、ES7210 ADC 双麦克风及回声消除（AEC）、NS4150B 功放、DVP 摄像头接口、1.69 寸 ST7789 SPI 屏、TF 卡槽、QMI8658A 六轴传感器、TCA9554 IO 扩展、ADC 按键和锂电池充电。",
+  "description_zh_hk": "OJ Korvo 是一款基於 ESP32-S3-WROOM-1（N16R8）模組的 AI 語音開發板，板載 ES8311 音訊編解碼器、ES7210 ADC 雙麥克風及回音消除（AEC）、NS4150B 功放、DVP 攝影機介面、1.69 吋 ST7789 SPI 屏、TF 卡槽、QMI8658A 六軸感測器、TCA9554 IO 擴充、ADC 按鍵和鋰電池充電。",
+  "description_ja": "OJ Korvoは、ESP32-S3-WROOM-1（N16R8）モジュールを搭載したAI音声開発ボードで、ES8311オーディオコーデック、デュアルマイクとAEC対応のES7210 ADC、NS4150Bスピーカーアンプ、DVPカメラインターフェース、1.69インチST7789 SPI LCD、TFカードスロット、QMI8658A 6軸IMU、TCA9554 IOエキスパンダー、ADCボタン、リチウムイオンバッテリー充電を備えています。",
+  "description_ko": "OJ Korvo는 ESP32-S3-WROOM-1(N16R8) 모듈 기반의 AI 음성 개발 보드로, ES8311 오디오 코덱, 듀얼 마이크 및 AEC를 지원하는 ES7210 ADC, NS4150B 스피커 앰프, DVP 카메라 인터페이스, 1.69인치 ST7789 SPI LCD, TF 카드 슬롯, QMI8658A 6축 IMU, TCA9554 IO 확장기, ADC 버튼 및 리튬이온 배터리 충전 기능을 갖추고 있습니다.",
+  "description_de": "Das OJ Korvo ist ein KI-Sprach-Entwicklungsboard auf Basis des Moduls ESP32-S3-WROOM-1 (N16R8) mit ES8311-Audio-Codec, ES7210-ADC mit zwei Mikrofonen und AEC, NS4150B-Lautsprecherverstärker, DVP-Kameraschnittstelle, 1,69-Zoll-ST7789-SPI-LCD, TF-Kartensteckplatz, QMI8658A-6-Achsen-IMU, TCA9554-IO-Expander, ADC-Tasten und Li-Ionen-Akkuladung.",
+  "description_fr": "L'OJ Korvo est une carte de développement vocale IA basée sur le module ESP32-S3-WROOM-1 (N16R8), dotée d'un codec audio ES8311, d'un ADC ES7210 avec deux microphones et AEC, d'un amplificateur de haut-parleur NS4150B, d'une interface caméra DVP, d'un écran LCD SPI ST7789 de 1,69 pouce, d'un emplacement pour carte TF, d'une IMU 6 axes QMI8658A, d'un extenseur d'E/S TCA9554, de boutons ADC et de la charge de batterie Li-ion.",
+  "description_es": "La OJ Korvo es una placa de desarrollo de voz con IA basada en el módulo ESP32-S3-WROOM-1 (N16R8), con códec de audio ES8311, ADC ES7210 con dos micrófonos y AEC, amplificador de altavoz NS4150B, interfaz de cámara DVP, pantalla LCD SPI ST7789 de 1,69 pulgadas, ranura para tarjeta TF, IMU de 6 ejes QMI8658A, expansor de E/S TCA9554, botones ADC y carga de batería de iones de litio.",
+  "description_pt": "A OJ Korvo é uma placa de desenvolvimento de voz com IA baseada no módulo ESP32-S3-WROOM-1 (N16R8), com codec de áudio ES8311, ADC ES7210 com dois microfones e AEC, amplificador de alto-falante NS4150B, interface de câmera DVP, tela LCD SPI ST7789 de 1,69 polegada, slot para cartão TF, IMU de 6 eixos QMI8658A, expansor de E/S TCA9554, botões ADC e carregamento de bateria de íons de lítio.",
+  "description_ru": "OJ Korvo — плата разработки для ИИ-обработки голоса на базе модуля ESP32-S3-WROOM-1 (N16R8) с аудиокодеком ES8311, АЦП ES7210 с двумя микрофонами и AEC, усилителем динамика NS4150B, интерфейсом камеры DVP, 1,69-дюймовым SPI-дисплеем ST7789, слотом для TF-карты, 6-осевым IMU QMI8658A, расширителем ввода-вывода TCA9554, ADC-кнопками и зарядкой Li-ion аккумулятора.",
+  "description_ar": "OJ Korvo هي لوحة تطوير صوتية بالذكاء الاصطناعي تعتمد على وحدة ESP32-S3-WROOM-1 (N16R8)، وتتضمن برنامج ترميز الصوت ES8311، ومحول ADC ES7210 مع ميكروفونين وإلغاء الصدى (AEC)، ومضخم السماعة NS4150B، وواجهة كاميرا DVP، وشاشة SPI LCD ST7789 بقياس 1.69 بوصة، وفتحة بطاقة TF، ووحدة IMU سداسية المحاور QMI8658A، وموسّع الإدخال والإخراج TCA9554، وأزرار ADC، وشحن بطارية الليثيوم أيون.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "brand": "OpenJumper",
+  "boardDependencies": {
+    "@aily-project/compiler-esp-x32": "14.2.0",
+    "@aily-project/tool-esptool_py": "5.3.0",
+    "@aily-project/sdk-esp32": "3.3.10",
+    "@aily-project/tool-esp32s3-libs": "3.3.10",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}

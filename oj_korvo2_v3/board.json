@@ -1,7 +1,7 @@
 {
-    "name": "Korvo2_V3",
+    "name": "OJ Korvo",
     "version": "1.0.1",
-    "description": "ESP32-S3-Korvo-2 V3 voice dev board (ESP32-S3-WROOM-1 N16R8, ES8311 + ES7210, DVP camera, ST7789 LCD, TF card)",
+    "description": "OJ Korvo voice dev board (ESP32-S3-WROOM-1 N16R8, ES8311 + ES7210, DVP camera, ST7789 LCD, TF card)",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
     "type": "esp32:esp32:esp32s3",
