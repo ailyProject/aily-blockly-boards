@@ -447,6 +447,8 @@
     },
     "audioConfig": {
         "codec": "es8311",
+        "amplifier": "ns4150b",
+        "address": "0x18",
         "adc": "es7210",
         "pins": {
             "mclk": "16",
@@ -456,7 +458,16 @@
             "dout": "10",
             "sda": "17",
             "scl": "18",
-            "paCtrl": "48"
+            "pa": "48"
+        }
+    },
+    "imuConfig": {
+        "model": "qmi8658a",
+        "interface": "i2c",
+        "address": "0x6B",
+        "pins": {
+            "sda": "17",
+            "scl": "18"
         }
     },
     "cameraConfig": {
