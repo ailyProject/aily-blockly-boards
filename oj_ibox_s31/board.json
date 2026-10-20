@@ -1,0 +1,815 @@
+{
+    "name": "IBOX S31",
+    "version": "1.0.2",
+    "description": "IBOX S31 (ESP32-S31-WROOM-3): ILI9341 320x240 SPI LCD, OV3660 DVP camera, ES8389 + NS4150B audio with dual mics, 4-bit SDIO TF card, QMI8658 IMU, QMC6309 magnetometer, AHT20, LTR-303ALS, BQ27220 fuel gauge, 4x WS2812, XL9555 joystick/A/B keys, CP2102N USB-UART, 40-pin edge connector (D0-D16 + I2C)",
+    "compilerTool": "aily-builder",
+    "core": "esp32:esp32",
+    "type": "esp32:esp32:esp32s31",
+    "compilerParam": "compile -v -b esp32:esp32:esp32s31",
+    "analogPins": [
+        [
+            "GPIO43/EXT_D14",
+            "43"
+        ],
+        [
+            "GPIO44/EXT_D15",
+            "44"
+        ],
+        [
+            "GPIO45/EXT_D16",
+            "45"
+        ]
+    ],
+    "digitalPins": [
+        [
+            "GPIO0/I2C_SDA",
+            "0"
+        ],
+        [
+            "GPIO1/I2C_SCL",
+            "1"
+        ],
+        [
+            "GPIO2/I2S_MCLK",
+            "2"
+        ],
+        [
+            "GPIO3/I2S_SCLK",
+            "3"
+        ],
+        [
+            "GPIO4/I2S_LRCK",
+            "4"
+        ],
+        [
+            "GPIO5/I2S_DSDIN",
+            "5"
+        ],
+        [
+            "GPIO6/I2S_ASDOUT",
+            "6"
+        ],
+        [
+            "GPIO7/PA_CTRL",
+            "7"
+        ],
+        [
+            "GPIO8/LCD_MISO",
+            "8"
+        ],
+        [
+            "GPIO9/LCD_MOSI",
+            "9"
+        ],
+        [
+            "GPIO10/LCD_DC",
+            "10"
+        ],
+        [
+            "GPIO11/LCD_SCLK",
+            "11"
+        ],
+        [
+            "GPIO12/EXT_D0",
+            "12"
+        ],
+        [
+            "GPIO13/EXT_D1",
+            "13"
+        ],
+        [
+            "GPIO14/EXT_D2",
+            "14"
+        ],
+        [
+            "GPIO15/EXT_D3",
+            "15"
+        ],
+        [
+            "GPIO16/EXT_D4",
+            "16"
+        ],
+        [
+            "GPIO17/EXT_D5",
+            "17"
+        ],
+        [
+            "GPIO18/EXT_D6",
+            "18"
+        ],
+        [
+            "GPIO19/EXT_D7",
+            "19"
+        ],
+        [
+            "GPIO20/SD_D0",
+            "20"
+        ],
+        [
+            "GPIO21/SD_D1",
+            "21"
+        ],
+        [
+            "GPIO22/SD_D2",
+            "22"
+        ],
+        [
+            "GPIO23/SD_D3",
+            "23"
+        ],
+        [
+            "GPIO24/SD_CLK",
+            "24"
+        ],
+        [
+            "GPIO25/SD_CMD",
+            "25"
+        ],
+        [
+            "GPIO33/EXT_D8",
+            "33"
+        ],
+        [
+            "GPIO34/EXT_D9",
+            "34"
+        ],
+        [
+            "GPIO35/EXT_D10",
+            "35"
+        ],
+        [
+            "GPIO36/EXT_D11",
+            "36"
+        ],
+        [
+            "GPIO37/EXT_D12",
+            "37"
+        ],
+        [
+            "GPIO38/WS2812",
+            "38"
+        ],
+        [
+            "GPIO39/SD_CTRL",
+            "39"
+        ],
+        [
+            "GPIO40/EXT_D13",
+            "40"
+        ],
+        [
+            "GPIO42/BTN_INT",
+            "42"
+        ],
+        [
+            "GPIO43/EXT_D14",
+            "43"
+        ],
+        [
+            "GPIO44/EXT_D15",
+            "44"
+        ],
+        [
+            "GPIO45/EXT_D16",
+            "45"
+        ],
+        [
+            "GPIO46/CAM_Y2",
+            "46"
+        ],
+        [
+            "GPIO47/CAM_Y3",
+            "47"
+        ],
+        [
+            "GPIO48/CAM_Y4",
+            "48"
+        ],
+        [
+            "GPIO49/CAM_Y5",
+            "49"
+        ],
+        [
+            "GPIO50/CAM_Y6",
+            "50"
+        ],
+        [
+            "GPIO51/CAM_Y7",
+            "51"
+        ],
+        [
+            "GPIO52/CAM_Y8",
+            "52"
+        ],
+        [
+            "GPIO53/CAM_Y9",
+            "53"
+        ],
+        [
+            "GPIO54/CAM_PCLK",
+            "54"
+        ],
+        [
+            "GPIO55/CAM_XCLK",
+            "55"
+        ],
+        [
+            "GPIO56/CAM_VSYNC",
+            "56"
+        ],
+        [
+            "GPIO57/CAM_HREF",
+            "57"
+        ],
+        [
+            "GPIO58/TX",
+            "58"
+        ],
+        [
+            "GPIO59/RX",
+            "59"
+        ],
+        [
+            "GPIO60/LCD_CS",
+            "60"
+        ],
+        [
+            "GPIO61/BOOT",
+            "61"
+        ]
+    ],
+    "pwmPins": [
+        [
+            "GPIO12",
+            "12"
+        ],
+        [
+            "GPIO13",
+            "13"
+        ],
+        [
+            "GPIO14",
+            "14"
+        ],
+        [
+            "GPIO15",
+            "15"
+        ],
+        [
+            "GPIO16",
+            "16"
+        ],
+        [
+            "GPIO17",
+            "17"
+        ],
+        [
+            "GPIO18",
+            "18"
+        ],
+        [
+            "GPIO19",
+            "19"
+        ],
+        [
+            "GPIO33",
+            "33"
+        ],
+        [
+            "GPIO34",
+            "34"
+        ],
+        [
+            "GPIO35",
+            "35"
+        ],
+        [
+            "GPIO36",
+            "36"
+        ],
+        [
+            "GPIO37",
+            "37"
+        ],
+        [
+            "GPIO40",
+            "40"
+        ],
+        [
+            "GPIO43",
+            "43"
+        ],
+        [
+            "GPIO44",
+            "44"
+        ],
+        [
+            "GPIO45",
+            "45"
+        ]
+    ],
+    "servoPins": [
+        [
+            "GPIO12",
+            "12"
+        ],
+        [
+            "GPIO13",
+            "13"
+        ],
+        [
+            "GPIO14",
+            "14"
+        ],
+        [
+            "GPIO15",
+            "15"
+        ],
+        [
+            "GPIO16",
+            "16"
+        ],
+        [
+            "GPIO17",
+            "17"
+        ],
+        [
+            "GPIO18",
+            "18"
+        ],
+        [
+            "GPIO19",
+            "19"
+        ],
+        [
+            "GPIO33",
+            "33"
+        ],
+        [
+            "GPIO34",
+            "34"
+        ],
+        [
+            "GPIO35",
+            "35"
+        ],
+        [
+            "GPIO36",
+            "36"
+        ],
+        [
+            "GPIO37",
+            "37"
+        ],
+        [
+            "GPIO40",
+            "40"
+        ],
+        [
+            "GPIO43",
+            "43"
+        ],
+        [
+            "GPIO44",
+            "44"
+        ],
+        [
+            "GPIO45",
+            "45"
+        ]
+    ],
+    "serialPort": [
+        [
+            "Serial",
+            "Serial"
+        ],
+        [
+            "Serial1",
+            "Serial1"
+        ]
+    ],
+    "cdcSerialPort": [
+        [
+            "Serial(USB CDC)",
+            "Serial"
+        ]
+    ],
+    "serialPins": {
+        "Serial": [
+            [
+                "RX",
+                "59"
+            ],
+            [
+                "TX",
+                "58"
+            ]
+        ],
+        "Serial1": [
+            [
+                "RX",
+                "36"
+            ],
+            [
+                "TX",
+                "35"
+            ]
+        ]
+    },
+    "serialSpeed": [
+        [
+            "1200",
+            "1200"
+        ],
+        [
+            "9600",
+            "9600"
+        ],
+        [
+            "14400",
+            "14400"
+        ],
+        [
+            "19200",
+            "19200"
+        ],
+        [
+            "38400",
+            "38400"
+        ],
+        [
+            "57600",
+            "57600"
+        ],
+        [
+            "115200",
+            "115200"
+        ],
+        [
+            "230400",
+            "230400"
+        ],
+        [
+            "460800",
+            "460800"
+        ],
+        [
+            "921600",
+            "921600"
+        ]
+    ],
+    "spi": [
+        [
+            "SPI LCD",
+            "SPI"
+        ]
+    ],
+    "spiPins": {
+        "SPI": [
+            [
+                "MOSI",
+                "9"
+            ],
+            [
+                "MISO",
+                "8"
+            ],
+            [
+                "SCK",
+                "11"
+            ]
+        ]
+    },
+    "spiClockDivide": [
+        [
+            "2 (8MHz)",
+            "SPI_CLOCK_DIV2"
+        ],
+        [
+            "4 (4MHz)",
+            "SPI_CLOCK_DIV4"
+        ],
+        [
+            "8 (2MHz)",
+            "SPI_CLOCK_DIV8"
+        ],
+        [
+            "16 (1MHz)",
+            "SPI_CLOCK_DIV16"
+        ],
+        [
+            "32 (500KHz)",
+            "SPI_CLOCK_DIV32"
+        ],
+        [
+            "64 (250KHz)",
+            "SPI_CLOCK_DIV64"
+        ],
+        [
+            "128 (125KHz)",
+            "SPI_CLOCK_DIV128"
+        ]
+    ],
+    "i2c": [
+        [
+            "I2C Onboard",
+            "Wire"
+        ]
+    ],
+    "i2cPins": {
+        "Wire": [
+            [
+                "SDA",
+                "0"
+            ],
+            [
+                "SCL",
+                "1"
+            ]
+        ]
+    },
+    "i2cSpeed": [
+        [
+            "100kHz",
+            "100000L"
+        ],
+        [
+            "400kHz",
+            "400000L"
+        ],
+        [
+            "800kHz",
+            "800000L"
+        ]
+    ],
+    "interruptPins": [
+        [
+            "GPIO12",
+            "12"
+        ],
+        [
+            "GPIO13",
+            "13"
+        ],
+        [
+            "GPIO14",
+            "14"
+        ],
+        [
+            "GPIO15",
+            "15"
+        ],
+        [
+            "GPIO16",
+            "16"
+        ],
+        [
+            "GPIO17",
+            "17"
+        ],
+        [
+            "GPIO18",
+            "18"
+        ],
+        [
+            "GPIO19",
+            "19"
+        ],
+        [
+            "GPIO33",
+            "33"
+        ],
+        [
+            "GPIO34",
+            "34"
+        ],
+        [
+            "GPIO35",
+            "35"
+        ],
+        [
+            "GPIO36",
+            "36"
+        ],
+        [
+            "GPIO37",
+            "37"
+        ],
+        [
+            "GPIO40",
+            "40"
+        ],
+        [
+            "GPIO43",
+            "43"
+        ],
+        [
+            "GPIO44",
+            "44"
+        ],
+        [
+            "GPIO45",
+            "45"
+        ]
+    ],
+    "interruptMode": [
+        [
+            "RISING",
+            "RISING"
+        ],
+        [
+            "FALLING",
+            "FALLING"
+        ],
+        [
+            "CHANGE",
+            "CHANGE"
+        ],
+        [
+            "ONLOW",
+            "ONLOW"
+        ],
+        [
+            "ONHIGH",
+            "ONHIGH"
+        ],
+        [
+            "ONLOW_WE",
+            "ONLOW_WE"
+        ],
+        [
+            "ONHIGH_WE",
+            "ONHIGH_WE"
+        ]
+    ],
+    "displayConfig": {
+        "controller": "ili9341",
+        "interface": "spi",
+        "width": 240,
+        "height": 320,
+        "frequency": 40000000,
+        "pins": {
+            "sclk": "11",
+            "mosi": "9",
+            "miso": "8",
+            "dc": "10",
+            "cs": "60"
+        }
+    },
+    "audioConfig": {
+        "codec": "es8389",
+        "amplifier": "ns4150b",
+        "address": "0x10",
+        "pins": {
+            "mclk": "2",
+            "sclk": "3",
+            "lrck": "4",
+            "din": "5",
+            "dout": "6",
+            "sda": "0",
+            "scl": "1",
+            "pa": "7"
+        }
+    },
+    "imuConfig": {
+        "model": "qmi8658",
+        "interface": "i2c",
+        "address": "0x6B",
+        "pins": {
+            "sda": "0",
+            "scl": "1"
+        }
+    },
+    "magnetometerConfig": {
+        "model": "qmc6309",
+        "interface": "i2c",
+        "addresses": [
+            "0x7C",
+            "0x2C"
+        ],
+        "pins": {
+            "sda": "0",
+            "scl": "1"
+        }
+    },
+    "batteryConfig": {
+        "gauge": "bq27220",
+        "interface": "i2c",
+        "address": "0x55",
+        "pins": {
+            "sda": "0",
+            "scl": "1"
+        }
+    },
+    "cameraConfig": {
+        "interface": "dvp",
+        "supportedModels": [
+            "ov3660"
+        ],
+        "pins": {
+            "pwdn": "-1",
+            "rst": "-1",
+            "sda": "0",
+            "scl": "1",
+            "vsync": "56",
+            "href": "57",
+            "xclk": "55",
+            "pclk": "54",
+            "y2": "46",
+            "y3": "47",
+            "y4": "48",
+            "y5": "49",
+            "y6": "50",
+            "y7": "51",
+            "y8": "52",
+            "y9": "53"
+        }
+    },
+    "sdCardPins": {
+        "clk": "24",
+        "cmd": "25",
+        "d0": "20",
+        "d1": "21",
+        "d2": "22",
+        "d3": "23"
+    },
+    "servoConfig": {
+        "pins": [
+            [
+                "GPIO12",
+                "12"
+            ],
+            [
+                "GPIO13",
+                "13"
+            ],
+            [
+                "GPIO14",
+                "14"
+            ],
+            [
+                "GPIO15",
+                "15"
+            ],
+            [
+                "GPIO16",
+                "16"
+            ],
+            [
+                "GPIO17",
+                "17"
+            ],
+            [
+                "GPIO18",
+                "18"
+            ],
+            [
+                "GPIO19",
+                "19"
+            ],
+            [
+                "GPIO33",
+                "33"
+            ],
+            [
+                "GPIO34",
+                "34"
+            ],
+            [
+                "GPIO35",
+                "35"
+            ],
+            [
+                "GPIO36",
+                "36"
+            ],
+            [
+                "GPIO37",
+                "37"
+            ],
+            [
+                "GPIO40",
+                "40"
+            ],
+            [
+                "GPIO43",
+                "43"
+            ],
+            [
+                "GPIO44",
+                "44"
+            ],
+            [
+                "GPIO45",
+                "45"
+            ]
+        ]
+    },
+    "ws2812Pin": "38",
+    "buttonConfig": {
+        "activeLevel": 0,
+        "pins": {
+            "button": "61"
+        }
+    }
+}
