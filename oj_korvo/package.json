@@ -1,5 +1,5 @@
 {
-  "name": "@aily-project/board-oj_korvo2_v3",
+  "name": "@aily-project/board-oj_korvo",
   "nickname": "OJ Korvo",
   "version": "3.3.10",
   "description": "OJ Korvo is an AI voice development board based on the ESP32-S3-WROOM-1 (N16R8) module, featuring an ES8311 audio codec, ES7210 ADC with dual microphones and AEC, NS4150B speaker amplifier, DVP camera interface, 1.69-inch ST7789 SPI LCD, TF card slot, QMI8658A 6-axis IMU, TCA9554 IO expander, ADC buttons and Li-ion battery charging.",
