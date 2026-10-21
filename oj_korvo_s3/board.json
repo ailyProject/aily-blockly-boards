@@ -1,0 +1,535 @@
+{
+    "name": "OJ Korvo S3",
+    "version": "1.0.1",
+    "description": "OJ Korvo S3 voice dev board (ESP32-S3-WROOM-1 N16R8, ES8311 + ES7210, DVP camera, ST7789 LCD, TF card)",
+    "compilerTool": "aily-builder",
+    "core": "esp32:esp32",
+    "type": "esp32:esp32:esp32s3",
+    "compilerParam": "compile -v -b esp32:esp32:esp32s3",
+    "analogPins": [
+        [
+            "GPIO1/LCD_CLK",
+            "1"
+        ],
+        [
+            "GPIO2/LCD_DC",
+            "2"
+        ],
+        [
+            "GPIO4/SD_D0",
+            "4"
+        ],
+        [
+            "GPIO5/ADC_BTN",
+            "5"
+        ],
+        [
+            "GPIO6/ADC_BAT",
+            "6"
+        ]
+    ],
+    "digitalPins": [
+        [
+            "GPIO0/LCD_MOSI/BOOT",
+            "0"
+        ],
+        [
+            "GPIO1/LCD_CLK",
+            "1"
+        ],
+        [
+            "GPIO2/LCD_DC",
+            "2"
+        ],
+        [
+            "GPIO3/CAM_D3",
+            "3"
+        ],
+        [
+            "GPIO4/SD_D0",
+            "4"
+        ],
+        [
+            "GPIO5/ADC_BTN",
+            "5"
+        ],
+        [
+            "GPIO6/ADC_BAT",
+            "6"
+        ],
+        [
+            "GPIO7/SD_CMD",
+            "7"
+        ],
+        [
+            "GPIO8/I2S_DSDIN",
+            "8"
+        ],
+        [
+            "GPIO9/I2S_SCLK",
+            "9"
+        ],
+        [
+            "GPIO10/I2S_SDOUT",
+            "10"
+        ],
+        [
+            "GPIO11/CAM_PCLK",
+            "11"
+        ],
+        [
+            "GPIO12/CAM_D4",
+            "12"
+        ],
+        [
+            "GPIO13/CAM_D0",
+            "13"
+        ],
+        [
+            "GPIO14/CAM_D2",
+            "14"
+        ],
+        [
+            "GPIO15/SD_CLK",
+            "15"
+        ],
+        [
+            "GPIO16/I2S_MCLK",
+            "16"
+        ],
+        [
+            "GPIO17/I2C_SDA",
+            "17"
+        ],
+        [
+            "GPIO18/I2C_SCL",
+            "18"
+        ],
+        [
+            "GPIO19/USB_D-",
+            "19"
+        ],
+        [
+            "GPIO20/USB_D+",
+            "20"
+        ],
+        [
+            "GPIO21/CAM_VSYNC",
+            "21"
+        ],
+        [
+            "GPIO38/CAM_HREF",
+            "38"
+        ],
+        [
+            "GPIO39/CAM_D7",
+            "39"
+        ],
+        [
+            "GPIO40/CAM_XCLK",
+            "40"
+        ],
+        [
+            "GPIO41/CAM_D6",
+            "41"
+        ],
+        [
+            "GPIO42/CAM_D5",
+            "42"
+        ],
+        [
+            "GPIO43/TX",
+            "43"
+        ],
+        [
+            "GPIO44/RX",
+            "44"
+        ],
+        [
+            "GPIO45/I2S_LRCK",
+            "45"
+        ],
+        [
+            "GPIO46/LCD_CS",
+            "46"
+        ],
+        [
+            "GPIO47/CAM_D1",
+            "47"
+        ],
+        [
+            "GPIO48/PA_CTRL",
+            "48"
+        ]
+    ],
+    "pwmPins": [
+        [
+            "GPIO0",
+            "0"
+        ],
+        [
+            "GPIO1",
+            "1"
+        ],
+        [
+            "GPIO2",
+            "2"
+        ],
+        [
+            "GPIO4",
+            "4"
+        ],
+        [
+            "GPIO19",
+            "19"
+        ],
+        [
+            "GPIO20",
+            "20"
+        ],
+        [
+            "GPIO46",
+            "46"
+        ]
+    ],
+    "servoPins": [
+        [
+            "GPIO0",
+            "0"
+        ],
+        [
+            "GPIO1",
+            "1"
+        ],
+        [
+            "GPIO2",
+            "2"
+        ],
+        [
+            "GPIO4",
+            "4"
+        ],
+        [
+            "GPIO19",
+            "19"
+        ],
+        [
+            "GPIO20",
+            "20"
+        ],
+        [
+            "GPIO46",
+            "46"
+        ]
+    ],
+    "serialPort": [
+        [
+            "Serial",
+            "Serial"
+        ]
+    ],
+    "cdcSerialPort": [
+        [
+            "Serial(USB CDC)",
+            "Serial"
+        ]
+    ],
+    "serialPins": {
+        "Serial": [
+            [
+                "RX",
+                "44"
+            ],
+            [
+                "TX",
+                "43"
+            ]
+        ]
+    },
+    "serialSpeed": [
+        [
+            "1200",
+            "1200"
+        ],
+        [
+            "9600",
+            "9600"
+        ],
+        [
+            "14400",
+            "14400"
+        ],
+        [
+            "19200",
+            "19200"
+        ],
+        [
+            "38400",
+            "38400"
+        ],
+        [
+            "57600",
+            "57600"
+        ],
+        [
+            "115200",
+            "115200"
+        ],
+        [
+            "230400",
+            "230400"
+        ],
+        [
+            "460800",
+            "460800"
+        ],
+        [
+            "921600",
+            "921600"
+        ]
+    ],
+    "spi": [
+        [
+            "SPI LCD",
+            "SPI"
+        ]
+    ],
+    "spiPins": {
+        "SPI": [
+            [
+                "MOSI",
+                "0"
+            ],
+            [
+                "MISO",
+                "-1"
+            ],
+            [
+                "SCK",
+                "1"
+            ]
+        ]
+    },
+    "spiClockDivide": [
+        [
+            "2 (8MHz)",
+            "SPI_CLOCK_DIV2"
+        ],
+        [
+            "4 (4MHz)",
+            "SPI_CLOCK_DIV4"
+        ],
+        [
+            "8 (2MHz)",
+            "SPI_CLOCK_DIV8"
+        ],
+        [
+            "16 (1MHz)",
+            "SPI_CLOCK_DIV16"
+        ],
+        [
+            "32 (500KHz)",
+            "SPI_CLOCK_DIV32"
+        ],
+        [
+            "64 (250KHz)",
+            "SPI_CLOCK_DIV64"
+        ],
+        [
+            "128 (125KHz)",
+            "SPI_CLOCK_DIV128"
+        ]
+    ],
+    "i2c": [
+        [
+            "I2C Codec/IMU/Camera",
+            "Wire"
+        ]
+    ],
+    "i2cPins": {
+        "Wire": [
+            [
+                "SDA",
+                "17"
+            ],
+            [
+                "SCL",
+                "18"
+            ]
+        ]
+    },
+    "i2cSpeed": [
+        [
+            "100kHz",
+            "100000L"
+        ],
+        [
+            "400kHz",
+            "400000L"
+        ],
+        [
+            "1MHz",
+            "1000000L"
+        ]
+    ],
+    "interruptPins": [
+        [
+            "GPIO0",
+            "0"
+        ],
+        [
+            "GPIO1",
+            "1"
+        ],
+        [
+            "GPIO2",
+            "2"
+        ],
+        [
+            "GPIO4",
+            "4"
+        ],
+        [
+            "GPIO19",
+            "19"
+        ],
+        [
+            "GPIO20",
+            "20"
+        ],
+        [
+            "GPIO46",
+            "46"
+        ]
+    ],
+    "interruptMode": [
+        [
+            "RISING",
+            "RISING"
+        ],
+        [
+            "FALLING",
+            "FALLING"
+        ],
+        [
+            "CHANGE",
+            "CHANGE"
+        ],
+        [
+            "ONLOW",
+            "ONLOW"
+        ],
+        [
+            "ONHIGH",
+            "ONHIGH"
+        ],
+        [
+            "ONLOW_WE",
+            "ONLOW_WE"
+        ],
+        [
+            "ONHIGH_WE",
+            "ONHIGH_WE"
+        ]
+    ],
+    "displayConfig": {
+        "controller": "st7789",
+        "interface": "spi",
+        "width": 240,
+        "height": 280,
+        "frequency": 40000000,
+        "pins": {
+            "sclk": "1",
+            "mosi": "0",
+            "dc": "2",
+            "cs": "46"
+        }
+    },
+    "audioConfig": {
+        "codec": "es8311",
+        "amplifier": "ns4150b",
+        "address": "0x18",
+        "adc": "es7210",
+        "pins": {
+            "mclk": "16",
+            "sclk": "9",
+            "lrck": "45",
+            "din": "8",
+            "dout": "10",
+            "sda": "17",
+            "scl": "18",
+            "pa": "48"
+        }
+    },
+    "imuConfig": {
+        "model": "qmi8658a",
+        "interface": "i2c",
+        "address": "0x6B",
+        "pins": {
+            "sda": "17",
+            "scl": "18"
+        }
+    },
+    "cameraConfig": {
+        "interface": "dvp",
+        "supportedModels": [
+            "ov2640"
+        ],
+        "pins": {
+            "pwdn": "-1",
+            "rst": "-1",
+            "sda": "17",
+            "scl": "18",
+            "vsync": "21",
+            "href": "38",
+            "xclk": "40",
+            "pclk": "11",
+            "y2": "13",
+            "y3": "47",
+            "y4": "14",
+            "y5": "3",
+            "y6": "12",
+            "y7": "42",
+            "y8": "41",
+            "y9": "39"
+        }
+    },
+    "sdCardPins": {
+        "clk": "15",
+        "cmd": "7",
+        "d0": "4"
+    },
+    "servoConfig": {
+        "pins": [
+            [
+                "GPIO0",
+                "0"
+            ],
+            [
+                "GPIO1",
+                "1"
+            ],
+            [
+                "GPIO2",
+                "2"
+            ],
+            [
+                "GPIO4",
+                "4"
+            ],
+            [
+                "GPIO19",
+                "19"
+            ],
+            [
+                "GPIO20",
+                "20"
+            ],
+            [
+                "GPIO46",
+                "46"
+            ]
+        ]
+    },
+    "batteryVoltagePin": "6"
+}
