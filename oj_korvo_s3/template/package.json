@@ -2,9 +2,9 @@
   "name": "project_",
   "version": "1.0.0",
   "description": "",
-  "board": "OJ Korvo",
+  "board": "OJ Korvo S3",
   "dependencies": {
-    "@aily-project/board-oj_korvo": "3.3.10",
+    "@aily-project/board-oj_korvo_s3": "3.3.10",
     "@aily-project/lib-core-io": "1.0.0",
     "@aily-project/lib-core-logic": "0.0.1",
     "@aily-project/lib-core-loop": "0.0.1",
