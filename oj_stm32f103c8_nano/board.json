@@ -512,20 +512,14 @@
     [
       "Serial2",
       "Serial2"
+    ],
+    [
+      "Serial3",
+      "Serial3"
     ]
   ],
   "serialPins": {
     "Serial": [
-      [
-        "RX",
-        "PA10"
-      ],
-      [
-        "TX",
-        "PA9"
-      ]
-    ],
-    "Serial1": [
       [
         "RX",
         "PA3"
@@ -535,7 +529,27 @@
         "PA2"
       ]
     ],
+    "Serial1": [
+      [
+        "RX",
+        "PA10"
+      ],
+      [
+        "TX",
+        "PA9"
+      ]
+    ],
     "Serial2": [
+      [
+        "RX",
+        "PA3"
+      ],
+      [
+        "TX",
+        "PA2"
+      ]
+    ],
+    "Serial3": [
       [
         "RX",
         "PB11"

@@ -39,6 +39,5 @@
     "@aily-project/tool-CMSIS_NN": "7.0.0",
     "@aily-project/tool-xpack-openocd": "0.12.0",
     "@aily-project/tool-ctags": "5.8.0"
-  },
-  "hide": true
+  }
 }
