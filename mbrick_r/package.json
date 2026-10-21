@@ -1,7 +1,7 @@
 {
   "name": "@aily-project/board-mbrick-r",
   "nickname": "mBrick-R",
-  "version": "3.3.1",
+  "version": "3.3.10",
   "description": "mBrick-R is an ESP32-C3-based development board that can be used as a receiver board in the 3D printing ecosystem. Measuring 29x30mm, it is compatible with the dimensions and interfaces of the CyberBrick receiver board. It supports 2 DC motors and 4 servo motors. Its processor runs at 160MHz, with 4MB Flash and 400KB SRAM.",
   "description_en": "mBrick-R is an ESP32-C3-based development board that can be used as a receiver board in the 3D printing ecosystem. Measuring 29x30mm, it is compatible with the dimensions and interfaces of the CyberBrick receiver board. It supports 2 DC motors and 4 servo motors. Its processor runs at 160MHz, with 4MB Flash and 400KB SRAM.",
   "description_zh_cn": "mBrick-R是基于ESP32-C3的开发板，可用于3D打印生态的接收板，尺寸29x30mm，兼容CyberBrick接收板尺寸及接口。可接2路直流电机，4路马达。处理器主频160MHz，4MB Flash，400KB SRAM。",
@@ -23,9 +23,9 @@
   "brand": "mBrick",
   "boardDependencies": {
     "@aily-project/compiler-esp-rv32": "14.2.0",
-    "@aily-project/tool-esptool_py": "5.1.0",
-    "@aily-project/sdk-esp32": "3.3.1",
-    "@aily-project/tool-idf_esp32c3": "5.5.1",
+    "@aily-project/tool-esptool_py": "5.3.0",
+    "@aily-project/sdk-esp32": "3.3.10",
+    "@aily-project/tool-esp32c3-libs": "3.3.10",
     "@aily-project/tool-ctags": "5.8.0"
   }
 }
