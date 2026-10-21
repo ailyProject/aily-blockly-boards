@@ -1,0 +1,16 @@
+{
+  "ESP32": {
+    "JTAG_ADAPTER": "JTAG Adapter",
+    "FLASH_SIZE": "Flash Size",
+    "USB_MODE": "USB Mode",
+    "CDC_ON_BOOT": "USB CDC on Boot",
+    "MSC_ON_BOOT": "USB Firmware MSC on Boot",
+    "DFU_ON_BOOT": "USB DFU on Boot",
+    "UPLOAD_MODE": "Upload Method",
+    "PARTITION_SCHEME": "Partition Scheme",
+    "UPLOAD_SPEED": "Upload Speed",
+    "DEBUG_LEVEL": "Core Debug Level",
+    "ERASE_FLASH": "Erase All Flash Before Upload",
+    "ZIGBEE_MODE": "Zigbee Mode"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "project_",
+  "version": "1.0.0",
+  "description": "",
+  "board": "IBOX S31",
+  "dependencies": {
+    "@aily-project/board-oj_ibox_s31": "4.0.0",
+    "@aily-project/lib-core-io": "1.0.0",
+    "@aily-project/lib-core-logic": "0.0.1",
+    "@aily-project/lib-core-loop": "0.0.1",
+    "@aily-project/lib-core-math": "0.0.1",
+    "@aily-project/lib-core-text": "1.0.0",
+    "@aily-project/lib-core-serial": "0.0.1",
+    "@aily-project/lib-core-time": "0.0.1",
+    "@aily-project/lib-core-variables": "1.0.1"
+  },
+  "projectConfig": {
+    "JTAGAdapter": "default",
+    "FlashSize": "4M",
+    "USBMode": "hwcdc",
+    "CDCOnBoot": "default",
+    "MSCOnBoot": "default",
+    "DFUOnBoot": "default",
+    "UploadMode": "default",
+    "PartitionScheme": "default",
+    "UploadSpeed": "921600",
+    "DebugLevel": "none",
+    "EraseFlash": "none",
+    "ZigbeeMode": "default"
+  }
+}

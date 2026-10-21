@@ -1,0 +1,16 @@
+{
+  "ESP32": {
+    "JTAG_ADAPTER": "JTAG 어댑터",
+    "FLASH_SIZE": "플래시 크기",
+    "USB_MODE": "USB 모드",
+    "CDC_ON_BOOT": "USB 시리얼 통신",
+    "MSC_ON_BOOT": "부팅 시 USB 펌웨어 MSC 활성화",
+    "DFU_ON_BOOT": "부팅 시 USB DFU 활성화",
+    "UPLOAD_MODE": "업로드 방법",
+    "PARTITION_SCHEME": "파티션 스킴",
+    "UPLOAD_SPEED": "업로드 속도",
+    "DEBUG_LEVEL": "코어 디버그 레벨",
+    "ERASE_FLASH": "업로드 전 플래시 전체 지우기",
+    "ZIGBEE_MODE": "Zigbee 모드"
+  }
+}
