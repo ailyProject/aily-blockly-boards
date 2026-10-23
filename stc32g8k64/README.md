@@ -1,10 +1,10 @@
 # STC32G8K64
 
-Aily 开发板包版本 **0.0.1**，状态 **todo**。配置取自 arduino-stc51 0.0.2 当前源码，尚未完成 Aily 工具链安装、端到端编译或实板验证。
+Aily 开发板包版本 **0.0.2**，状态 **alpha**。使用 `sdk-mcs251@0.0.2` 和 `compiler-stcxx-toolchain@0.3.0` 的 MCS251 C++11 核心；尚未完成本配置的实板验证。
 
 ## 配置依据
 
-- 上游：[arduino-stc51](https://github.com/coloz/arduino-stc51)，FQBN：`arduino-stc51:mcs51:stc32g8k64`。
+- 上游：[arduino-mcs251](https://github.com/coloz/arduino-mcs251)，FQBN：`stc:mcs251:stc32g8k64`。
 - 型号与资源：`tools/variants/devices.json`、`boards.txt`。
 - 引脚：`variants/STC32G8K64/pins_arduino.h` 和 `variants/_common/pins_arduino_common.h`。
 - [原厂型号资料](https://www.stcmicro.com/cn/stc/stc32g8k64.html)。
@@ -13,9 +13,9 @@ Aily 开发板包版本 **0.0.1**，状态 **todo**。配置取自 arduino-stc51
 
 ## 默认模板与功能边界
 
-模板采用 `clock=24m,memory=large,cppcore=plain`，与上游默认构建参数一致。空白工作区生成 `#include <Arduino.h>`、`void setup() {}`、`void loop() {}`，属于该核心接受的 C 语法。时钟菜单必须与 ISP 设置的真实时钟一致；core 不会自动切换系统时钟。
+模板采用 `memory=large`，SDK 固定按 12 MHz 编译。SDK 默认启用 MCS251 C++11 核心，不再使用旧的 `cppcore`、`execution` 选项。空白工作区生成 `#include <Arduino.h>`、`void setup() {}`、`void loop() {}`。
 
-模板只加载基础 IO、逻辑、循环、数学和时间库，保留仓库已有库版本。没有把依赖 String / Print 重载的文本和通用串口库预装到纯 C 模板；基础库中的扩展积木仍需逐项验证，尤其不要将 C++ 重载、函数引用或随机数双参数调用当作纯 C 已兼容。
+模板加载基础 IO、逻辑、循环、数学、文本、串口、时间和变量库；具体 API 支持范围以当前 SDK 为准。
 
 - 通信配置已按 `sdk-mcs251@0.0.2` 的 `boards.txt`、变体引脚表和驱动核对：提供 `Serial` 及 `Serial1`～`Serial4`，`serialPins` 记录各硬件串口的默认 RX/TX。`Serial` 是 `Serial1` 的别名，两者不是独立串口。
 - `Wire` 的硬件主机/从机默认 SDA=P3.3、SCL=P3.2。IIC 需要外部上拉。
@@ -24,30 +24,31 @@ Aily 开发板包版本 **0.0.1**，状态 **todo**。配置取自 arduino-stc51
 - 外部中断仅 P3.2 / INT0、P3.3 / INT1，模式仅 LOW / FALLING。
 - `pwmPins` 按 arduino-stc51 0.0.7 的 `cores/STC/wiring_analog_write.c` 路由表与本型号 GPIO 掩码取交集，列出 18 个 `analogWrite()` 可用引脚（仅正向输出）。同一 PWM 通道的不同映射引脚不能同时独立输出；具体可用引脚仍取决于封装。
 - 裸芯片无板载 LED，因此 `builtinLed` 为空。
-- C++ 需显式选 `cppcore=enabled,clock=12m` 并另外准备受工具锁约束的 stcxx / Clang / LLVM-CBE 环境；Windows 使用 WSL。菜单本身不会安装这些工具。
 - 本型号使用实验 MCS251 构建配置。
 
-## 待接入的工具依赖
+### 时钟配置
 
-`boardDependencies` 仅保留已核实存在的 `@aily-project/tool-ctags@5.8.0`。2026-09-07 从主程序使用的 https://registry.yiyu.pro 查询 `@aily-project/sdk-stc51`、`@aily-project/compiler-sdcc-mcs251` 均返回 404；这些候选包名未写为已发布依赖。当前 Aily SDK 打包仓库亦无 STC 平台目录，因此本包暂不承诺新建后能直接编译。
+[官方系列产品资料](https://stcmicro.com/cn/stc/stc32g8k64.html)列出可调整的内部 IRC 和包含 24 MHz 的外部晶振范围；[STC32G 技术参考手册](https://stcmicro.com/datasheet/stc32g-cn.pdf)时钟管理章节说明时钟源选择及 ISP 频率配置。芯片支持 24 MHz，不代表当前 SDK 已提供该菜单。
 
-上游 Boards Manager 真实依赖为：
+本型号的 SDK 编译时钟固定为 12 MHz。
 
-| 组件 | 上游版本 |
+SDK 的 `build.f_cpu=12000000L` 使编译参数为 `F_CPU=12000000L`。首次使用及切换已有工程时，须在官方 ISP 中核对用户程序实际时钟为 12 MHz，并匹配 MCS251 执行模式；核心和现有上传命令不会自动切换系统时钟。实际时钟与 `F_CPU` 不同会影响计时、延时和串口波特率。若需要 24 MHz，应先扩展并验证 SDK 的相应菜单。
+
+## 工具依赖
+
+以本包 `package.json` 的 `boardDependencies` 为准：
+
+| 组件 | 版本 |
 | --- | --- |
-| arduino-stc51:mcs51 | 0.0.2 |
-| sdcc-mcs251 | 4.6.0-mcs251-20260804-r1 |
-| MCS51Tools | 2026.07.10 |
-| MCS51ArchiveTools | build.13407_4 |
-
-这些是上游组件及版本，并非虚构的 Aily npm 包。Aily 的 SDK/编译器/辅助工具打包和运行时路径映射仍需完成；开发板包自己的版本按要求保持 0.0.1，不把上游核心版本改成 0.0.1。
+| `@aily-project/compiler-stcxx-toolchain` | 0.3.0 |
+| `@aily-project/tool-stc-cli` | 0.1.0 |
+| `@aily-project/sdk-mcs251` | 0.0.2 |
+| `@aily-project/tool-ctags` | 5.8.0 |
 
 ## 编译与烧录
 
-上游平台没有 upload recipe，本包没有填写 `uploadParam`。上游链接配方直接生成 HEX，Aily 构建目录中的 HEX 可供独立烧录；请按上游 README 使用 stc-cli 或官方 ISP，并核对型号、时钟、执行模式及实验目标限制。芯片级一键上传尚待集成。
+本包不覆盖 `uploadParam`，由 SDK 在预处理结果中生成 `stc-cli` 上传命令。上传前核对芯片型号、用户程序时钟和 MCS251 执行模式，按上传提示手动复位或断电后上电。烧录功能和外设运行仍需按实际硬件验证。
 
-## 本轮验证（2026-09-07）
+## 配置核对（2026-10-23）
 
-配置生成器已核对全部 20 个 variant、GPIO 掩码、ADC 别名、菜单及默认值。Aily 空白模板实际生成的 C/C++ 源文件经上游原始 BusyBox wrapper 和补丁 SDCC 编译，20 个默认配置均成功生成对象文件；此检查不包含链接、固件运行或实板。
-
-直接使用当前本地 aily-builder 1.2.17 进行完整编译时，预处理能够解析本型号系列的配置，但 STC8G1K08A 冒烟检查在 sketch 编译阶段失败：构建器将上游 shell wrapper 配方改写为 `sdcc ash ...`，报 `error 119: don't know what to do with file ash`。因此还需完成构建器对 STC shell wrapper 的适配；没有把此结果标记为端到端编译通过。
+模板默认值、菜单 ID 与当前 SDK 的 `boards.txt` 已逐项核对；默认编译时钟解析为 `F_CPU=12000000L`。已移除旧 `cppcore`、`execution` 配置和菜单，并修正时钟说明。未执行固件上传或实板时钟、通信与外设运行测试。

@@ -1,7 +1,7 @@
 {
   "name": "AI8051U-34K32",
   "version": "0.0.1",
-  "description": "AI8051U-34K32 bare-MCU configuration for arduino-stc51. GPIO and ADC mappings follow the variant; available physical pins depend on the package. Plain C is the default; C++ support is experimental.",
+  "description": "AI8051U-34K32 bare-MCU configuration for arduino-mcs251. GPIO and ADC mappings follow the variant; available physical pins depend on the package. Uses the experimental MCS251 C++11 core; CPU clock must match ISP settings.",
   "compilerTool": "aily-builder",
     "core": "stc:mcs251",
     "type": "stc:mcs251:ai8051u_34k32",

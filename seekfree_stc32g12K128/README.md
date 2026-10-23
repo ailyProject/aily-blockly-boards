@@ -30,7 +30,7 @@
 
 ## 默认项目与烧录
 
-模板使用当前 SDK 的 MCS251 C++ 核心，默认 `clock=12m,memory=large,cdc=disabled`。当前 SDK 此型号仅提供 12 MHz 时钟选项，不沿用旧版芯片包的 `clock=24m`、`cppcore` 参数。
+模板使用当前 SDK 的 MCS251 C++ 核心，默认 `memory=large,cdc=disabled`，固定按 12 MHz 编译。
 
 编译时钟必须与芯片实际时钟一致。逐飞 Keil 示例库会将系统时钟设为 30 MHz，而本包使用 Arduino SDK，不包含该初始化代码。首次使用请在 STC-ISP 中核对内部 12 MHz 时钟、MCS251 执行模式和 P5.4 复位功能。
 

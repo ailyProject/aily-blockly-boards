@@ -4,9 +4,7 @@
   "description": "",
   "board": "STC32CL8K48",
   "projectConfig": {
-    "clock": "24m",
-    "memory": "large",
-    "cppcore": "plain"
+    "memory": "large"
   },
   "dependencies": {
      "@aily-project/board-stc32cl8k48": "0.0.2",
