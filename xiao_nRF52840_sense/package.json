@@ -1,7 +1,7 @@
 {
   "name": "@aily-project/board-xiao_nrf52840_sense",
   "nickname": "XIAO nRF52840 Sense",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Seeed Studio XIAO nRF52840 Sense with Bluetooth LE, an onboard LSM6DS3TR-C 6-axis IMU and a PDM microphone.",
   "description_en": "Seeed Studio XIAO nRF52840 Sense with Bluetooth LE, an onboard LSM6DS3TR-C 6-axis IMU and a PDM microphone.",
   "description_zh_cn": "Seeed Studio XIAO nRF52840 Sense，支持蓝牙 LE，并板载 LSM6DS3TR-C 六轴 IMU 和 PDM 麦克风。",
@@ -17,6 +17,7 @@
   "boardDependencies": {
     "@aily-project/compiler-gcc-arm-none-eabi": "10.3.1",
     "@aily-project/sdk-arm-ble": "0.4.0",
-    "@aily-project/tool-ctags": "5.8.0"
+    "@aily-project/tool-ctags": "5.8.0",
+    "@aily-project/tool-adafruit-nrfutil": "1.7.0"
   }
 }

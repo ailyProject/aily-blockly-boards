@@ -4,7 +4,7 @@
   "description": "",
   "board": "XIAO nRF52840 Sense",
   "dependencies": {
-    "@aily-project/board-xiao_nrf52840_sense": "0.1.0",
+    "@aily-project/board-xiao_nrf52840_sense": "0.2.0",
     "@aily-project/lib-nimble": "1.0.1",
     "@aily-project/lib-core-io": "1.0.0",
     "@aily-project/lib-core-logic": "0.0.1",
@@ -16,9 +16,13 @@
     "@aily-project/lib-core-variables": "1.0.1"
   },
   "projectConfig": {
-    "lfclk": "lfrc",
     "role": "all",
     "cppDbgLvl": "none",
-    "bootloader": "none"
+    "bootloader": "adafruit_ble",
+    "build.lfclk_flags": "-DUSE_LFXO",
+    "tools.adafruit-nrfutil.cmd": "{runtime.platform.path}/../../tools/adafruit-nrfutil@1.7.0/adafruit-nrfutil",
+    "compiler.c.extra_flags": "{bootloader.flags}",
+    "compiler.cpp.extra_flags": "{bootloader.flags}",
+    "compiler.S.extra_flags": "{bootloader.flags}"
   }
 }
