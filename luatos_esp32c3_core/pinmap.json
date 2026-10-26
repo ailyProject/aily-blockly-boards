@@ -50,6 +50,10 @@
         {
           "name": "UART1_TX",
           "type": "uart"
+        },
+        {
+          "name": "A0",
+          "type": "analog"
         }
       ]
     },
@@ -73,6 +77,10 @@
         {
           "name": "UART1_RX",
           "type": "uart"
+        },
+        {
+          "name": "A1",
+          "type": "analog"
         }
       ]
     },
@@ -88,6 +96,10 @@
         {
           "name": "GPIO12",
           "type": "gpio"
+        },
+        {
+          "name": "LED_BUILTIN",
+          "type": "digital"
         }
       ]
     },
@@ -171,6 +183,10 @@
         {
           "name": "GPIO13",
           "type": "gpio"
+        },
+        {
+          "name": "LED_BUILTIN_AUX",
+          "type": "digital"
         }
       ]
     },
@@ -227,6 +243,10 @@
         {
           "name": "GPIO2",
           "type": "gpio"
+        },
+        {
+          "name": "A2",
+          "type": "analog"
         }
       ]
     },
@@ -250,6 +270,10 @@
         {
           "name": "GPIO3",
           "type": "gpio"
+        },
+        {
+          "name": "A3",
+          "type": "analog"
         }
       ]
     },
@@ -303,6 +327,10 @@
         {
           "name": "CS",
           "type": "spi"
+        },
+        {
+          "name": "SS",
+          "type": "spi"
         }
       ]
     },
@@ -326,6 +354,10 @@
         {
           "name": "GPIO5",
           "type": "gpio"
+        },
+        {
+          "name": "A5",
+          "type": "analog"
         }
       ]
     },
@@ -349,6 +381,10 @@
         {
           "name": "GPIO4",
           "type": "gpio"
+        },
+        {
+          "name": "A4",
+          "type": "analog"
         }
       ]
     },
@@ -447,12 +483,8 @@
       "y": 298.06478932881623,
       "functions": [
         {
-          "name": "GPIO11",
-          "type": "digital"
-        },
-        {
-          "name": "GPIO11",
-          "type": "gpio"
+          "name": "VDD_SPI",
+          "type": "power"
         }
       ]
     },

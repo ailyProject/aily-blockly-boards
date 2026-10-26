@@ -1,0 +1,2445 @@
+{
+  "schemaVersion": 2,
+  "kind": "aily-scene-editor-document",
+  "sceneId": "main",
+  "visualRevision": "522cf1e245898e4a1609caaa6e0aab840e495c5ef519681f53400afc0386655e",
+  "graphSemanticRevision": "e8a76a0668b272a92e138c3eaeadde43a597137d81587291bf66221048b8c64a",
+  "componentConfigs": {
+    "arduino_nano_1": {
+      "id": "component_1772703466200",
+      "name": "Arduino Nano",
+      "pins": [
+        {
+          "id": "pin_1",
+          "x": 15,
+          "y": 30,
+          "layout": "horizontal",
+          "labelX": -15,
+          "labelY": 23,
+          "functions": [
+            {
+              "name": "5V",
+              "type": "power"
+            }
+          ]
+        },
+        {
+          "id": "pin_2",
+          "x": 15,
+          "y": 50,
+          "layout": "horizontal",
+          "labelX": -15,
+          "labelY": 43,
+          "functions": [
+            {
+              "name": "3V3",
+              "type": "power"
+            }
+          ]
+        },
+        {
+          "id": "pin_3",
+          "x": 15,
+          "y": 70,
+          "layout": "horizontal",
+          "labelX": -15,
+          "labelY": 63,
+          "functions": [
+            {
+              "name": "VIN",
+              "type": "power"
+            }
+          ]
+        },
+        {
+          "id": "pin_4",
+          "x": 15,
+          "y": 90,
+          "layout": "horizontal",
+          "labelX": -15,
+          "labelY": 83,
+          "functions": [
+            {
+              "name": "GND",
+              "type": "gnd"
+            }
+          ]
+        },
+        {
+          "id": "pin_5",
+          "x": 15,
+          "y": 110,
+          "layout": "horizontal",
+          "labelX": -15,
+          "labelY": 103,
+          "functions": [
+            {
+              "name": "GND",
+              "type": "gnd"
+            }
+          ]
+        },
+        {
+          "id": "pin_6",
+          "x": 15,
+          "y": 130,
+          "layout": "horizontal",
+          "labelX": -15,
+          "labelY": 123,
+          "functions": [
+            {
+              "name": "D0",
+              "type": "digital"
+            },
+            {
+              "name": "GPIO0",
+              "type": "gpio"
+            },
+            {
+              "name": "RX",
+              "type": "uart"
+            }
+          ]
+        },
+        {
+          "id": "pin_7",
+          "x": 15,
+          "y": 150,
+          "layout": "horizontal",
+          "labelX": -15,
+          "labelY": 143,
+          "functions": [
+            {
+              "name": "D1",
+              "type": "digital"
+            },
+            {
+              "name": "GPIO1",
+              "type": "gpio"
+            },
+            {
+              "name": "TX",
+              "type": "uart"
+            }
+          ]
+        },
+        {
+          "id": "pin_8",
+          "x": 15,
+          "y": 170,
+          "layout": "horizontal",
+          "labelX": -15,
+          "labelY": 163,
+          "functions": [
+            {
+              "name": "D2",
+              "type": "digital"
+            },
+            {
+              "name": "GPIO2",
+              "type": "gpio"
+            }
+          ]
+        },
+        {
+          "id": "pin_9",
+          "x": 15,
+          "y": 190,
+          "layout": "horizontal",
+          "labelX": -15,
+          "labelY": 183,
+          "functions": [
+            {
+              "name": "D3",
+              "type": "digital"
+            },
+            {
+              "name": "GPIO3",
+              "type": "gpio"
+            },
+            {
+              "name": "PWM3",
+              "type": "pwm"
+            }
+          ]
+        },
+        {
+          "id": "pin_10",
+          "x": 15,
+          "y": 210,
+          "layout": "horizontal",
+          "labelX": -15,
+          "labelY": 203,
+          "functions": [
+            {
+              "name": "D4",
+              "type": "digital"
+            },
+            {
+              "name": "GPIO4",
+              "type": "gpio"
+            }
+          ]
+        },
+        {
+          "id": "pin_11",
+          "x": 15,
+          "y": 230,
+          "layout": "horizontal",
+          "labelX": -15,
+          "labelY": 223,
+          "functions": [
+            {
+              "name": "D5",
+              "type": "digital"
+            },
+            {
+              "name": "GPIO5",
+              "type": "gpio"
+            },
+            {
+              "name": "PWM5",
+              "type": "pwm"
+            }
+          ]
+        },
+        {
+          "id": "pin_12",
+          "x": 15,
+          "y": 250,
+          "layout": "horizontal",
+          "labelX": -15,
+          "labelY": 243,
+          "functions": [
+            {
+              "name": "D6",
+              "type": "digital"
+            },
+            {
+              "name": "GPIO6",
+              "type": "gpio"
+            },
+            {
+              "name": "PWM6",
+              "type": "pwm"
+            }
+          ]
+        },
+        {
+          "id": "pin_13",
+          "x": 15,
+          "y": 270,
+          "layout": "horizontal",
+          "labelX": -15,
+          "labelY": 263,
+          "functions": [
+            {
+              "name": "D7",
+              "type": "digital"
+            },
+            {
+              "name": "GPIO7",
+              "type": "gpio"
+            }
+          ]
+        },
+        {
+          "id": "pin_14",
+          "x": 15,
+          "y": 290,
+          "layout": "horizontal",
+          "labelX": -15,
+          "labelY": 283,
+          "functions": [
+            {
+              "name": "D8",
+              "type": "digital"
+            },
+            {
+              "name": "GPIO8",
+              "type": "gpio"
+            }
+          ]
+        },
+        {
+          "id": "pin_15",
+          "x": 15,
+          "y": 310,
+          "layout": "horizontal",
+          "labelX": -15,
+          "labelY": 303,
+          "functions": [
+            {
+              "name": "D9",
+              "type": "digital"
+            },
+            {
+              "name": "GPIO9",
+              "type": "gpio"
+            },
+            {
+              "name": "PWM9",
+              "type": "pwm"
+            }
+          ]
+        },
+        {
+          "id": "pin_16",
+          "x": 15,
+          "y": 330,
+          "layout": "horizontal",
+          "labelX": -15,
+          "labelY": 323,
+          "functions": [
+            {
+              "name": "D10",
+              "type": "digital"
+            },
+            {
+              "name": "GPIO10",
+              "type": "gpio"
+            },
+            {
+              "name": "PWM10",
+              "type": "pwm"
+            },
+            {
+              "name": "CS",
+              "type": "spi"
+            },
+            {
+              "name": "SS",
+              "type": "spi"
+            }
+          ]
+        },
+        {
+          "id": "pin_17",
+          "x": 285,
+          "y": 30,
+          "layout": "horizontal",
+          "labelX": 315,
+          "labelY": 23,
+          "functions": [
+            {
+              "name": "D11",
+              "type": "digital"
+            },
+            {
+              "name": "GPIO11",
+              "type": "gpio"
+            },
+            {
+              "name": "PWM11",
+              "type": "pwm"
+            },
+            {
+              "name": "MOSI",
+              "type": "spi"
+            }
+          ]
+        },
+        {
+          "id": "pin_18",
+          "x": 285,
+          "y": 50,
+          "layout": "horizontal",
+          "labelX": 315,
+          "labelY": 43,
+          "functions": [
+            {
+              "name": "D12",
+              "type": "digital"
+            },
+            {
+              "name": "GPIO12",
+              "type": "gpio"
+            },
+            {
+              "name": "MISO",
+              "type": "spi"
+            }
+          ]
+        },
+        {
+          "id": "pin_19",
+          "x": 285,
+          "y": 70,
+          "layout": "horizontal",
+          "labelX": 315,
+          "labelY": 63,
+          "functions": [
+            {
+              "name": "D13",
+              "type": "digital"
+            },
+            {
+              "name": "GPIO13",
+              "type": "gpio"
+            },
+            {
+              "name": "SCK",
+              "type": "spi"
+            }
+          ]
+        },
+        {
+          "id": "pin_20",
+          "x": 285,
+          "y": 90,
+          "layout": "horizontal",
+          "labelX": 315,
+          "labelY": 83,
+          "functions": [
+            {
+              "name": "A0",
+              "type": "digital"
+            },
+            {
+              "name": "D14",
+              "type": "digital"
+            },
+            {
+              "name": "GPIO14",
+              "type": "gpio"
+            },
+            {
+              "name": "A0",
+              "type": "analog"
+            }
+          ]
+        },
+        {
+          "id": "pin_21",
+          "x": 285,
+          "y": 110,
+          "layout": "horizontal",
+          "labelX": 315,
+          "labelY": 103,
+          "functions": [
+            {
+              "name": "A1",
+              "type": "digital"
+            },
+            {
+              "name": "D15",
+              "type": "digital"
+            },
+            {
+              "name": "GPIO15",
+              "type": "gpio"
+            },
+            {
+              "name": "A1",
+              "type": "analog"
+            }
+          ]
+        },
+        {
+          "id": "pin_22",
+          "x": 285,
+          "y": 130,
+          "layout": "horizontal",
+          "labelX": 315,
+          "labelY": 123,
+          "functions": [
+            {
+              "name": "A2",
+              "type": "digital"
+            },
+            {
+              "name": "D16",
+              "type": "digital"
+            },
+            {
+              "name": "GPIO16",
+              "type": "gpio"
+            },
+            {
+              "name": "A2",
+              "type": "analog"
+            }
+          ]
+        },
+        {
+          "id": "pin_23",
+          "x": 285,
+          "y": 150,
+          "layout": "horizontal",
+          "labelX": 315,
+          "labelY": 143,
+          "functions": [
+            {
+              "name": "A3",
+              "type": "digital"
+            },
+            {
+              "name": "D17",
+              "type": "digital"
+            },
+            {
+              "name": "GPIO17",
+              "type": "gpio"
+            },
+            {
+              "name": "A3",
+              "type": "analog"
+            }
+          ]
+        },
+        {
+          "id": "pin_24",
+          "x": 285,
+          "y": 170,
+          "layout": "horizontal",
+          "labelX": 315,
+          "labelY": 163,
+          "functions": [
+            {
+              "name": "A4",
+              "type": "digital"
+            },
+            {
+              "name": "D18",
+              "type": "digital"
+            },
+            {
+              "name": "GPIO18",
+              "type": "gpio"
+            },
+            {
+              "name": "A4",
+              "type": "analog"
+            },
+            {
+              "name": "SDA",
+              "type": "i2c"
+            }
+          ]
+        },
+        {
+          "id": "pin_25",
+          "x": 285,
+          "y": 190,
+          "layout": "horizontal",
+          "labelX": 315,
+          "labelY": 183,
+          "functions": [
+            {
+              "name": "A5",
+              "type": "digital"
+            },
+            {
+              "name": "D19",
+              "type": "digital"
+            },
+            {
+              "name": "GPIO19",
+              "type": "gpio"
+            },
+            {
+              "name": "A5",
+              "type": "analog"
+            },
+            {
+              "name": "SCL",
+              "type": "i2c"
+            }
+          ]
+        },
+        {
+          "id": "pin_26",
+          "x": 285,
+          "y": 210,
+          "layout": "horizontal",
+          "labelX": 315,
+          "labelY": 203,
+          "functions": [
+            {
+              "name": "A6",
+              "type": "analog"
+            }
+          ]
+        },
+        {
+          "id": "pin_27",
+          "x": 285,
+          "y": 230,
+          "layout": "horizontal",
+          "labelX": 315,
+          "labelY": 223,
+          "functions": [
+            {
+              "name": "A7",
+              "type": "analog"
+            }
+          ]
+        }
+      ],
+      "width": 300,
+      "height": 380,
+      "images": [
+        {
+          "id": "body",
+          "url": "/appearance/v1/arduino-nano-pinmap.webp",
+          "version": "v1",
+          "x": 150,
+          "y": 190,
+          "width": 300,
+          "height": 380,
+          "appearanceLayer": "background"
+        }
+      ],
+      "functionTypes": [
+        {
+          "value": "power",
+          "color": "#EF4444",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "gnd",
+          "color": "#000000",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "digital",
+          "color": "#3B82F6",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "analog",
+          "color": "#10B981",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "uart",
+          "color": "#F59E0B",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "i2c",
+          "color": "#8B5CF6",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "spi",
+          "color": "#EC4899",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "pwm",
+          "color": "#FCD34D",
+          "textColor": "#000000"
+        },
+        {
+          "value": "gpio",
+          "color": "#E6D200",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "touch",
+          "color": "#F98062",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "other",
+          "color": "#9CA3AF",
+          "textColor": "#FFFFFF"
+        }
+      ],
+      "appearance": {
+        "schemaVersion": 1,
+        "source": "pinmap",
+        "id": "aily.appearance.arduino-nano",
+        "version": "1.0.0",
+        "overflow": "visible",
+        "slots": []
+      },
+      "ailySceneEditorProjection": {
+        "schemaVersion": 1,
+        "kind": "aily-scene-editor-component-projection",
+        "semanticConfig": {
+          "id": "component_1772703466200",
+          "name": "Arduino Nano",
+          "pins": [
+            {
+              "id": "pin_1",
+              "functions": [
+                {
+                  "name": "5V",
+                  "type": "power"
+                }
+              ]
+            },
+            {
+              "id": "pin_2",
+              "functions": [
+                {
+                  "name": "3V3",
+                  "type": "power"
+                }
+              ]
+            },
+            {
+              "id": "pin_3",
+              "functions": [
+                {
+                  "name": "VIN",
+                  "type": "power"
+                }
+              ]
+            },
+            {
+              "id": "pin_4",
+              "functions": [
+                {
+                  "name": "GND",
+                  "type": "gnd"
+                }
+              ]
+            },
+            {
+              "id": "pin_5",
+              "functions": [
+                {
+                  "name": "GND",
+                  "type": "gnd"
+                }
+              ]
+            },
+            {
+              "id": "pin_6",
+              "functions": [
+                {
+                  "name": "D0",
+                  "type": "digital"
+                },
+                {
+                  "name": "GPIO0",
+                  "type": "gpio"
+                },
+                {
+                  "name": "RX",
+                  "type": "uart"
+                }
+              ]
+            },
+            {
+              "id": "pin_7",
+              "functions": [
+                {
+                  "name": "D1",
+                  "type": "digital"
+                },
+                {
+                  "name": "GPIO1",
+                  "type": "gpio"
+                },
+                {
+                  "name": "TX",
+                  "type": "uart"
+                }
+              ]
+            },
+            {
+              "id": "pin_8",
+              "functions": [
+                {
+                  "name": "D2",
+                  "type": "digital"
+                },
+                {
+                  "name": "GPIO2",
+                  "type": "gpio"
+                }
+              ]
+            },
+            {
+              "id": "pin_9",
+              "functions": [
+                {
+                  "name": "D3",
+                  "type": "digital"
+                },
+                {
+                  "name": "GPIO3",
+                  "type": "gpio"
+                },
+                {
+                  "name": "PWM3",
+                  "type": "pwm"
+                }
+              ]
+            },
+            {
+              "id": "pin_10",
+              "functions": [
+                {
+                  "name": "D4",
+                  "type": "digital"
+                },
+                {
+                  "name": "GPIO4",
+                  "type": "gpio"
+                }
+              ]
+            },
+            {
+              "id": "pin_11",
+              "functions": [
+                {
+                  "name": "D5",
+                  "type": "digital"
+                },
+                {
+                  "name": "GPIO5",
+                  "type": "gpio"
+                },
+                {
+                  "name": "PWM5",
+                  "type": "pwm"
+                }
+              ]
+            },
+            {
+              "id": "pin_12",
+              "functions": [
+                {
+                  "name": "D6",
+                  "type": "digital"
+                },
+                {
+                  "name": "GPIO6",
+                  "type": "gpio"
+                },
+                {
+                  "name": "PWM6",
+                  "type": "pwm"
+                }
+              ]
+            },
+            {
+              "id": "pin_13",
+              "functions": [
+                {
+                  "name": "D7",
+                  "type": "digital"
+                },
+                {
+                  "name": "GPIO7",
+                  "type": "gpio"
+                }
+              ]
+            },
+            {
+              "id": "pin_14",
+              "functions": [
+                {
+                  "name": "D8",
+                  "type": "digital"
+                },
+                {
+                  "name": "GPIO8",
+                  "type": "gpio"
+                }
+              ]
+            },
+            {
+              "id": "pin_15",
+              "functions": [
+                {
+                  "name": "D9",
+                  "type": "digital"
+                },
+                {
+                  "name": "GPIO9",
+                  "type": "gpio"
+                },
+                {
+                  "name": "PWM9",
+                  "type": "pwm"
+                }
+              ]
+            },
+            {
+              "id": "pin_16",
+              "functions": [
+                {
+                  "name": "D10",
+                  "type": "digital"
+                },
+                {
+                  "name": "GPIO10",
+                  "type": "gpio"
+                },
+                {
+                  "name": "PWM10",
+                  "type": "pwm"
+                },
+                {
+                  "name": "CS",
+                  "type": "spi"
+                },
+                {
+                  "name": "SS",
+                  "type": "spi"
+                }
+              ]
+            },
+            {
+              "id": "pin_17",
+              "functions": [
+                {
+                  "name": "D11",
+                  "type": "digital"
+                },
+                {
+                  "name": "GPIO11",
+                  "type": "gpio"
+                },
+                {
+                  "name": "PWM11",
+                  "type": "pwm"
+                },
+                {
+                  "name": "MOSI",
+                  "type": "spi"
+                }
+              ]
+            },
+            {
+              "id": "pin_18",
+              "functions": [
+                {
+                  "name": "D12",
+                  "type": "digital"
+                },
+                {
+                  "name": "GPIO12",
+                  "type": "gpio"
+                },
+                {
+                  "name": "MISO",
+                  "type": "spi"
+                }
+              ]
+            },
+            {
+              "id": "pin_19",
+              "functions": [
+                {
+                  "name": "D13",
+                  "type": "digital"
+                },
+                {
+                  "name": "GPIO13",
+                  "type": "gpio"
+                },
+                {
+                  "name": "SCK",
+                  "type": "spi"
+                }
+              ]
+            },
+            {
+              "id": "pin_20",
+              "functions": [
+                {
+                  "name": "A0",
+                  "type": "digital"
+                },
+                {
+                  "name": "D14",
+                  "type": "digital"
+                },
+                {
+                  "name": "GPIO14",
+                  "type": "gpio"
+                },
+                {
+                  "name": "A0",
+                  "type": "analog"
+                }
+              ]
+            },
+            {
+              "id": "pin_21",
+              "functions": [
+                {
+                  "name": "A1",
+                  "type": "digital"
+                },
+                {
+                  "name": "D15",
+                  "type": "digital"
+                },
+                {
+                  "name": "GPIO15",
+                  "type": "gpio"
+                },
+                {
+                  "name": "A1",
+                  "type": "analog"
+                }
+              ]
+            },
+            {
+              "id": "pin_22",
+              "functions": [
+                {
+                  "name": "A2",
+                  "type": "digital"
+                },
+                {
+                  "name": "D16",
+                  "type": "digital"
+                },
+                {
+                  "name": "GPIO16",
+                  "type": "gpio"
+                },
+                {
+                  "name": "A2",
+                  "type": "analog"
+                }
+              ]
+            },
+            {
+              "id": "pin_23",
+              "functions": [
+                {
+                  "name": "A3",
+                  "type": "digital"
+                },
+                {
+                  "name": "D17",
+                  "type": "digital"
+                },
+                {
+                  "name": "GPIO17",
+                  "type": "gpio"
+                },
+                {
+                  "name": "A3",
+                  "type": "analog"
+                }
+              ]
+            },
+            {
+              "id": "pin_24",
+              "functions": [
+                {
+                  "name": "A4",
+                  "type": "digital"
+                },
+                {
+                  "name": "D18",
+                  "type": "digital"
+                },
+                {
+                  "name": "GPIO18",
+                  "type": "gpio"
+                },
+                {
+                  "name": "A4",
+                  "type": "analog"
+                },
+                {
+                  "name": "SDA",
+                  "type": "i2c"
+                }
+              ]
+            },
+            {
+              "id": "pin_25",
+              "functions": [
+                {
+                  "name": "A5",
+                  "type": "digital"
+                },
+                {
+                  "name": "D19",
+                  "type": "digital"
+                },
+                {
+                  "name": "GPIO19",
+                  "type": "gpio"
+                },
+                {
+                  "name": "A5",
+                  "type": "analog"
+                },
+                {
+                  "name": "SCL",
+                  "type": "i2c"
+                }
+              ]
+            },
+            {
+              "id": "pin_26",
+              "functions": [
+                {
+                  "name": "A6",
+                  "type": "analog"
+                }
+              ]
+            },
+            {
+              "id": "pin_27",
+              "functions": [
+                {
+                  "name": "A7",
+                  "type": "analog"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "resistor_1": {
+      "id": "component_core_io_resistor",
+      "name": "Resistor",
+      "pins": [
+        {
+          "id": "terminal_a",
+          "x": 8,
+          "y": 28,
+          "layout": "horizontal",
+          "labelX": 14,
+          "labelY": 10,
+          "functions": [
+            {
+              "name": "A(IO)",
+              "type": "digital"
+            },
+            {
+              "name": "A(3V3)",
+              "type": "power"
+            },
+            {
+              "name": "A(GND)",
+              "type": "gnd"
+            }
+          ]
+        },
+        {
+          "id": "terminal_b",
+          "x": 120,
+          "y": 28,
+          "layout": "horizontal",
+          "labelX": 114,
+          "labelY": 10,
+          "functions": [
+            {
+              "name": "B(IO)",
+              "type": "digital"
+            },
+            {
+              "name": "B(3V3)",
+              "type": "power"
+            },
+            {
+              "name": "B(GND)",
+              "type": "gnd"
+            }
+          ]
+        }
+      ],
+      "simulationProperties": {
+        "resistanceOhms": 220
+      },
+      "width": 128,
+      "height": 56,
+      "images": [
+        {
+          "id": "body",
+          "url": "/appearance/v1/resistor-body.svg",
+          "version": "v1",
+          "x": 64,
+          "y": 28,
+          "width": 128,
+          "height": 56,
+          "appearanceLayer": "background"
+        }
+      ],
+      "functionTypes": [
+        {
+          "value": "power",
+          "color": "#EF4444",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "gnd",
+          "color": "#000000",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "digital",
+          "color": "#3B82F6",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "analog",
+          "color": "#10B981",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "uart",
+          "color": "#F59E0B",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "i2c",
+          "color": "#8B5CF6",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "spi",
+          "color": "#EC4899",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "pwm",
+          "color": "#FCD34D",
+          "textColor": "#000000"
+        },
+        {
+          "value": "gpio",
+          "color": "#E6D200",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "touch",
+          "color": "#F98062",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "other",
+          "color": "#9CA3AF",
+          "textColor": "#FFFFFF"
+        }
+      ],
+      "appearance": {
+        "schemaVersion": 1,
+        "source": "pinmap",
+        "id": "aily.appearance.resistor",
+        "version": "1.0.0",
+        "overflow": "visible",
+        "slots": []
+      },
+      "ailySceneEditorProjection": {
+        "schemaVersion": 1,
+        "kind": "aily-scene-editor-component-projection",
+        "semanticConfig": {
+          "id": "component_core_io_resistor",
+          "name": "Resistor",
+          "pins": [
+            {
+              "id": "terminal_a",
+              "functions": [
+                {
+                  "name": "A(IO)",
+                  "type": "digital"
+                },
+                {
+                  "name": "A(3V3)",
+                  "type": "power"
+                },
+                {
+                  "name": "A(GND)",
+                  "type": "gnd"
+                }
+              ]
+            },
+            {
+              "id": "terminal_b",
+              "functions": [
+                {
+                  "name": "B(IO)",
+                  "type": "digital"
+                },
+                {
+                  "name": "B(3V3)",
+                  "type": "power"
+                },
+                {
+                  "name": "B(GND)",
+                  "type": "gnd"
+                }
+              ]
+            }
+          ],
+          "simulationProperties": {
+            "resistanceOhms": 220
+          }
+        }
+      }
+    },
+    "led_1": {
+      "id": "component_core_io_led",
+      "name": "LED",
+      "pins": [
+        {
+          "id": "anode",
+          "x": 30,
+          "y": 104,
+          "layout": "horizontal",
+          "labelX": 18,
+          "labelY": 86,
+          "functions": [
+            {
+              "name": "A(IO)",
+              "type": "digital"
+            },
+            {
+              "name": "A(3V3)",
+              "type": "power"
+            }
+          ]
+        },
+        {
+          "id": "cathode",
+          "x": 66,
+          "y": 104,
+          "layout": "horizontal",
+          "labelX": 78,
+          "labelY": 86,
+          "functions": [
+            {
+              "name": "C(IO)",
+              "type": "digital"
+            },
+            {
+              "name": "C(GND)",
+              "type": "gnd"
+            }
+          ]
+        }
+      ],
+      "width": 96,
+      "height": 112,
+      "images": [
+        {
+          "id": "body",
+          "url": "/appearance/v1/gpio-led-body.svg",
+          "version": "v1",
+          "x": 48,
+          "y": 56,
+          "width": 96,
+          "height": 112,
+          "appearanceLayer": "background"
+        },
+        {
+          "id": "bezel",
+          "url": "/appearance/v1/gpio-led-bezel.svg",
+          "version": "v1",
+          "x": 48,
+          "y": 56,
+          "width": 96,
+          "height": 112,
+          "appearanceLayer": "foreground"
+        }
+      ],
+      "functionTypes": [
+        {
+          "value": "power",
+          "color": "#EF4444",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "gnd",
+          "color": "#000000",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "digital",
+          "color": "#3B82F6",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "analog",
+          "color": "#10B981",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "uart",
+          "color": "#F59E0B",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "i2c",
+          "color": "#8B5CF6",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "spi",
+          "color": "#EC4899",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "pwm",
+          "color": "#FCD34D",
+          "textColor": "#000000"
+        },
+        {
+          "value": "gpio",
+          "color": "#E6D200",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "touch",
+          "color": "#F98062",
+          "textColor": "#FFFFFF"
+        },
+        {
+          "value": "other",
+          "color": "#9CA3AF",
+          "textColor": "#FFFFFF"
+        }
+      ],
+      "appearance": {
+        "schemaVersion": 1,
+        "source": "pinmap",
+        "id": "aily.appearance.gpio-led",
+        "version": "2.0.0",
+        "overflow": "visible",
+        "slots": [
+          {
+            "id": "emitter",
+            "role": "led-emitter",
+            "layer": "dynamic",
+            "x": 28,
+            "y": 18,
+            "width": 40,
+            "height": 40,
+            "shape": "circle",
+            "clip": false
+          }
+        ]
+      },
+      "ailySceneEditorProjection": {
+        "schemaVersion": 1,
+        "kind": "aily-scene-editor-component-projection",
+        "semanticConfig": {
+          "id": "component_core_io_led",
+          "name": "LED",
+          "pins": [
+            {
+              "id": "anode",
+              "functions": [
+                {
+                  "name": "A(IO)",
+                  "type": "digital"
+                },
+                {
+                  "name": "A(3V3)",
+                  "type": "power"
+                }
+              ]
+            },
+            {
+              "id": "cathode",
+              "functions": [
+                {
+                  "name": "C(IO)",
+                  "type": "digital"
+                },
+                {
+                  "name": "C(GND)",
+                  "type": "gnd"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "components": [
+    {
+      "instanceId": "arduino_nano_1",
+      "componentId": "component_1772703466200",
+      "componentName": "Arduino Nano",
+      "pinmapId": "boards:arduino-nano:aily",
+      "componentType": "hardware",
+      "placement": {
+        "x": 130,
+        "y": 60,
+        "scale": 1
+      },
+      "extensions": {
+        "ailySimulatorCatalog": {
+          "schemaVersion": 1,
+          "catalogId": "aily.component.arduino-nano",
+          "catalogRevision": "05308ac1d1dad8d950f86380e8fbe1363cbbc0f4410f00b7741b231600067a0e",
+          "appearance": {
+            "id": "aily.appearance.arduino-nano",
+            "version": "1.0.0"
+          }
+        },
+        "ailySimulatorComponentPackage": {
+          "schemaVersion": 1,
+          "packageId": "aily.component-package.arduino-nano",
+          "version": "1.0.0",
+          "runtimeSha256": "6ddf336bdf1f19b0a552446f210ee55872e9480d2a7b02c5dedc6f979afb7d4e",
+          "sceneRecipe": {
+            "id": "aily.scene-recipe.arduino-nano",
+            "version": "1.0.0"
+          }
+        },
+        "ailyProjectRequirements": {
+          "schemaVersion": 1,
+          "board": {
+            "packageName": "@aily-project/board-arduino_nano",
+            "version": "1.8.6",
+            "options": {}
+          },
+          "libraries": []
+        }
+      }
+    },
+    {
+      "instanceId": "resistor_1",
+      "componentId": "component_core_io_resistor",
+      "componentName": "Resistor",
+      "pinmapId": "lib-core-io:resistor:generic",
+      "componentType": "hardware",
+      "placement": {
+        "x": 540,
+        "y": 170,
+        "scale": 1
+      },
+      "extensions": {
+        "simulationProperties": {
+          "resistanceOhms": 220
+        },
+        "ailySimulatorCatalog": {
+          "schemaVersion": 1,
+          "catalogId": "aily.component.resistor",
+          "catalogRevision": "05308ac1d1dad8d950f86380e8fbe1363cbbc0f4410f00b7741b231600067a0e",
+          "appearance": {
+            "id": "aily.appearance.resistor",
+            "version": "1.0.0"
+          }
+        },
+        "ailySimulatorComponentPackage": {
+          "schemaVersion": 1,
+          "packageId": "aily.component-package.resistor",
+          "version": "1.0.0",
+          "runtimeSha256": "0cac591c2c1a83a3a29647c52cea62fba75bf496556d6f2cf8117c288868ae47",
+          "sceneRecipe": {
+            "id": "aily.scene-recipe.resistor",
+            "version": "1.0.0"
+          }
+        }
+      }
+    },
+    {
+      "instanceId": "led_1",
+      "componentId": "component_core_io_led",
+      "componentName": "LED",
+      "pinmapId": "lib-core-io:led:generic",
+      "componentType": "hardware",
+      "placement": {
+        "x": 820,
+        "y": 400,
+        "scale": 1
+      },
+      "extensions": {
+        "ailySimulatorCatalog": {
+          "schemaVersion": 1,
+          "catalogId": "aily.component.gpio-led",
+          "catalogRevision": "05308ac1d1dad8d950f86380e8fbe1363cbbc0f4410f00b7741b231600067a0e",
+          "appearance": {
+            "id": "aily.appearance.gpio-led",
+            "version": "2.0.0"
+          }
+        },
+        "ailySimulatorComponentPackage": {
+          "schemaVersion": 1,
+          "packageId": "aily.component-package.gpio-led",
+          "version": "1.0.0",
+          "runtimeSha256": "23037f40ee7598a480e2ce3a0e382f1d1d8c0057e932cd28366cd43bc649fd7e",
+          "sceneRecipe": {
+            "id": "aily.scene-recipe.gpio-led",
+            "version": "1.0.0"
+          }
+        },
+        "ailyProjectRequirements": {
+          "schemaVersion": 1,
+          "board": null,
+          "libraries": [
+            {
+              "packageName": "@aily-project/lib-core-io",
+              "version": "1.0.0"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "terminals": [
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_1",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_1",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "5V",
+          "gpio": null,
+          "arduinoAliases": [],
+          "adcChannels": [],
+          "pwmChannels": [],
+          "touchChannels": [],
+          "alternateFunctions": []
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_10",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_10",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "PD4",
+          "gpio": {
+            "controllerId": "gpio",
+            "channel": "4"
+          },
+          "arduinoAliases": [
+            "D4"
+          ],
+          "adcChannels": [],
+          "pwmChannels": [],
+          "touchChannels": [],
+          "alternateFunctions": []
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_11",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_11",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "PD5",
+          "gpio": {
+            "controllerId": "gpio",
+            "channel": "5"
+          },
+          "arduinoAliases": [
+            "D5"
+          ],
+          "adcChannels": [],
+          "pwmChannels": [
+            {
+              "controllerId": "timer0",
+              "channel": "B"
+            }
+          ],
+          "touchChannels": [],
+          "alternateFunctions": []
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_12",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_12",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "PD6",
+          "gpio": {
+            "controllerId": "gpio",
+            "channel": "6"
+          },
+          "arduinoAliases": [
+            "D6"
+          ],
+          "adcChannels": [],
+          "pwmChannels": [
+            {
+              "controllerId": "timer0",
+              "channel": "A"
+            }
+          ],
+          "touchChannels": [],
+          "alternateFunctions": []
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_13",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_13",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "PD7",
+          "gpio": {
+            "controllerId": "gpio",
+            "channel": "7"
+          },
+          "arduinoAliases": [
+            "D7"
+          ],
+          "adcChannels": [],
+          "pwmChannels": [],
+          "touchChannels": [],
+          "alternateFunctions": []
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_14",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_14",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "PB0",
+          "gpio": {
+            "controllerId": "gpio",
+            "channel": "8"
+          },
+          "arduinoAliases": [
+            "D8"
+          ],
+          "adcChannels": [],
+          "pwmChannels": [],
+          "touchChannels": [],
+          "alternateFunctions": []
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_15",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_15",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "PB1",
+          "gpio": {
+            "controllerId": "gpio",
+            "channel": "9"
+          },
+          "arduinoAliases": [
+            "D9"
+          ],
+          "adcChannels": [],
+          "pwmChannels": [
+            {
+              "controllerId": "timer1",
+              "channel": "A"
+            }
+          ],
+          "touchChannels": [],
+          "alternateFunctions": []
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_16",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_16",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "PB2",
+          "gpio": {
+            "controllerId": "gpio",
+            "channel": "10"
+          },
+          "arduinoAliases": [
+            "D10"
+          ],
+          "adcChannels": [],
+          "pwmChannels": [
+            {
+              "controllerId": "timer1",
+              "channel": "B"
+            }
+          ],
+          "touchChannels": [],
+          "alternateFunctions": [
+            {
+              "name": "SS",
+              "peripheralId": "spi0",
+              "signal": "cs0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_17",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_17",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "PB3",
+          "gpio": {
+            "controllerId": "gpio",
+            "channel": "11"
+          },
+          "arduinoAliases": [
+            "D11"
+          ],
+          "adcChannels": [],
+          "pwmChannels": [
+            {
+              "controllerId": "timer2",
+              "channel": "A"
+            }
+          ],
+          "touchChannels": [],
+          "alternateFunctions": [
+            {
+              "name": "MOSI",
+              "peripheralId": "spi0",
+              "signal": "mosi"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_18",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_18",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "PB4",
+          "gpio": {
+            "controllerId": "gpio",
+            "channel": "12"
+          },
+          "arduinoAliases": [
+            "D12"
+          ],
+          "adcChannels": [],
+          "pwmChannels": [],
+          "touchChannels": [],
+          "alternateFunctions": [
+            {
+              "name": "MISO",
+              "peripheralId": "spi0",
+              "signal": "miso"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_19",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_19",
+      "selectedFunction": "GPIO13",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "PB5",
+          "gpio": {
+            "controllerId": "gpio",
+            "channel": "13"
+          },
+          "arduinoAliases": [
+            "D13"
+          ],
+          "adcChannels": [],
+          "pwmChannels": [],
+          "touchChannels": [],
+          "alternateFunctions": [
+            {
+              "name": "SCK",
+              "peripheralId": "spi0",
+              "signal": "sck"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_2",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_2",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "3V3",
+          "gpio": null,
+          "arduinoAliases": [],
+          "adcChannels": [],
+          "pwmChannels": [],
+          "touchChannels": [],
+          "alternateFunctions": []
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_20",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_20",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "PC0",
+          "gpio": {
+            "controllerId": "gpio",
+            "channel": "14"
+          },
+          "arduinoAliases": [
+            "A0",
+            "D14"
+          ],
+          "adcChannels": [
+            {
+              "controllerId": "adc0",
+              "channel": "0"
+            }
+          ],
+          "pwmChannels": [],
+          "touchChannels": [],
+          "alternateFunctions": []
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_21",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_21",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "PC1",
+          "gpio": {
+            "controllerId": "gpio",
+            "channel": "15"
+          },
+          "arduinoAliases": [
+            "A1",
+            "D15"
+          ],
+          "adcChannels": [
+            {
+              "controllerId": "adc0",
+              "channel": "1"
+            }
+          ],
+          "pwmChannels": [],
+          "touchChannels": [],
+          "alternateFunctions": []
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_22",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_22",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "PC2",
+          "gpio": {
+            "controllerId": "gpio",
+            "channel": "16"
+          },
+          "arduinoAliases": [
+            "A2",
+            "D16"
+          ],
+          "adcChannels": [
+            {
+              "controllerId": "adc0",
+              "channel": "2"
+            }
+          ],
+          "pwmChannels": [],
+          "touchChannels": [],
+          "alternateFunctions": []
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_23",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_23",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "PC3",
+          "gpio": {
+            "controllerId": "gpio",
+            "channel": "17"
+          },
+          "arduinoAliases": [
+            "A3",
+            "D17"
+          ],
+          "adcChannels": [
+            {
+              "controllerId": "adc0",
+              "channel": "3"
+            }
+          ],
+          "pwmChannels": [],
+          "touchChannels": [],
+          "alternateFunctions": []
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_24",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_24",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "PC4",
+          "gpio": {
+            "controllerId": "gpio",
+            "channel": "18"
+          },
+          "arduinoAliases": [
+            "A4",
+            "D18"
+          ],
+          "adcChannels": [
+            {
+              "controllerId": "adc0",
+              "channel": "4"
+            }
+          ],
+          "pwmChannels": [],
+          "touchChannels": [],
+          "alternateFunctions": [
+            {
+              "name": "SDA",
+              "peripheralId": "i2c0",
+              "signal": "sda"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_25",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_25",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "PC5",
+          "gpio": {
+            "controllerId": "gpio",
+            "channel": "19"
+          },
+          "arduinoAliases": [
+            "A5",
+            "D19"
+          ],
+          "adcChannels": [
+            {
+              "controllerId": "adc0",
+              "channel": "5"
+            }
+          ],
+          "pwmChannels": [],
+          "touchChannels": [],
+          "alternateFunctions": [
+            {
+              "name": "SCL",
+              "peripheralId": "i2c0",
+              "signal": "scl"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_26",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_26",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "ADC6",
+          "gpio": null,
+          "arduinoAliases": [
+            "A6"
+          ],
+          "adcChannels": [
+            {
+              "controllerId": "adc0",
+              "channel": "6"
+            }
+          ],
+          "pwmChannels": [],
+          "touchChannels": [],
+          "alternateFunctions": []
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_27",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_27",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "ADC7",
+          "gpio": null,
+          "arduinoAliases": [
+            "A7"
+          ],
+          "adcChannels": [
+            {
+              "controllerId": "adc0",
+              "channel": "7"
+            }
+          ],
+          "pwmChannels": [],
+          "touchChannels": [],
+          "alternateFunctions": []
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_3",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_3",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "VIN",
+          "gpio": null,
+          "arduinoAliases": [],
+          "adcChannels": [],
+          "pwmChannels": [],
+          "touchChannels": [],
+          "alternateFunctions": []
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_4",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_4",
+      "selectedFunction": "GND",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "GND1",
+          "gpio": null,
+          "arduinoAliases": [],
+          "adcChannels": [],
+          "pwmChannels": [],
+          "touchChannels": [],
+          "alternateFunctions": []
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_5",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_5",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "GND2",
+          "gpio": null,
+          "arduinoAliases": [],
+          "adcChannels": [],
+          "pwmChannels": [],
+          "touchChannels": [],
+          "alternateFunctions": []
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_6",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_6",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "PD0",
+          "gpio": {
+            "controllerId": "gpio",
+            "channel": "0"
+          },
+          "arduinoAliases": [
+            "D0"
+          ],
+          "adcChannels": [],
+          "pwmChannels": [],
+          "touchChannels": [],
+          "alternateFunctions": [
+            {
+              "name": "RX",
+              "peripheralId": "uart0",
+              "signal": "rx"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_7",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_7",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "PD1",
+          "gpio": {
+            "controllerId": "gpio",
+            "channel": "1"
+          },
+          "arduinoAliases": [
+            "D1"
+          ],
+          "adcChannels": [],
+          "pwmChannels": [],
+          "touchChannels": [],
+          "alternateFunctions": [
+            {
+              "name": "TX",
+              "peripheralId": "uart0",
+              "signal": "tx"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_8",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_8",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "PD2",
+          "gpio": {
+            "controllerId": "gpio",
+            "channel": "2"
+          },
+          "arduinoAliases": [
+            "D2"
+          ],
+          "adcChannels": [],
+          "pwmChannels": [],
+          "touchChannels": [],
+          "alternateFunctions": []
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/arduino_nano_1/pin_9",
+      "instanceId": "arduino_nano_1",
+      "pinId": "pin_9",
+      "selectedFunction": "",
+      "extensions": {
+        "ailyComponentPinSemantic": {
+          "schemaVersion": 1,
+          "physicalPin": "PD3",
+          "gpio": {
+            "controllerId": "gpio",
+            "channel": "3"
+          },
+          "arduinoAliases": [
+            "D3"
+          ],
+          "adcChannels": [],
+          "pwmChannels": [
+            {
+              "controllerId": "timer2",
+              "channel": "B"
+            }
+          ],
+          "touchChannels": [],
+          "alternateFunctions": []
+        }
+      }
+    },
+    {
+      "terminalId": "terminal/led_1/anode",
+      "instanceId": "led_1",
+      "pinId": "anode",
+      "selectedFunction": "A(IO)",
+      "extensions": {}
+    },
+    {
+      "terminalId": "terminal/led_1/cathode",
+      "instanceId": "led_1",
+      "pinId": "cathode",
+      "selectedFunction": "C(GND)",
+      "extensions": {}
+    },
+    {
+      "terminalId": "terminal/resistor_1/terminal_a",
+      "instanceId": "resistor_1",
+      "pinId": "terminal_a",
+      "selectedFunction": "A(IO)",
+      "extensions": {}
+    },
+    {
+      "terminalId": "terminal/resistor_1/terminal_b",
+      "instanceId": "resistor_1",
+      "pinId": "terminal_b",
+      "selectedFunction": "B(IO)",
+      "extensions": {}
+    }
+  ],
+  "wireSegments": [
+    {
+      "segmentId": "blink-anode",
+      "from": {
+        "kind": "component-terminal",
+        "terminalId": "terminal/resistor_1/terminal_b",
+        "function": "B(IO)",
+        "extensions": {}
+      },
+      "to": {
+        "kind": "component-terminal",
+        "terminalId": "terminal/led_1/anode",
+        "function": "A(IO)",
+        "extensions": {}
+      },
+      "signalType": "gpio",
+      "presentation": {
+        "label": "",
+        "color": "#3B82F6",
+        "vertices": []
+      },
+      "extensions": {}
+    },
+    {
+      "segmentId": "blink-drive",
+      "from": {
+        "kind": "component-terminal",
+        "terminalId": "terminal/arduino_nano_1/pin_19",
+        "function": "GPIO13",
+        "extensions": {}
+      },
+      "to": {
+        "kind": "component-terminal",
+        "terminalId": "terminal/resistor_1/terminal_a",
+        "function": "A(IO)",
+        "extensions": {}
+      },
+      "signalType": "gpio",
+      "presentation": {
+        "label": "",
+        "color": "#3B82F6",
+        "vertices": []
+      },
+      "extensions": {}
+    },
+    {
+      "segmentId": "blink-ground",
+      "from": {
+        "kind": "component-terminal",
+        "terminalId": "terminal/led_1/cathode",
+        "function": "C(GND)",
+        "extensions": {}
+      },
+      "to": {
+        "kind": "component-terminal",
+        "terminalId": "terminal/arduino_nano_1/pin_4",
+        "function": "GND",
+        "extensions": {}
+      },
+      "signalType": "ground",
+      "presentation": {
+        "label": "",
+        "color": "#111827",
+        "vertices": []
+      },
+      "extensions": {}
+    }
+  ],
+  "junctions": [],
+  "danglingTerminals": [],
+  "nets": [
+    {
+      "netId": "net-blink-anode",
+      "signalKind": "gpio",
+      "segmentIds": [
+        "blink-anode"
+      ],
+      "terminalIds": [
+        "terminal/led_1/anode",
+        "terminal/resistor_1/terminal_b"
+      ],
+      "junctionIds": [],
+      "danglingTerminalIds": [],
+      "extensions": {}
+    },
+    {
+      "netId": "net-blink-drive",
+      "signalKind": "gpio",
+      "segmentIds": [
+        "blink-drive"
+      ],
+      "terminalIds": [
+        "terminal/arduino_nano_1/pin_19",
+        "terminal/resistor_1/terminal_a"
+      ],
+      "junctionIds": [],
+      "danglingTerminalIds": [],
+      "extensions": {}
+    },
+    {
+      "netId": "net-blink-ground",
+      "signalKind": "ground",
+      "segmentIds": [
+        "blink-ground"
+      ],
+      "terminalIds": [
+        "terminal/arduino_nano_1/pin_4",
+        "terminal/led_1/cathode"
+      ],
+      "junctionIds": [],
+      "danglingTerminalIds": [],
+      "extensions": {}
+    }
+  ],
+  "busGroups": [],
+  "presentation": {
+    "autoRoutingMode": true
+  },
+  "extensions": {}
+}

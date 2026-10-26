@@ -5,7 +5,7 @@
   "compilerTool": "aily-builder",
   "core": "esp32:esp32",
   "type": "esp32:esp32:m5stack_dinmeter",
-  "compilerParam": "compile -v -b esp32:esp32:m5stack_dinmeter",
+  "compilerParam": "compile -v -b esp32:esp32:m5stack_dinmeter --board-options FlashSize=8M --board-options PSRAM=disabled --board-options PartitionScheme=default_8MB",
   "analogPins": [
     [
       "G1",

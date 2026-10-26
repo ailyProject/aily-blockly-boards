@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 2,
+  "kind": "aily-scene-demonstration",
+  "title": "ESP32-S3-DevKitC-1 N8R8 · 入门",
+  "boardCatalogId": "aily.component.esp32s3-devkitc-1",
+  "base": "board",
+  "lessons": [
+    {
+      "id": "meet-board",
+      "title": "认识开发板",
+      "explanation": "ESP32-S3-DevKitC-1 N8R8 通过引脚连接外部元件，并执行写入芯片的程序。\n\n本例使用 GPIO13 输出电平，GND 提供回路的公共参考。右侧代码是这组课程实际运行的完整程序。",
+      "thumbnailInstanceId": "esp32s3_devkitc_1",
+      "steps": [
+        {
+          "type": "component",
+          "id": "esp32s3_devkitc_1",
+          "durationMs": 700
+        },
+        {
+          "type": "focus",
+          "ids": [
+            "esp32s3_devkitc_1"
+          ],
+          "durationMs": 400
+        },
+        {
+          "type": "caption",
+          "text": "先认识开发板，再连接外部电路。"
+        }
+      ]
+    },
+    {
+      "id": "connect-led",
+      "title": "连接 LED",
+      "explanation": "将 GPIO13 接到 220Ω 电阻，再连接 LED 正极，最后将 LED 负极接回 GND。\n\n电阻用于限制通过 LED 的电流。LED 有方向，正负极需要按电路连接。程序中的 pinMode(..., OUTPUT) 将这个引脚设为输出。",
+      "thumbnailInstanceId": "resistor_1",
+      "steps": [
+        {
+          "type": "component",
+          "id": "esp32s3_devkitc_1",
+          "durationMs": 600,
+          "text": "ESP32-S3-DevKitC-1 N8R8"
+        },
+        {
+          "type": "component",
+          "id": "resistor_1",
+          "durationMs": 600,
+          "text": "Resistor"
+        },
+        {
+          "type": "component",
+          "id": "led_1",
+          "durationMs": 600,
+          "text": "LED"
+        },
+        {
+          "type": "wire",
+          "id": "blink-drive",
+          "durationMs": 800,
+          "text": "将输出引脚接到 220Ω 电阻"
+        },
+        {
+          "type": "wire",
+          "id": "blink-anode",
+          "durationMs": 800,
+          "text": "电阻接到 LED 正极"
+        },
+        {
+          "type": "wire",
+          "id": "blink-ground",
+          "durationMs": 800,
+          "text": "LED 负极接回 GND"
+        },
+        {
+          "type": "focus",
+          "ids": [],
+          "durationMs": 400
+        },
+        {
+          "type": "caption",
+          "text": "电阻、LED 与 GND 已连接成完整回路。"
+        }
+      ]
+    },
+    {
+      "id": "blink-led",
+      "title": "观察 LED 闪烁",
+      "explanation": "digitalWrite() 在高、低电平之间切换，让 LED 交替点亮和熄灭。delay(1000) 让每个状态保持一秒。\n\n画布中的 LED 和走线活动来自真实固件执行。动画组装完成后仿真会持续运行，可以暂停或重播本课。",
+      "thumbnailInstanceId": "led_1",
+      "steps": [
+        {
+          "type": "component",
+          "id": "esp32s3_devkitc_1",
+          "durationMs": 600,
+          "text": "ESP32-S3-DevKitC-1 N8R8"
+        },
+        {
+          "type": "component",
+          "id": "resistor_1",
+          "durationMs": 600,
+          "text": "Resistor"
+        },
+        {
+          "type": "component",
+          "id": "led_1",
+          "durationMs": 600,
+          "text": "LED"
+        },
+        {
+          "type": "wire",
+          "id": "blink-drive",
+          "durationMs": 800,
+          "text": "将输出引脚接到 220Ω 电阻"
+        },
+        {
+          "type": "wire",
+          "id": "blink-anode",
+          "durationMs": 800,
+          "text": "电阻接到 LED 正极"
+        },
+        {
+          "type": "wire",
+          "id": "blink-ground",
+          "durationMs": 800,
+          "text": "LED 负极接回 GND"
+        },
+        {
+          "type": "focus",
+          "ids": [],
+          "durationMs": 400
+        },
+        {
+          "type": "run",
+          "text": "编译并执行开发板真实固件"
+        },
+        {
+          "type": "repeat",
+          "count": 3,
+          "steps": [
+            {
+              "type": "wait-for",
+              "instanceId": "led_1",
+              "signal": "on",
+              "value": true,
+              "timeoutMs": 15000,
+              "text": "输出高电平，LED 点亮"
+            },
+            {
+              "type": "wait",
+              "durationMs": 300
+            },
+            {
+              "type": "wait-for",
+              "instanceId": "led_1",
+              "signal": "on",
+              "value": false,
+              "timeoutMs": 5000,
+              "text": "输出低电平，LED 熄灭"
+            },
+            {
+              "type": "wait",
+              "durationMs": 300
+            }
+          ]
+        },
+        {
+          "type": "caption",
+          "text": "固件继续运行，观察 LED 每秒亮灭。"
+        }
+      ]
+    }
+  ]
+}

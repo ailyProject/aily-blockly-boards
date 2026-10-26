@@ -36,7 +36,7 @@
       "y": 295.95876288659815,
       "functions": [
         {
-          "name": "5V",
+          "name": "VCC",
           "type": "power"
         }
       ]
@@ -54,14 +54,17 @@
     },
     {
       "id": "pin_4",
-      "x": 140.22857771171317,
-      "y": 272.0824742268043,
+      "x": 276.61226,
+      "y": 392.07736,
       "functions": [
         {
           "name": "GND",
           "type": "gnd"
         }
-      ]
+      ],
+      "labelX": 276.61226,
+      "labelY": 384.07736,
+      "labelRotation": 90
     },
     {
       "id": "pin_5",
@@ -75,6 +78,10 @@
         {
           "name": "D9",
           "type": "digital"
+        },
+        {
+          "name": "GPIO0",
+          "type": "gpio"
         }
       ]
     },
@@ -90,6 +97,18 @@
         {
           "name": "SDA",
           "type": "i2c"
+        },
+        {
+          "name": "GPIO1",
+          "type": "gpio"
+        },
+        {
+          "name": "T1",
+          "type": "touch"
+        },
+        {
+          "name": "ADC1_CH0",
+          "type": "analog"
         }
       ]
     },
@@ -105,6 +124,18 @@
         {
           "name": "SCL",
           "type": "i2c"
+        },
+        {
+          "name": "GPIO2",
+          "type": "gpio"
+        },
+        {
+          "name": "T2",
+          "type": "touch"
+        },
+        {
+          "name": "ADC1_CH1",
+          "type": "analog"
         }
       ]
     },
@@ -120,6 +151,18 @@
         {
           "name": "D2",
           "type": "digital"
+        },
+        {
+          "name": "GPIO3",
+          "type": "gpio"
+        },
+        {
+          "name": "T3",
+          "type": "touch"
+        },
+        {
+          "name": "ADC1_CH2",
+          "type": "analog"
         }
       ]
     },
@@ -134,6 +177,18 @@
         },
         {
           "name": "A0",
+          "type": "analog"
+        },
+        {
+          "name": "GPIO4",
+          "type": "gpio"
+        },
+        {
+          "name": "T4",
+          "type": "touch"
+        },
+        {
+          "name": "ADC1_CH3",
           "type": "analog"
         }
       ]
@@ -150,6 +205,18 @@
         {
           "name": "A1",
           "type": "analog"
+        },
+        {
+          "name": "GPIO5",
+          "type": "gpio"
+        },
+        {
+          "name": "T5",
+          "type": "touch"
+        },
+        {
+          "name": "ADC1_CH4",
+          "type": "analog"
         }
       ]
     },
@@ -164,6 +231,18 @@
         },
         {
           "name": "A2",
+          "type": "analog"
+        },
+        {
+          "name": "GPIO6",
+          "type": "gpio"
+        },
+        {
+          "name": "T6",
+          "type": "touch"
+        },
+        {
+          "name": "ADC1_CH5",
           "type": "analog"
         }
       ]
@@ -180,6 +259,18 @@
         {
           "name": "D5",
           "type": "digital"
+        },
+        {
+          "name": "GPIO7",
+          "type": "gpio"
+        },
+        {
+          "name": "T7",
+          "type": "touch"
+        },
+        {
+          "name": "ADC1_CH6",
+          "type": "analog"
         }
       ]
     },
@@ -194,6 +285,18 @@
         },
         {
           "name": "A3",
+          "type": "analog"
+        },
+        {
+          "name": "GPIO8",
+          "type": "gpio"
+        },
+        {
+          "name": "T8",
+          "type": "touch"
+        },
+        {
+          "name": "ADC1_CH7",
           "type": "analog"
         }
       ]
@@ -210,6 +313,18 @@
         {
           "name": "D7",
           "type": "digital"
+        },
+        {
+          "name": "GPIO9",
+          "type": "gpio"
+        },
+        {
+          "name": "T9",
+          "type": "touch"
+        },
+        {
+          "name": "ADC1_CH8",
+          "type": "analog"
         }
       ]
     },
@@ -225,6 +340,22 @@
         {
           "name": "A4",
           "type": "analog"
+        },
+        {
+          "name": "GPIO10",
+          "type": "gpio"
+        },
+        {
+          "name": "T10",
+          "type": "touch"
+        },
+        {
+          "name": "ADC1_CH9",
+          "type": "analog"
+        },
+        {
+          "name": "SS",
+          "type": "spi"
         }
       ]
     },
@@ -239,6 +370,18 @@
         },
         {
           "name": "A5",
+          "type": "analog"
+        },
+        {
+          "name": "GPIO11",
+          "type": "gpio"
+        },
+        {
+          "name": "T11",
+          "type": "touch"
+        },
+        {
+          "name": "ADC2_CH0",
           "type": "analog"
         }
       ]
@@ -255,6 +398,18 @@
         {
           "name": "D12",
           "type": "digital"
+        },
+        {
+          "name": "GPIO12",
+          "type": "gpio"
+        },
+        {
+          "name": "T12",
+          "type": "touch"
+        },
+        {
+          "name": "ADC2_CH1",
+          "type": "analog"
         }
       ]
     },
@@ -270,6 +425,18 @@
         {
           "name": "D11",
           "type": "digital"
+        },
+        {
+          "name": "GPIO13",
+          "type": "gpio"
+        },
+        {
+          "name": "T13",
+          "type": "touch"
+        },
+        {
+          "name": "ADC2_CH2",
+          "type": "analog"
         }
       ]
     },
@@ -285,6 +452,18 @@
         {
           "name": "D10",
           "type": "digital"
+        },
+        {
+          "name": "GPIO14",
+          "type": "gpio"
+        },
+        {
+          "name": "T14",
+          "type": "touch"
+        },
+        {
+          "name": "ADC2_CH3",
+          "type": "analog"
         }
       ]
     },
@@ -300,6 +479,14 @@
         {
           "name": "MOSI",
           "type": "spi"
+        },
+        {
+          "name": "GPIO15",
+          "type": "gpio"
+        },
+        {
+          "name": "ADC2_CH4",
+          "type": "analog"
         }
       ]
     },
@@ -315,6 +502,14 @@
         {
           "name": "MISO",
           "type": "spi"
+        },
+        {
+          "name": "GPIO16",
+          "type": "gpio"
+        },
+        {
+          "name": "ADC2_CH5",
+          "type": "analog"
         }
       ]
     },
@@ -330,6 +525,14 @@
         {
           "name": "SCK",
           "type": "spi"
+        },
+        {
+          "name": "GPIO17",
+          "type": "gpio"
+        },
+        {
+          "name": "ADC2_CH6",
+          "type": "analog"
         }
       ]
     },
@@ -345,6 +548,14 @@
         {
           "name": "D6",
           "type": "digital"
+        },
+        {
+          "name": "GPIO18",
+          "type": "gpio"
+        },
+        {
+          "name": "ADC2_CH7",
+          "type": "analog"
         }
       ]
     },
@@ -359,6 +570,14 @@
         },
         {
           "name": "D13",
+          "type": "digital"
+        },
+        {
+          "name": "GPIO21",
+          "type": "gpio"
+        },
+        {
+          "name": "LED_BUILTIN",
           "type": "digital"
         }
       ]
@@ -375,6 +594,10 @@
         {
           "name": "D3",
           "type": "digital"
+        },
+        {
+          "name": "GPIO38",
+          "type": "gpio"
         }
       ]
     },
@@ -390,6 +613,10 @@
         {
           "name": "TX",
           "type": "uart"
+        },
+        {
+          "name": "GPIO43",
+          "type": "gpio"
         }
       ]
     },
@@ -405,6 +632,10 @@
         {
           "name": "RX",
           "type": "uart"
+        },
+        {
+          "name": "GPIO44",
+          "type": "gpio"
         }
       ]
     },
@@ -420,6 +651,10 @@
         {
           "name": "D14",
           "type": "digital"
+        },
+        {
+          "name": "GPIO47",
+          "type": "gpio"
         }
       ]
     },
@@ -442,6 +677,14 @@
         {
           "name": "USB_D+",
           "type": "other"
+        },
+        {
+          "name": "GPIO20",
+          "type": "gpio"
+        },
+        {
+          "name": "ADC2_CH9",
+          "type": "analog"
         }
       ]
     },
@@ -453,8 +696,211 @@
         {
           "name": "USB_D-",
           "type": "other"
+        },
+        {
+          "name": "GPIO19",
+          "type": "gpio"
+        },
+        {
+          "name": "ADC2_CH8",
+          "type": "analog"
         }
       ]
+    },
+    {
+      "id": "pin_32",
+      "functions": [
+        {
+          "name": "GPIO39",
+          "type": "gpio"
+        }
+      ],
+      "layout": "horizontal",
+      "x": 211.51927,
+      "y": 329.33733,
+      "labelX": 211.51927,
+      "labelY": 321.33733,
+      "labelRotation": 90
+    },
+    {
+      "id": "pin_33",
+      "functions": [
+        {
+          "name": "GPIO40",
+          "type": "gpio"
+        }
+      ],
+      "layout": "horizontal",
+      "x": 202.22027,
+      "y": 329.33733,
+      "labelX": 202.22027,
+      "labelY": 321.33733,
+      "labelRotation": 90
+    },
+    {
+      "id": "pin_34",
+      "functions": [
+        {
+          "name": "GPIO41",
+          "type": "gpio"
+        }
+      ],
+      "layout": "horizontal",
+      "x": 197.57076,
+      "y": 329.33733,
+      "labelX": 197.57076,
+      "labelY": 321.33733,
+      "labelRotation": 90
+    },
+    {
+      "id": "pin_35",
+      "functions": [
+        {
+          "name": "GPIO42",
+          "type": "gpio"
+        }
+      ],
+      "layout": "horizontal",
+      "x": 262.66377,
+      "y": 329.33733,
+      "labelX": 262.66377,
+      "labelY": 321.33733,
+      "labelRotation": 90
+    },
+    {
+      "id": "pin_36",
+      "functions": [
+        {
+          "name": "GPIO45",
+          "type": "gpio"
+        }
+      ],
+      "layout": "horizontal",
+      "x": 244.06576,
+      "y": 329.33733,
+      "labelX": 244.06576,
+      "labelY": 321.33733,
+      "labelRotation": 90
+    },
+    {
+      "id": "pin_37",
+      "functions": [
+        {
+          "name": "GPIO46",
+          "type": "gpio"
+        }
+      ],
+      "layout": "horizontal",
+      "x": 239.41627,
+      "y": 329.33733,
+      "labelX": 239.41627,
+      "labelY": 321.33733,
+      "labelRotation": 90
+    },
+    {
+      "id": "pin_38",
+      "functions": [
+        {
+          "name": "GPIO48",
+          "type": "gpio"
+        }
+      ],
+      "layout": "horizontal",
+      "x": 248.71526,
+      "y": 329.33733,
+      "labelX": 248.71526,
+      "labelY": 321.33733,
+      "labelRotation": 90
+    },
+    {
+      "id": "pin_39",
+      "functions": [
+        {
+          "name": "CAM_2V8",
+          "type": "power"
+        }
+      ],
+      "layout": "horizontal",
+      "x": 285.91127,
+      "y": 329.33733,
+      "labelX": 285.91127,
+      "labelY": 321.33733,
+      "labelRotation": 90
+    },
+    {
+      "id": "pin_40",
+      "functions": [
+        {
+          "name": "CAM_1V5",
+          "type": "power"
+        }
+      ],
+      "layout": "horizontal",
+      "x": 258.01427,
+      "y": 329.33733,
+      "labelX": 258.01427,
+      "labelY": 321.33733,
+      "labelRotation": 90
+    },
+    {
+      "id": "pin_41",
+      "functions": [
+        {
+          "name": "CAM_RST",
+          "type": "other"
+        }
+      ],
+      "layout": "horizontal",
+      "x": 276.61226,
+      "y": 329.33733,
+      "labelX": 276.61226,
+      "labelY": 321.33733,
+      "labelRotation": 90
+    },
+    {
+      "id": "pin_42",
+      "functions": [
+        {
+          "name": "CAM_PWDN",
+          "type": "other"
+        }
+      ],
+      "layout": "horizontal",
+      "x": 267.31327,
+      "y": 329.33733,
+      "labelX": 267.31327,
+      "labelY": 321.33733,
+      "labelRotation": 90
+    },
+    {
+      "id": "pin_43",
+      "functions": [
+        {
+          "name": "BAT+",
+          "type": "power"
+        }
+      ],
+      "layout": "horizontal",
+      "x": 365.22244,
+      "y": 236.88082,
+      "labelX": 365.22244,
+      "labelY": 228.88082,
+      "labelRotation": 90
+    },
+    {
+      "id": "pin_44",
+      "functions": [
+        {
+          "name": "BAT-",
+          "type": "power"
+        }
+      ],
+      "layout": "horizontal",
+      "x": 365.22244,
+      "y": 217.98322,
+      "labelX": 365.22244,
+      "labelY": 209.98322,
+      "labelRotation": 90
     }
   ]
 }

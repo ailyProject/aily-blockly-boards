@@ -282,12 +282,7 @@
       "400000L"
     ]
   ],
-  "builtinLed": [
-    [
-      "BUILTIN_LED",
-      "LED_BUILTIN"
-    ]
-  ],
+  "builtinLed": [],
   "interruptPins": [
     [
       "G1",

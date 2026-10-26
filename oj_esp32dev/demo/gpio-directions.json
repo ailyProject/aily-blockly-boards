@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "kind": "aily-scene-gpio-directions",
+  "graphSemanticRevision": "2823c5e438eff6b68297af7d29abdbc9681cbc29f4860c615589f700f89e9525",
+  "directions": {
+    "wifiduino_esp32dev_1.pin_12": "output"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "kind": "aily-scene-gpio-directions",
+  "graphSemanticRevision": "ca362b1585c0696470e43d69ad2d3f5a5a77dcc82dcf4a8ee3f331a82111135e",
+  "directions": {
+    "seeeduino_lotus_1.pin_14": "output"
+  }
+}

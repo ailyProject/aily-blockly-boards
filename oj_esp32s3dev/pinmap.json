@@ -3,7 +3,7 @@
   "disabled": false,
   "board": "@aily-project/board-esp32s3dev",
   "id": "component_1772690088940",
-  "name": "Espressif ESP32-S3-DevKitC-1",
+  "name": "ESP32-S3 DevKitC-1 V1.0 E1N8",
   "width": 695,
   "height": 811.1767719897514,
   "images": [
@@ -72,6 +72,10 @@
         {
           "name": "TOUCH4",
           "type": "touch"
+        },
+        {
+          "name": "A3",
+          "type": "analog"
         }
       ]
     },
@@ -95,6 +99,10 @@
         {
           "name": "TOUCH5",
           "type": "touch"
+        },
+        {
+          "name": "A4",
+          "type": "analog"
         }
       ]
     },
@@ -118,6 +126,10 @@
         {
           "name": "TOUCH6",
           "type": "touch"
+        },
+        {
+          "name": "A5",
+          "type": "analog"
         }
       ]
     },
@@ -141,6 +153,10 @@
         {
           "name": "TOUCH7",
           "type": "touch"
+        },
+        {
+          "name": "A6",
+          "type": "analog"
         }
       ]
     },
@@ -156,6 +172,10 @@
         {
           "name": "GPIO15",
           "type": "gpio"
+        },
+        {
+          "name": "A14",
+          "type": "analog"
         }
       ]
     },
@@ -171,6 +191,10 @@
         {
           "name": "GPIO16",
           "type": "gpio"
+        },
+        {
+          "name": "A15",
+          "type": "analog"
         }
       ]
     },
@@ -186,6 +210,10 @@
         {
           "name": "GPIO17",
           "type": "gpio"
+        },
+        {
+          "name": "A16",
+          "type": "analog"
         }
       ]
     },
@@ -201,6 +229,10 @@
         {
           "name": "GPIO18",
           "type": "gpio"
+        },
+        {
+          "name": "A17",
+          "type": "analog"
         }
       ]
     },
@@ -228,6 +260,10 @@
         {
           "name": "TOUCH8",
           "type": "touch"
+        },
+        {
+          "name": "A7",
+          "type": "analog"
         }
       ]
     },
@@ -251,6 +287,10 @@
         {
           "name": "TOUCH3",
           "type": "touch"
+        },
+        {
+          "name": "A2",
+          "type": "analog"
         }
       ]
     },
@@ -293,6 +333,10 @@
         {
           "name": "TOUCH9",
           "type": "touch"
+        },
+        {
+          "name": "A8",
+          "type": "analog"
         }
       ]
     },
@@ -316,6 +360,14 @@
         {
           "name": "TOUCH10",
           "type": "touch"
+        },
+        {
+          "name": "A9",
+          "type": "analog"
+        },
+        {
+          "name": "SS",
+          "type": "spi"
         }
       ]
     },
@@ -343,6 +395,10 @@
         {
           "name": "TOUCH11",
           "type": "touch"
+        },
+        {
+          "name": "A10",
+          "type": "analog"
         }
       ]
     },
@@ -370,6 +426,10 @@
         {
           "name": "TOUCH12",
           "type": "touch"
+        },
+        {
+          "name": "A11",
+          "type": "analog"
         }
       ]
     },
@@ -397,6 +457,10 @@
         {
           "name": "TOUCH13",
           "type": "touch"
+        },
+        {
+          "name": "A12",
+          "type": "analog"
         }
       ]
     },
@@ -420,6 +484,10 @@
         {
           "name": "TOUCH14",
           "type": "touch"
+        },
+        {
+          "name": "A13",
+          "type": "analog"
         }
       ]
     },
@@ -514,6 +582,10 @@
         {
           "name": "TOUCH1",
           "type": "touch"
+        },
+        {
+          "name": "A0",
+          "type": "analog"
         }
       ]
     },
@@ -537,6 +609,10 @@
         {
           "name": "TOUCH2",
           "type": "touch"
+        },
+        {
+          "name": "A1",
+          "type": "analog"
         }
       ]
     },
@@ -767,6 +843,10 @@
         {
           "name": "GPIO20",
           "type": "gpio"
+        },
+        {
+          "name": "A19",
+          "type": "analog"
         }
       ]
     },
@@ -782,6 +862,10 @@
         {
           "name": "GPIO19",
           "type": "gpio"
+        },
+        {
+          "name": "A18",
+          "type": "analog"
         }
       ]
     },

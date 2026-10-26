@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "fqbn": "esp32:esp32:esp32s3",
+  "options": {
+    "FlashSize": "8M",
+    "PSRAM": "opi"
+  }
+}
