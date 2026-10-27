@@ -1,7 +1,7 @@
 {
   "name": "@aily-project/board-easyvoice_1306_dev",
   "nickname": "EasyVoice 1306 Dev",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "EasyVoice 1306 Dev is a ChipIntelli CI1306-based offline voice development board with 22 exposed GPIOs, four ADC inputs, three UARTs, I2C, PWM, USB-C programming through onboard USB-UART, and dedicated MIC and speaker connectors.",
   "description_en": "EasyVoice 1306 Dev is a ChipIntelli CI1306-based offline voice development board with 22 exposed GPIOs, four ADC inputs, three UARTs, I2C, PWM, USB-C programming through onboard USB-UART, and dedicated MIC and speaker connectors.",
   "description_zh_cn": "EasyVoice 1306 Dev 是一款基于启英泰伦 CI1306 的离线语音开发板，提供 22 个引出的 GPIO、4 路 ADC、3 路 UART、I2C、PWM、经板载 USB-UART 实现的 USB-C 下载，以及独立的麦克风和扬声器接口。",
@@ -27,7 +27,7 @@
   "boardDependencies": {
     "@aily-project/compiler-riscv-gcc": "9.2.0",
     "@aily-project/tool-citool-cli": "1.2.2",
-    "@aily-project/sdk-ci13xx": "1.0.17",
+    "@aily-project/sdk-ci13xx": "1.0.18",
     "@aily-project/tool-ctags": "5.8.0"
   }
 }

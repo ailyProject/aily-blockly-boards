@@ -1,7 +1,7 @@
 {
   "name": "@aily-project/board-easyvoicelab_1306",
   "nickname": "EasyVoiceLab 1306",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "EasyVoiceLab 1306 is a ChipIntelli CI1306-based offline voice development board packed with onboard modules for AIoT and STEM projects: offline wake-up and command-word recognition with voice broadcast, a WS2812 RGB strip, a 0.96-inch I2C OLED, a button, a solid-state relay, 8 servo (PWM) channels, a 2-channel DC motor driver, a DHT11 temperature and humidity sensor, a light sensor, a PIR motion sensor, IR receiver and transmitter, an RTC with battery backup, a microSD card slot (SPI), a WiFi module, and IO expansion headers.",
   "description_en": "EasyVoiceLab 1306 is a ChipIntelli CI1306-based offline voice development board packed with onboard modules for AIoT and STEM projects: offline wake-up and command-word recognition with voice broadcast, a WS2812 RGB strip, a 0.96-inch I2C OLED, a button, a solid-state relay, 8 servo (PWM) channels, a 2-channel DC motor driver, a DHT11 temperature and humidity sensor, a light sensor, a PIR motion sensor, IR receiver and transmitter, an RTC with battery backup, a microSD card slot (SPI), a WiFi module, and IO expansion headers.",
   "description_zh_cn": "EasyVoiceLab 1306 是一款基于启英泰伦 CI1306 的离线语音开发板，板载丰富模块，适合 AIoT 与 STEM 创客项目：离线唤醒与命令词识别、语音播报，WS2812 全彩灯条，0.96 寸 I2C OLED 显示屏，按键，固态继电器，8 路舵机（PWM）接口，2 路直流电机驱动，DHT11 温湿度传感器，光敏传感器，人体红外（PIR）感应，红外接收与发射，带后备电池的 RTC 实时时钟，SD 卡（SPI），WiFi 模块，以及 IO 扩展排针。",
@@ -27,7 +27,7 @@
   "boardDependencies": {
     "@aily-project/compiler-riscv-gcc": "9.2.0",
     "@aily-project/tool-citool-cli": "1.2.2",
-    "@aily-project/sdk-ci13xx": "1.0.17",
+    "@aily-project/sdk-ci13xx": "1.0.18",
     "@aily-project/tool-ctags": "5.8.0"
   }
 }

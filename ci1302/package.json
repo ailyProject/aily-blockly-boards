@@ -1,7 +1,7 @@
 {
   "name": "@aily-project/board-ci1302",
   "nickname": "CI1302",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "ChipIntelli CI1302 is a CI130X offline ASR board configuration for the SSOP24, 2 MB Flash device. It provides up to 10 GPIO pins, 1 analog input, 3 UART interfaces, I2C, and software SPI.",
   "description_en": "ChipIntelli CI1302 is a CI130X offline ASR board configuration for the SSOP24, 2 MB Flash device. It provides up to 10 GPIO pins, 1 analog input, 3 UART interfaces, I2C, and software SPI.",
   "description_zh_cn": "ChipIntelli CI1302 是适用于 SSOP24、2 MB Flash 器件的 CI130X 离线语音识别（ASR）开发板配置，提供最多 10 个 GPIO 引脚、1 个模拟输入、3 路 UART、I2C 和软件 SPI。",
@@ -27,7 +27,7 @@
   "boardDependencies": {
     "@aily-project/compiler-riscv-gcc": "9.2.0",
     "@aily-project/tool-citool-cli": "1.2.2",
-    "@aily-project/sdk-ci13xx": "1.0.17",
+    "@aily-project/sdk-ci13xx": "1.0.18",
     "@aily-project/tool-ctags": "5.8.0"
   }
 }
