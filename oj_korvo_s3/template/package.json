@@ -16,7 +16,7 @@
   },
   "projectConfig": {
     "FlashSize": "16M",
-    "PartitionScheme": "app3M_fat9M_16MB",
+    "PartitionScheme": "custom",
     "CDCOnBoot": "default",
     "PSRAM": "opi"
   }
