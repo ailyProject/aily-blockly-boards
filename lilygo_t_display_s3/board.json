@@ -5,7 +5,7 @@
   "compilerTool": "aily-builder",
   "core": "esp32:esp32",
   "type": "esp32:esp32:lilygo_t_display_s3",
-  "compilerParam": "compile -v -b esp32:esp32:lilygo_t_display_s3",
+  "compilerParam": "compile -v -b esp32:esp32:lilygo_t_display_s3 --board-options CDCOnBoot=cdc --board-options PartitionScheme=app3M_fat9M_16MB --build-property build.defines=-DBOARD_HAS_PSRAM",
   "serialSpeed": [
     [
       "1200",
@@ -166,10 +166,6 @@
   ],
   "digitalPins": [
     [
-      "0",
-      "0"
-    ],
-    [
       "1",
       "1"
     ],
@@ -196,10 +192,6 @@
     [
       "13",
       "13"
-    ],
-    [
-      "14",
-      "14"
     ],
     [
       "16",
@@ -228,10 +220,6 @@
   ],
   "pwmPins": [
     [
-      "0",
-      "0"
-    ],
-    [
       "1",
       "1"
     ],
@@ -258,10 +246,6 @@
     [
       "13",
       "13"
-    ],
-    [
-      "14",
-      "14"
     ],
     [
       "16",
@@ -416,10 +400,6 @@
   },
   "interruptPins": [
     [
-      "0",
-      "0"
-    ],
-    [
       "1",
       "1"
     ],
@@ -446,10 +426,6 @@
     [
       "13",
       "13"
-    ],
-    [
-      "14",
-      "14"
     ],
     [
       "16",

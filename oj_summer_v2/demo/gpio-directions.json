@@ -1,8 +1,0 @@
-{
-  "schemaVersion": 1,
-  "kind": "aily-scene-gpio-directions",
-  "graphSemanticRevision": "8cbf435fc0c263a7f06bb07fdc232a33b6984141fd04acccfcb736a7c29e6104",
-  "directions": {
-    "summer_v2_1.pin_12": "output"
-  }
-}

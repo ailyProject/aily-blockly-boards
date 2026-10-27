@@ -1,7 +1,0 @@
-{
-  "schemaVersion": 1,
-  "fqbn": "esp32:esp32:XIAO_ESP32S3",
-  "options": {
-    "CDCOnBoot": "cdc"
-  }
-}

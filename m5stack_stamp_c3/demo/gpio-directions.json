@@ -1,8 +1,0 @@
-{
-  "schemaVersion": 1,
-  "kind": "aily-scene-gpio-directions",
-  "graphSemanticRevision": "0e98ea426da214f43e59791676dd762b49762f6ed6b6a328eab99c8ff375e9a1",
-  "directions": {
-    "m5stamp_c3_1.pin_2": "output"
-  }
-}

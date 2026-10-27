@@ -1,8 +1,0 @@
-{
-  "schemaVersion": 1,
-  "kind": "aily-scene-gpio-directions",
-  "graphSemanticRevision": "ef58e122417d1306cf2b6b42f0c68e8b2b17ff54ccd1419c045ff3e735c64091",
-  "directions": {
-    "arduino_mega_pro_1.pin_19": "output"
-  }
-}

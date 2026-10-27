@@ -22,5 +22,6 @@
     "@aily-project/sdk-esp32": "3.3.10",
     "@aily-project/tool-esp32-libs": "3.3.10",
     "@aily-project/tool-ctags": "5.8.0"
-  }
+  },
+  "pinmap": true
 }

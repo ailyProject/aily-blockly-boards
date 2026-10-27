@@ -1,7 +1,0 @@
-{
-  "schemaVersion": 1,
-  "fqbn": "esp32:esp32:m5stack_stamp_c3",
-  "options": {
-    "CDCOnBoot": "default"
-  }
-}

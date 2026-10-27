@@ -5,7 +5,7 @@
   "compilerTool": "aily-builder",
   "core": "esp32:esp32",
   "type": "esp32:esp32:esp32cam",
-  "compilerParam": "compile -v -b esp32:esp32:esp32cam",
+  "compilerParam": "compile -v -b esp32:esp32:esp32cam:PartitionScheme=huge_app",
   "serialSpeed": [
     [
       "1200",
@@ -284,32 +284,8 @@
       ]
     ]
   },
-  "spi": [
-    [
-      "SPI",
-      "SPI"
-    ]
-  ],
-  "spiPins": {
-    "SPI": [
-      [
-        "MOSI",
-        "15"
-      ],
-      [
-        "MISO",
-        "2"
-      ],
-      [
-        "SCK",
-        "14"
-      ],
-      [
-        "SS",
-        "13"
-      ]
-    ]
-  },
+  "spi": [],
+  "spiPins": {},
   "builtinLed": [
     [
       "FLASH_LED",

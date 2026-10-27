@@ -1,8 +1,0 @@
-{
-  "schemaVersion": 1,
-  "kind": "aily-scene-gpio-directions",
-  "graphSemanticRevision": "5156332897b3dae92b00131ed652e1664fe386f0846ff1ddd16d8df9d6d42f01",
-  "directions": {
-    "xiao_esp32s3_plus_1.pin_1": "output"
-  }
-}
