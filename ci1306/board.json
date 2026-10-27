@@ -130,7 +130,7 @@
     ["PC5", "21"]
   ],
   "interruptMode": [
-    ["LOW", "LOW"],
+    ["LOW", "ONLOW"],
     ["RISING", "RISING"],
     ["FALLING", "FALLING"],
     ["CHANGE", "CHANGE"]
