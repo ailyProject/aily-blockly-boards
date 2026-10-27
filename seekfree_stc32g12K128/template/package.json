@@ -4,7 +4,6 @@
   "description": "",
   "board": "Seekfree STC32G12K128",
   "projectConfig": {
-    "clock": "12m",
     "memory": "large",
     "cdc": "disabled"
   },

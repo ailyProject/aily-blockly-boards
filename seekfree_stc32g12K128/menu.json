@@ -3,12 +3,6 @@
     "sep": true
   },
   {
-    "name": "STC51.CLOCK",
-    "icon": "fa-light fa-gauge-high",
-    "children": [],
-    "key": "clock"
-  },
-  {
     "name": "STC51.MEMORY",
     "icon": "fa-light fa-memory",
     "children": [],

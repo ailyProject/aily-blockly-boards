@@ -13,17 +13,5 @@
     "icon": "fa-light fa-memory",
     "children": [],
     "key": "memory"
-  },
-  {
-    "name": "STC51.CPP_CORE",
-    "icon": "fa-light fa-code",
-    "children": [],
-    "key": "cppcore"
-  },
-  {
-    "name": "STC51.EXECUTION",
-    "icon": "fa-light fa-microchip",
-    "children": [],
-    "key": "execution"
   }
 ]

@@ -4,10 +4,7 @@
   "description": "",
   "board": "AI8051U-34K32",
   "projectConfig": {
-    "clock": "24m",
-    "memory": "large",
-    "cppcore": "plain",
-    "execution": "mcs51"
+    "memory": "large"
   },
   "dependencies": {
      "@aily-project/board-ai8051u_34k32": "0.0.2",
