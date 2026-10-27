@@ -4,6 +4,7 @@
   "description": "ESP32-S3 board with a built-in 1.9-inch 170 x 320 color display",
   "compilerTool": "aily-builder",
   "core": "esp32:esp32",
+  "mcu": "esp32s3",
   "type": "esp32:esp32:lilygo_t_display_s3",
   "compilerParam": "compile -v -b esp32:esp32:lilygo_t_display_s3",
   "serialSpeed": [

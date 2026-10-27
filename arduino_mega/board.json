@@ -4,6 +4,7 @@
     "description": "Arduino MEGA 2560 board",
     "compilerTool": "aily-builder",
     "core": "arduino:avr",
+    "mcu": "atmega2560",
     "type": "arduino:avr:mega",
     "compilerParam": "compile -v -b arduino:avr:mega",
     "analogPins": [

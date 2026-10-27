@@ -4,6 +4,7 @@
     "description": "掌控板2.0是一款基于ESP32的教育开发板，集成OLED显示屏、蜂鸣器、光线传感器、加速度计、WiFi/蓝牙等功能，专为编程教育设计。",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
+    "mcu": "esp32",
     "type": "esp32:esp32:esp32",
     "mode": ["arduino", "micropython"],
     "compilerParam": "compile -v -b esp32:esp32:esp32",

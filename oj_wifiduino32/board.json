@@ -4,6 +4,7 @@
     "description": "WiFiduino32",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
+    "mcu": "esp32",
     "type": "esp32:esp32:wifiduino32",
     "compilerParam": "compile -v -b esp32:esp32:wifiduino32",
     "analogPins": [

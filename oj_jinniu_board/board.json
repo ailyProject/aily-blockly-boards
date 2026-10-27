@@ -4,6 +4,7 @@
     "description": "金牛创翼板",
     "compilerTool": "aily-builder",
     "core": "arduino:avr",
+    "mcu": "atmega328p",
     "type": "arduino:avr:uno",
     "compilerParam": "compile -v -b arduino:avr:uno",
     "analogPins": [

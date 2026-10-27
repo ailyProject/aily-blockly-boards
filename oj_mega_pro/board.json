@@ -4,6 +4,7 @@
     "description": "Zduino MEGA2560 Pro board",
     "compilerTool": "aily-builder",
     "core": "arduino:avr",
+    "mcu": "atmega2560",
     "type": "arduino:avr:mega",
     "compilerParam": "compile -v -b arduino:avr:mega",
     "analogPins": [

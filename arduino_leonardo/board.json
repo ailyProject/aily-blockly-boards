@@ -4,6 +4,7 @@
     "description": "Arduino Leonardo",
     "compilerTool": "aily-builder",
     "core": "arduino:avr",
+    "mcu": "atmega32u4",
     "type": "arduino:avr:leonardo",
     "compilerParam": "compile -v -b arduino:avr:leonardo",
     "analogPins": [

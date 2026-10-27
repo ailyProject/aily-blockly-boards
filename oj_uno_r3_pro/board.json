@@ -4,6 +4,7 @@
     "description": "Zduino unoR3 Pro standard compatible board",
     "compilerTool": "aily-builder",
     "core": "arduino:avr",
+    "mcu": "atmega328p",
     "type": "arduino:avr:uno",
     "compilerParam": "compile -v -b arduino:avr:uno",
     "analogPins": [

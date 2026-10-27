@@ -4,6 +4,7 @@
     "description": "DFRobot FireBeetle2 ESP32-S3 Board",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
+    "mcu": "esp32s3",
     "type": "esp32:esp32:dfrobot_firebeetle2_esp32s3",
     "mode": [
         "arduino"

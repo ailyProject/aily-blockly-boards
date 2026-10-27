@@ -197,6 +197,19 @@ class BoardValidator {
       // 2. 检测基础字段完整性
       await this.checkBasicFields(boardName, boardPackage);
 
+      // Optional for legacy/multi-MCU boards. A declaration is a chip identifier,
+      // not a board display name or a nested SDK build configuration.
+      const boardConfigPath = path.join(boardPath, 'board.json');
+      if (fs.existsSync(boardConfigPath)) {
+        const board = JSON.parse(fs.readFileSync(boardConfigPath, 'utf8'));
+        if (Object.hasOwn(board, 'mcu')) {
+          if (typeof board.mcu !== 'string' || !/^[a-z0-9][a-z0-9._+-]{0,63}$/.test(board.mcu)) {
+            this.addFailure();
+            this.addIssue('error', 'MCU声明', boardName, 'board.json.mcu 必须是小写芯片标识', '例如 esp32s3、atmega328p；未知或随菜单变化时暂不声明固定型号');
+          } else this.addSuccess();
+        }
+      }
+
       // 3. 检测template中的dependencies（包括版本一致性检测）
       await this.checkTemplateDependencies(boardName, boardPackage, templatePackage);
 

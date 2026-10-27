@@ -4,6 +4,7 @@
     "description": "Arduino Nano ESP32 with u-blox NORA-W106 (ESP32-S3)",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
+    "mcu": "esp32s3",
     "type": "esp32:esp32:nano_nora",
     "compilerParam": "compile -v -b esp32:esp32:nano_nora",
     "analogPins": [

@@ -4,6 +4,7 @@
     "description": "OJBadge是一块ESP32-S3 智能终端，带1.28寸GC9A01圆形彩屏(240×240)、电容触摸、I2S 音频、电池管理,支持 USB 与 Wi-Fi/蓝牙。",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
+    "mcu": "esp32s3",
     "type": "esp32:esp32:esp32s3",
     "compilerParam": "compile -v -b esp32:esp32:esp32s3 --build-property build.flash_size=16MB --build-property build.partitions=app3M_fat9M_16MB --build-property build.cdc_on_boot=1",
     "analogPins": [
