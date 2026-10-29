@@ -4,6 +4,7 @@
     "description": "linkbit (aily e-paper badge V2) - ESP32-C3 with e-paper, RGB, buttons and battery gauge",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
+    "mcu": "esp32c3",
     "type": "esp32:esp32:esp32c3",
     "compilerParam": "compile -v -b esp32:esp32:esp32c3 --build-property build.cdc_on_boot=1",
     "analogPins": [

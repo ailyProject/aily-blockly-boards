@@ -4,6 +4,7 @@
     "description": "Adafruit Metro ESP32-S3 development board with 16 MB Flash and 8 MB PSRAM",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
+    "mcu": "esp32s3",
     "type": "esp32:esp32:adafruit_metro_esp32s3",
     "compilerParam": "compile -v -b esp32:esp32:adafruit_metro_esp32s3",
     "analogPins": [

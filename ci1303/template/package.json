@@ -4,7 +4,7 @@
   "description": "",
   "board": "ChipIntelli CI1303",
   "dependencies": {
-    "@aily-project/board-ci1303": "1.0.17",
+    "@aily-project/board-ci1303": "1.0.18",
     "@aily-project/lib-chipintelli-audio": "1.0.2",
     "@aily-project/lib-chipintelli-asr": "2.3.0",
     "@aily-project/lib-core-io": "1.0.0",

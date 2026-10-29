@@ -4,6 +4,7 @@
     "description": "掌控板3.0 - 基于ESP32-S3的Python编程开发板",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
+    "mcu": "esp32s3",
     "type": "esp32:esp32:esp32s3",
     "mode": ["arduino", "micropython"],
     "compilerParam": "compile -v -b esp32:esp32:esp32s3",

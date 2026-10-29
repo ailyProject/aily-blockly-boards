@@ -4,6 +4,7 @@
     "description": "OJoy 1.6-inch round AMOLED dev board (ESP32-S3 + CH13613 QSPI display, touch, RTC, IMU, audio, SD)",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
+    "mcu": "esp32s3",
     "type": "esp32:esp32:esp32s3",
     "compilerParam": "compile -v -b esp32:esp32:esp32s3 --build-property build.flash_mode=qio --build-property build.flash_freq=80m --build-property build.flash_size=16MB --build-property build.psram_type=opi --build-property build.memory_type=qio_opi --build-property build.partitions=default_16MB --build-property build.extra_flags=\"-DARDUINO_USB_MODE=1 -DARDUINO_USB_CDC_ON_BOOT=1 -DBOARD_HAS_PSRAM\"",
     "analogPins": [

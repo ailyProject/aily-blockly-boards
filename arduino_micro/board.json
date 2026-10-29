@@ -4,6 +4,7 @@
     "description": "Arduino Micro",
     "compilerTool": "aily-builder",
     "core": "arduino:avr",
+    "mcu": "atmega32u4",
     "type": "arduino:avr:micro",
     "compilerParam": "compile -v -b arduino:avr:micro",
     "analogPins": [

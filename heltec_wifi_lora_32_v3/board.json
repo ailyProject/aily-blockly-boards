@@ -4,6 +4,7 @@
   "description": "ESP32-S3 board with SX1262 LoRa radio and 0.96-inch OLED display",
   "compilerTool": "aily-builder",
   "core": "esp32:esp32",
+  "mcu": "esp32s3",
   "type": "esp32:esp32:heltec_wifi_lora_32_V3",
   "compilerParam": "compile -v -b esp32:esp32:heltec_wifi_lora_32_V3",
   "serialSpeed": [

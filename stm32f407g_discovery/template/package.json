@@ -1,0 +1,18 @@
+{
+  "name": "project_",
+  "version": "1.0.0",
+  "description": "",
+  "board": "STM32F407G Discovery",
+  "dependencies": {
+    "@aily-project/board-stm32f407g-discovery": "3.0.0",
+    "@aily-project/lib-core-io": "1.0.0",
+    "@aily-project/lib-core-logic": "0.0.1",
+    "@aily-project/lib-core-loop": "0.0.1",
+    "@aily-project/lib-core-math": "0.0.1",
+    "@aily-project/lib-core-text": "1.0.0",
+    "@aily-project/lib-core-serial": "0.0.1",
+    "@aily-project/lib-core-time": "0.0.1",
+    "@aily-project/lib-core-variables": "1.0.1"
+  },
+  "projectConfig": { "pnum": "DISCO_F407VG" }
+}

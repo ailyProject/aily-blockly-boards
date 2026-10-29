@@ -4,6 +4,7 @@
   "description": "OpenJumper STM32F103C8 Nano development board",
   "compilerTool": "aily-builder",
   "core": "STMicroelectronics:stm32",
+  "mcu": "stm32f103c8",
   "type": "STMicroelectronics:stm32:GenF1",
   "compilerParam": "compile -v -b STMicroelectronics:stm32:GenF1",
   "linkUploadParam": "probe-rs download --chip STM32F103C8 --verify ${'*.elf'};probe-rs reset --chip STM32F103C8",
@@ -511,20 +512,14 @@
     [
       "Serial2",
       "Serial2"
+    ],
+    [
+      "Serial3",
+      "Serial3"
     ]
   ],
   "serialPins": {
     "Serial": [
-      [
-        "RX",
-        "PA10"
-      ],
-      [
-        "TX",
-        "PA9"
-      ]
-    ],
-    "Serial1": [
       [
         "RX",
         "PA3"
@@ -534,7 +529,27 @@
         "PA2"
       ]
     ],
+    "Serial1": [
+      [
+        "RX",
+        "PA10"
+      ],
+      [
+        "TX",
+        "PA9"
+      ]
+    ],
     "Serial2": [
+      [
+        "RX",
+        "PA3"
+      ],
+      [
+        "TX",
+        "PA2"
+      ]
+    ],
+    "Serial3": [
       [
         "RX",
         "PB11"

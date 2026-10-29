@@ -4,7 +4,7 @@
   "description": "",
   "board": "EasyVoice 1306 Dev",
   "dependencies": {
-    "@aily-project/board-easyvoice_1306_dev": "1.0.17",
+    "@aily-project/board-easyvoice_1306_dev": "1.0.18",
     "@aily-project/lib-chipintelli-audio": "1.0.2",
     "@aily-project/lib-chipintelli-asr": "2.3.0",
     "@aily-project/lib-core-io": "1.0.0",

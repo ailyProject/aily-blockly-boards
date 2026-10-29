@@ -4,6 +4,7 @@
   "description": "STM32F446RE Nucleo-64 development board",
   "compilerTool": "aily-builder",
   "core": "STMicroelectronics:stm32",
+  "mcu": "stm32f446re",
   "type": "STMicroelectronics:stm32:Nucleo_64",
   "compilerParam": "compile -v -b STMicroelectronics:stm32:Nucleo_64",
   "serialSpeed": [
