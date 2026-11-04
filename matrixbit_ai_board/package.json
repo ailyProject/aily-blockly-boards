@@ -1,0 +1,40 @@
+{
+  "name": "@aily-project/board-matrixbit_ai_board",
+  "nickname": "Matrixbit AI Board V3.0",
+  "version": "5.1.0",
+  "description": "Matrixbit AI Board V3.0 (Nologo) is a dual-MCU board built around RP2040 (dual-core Cortex-M0+ 133 MHz, 264 KB SRAM, 2 MB Flash) and ESP32-S3 N16R8 (dual-core Xtensa LX7 240 MHz, 8 MB PSRAM, 16 MB Flash, Wi-Fi + Bluetooth 5). On-board: 1.54-inch ST7789 TFT, GC0308 75-degree camera, microphone and 1 W speaker via ES8311 codec, SD card slot, 4G module, SC7A20H gyroscope, AHT30 temperature/humidity sensor, light sensor, 3 RGB LEDs, 2 buttons, 2 DC motor drivers and 8 servo channels. This entry programs the RP2040 side; the RP2040 talks to the ESP32-S3 over UART (GP0/GP1) and exposes I2C on GP20 (SDA) / GP21 (SCL).",
+  "description_en": "Matrixbit AI Board V3.0 (Nologo) is a dual-MCU board built around RP2040 (dual-core Cortex-M0+ 133 MHz, 264 KB SRAM, 2 MB Flash) and ESP32-S3 N16R8 (dual-core Xtensa LX7 240 MHz, 8 MB PSRAM, 16 MB Flash, Wi-Fi + Bluetooth 5). On-board: 1.54-inch ST7789 TFT, GC0308 75-degree camera, microphone and 1 W speaker via ES8311 codec, SD card slot, 4G module, SC7A20H gyroscope, AHT30 temperature/humidity sensor, light sensor, 3 RGB LEDs, 2 buttons, 2 DC motor drivers and 8 servo channels. This entry programs the RP2040 side; the RP2040 talks to the ESP32-S3 over UART (GP0/GP1) and exposes I2C on GP20 (SDA) / GP21 (SCL).",
+  "description_zh_cn": "星智AI Matrixbit V3.0（无名科技 Nologo）是一块双芯片开发板，搭载 RP2040（双核 Cortex-M0+ 133MHz、264KB SRAM、2MB Flash）与 ESP32-S3 N16R8（双核 Xtensa LX7 240MHz、8MB PSRAM、16MB Flash、Wi-Fi + 蓝牙 5）。板载 1.54 寸 ST7789 彩屏、GC0308 75 度摄像头、麦克风与 1W 喇叭（ES8311 编解码）、SD 卡槽、4G 模块、SC7A20H 陀螺仪、AHT30 温湿度传感器、光敏传感器、3 颗 RGB 灯、2 个按键、2 路电机驱动与 8 路舵机。本配置烧录 RP2040 一侧：RP2040 通过 UART（GP0/GP1）与 ESP32-S3 通信，I2C 引出在 GP20（SDA）/ GP21（SCL）。",
+  "description_zh_hk": "星智AI Matrixbit V3.0（無名科技 Nologo）是一塊雙晶片開發板，搭載 RP2040（雙核 Cortex-M0+ 133MHz、264KB SRAM、2MB Flash）與 ESP32-S3 N16R8（雙核 Xtensa LX7 240MHz、8MB PSRAM、16MB Flash、Wi-Fi + 藍牙 5）。板載 1.54 吋 ST7789 彩屏、GC0308 75 度鏡頭、麥克風與 1W 喇叭（ES8311 編解碼）、SD 卡槽、4G 模組、SC7A20H 陀螺儀、AHT30 溫濕度感測器、光敏感測器、3 顆 RGB 燈、2 個按鍵、2 路馬達驅動與 8 路伺服馬達。本設定燒錄 RP2040 一端：RP2040 通過 UART（GP0/GP1）與 ESP32-S3 通訊，I2C 引出於 GP20（SDA）/ GP21（SCL）。",
+  "description_ja": "Matrixbit AI Board V3.0（Nologo）は RP2040（デュアルコア Cortex-M0+ 133MHz、264KB SRAM、2MB Flash）と ESP32-S3 N16R8（デュアルコア Xtensa LX7 240MHz、8MB PSRAM、16MB Flash、Wi-Fi + Bluetooth 5）を搭載したデュアル MCU ボードです。1.54 インチ ST7789 TFT、GC0308 75 度カメラ、マイクと 1W スピーカー（ES8311）、SD カードスロット、4G モジュール、SC7A20H ジャイロ、AHT30 温湿度センサー、光センサー、RGB LED x3、ボタン x2、DC モータードライバ x2、サーボ 8 チャンネルを搭載。本設定は RP2040 側を対象とし、RP2040 は UART（GP0/GP1）で ESP32-S3 と通信し、I2C は GP20（SDA）/ GP21（SCL）に出ています。",
+  "description_ko": "Matrixbit AI Board V3.0(Nologo)은 RP2040(듀얼 코어 Cortex-M0+ 133MHz, 264KB SRAM, 2MB Flash)와 ESP32-S3 N16R8(듀얼 코어 Xtensa LX7 240MHz, 8MB PSRAM, 16MB Flash, Wi-Fi + Bluetooth 5)를 탑재한 듀얼 MCU 보드입니다. 1.54인치 ST7789 TFT, GC0308 75도 카메라, 마이크와 1W 스피커(ES8311), SD 카드 슬롯, 4G 모듈, SC7A20H 자이로, AHT30 온습도 센서, 조도 센서, RGB LED 3개, 버튼 2개, DC 모터 드라이버 2채널, 서보 8채널을 내장했습니다. 이 설정은 RP2040 측을 대상으로 하며, RP2040은 UART(GP0/GP1)로 ESP32-S3와 통신하고 I2C는 GP20(SDA)/GP21(SCL)로 나옵니다.",
+  "description_de": "Das Matrixbit AI Board V3.0 (Nologo) ist ein Dual-MCU-Board mit RP2040 (Dual-Core Cortex-M0+ 133 MHz, 264 KB SRAM, 2 MB Flash) und ESP32-S3 N16R8 (Dual-Core Xtensa LX7 240 MHz, 8 MB PSRAM, 16 MB Flash, Wi-Fi + Bluetooth 5). Integriert sind 1,54-Zoll-ST7789-TFT, GC0308-Kamera mit 75 Grad, Mikrofon und 1-W-Lautsprecher (ES8311), SD-Kartensteckplatz, 4G-Modul, SC7A20H-Gyroskop, AHT30-Temperatur-/Feuchtesensor, Lichtsensor, 3 RGB-LEDs, 2 Taster, 2 DC-Motortreiber und 8 Servokanäle. Dieser Eintrag programmiert die RP2040-Seite; der RP2040 kommuniziert über UART (GP0/GP1) mit dem ESP32-S3 und stellt I2C an GP20 (SDA) / GP21 (SCL) bereit.",
+  "description_fr": "La Matrixbit AI Board V3.0 (Nologo) est une carte double MCU basée sur le RP2040 (double cœur Cortex-M0+ 133 MHz, 264 Ko SRAM, 2 Mo Flash) et l'ESP32-S3 N16R8 (double cœur Xtensa LX7 240 MHz, 8 Mo PSRAM, 16 Mo Flash, Wi-Fi + Bluetooth 5). Elle intègre un TFT ST7789 de 1,54 pouce, une caméra GC0308 75 degrés, un microphone et un haut-parleur 1 W (ES8311), un emplacement SD, un module 4G, un gyroscope SC7A20H, un capteur température/humidité AHT30, un capteur de lumière, 3 LED RGB, 2 boutons, 2 pilotes de moteur CC et 8 canaux servo. Cette entrée programme le côté RP2040 : le RP2040 dialogue avec l'ESP32-S3 via UART (GP0/GP1) et expose l'I2C sur GP20 (SDA) / GP21 (SCL).",
+  "description_es": "La Matrixbit AI Board V3.0 (Nologo) es una placa de doble MCU basada en el RP2040 (Cortex-M0+ de doble núcleo a 133 MHz, 264 KB SRAM, 2 MB Flash) y el ESP32-S3 N16R8 (Xtensa LX7 de doble núcleo a 240 MHz, 8 MB PSRAM, 16 MB Flash, Wi-Fi + Bluetooth 5). Integra TFT ST7789 de 1,54 pulgadas, cámara GC0308 de 75 grados, micrófono y altavoz de 1 W (ES8311), ranura SD, módulo 4G, giroscopio SC7A20H, sensor de temperatura/humedad AHT30, sensor de luz, 3 LED RGB, 2 pulsadores, 2 controladores de motor DC y 8 canales de servo. Esta entrada programa el lado RP2040: el RP2040 se comunica con el ESP32-S3 por UART (GP0/GP1) y expone I2C en GP20 (SDA) / GP21 (SCL).",
+  "description_pt": "A Matrixbit AI Board V3.0 (Nologo) é uma placa de MCU duplo baseada no RP2040 (Cortex-M0+ dual-core 133 MHz, 264 KB SRAM, 2 MB Flash) e no ESP32-S3 N16R8 (Xtensa LX7 dual-core 240 MHz, 8 MB PSRAM, 16 MB Flash, Wi-Fi + Bluetooth 5). Integra TFT ST7789 de 1,54 polegada, câmera GC0308 de 75 graus, microfone e alto-falante de 1 W (ES8311), slot SD, módulo 4G, giroscópio SC7A20H, sensor de temperatura/umidade AHT30, sensor de luz, 3 LEDs RGB, 2 botões, 2 drivers de motor DC e 8 canais de servo. Esta entrada programa o lado RP2040: o RP2040 comunica-se com o ESP32-S3 via UART (GP0/GP1) e expõe I2C em GP20 (SDA) / GP21 (SCL).",
+  "description_ru": "Matrixbit AI Board V3.0 (Nologo) — плата с двумя MCU: RP2040 (двухъядерный Cortex-M0+ 133 МГц, 264 КБ SRAM, 2 МБ Flash) и ESP32-S3 N16R8 (двухъядерный Xtensa LX7 240 МГц, 8 МБ PSRAM, 16 МБ Flash, Wi-Fi + Bluetooth 5). На борту: TFT ST7789 1,54 дюйма, камера GC0308 75°, микрофон и динамик 1 Вт (ES8311), слот SD, модуль 4G, гироскоп SC7A20H, датчик температуры/влажности AHT30, датчик света, 3 RGB-светодиода, 2 кнопки, 2 драйвера DC-моторов и 8 сервоканалов. Данная конфигурация прошивает сторону RP2040: RP2040 общается с ESP32-S3 по UART (GP0/GP1), а I2C выведен на GP20 (SDA) / GP21 (SCL).",
+  "description_ar": "لوحة Matrixbit AI Board V3.0 (Nologo) هي لوحة ثنائية المتحكمات تعتمد على RP2040 (Cortex-M0+ ثنائي النواة 133 ميجاهرتز، 264 كيلوبايت SRAM، 2 ميجابايت فلاش) و ESP32-S3 N16R8 (Xtensa LX7 ثنائي النواة 240 ميجاهرتز، 8 ميجابايت PSRAM، 16 ميجابايت فلاش، Wi-Fi + Bluetooth 5). تشمل شاشة ST7789 بحجم 1.54 بوصة، كاميرا GC0308 بزاوية 75 درجة، ميكروفون ومكبر صوت 1 واط (ES8311)، فتحة بطاقة SD، وحدة 4G، جيروسكوب SC7A20H، مستشعر حرارة/رطوبة AHT30، مستشعر إضاءة، 3 مصابيح RGB، زرين، مشغلي محرك تيار مستمر و8 قنوات سيرفو. يبرمج هذا الإعداد جانب RP2040؛ يتواصل RP2040 مع ESP32-S3 عبر UART (GP0/GP1) ويوفر I2C على GP20 (SDA) / GP21 (SCL).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "url": "https://www.nologo.tech/product/esp32/esp32s3/esp32s3matrixbitv3.0/wendang.html",
+  "keywords": [
+    "RP2040",
+    "ESP32-S3",
+    "Nologo",
+    "Matrixbit",
+    "AI"
+  ],
+  "author": "Nologo",
+  "brand": "Nologo",
+  "license": "MIT",
+  "boardDependencies": {
+    "@aily-project/compiler-pqt-gcc": "4.1.0",
+    "@aily-project/sdk-rp2040": "5.1.0",
+    "@aily-project/tool-pqt-picotool": "4.1.0",
+    "@aily-project/tool-pqt-pioasm": "4.1.0",
+    "@aily-project/tool-pqt-python3": "1.0.1",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}
