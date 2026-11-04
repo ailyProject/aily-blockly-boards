@@ -1,6 +1,6 @@
 # Seekfree STC32G144K246 核心板
 
-逐飞 STC32G144K246（LQFP100）核心板配置，硬件依据为官方 V1.0 原理图（内部修订 V1.0.2.0）。包名 `@aily-project/board-seekfree_stc32g144k246`，版本 `0.0.2`，状态 `alpha`。使用 `@aily-project/sdk-mcs251@0.0.2`、`@aily-project/compiler-stcxx-toolchain@0.3.0` 和 FQBN `stc:mcs251:stc32g144k246`。
+逐飞 STC32G144K246（LQFP100）核心板配置，硬件依据为官方 V1.0 原理图（内部修订 V1.0.2.0）。包名 `@aily-project/board-seekfree_stc32g144k246`，版本 `0.0.3`，状态 `alpha`。使用 `@aily-project/sdk-mcs251@0.0.3`、`@aily-project/compiler-stcxx-toolchain@0.3.0` 和 FQBN `stc:mcs251:stc32g144k246`。
 
 ## 硬件与引脚
 

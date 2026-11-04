@@ -1,6 +1,6 @@
 # Seekfree AI8051U 核心板
 
-逐飞 AI8051U-34K64（LQFP48）核心板配置，硬件依据为 V1.0.2 原理图。包版本 `0.0.2`，使用 `@aily-project/sdk-mcs251@0.0.2`，FQBN 为 `stc:mcs251:ai8051u_34k64`。状态为 `alpha`，尚未进行实板烧录与运行验证。
+逐飞 AI8051U-34K64（LQFP48）核心板配置，硬件依据为 V1.0.2 原理图。包版本 `0.0.3`，使用 `@aily-project/sdk-mcs251@0.0.3`，FQBN 为 `stc:mcs251:ai8051u_34k64`。状态为 `alpha`，尚未进行实板烧录与运行验证。
 
 ## 硬件与引脚
 

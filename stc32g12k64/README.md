@@ -1,6 +1,6 @@
 # STC32G12K64
 
-Aily 开发板包版本 **0.0.2**，状态 **alpha**。使用 `sdk-mcs251@0.0.2` 和 `compiler-stcxx-toolchain@0.3.0` 的 MCS251 C++11 核心；尚未完成本配置的实板验证。
+Aily 开发板包版本 **0.0.3**，状态 **alpha**。使用 `sdk-mcs251@0.0.3` 和 `compiler-stcxx-toolchain@0.3.0` 的 MCS251 C++11 核心；尚未完成本配置的实板验证。
 
 ## 配置依据
 
@@ -42,7 +42,7 @@ SDK 的 `build.f_cpu=12000000L` 使编译参数为 `F_CPU=12000000L`。首次使
 | --- | --- |
 | `@aily-project/compiler-stcxx-toolchain` | 0.3.0 |
 | `@aily-project/tool-stc-cli` | 0.1.0 |
-| `@aily-project/sdk-mcs251` | 0.0.2 |
+| `@aily-project/sdk-mcs251` | 0.0.3 |
 | `@aily-project/tool-ctags` | 5.8.0 |
 
 ## 编译与烧录

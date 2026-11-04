@@ -2,6 +2,7 @@
   "STC51": {
     "CLOCK": "Частота CPU (должна совпадать с настройкой ISP)",
     "MEMORY": "Модель памяти SDCC",
+    "EEPROM_SIZE": "Размер пользовательской EEPROM",
     "USB_CDC": "USB CDC при запуске",
     "XRAM": "Размещение XRAM",
     "UPLOAD_TRANSPORT": "Интерфейс загрузки",

@@ -1,6 +1,7 @@
 {
   "STC51": {
     "CLOCK": "Reloj de CPU (debe coincidir con la configuración ISP)",
-    "MEMORY": "Modelo de memoria SDCC"
+    "MEMORY": "Modelo de memoria SDCC",
+    "EEPROM_SIZE": "Tamaño de la EEPROM de usuario"
   }
 }

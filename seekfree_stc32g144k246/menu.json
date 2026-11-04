@@ -37,5 +37,11 @@
     "icon": "fa-light fa-shield-check",
     "children": [],
     "key": "uploadcheck"
+  },
+  {
+    "name": "STC51.EEPROM_SIZE",
+    "icon": "fa-light fa-memory",
+    "children": [],
+    "key": "eeprom"
   }
 ]

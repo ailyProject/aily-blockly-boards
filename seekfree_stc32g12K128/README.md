@@ -1,6 +1,6 @@
 # Seekfree STC32G12K128 核心板
 
-逐飞 STC32G12K128（LQFP64）核心板配置，硬件依据为 V2.1 原理图。包名为 `@aily-project/board-seekfree_stc32g12k128`，包版本 `0.0.2`，使用 `@aily-project/sdk-mcs251@0.0.2`，FQBN 为 `stc:mcs251:stc32g12k128`。状态为 `alpha`，尚未进行实板烧录与运行验证。
+逐飞 STC32G12K128（LQFP64）核心板配置，硬件依据为 V2.1 原理图。包名为 `@aily-project/board-seekfree_stc32g12k128`，包版本 `0.0.3`，使用 `@aily-project/sdk-mcs251@0.0.3`，FQBN 为 `stc:mcs251:stc32g12k128`。状态为 `alpha`，尚未进行实板烧录与运行验证。
 
 ## 硬件与引脚
 

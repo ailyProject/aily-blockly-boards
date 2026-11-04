@@ -2,6 +2,7 @@
   "STC51": {
     "CLOCK": "CPU 클록 (ISP 설정과 일치해야 함)",
     "MEMORY": "SDCC 메모리 모델",
+    "EEPROM_SIZE": "사용자 EEPROM 크기",
     "CPP_CORE": "Arduino 코어 언어",
     "EXECUTION": "실행 모드"
   }

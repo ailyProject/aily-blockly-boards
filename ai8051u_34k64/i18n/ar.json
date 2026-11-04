@@ -2,6 +2,7 @@
   "STC51": {
     "CLOCK": "تردد CPU (يجب أن يطابق إعداد ISP)",
     "MEMORY": "نموذج ذاكرة SDCC",
+    "EEPROM_SIZE": "حجم EEPROM للمستخدم",
     "CPP_CORE": "لغة نواة Arduino",
     "EXECUTION": "وضع التنفيذ"
   }

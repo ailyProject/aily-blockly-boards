@@ -2,6 +2,7 @@
   "STC51": {
     "CLOCK": "CPU クロック（ISP 設定と一致させる）",
     "MEMORY": "SDCC メモリモデル",
+    "EEPROM_SIZE": "ユーザー EEPROM サイズ",
     "USB_CDC": "起動時の USB CDC",
     "XRAM": "XRAM レイアウト",
     "UPLOAD_TRANSPORT": "書き込みインターフェース",
