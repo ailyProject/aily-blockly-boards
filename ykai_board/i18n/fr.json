@@ -1,0 +1,11 @@
+{
+  "ESP32": {
+    "UPLOAD_SPEED": "Vitesse de téléchargement",
+    "UPLOAD_MODE": "Méthode de Téléversement",
+    "FLASH_MODE": "Mode Flash",
+    "FLASH_SIZE": "Taille Flash",
+    "PARTITION_SCHEME": "Schéma de partition",
+    "CDC_ON_BOOT": "USB CDC au démarrage",
+    "PSRAM": "PSRAM"
+  }
+}

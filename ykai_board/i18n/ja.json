@@ -1,0 +1,11 @@
+{
+  "ESP32": {
+    "UPLOAD_SPEED": "書き込み速度",
+    "UPLOAD_MODE": "書き込み方法",
+    "FLASH_MODE": "フラッシュモード",
+    "FLASH_SIZE": "フラッシュサイズ",
+    "PARTITION_SCHEME": "パーティション方式",
+    "CDC_ON_BOOT": "USBシリアル通信",
+    "PSRAM": "PSRAM"
+  }
+}
