@@ -7,14 +7,40 @@
         "id": "arduino_global_id0",
         "x": 30,
         "y": 60,
-        "deletable": false
+        "deletable": false,
+        "inputs": {
+          "ARDUINO_GLOBAL": {
+            "block": {
+              "type": "custom_code",
+              "id": "mb_wire_include",
+              "deletable": false,
+              "movable": false,
+              "fields": {
+                "CODE": "// Matrixbit AI Board V3.0: board-level I2C pin remap\n#include <Wire.h>"
+              }
+            }
+          }
+        }
       },
       {
         "type": "arduino_setup",
         "id": "arduino_setup_id0",
         "x": 30,
         "y": 180,
-        "deletable": false
+        "deletable": false,
+        "inputs": {
+          "ARDUINO_SETUP": {
+            "block": {
+              "type": "custom_code",
+              "id": "mb_wire_remap",
+              "deletable": false,
+              "movable": false,
+              "fields": {
+                "CODE": "// GP20=SDA / GP21=SCL. arduino-pico rpipico defaults are GP4/GP5;\n// remap before the first Wire.begin() (aily_iic only generates Wire.begin()).\nWire.setSDA(20);\nWire.setSCL(21);"
+              }
+            }
+          }
+        }
       },
       {
         "type": "arduino_loop",

@@ -13,6 +13,7 @@
     "@aily-project/lib-core-serial": "0.0.1",
     "@aily-project/lib-core-time": "0.0.1",
     "@aily-project/lib-core-variables": "1.0.1",
+    "@aily-project/lib-core-custom": "1.1.0",
     "@aily-project/lib-fastled": "1.0.2"
   }
 }
