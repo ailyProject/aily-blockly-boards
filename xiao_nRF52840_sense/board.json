@@ -1,61 +1,64 @@
 {
   "name": "XIAO nRF52840 Sense",
   "version": "1.0.0",
-  "description": "Seeed Studio XIAO nRF52840 Sense，使用 Generic nRF52840 编译配置和 XIAO 板载引脚映射。",
+  "description": "Seeed Studio XIAO nRF52840 Sense，使用专用引脚和 USB CDC 配置，支持原厂 Adafruit BLE bootloader 串口 DFU 上传。",
   "compilerTool": "aily-builder",
   "core": "n-able-Arduino:arm-ble",
-  "type": "n-able-Arduino:arm-ble:Generic_nRF52840",
+  "type": "n-able-Arduino:arm-ble:seeed52840sense",
   "mode": ["arduino"],
-  "compilerParam": "compile --verbose -b n-able-Arduino:arm-ble:Generic_nRF52840 --build-property build.dfu_pattern=",
+  "compilerParam": "compile --verbose -b n-able-Arduino:arm-ble:seeed52840sense",
   "linkUploadParam": "probe-rs download --chip nRF52840_xxAA --verify ${'*.elf'};probe-rs reset --chip nRF52840_xxAA",
   "analogPins": [
-    ["A0(D0)", "2"],
-    ["A1(D1)", "3"],
-    ["A2(D2)", "28"],
-    ["A3(D3)", "29"],
+    ["A0(D0)", "0"],
+    ["A1(D1)", "1"],
+    ["A2(D2)", "2"],
+    ["A3(D3)", "3"],
     ["A4(D4)", "4"],
     ["A5(D5)", "5"]
   ],
   "digitalPins": [
-    ["D0", "2"],
-    ["D1", "3"],
-    ["D2", "28"],
-    ["D3", "29"],
+    ["D0", "0"],
+    ["D1", "1"],
+    ["D2", "2"],
+    ["D3", "3"],
     ["D4", "4"],
     ["D5", "5"],
-    ["D6", "43"],
-    ["D7", "44"],
-    ["D8", "45"],
-    ["D9", "46"],
-    ["D10", "47"]
+    ["D6", "6"],
+    ["D7", "7"],
+    ["D8", "8"],
+    ["D9", "9"],
+    ["D10", "10"]
   ],
   "pwmPins": [
-    ["D0", "2"],
-    ["D1", "3"],
-    ["D2", "28"],
-    ["D3", "29"],
+    ["D0", "0"],
+    ["D1", "1"],
+    ["D2", "2"],
+    ["D3", "3"],
     ["D4", "4"],
     ["D5", "5"],
-    ["D6", "43"],
-    ["D7", "44"],
-    ["D8", "45"],
-    ["D9", "46"],
-    ["D10", "47"]
+    ["D6", "6"],
+    ["D7", "7"],
+    ["D8", "8"],
+    ["D9", "9"],
+    ["D10", "10"]
   ],
   "servoPins": [
-    ["D0", "2"],
-    ["D1", "3"],
-    ["D2", "28"],
-    ["D3", "29"],
+    ["D0", "0"],
+    ["D1", "1"],
+    ["D2", "2"],
+    ["D3", "3"],
     ["D4", "4"],
     ["D5", "5"],
-    ["D6", "43"],
-    ["D7", "44"],
-    ["D8", "45"],
-    ["D9", "46"],
-    ["D10", "47"]
+    ["D6", "6"],
+    ["D7", "7"],
+    ["D8", "8"],
+    ["D9", "9"],
+    ["D10", "10"]
   ],
-  "serialPort": [["Serial", "Serial"]],
+  "serialPort": [
+    ["Serial", "Serial"],
+    ["Serial1", "Serial1"]
+  ],
   "serialSpeed": [
     ["1200", "1200"],
     ["9600", "9600"],
@@ -71,10 +74,10 @@
   "spi": [["SPI", "SPI"]],
   "spiPins": {
     "SPI": [
-      ["MOSI", "47"],
-      ["MISO", "46"],
-      ["SCK", "45"],
-      ["SS", "44"]
+      ["MOSI", "10"],
+      ["MISO", "9"],
+      ["SCK", "8"],
+      ["SS", "7"]
     ]
   },
   "spiClockDivide": [
@@ -97,22 +100,22 @@
     ["400kHz", "400000L"]
   ],
   "builtinLed": [
-    ["LED_RED", "26"],
-    ["LED_GREEN", "30"],
-    ["LED_BLUE", "6"]
+    ["LED_RED", "11"],
+    ["LED_GREEN", "13"],
+    ["LED_BLUE", "12"]
   ],
   "interruptPins": [
-    ["D0", "2"],
-    ["D1", "3"],
-    ["D2", "28"],
-    ["D3", "29"],
+    ["D0", "0"],
+    ["D1", "1"],
+    ["D2", "2"],
+    ["D3", "3"],
     ["D4", "4"],
     ["D5", "5"],
-    ["D6", "43"],
-    ["D7", "44"],
-    ["D8", "45"],
-    ["D9", "46"],
-    ["D10", "47"]
+    ["D6", "6"],
+    ["D7", "7"],
+    ["D8", "8"],
+    ["D9", "9"],
+    ["D10", "10"]
   ],
   "interruptMode": [
     ["RISING", "RISING"],
