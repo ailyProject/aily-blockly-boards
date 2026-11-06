@@ -4,8 +4,8 @@
   "description": "Nologo Xingzhi AI Matrixbit V3.0 - RP2040 side (dual-MCU board with ESP32-S3)",
   "compilerTool": "aily-builder",
   "core": "rp2040:rp2040",
-  "type": "rp2040:rp2040:rpipico",
-  "compilerParam": "compile -v -b rp2040:rp2040:rpipico",
+  "type": "rp2040:rp2040:seeed_indicator_rp2040",
+  "compilerParam": "compile -v -b rp2040:rp2040:seeed_indicator_rp2040",
   "analogPins": [
     [
       "A0/P0",
