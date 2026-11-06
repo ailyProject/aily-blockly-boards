@@ -63,4 +63,4 @@ SPI 默认 `MOSI=23 / MISO=19 / SCK=18`；I2C 默认 `SDA=21 / SCL=22`（ESP32 �
 - `mcu: "esp32"` — 芯片标识（ESP32 系列板卡需声明）。
 - `ws2812Pin: "17"` — 按规范的「单引脚用 `xxxPin`」命名声明板载 RGB 彩灯；`specialPins` 作为板厂自定义扩展保留，库按规范应忽略无法识别的可选字段。
 - **未声明 `displayConfig`**：虽然板上带 240×240 TFT，但显示控制器型号、接口与具体 SPI 引脚均缺乏实测资料。按规范「`xxxConfig` 不存在表示开发板未提供该设备的固定配置，库必须保留手动配置方式」，此处不做推断，避免库从错误的固定引脚去驱动屏幕。待硬件实测后可补充。
-- `servoPins` / `servoConfig` 未做收窄：沿用掌控板2.0 的引脚能力推断，未实测，故不额外声明 `servoConfig`。
+- `pwmPins` / `servoPins` 已排除仅支持输入的 GPIO34、35、36、39（P3、P2、P10、P4），这些引脚不能输出 PWM 或舵机控制信号。依据：[Espressif GPIO 文档](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/gpio.html)。板级引脚映射仍未经实测，暂不额外声明 `servoConfig`。
