@@ -1,0 +1,62 @@
+{
+  "$schema": "board-info-schema",
+  "name": "board-matrixbit_ai_board",
+  "displayName": "Matrixbit AI Board V3.0",
+  "brand": "Nologo",
+  "type": "board",
+  "mcu": {
+    "model": "RP2040",
+    "architecture": "arm",
+    "cores": 2,
+    "frequency": {
+      "value": 133,
+      "unit": "MHz"
+    }
+  },
+  "memory": {
+    "flash": {
+      "value": 2048,
+      "unit": "KB"
+    },
+    "sram": {
+      "value": 264,
+      "unit": "KB"
+    },
+    "psram": {
+      "value": 0,
+      "unit": "KB"
+    }
+  },
+  "connectivity": [],
+  "gpio": {
+    "digital": 24,
+    "analog": 4,
+    "pwm": 20
+  },
+  "interfaces": [
+    "uart",
+    "i2c",
+    "spi",
+    "pwm",
+    "adc"
+  ],
+  "voltage": {
+    "operating": 3.3,
+    "io": [
+      3.3
+    ]
+  },
+  "core": "rp2040:rp2040",
+  "features": [
+    "rgb",
+    "button",
+    "motor",
+    "servo",
+    "lightsensor"
+  ],
+  "tags": [
+    "RP2040",
+    "双芯片",
+    "金手指"
+  ]
+}
