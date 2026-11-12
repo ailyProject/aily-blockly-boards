@@ -1,0 +1,31 @@
+{
+  "name": "@aily-project/board-linkbit_bw",
+  "nickname": "linkbit 黑白屏",
+  "version": "3.3.10",
+  "description": "linkbit 黑白屏 - aily e-paper badge V2 (ESP32-C3): 2.13-inch black-and-white e-paper display, WS2812 RGB, buttons and BQ27220 battery gauge.",
+  "description_en": "linkbit 黑白屏 - aily e-paper badge V2 (ESP32-C3): 2.13-inch black-and-white e-paper display, WS2812 RGB, buttons and BQ27220 battery gauge.",
+  "description_zh_cn": "linkbit 黑白屏 - aily 墨水屏胸牌 V2（ESP32-C3）：集成 2.13 寸黑白电子墨水屏、WS2812 RGB 灯、按键和 BQ27220 电池电量计。",
+  "description_zh_hk": "linkbit 黑白屏 - aily 墨水屏胸牌 V2（ESP32-C3）：整合 2.13 吋黑白電子墨水屏、WS2812 RGB 燈、按鍵和 BQ27220 電池電量計。",
+  "description_ja": "linkbit 黑白屏 - aily 電子ペーパーバッジ V2（ESP32-C3）：2.13 インチ白黒電子ペーパーディスプレイ、WS2812 RGB LED、ボタン、BQ27220 バッテリー残量計を搭載。",
+  "description_ko": "linkbit 黑白屏 - aily 전자종이 배지 V2(ESP32-C3): 2.13인치 흑백 전자종이 디스플레이, WS2812 RGB LED, 버튼, BQ27220 배터리 게이지를 탑재했습니다.",
+  "description_de": "linkbit 黑白屏 – aily E-Paper-Badge V2 (ESP32-C3): 2,13-Zoll-Schwarz-Weiß-E-Paper-Display, WS2812-RGB-LED, Tasten und BQ27220-Batteriestandsanzeige.",
+  "description_fr": "linkbit 黑白屏 - badge à papier électronique aily V2 (ESP32-C3) : écran à papier électronique noir et blanc de 2,13 pouces, LED RVB WS2812, boutons et jauge de batterie BQ27220.",
+  "description_es": "linkbit 黑白屏 - insignia de tinta electrónica aily V2 (ESP32-C3): pantalla de tinta electrónica en blanco y negro de 2,13 pulgadas, LED RGB WS2812, botones y medidor de batería BQ27220.",
+  "description_pt": "linkbit 黑白屏 - crachá de papel eletrônico aily V2 (ESP32-C3): tela de papel eletrônico preto e branco de 2,13 polegadas, LED RGB WS2812, botões e medidor de bateria BQ27220.",
+  "description_ru": "linkbit 黑白屏 — бейдж aily с электронной бумагой V2 (ESP32-C3): чёрно-белый дисплей на электронной бумаге 2,13 дюйма, RGB-светодиод WS2812, кнопки и датчик заряда батареи BQ27220.",
+  "description_ar": "linkbit 黑白屏 - شارة aily بالحبر الإلكتروني V2 (ESP32-C3): شاشة حبر إلكتروني بالأبيض والأسود مقاس 2.13 بوصة، ومصباح WS2812 RGB، وأزرار، ومقياس شحن البطارية BQ27220.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "brand": "Other",
+  "boardDependencies": {
+    "@aily-project/compiler-esp-rv32": "14.2.0",
+    "@aily-project/tool-esptool_py": "5.3.0",
+    "@aily-project/sdk-esp32": "3.3.10",
+    "@aily-project/tool-esp32c3-libs": "3.3.10",
+    "@aily-project/tool-ctags": "5.8.0"
+  }
+}

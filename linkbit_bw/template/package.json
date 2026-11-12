@@ -1,0 +1,27 @@
+{
+  "name": "project_",
+  "version": "1.0.0",
+  "description": "",
+  "board": "linkbit 黑白屏",
+  "dependencies": {
+    "@aily-project/board-linkbit_bw": "3.3.10",
+    "@aily-project/lib-epd-cz04": "1.0.0",
+    "@aily-project/lib-fastled": "1.0.5",
+    "@aily-project/lib-bq27220": "1.0.1",
+    "@aily-project/lib-onebutton": "0.0.3",
+    "@aily-project/lib-core-io": "1.0.0",
+    "@aily-project/lib-core-logic": "0.0.1",
+    "@aily-project/lib-core-loop": "0.0.1",
+    "@aily-project/lib-core-math": "0.0.1",
+    "@aily-project/lib-core-text": "1.0.0",
+    "@aily-project/lib-core-serial": "0.0.1",
+    "@aily-project/lib-core-time": "0.0.1",
+    "@aily-project/lib-core-variables": "1.0.1"
+  },
+  "projectConfig": {
+    "FlashMode": "dio",
+    "CDCOnBoot": "cdc",
+    "FlashSize": "4M",
+    "PartitionScheme": "default"
+  }
+}

@@ -1,7 +1,7 @@
 {
-    "name": "linkbit",
+    "name": "linkbit 黑白屏",
     "version": "3.3.10",
-    "description": "linkbit (aily e-paper badge V2) - ESP32-C3 with e-paper, RGB, buttons and battery gauge",
+    "description": "linkbit 黑白屏 (aily e-paper badge V2) - ESP32-C3 with 2.13-inch black-and-white e-paper, RGB, buttons and battery gauge",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
     "mcu": "esp32c3",
@@ -17,7 +17,7 @@
             "1"
         ],
         [
-            "KEY_A",
+            "EPD_CS",
             "2"
         ],
         [
@@ -25,7 +25,7 @@
             "3"
         ],
         [
-            "KEY_C",
+            "RGB",
             "4"
         ],
         [
@@ -90,15 +90,15 @@
     "pwmPins": [
         [
             "KEY_A",
-            "2"
+            "10"
         ],
         [
             "RGB",
-            "8"
+            "4"
         ],
         [
             "KEY_C",
-            "4"
+            "8"
         ],
         [
             "KEY_B",
@@ -252,7 +252,7 @@
     "interruptPins": [
         [
             "KEY_A",
-            "2"
+            "10"
         ],
         [
             "BOOT",
@@ -260,7 +260,7 @@
         ],
         [
             "KEY_C",
-            "4"
+            "8"
         ],
         [
             "KEY_B",
@@ -296,5 +296,44 @@
             "ONHIGH_WE",
             "ONHIGH_WE"
         ]
-    ]
+    ],
+    "displayConfig": {
+        "controller": "uc8151d",
+        "interface": "spi",
+        "model": "epd_cz04",
+        "width": 104,
+        "height": 212,
+        "pins": {
+            "sclk": "6",
+            "mosi": "7",
+            "cs": "2",
+            "dc": "3",
+            "rst": "1",
+            "busy": "0"
+        }
+    },
+    "ws2812Pin": "4",
+    "ws2812Config": {
+        "count": 1,
+        "pins": {
+            "din": "4"
+        }
+    },
+    "buttonConfig": {
+        "activeLevel": 0,
+        "pins": {
+            "keyA": "10",
+            "keyB": "5",
+            "keyC": "8"
+        }
+    },
+    "batteryConfig": {
+        "gauge": "bq27220",
+        "interface": "i2c",
+        "address": "0x55",
+        "pins": {
+            "sda": "20",
+            "scl": "21"
+        }
+    }
 }
