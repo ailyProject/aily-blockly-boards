@@ -1,0 +1,339 @@
+{
+    "name": "linkbit 三色屏",
+    "version": "3.3.10",
+    "description": "linkbit 三色屏 (aily e-paper badge V2) - ESP32-C3 with 2.13-inch tri-color (black/white/red) e-paper, RGB, buttons and battery gauge",
+    "compilerTool": "aily-builder",
+    "core": "esp32:esp32",
+    "mcu": "esp32c3",
+    "type": "esp32:esp32:esp32c3",
+    "compilerParam": "compile -v -b esp32:esp32:esp32c3 --build-property build.cdc_on_boot=1",
+    "analogPins": [
+        [
+            "EPD_BUSY",
+            "0"
+        ],
+        [
+            "EPD_RST",
+            "1"
+        ],
+        [
+            "EPD_CS",
+            "2"
+        ],
+        [
+            "EPD_DC",
+            "3"
+        ],
+        [
+            "RGB",
+            "4"
+        ],
+        [
+            "KEY_B",
+            "5"
+        ]
+    ],
+    "digitalPins": [
+        [
+            "EPD_BUSY",
+            "0"
+        ],
+        [
+            "EPD_RST",
+            "1"
+        ],
+        [
+            "EPD_CS",
+            "2"
+        ],
+        [
+            "EPD_DC",
+            "3"
+        ],
+        [
+            "SDA",
+            "20"
+        ],
+        [
+            "SCL",
+            "21"
+        ],
+        [
+            "EPD_CLK",
+            "6"
+        ],
+        [
+            "EPD_DIN",
+            "7"
+        ],
+        [
+            "KEY_C",
+            "8"
+        ],
+        [
+            "BOOT/I2C_SEL",
+            "9"
+        ],
+        [
+            "KEY_A",
+            "10"
+        ],
+        [
+            "RGB",
+            "4"
+        ],
+        [
+            "KEY_B",
+            "5"
+        ]
+    ],
+    "pwmPins": [
+        [
+            "KEY_A",
+            "10"
+        ],
+        [
+            "RGB",
+            "4"
+        ],
+        [
+            "KEY_C",
+            "8"
+        ],
+        [
+            "KEY_B",
+            "5"
+        ]
+    ],
+    "serialPort": [
+        [
+            "Serial",
+            "Serial"
+        ],
+        [
+            "Serial1",
+            "Serial1"
+        ]
+    ],
+    "cdcSerialPort": [
+        [
+            "Serial(USB CDC)",
+            "Serial"
+        ]
+    ],
+    "serialPins": {
+        "Serial": [
+            [
+                "RX",
+                "20"
+            ],
+            [
+                "TX",
+                "21"
+            ]
+        ]
+    },
+    "serialSpeed": [
+        [
+            "1200",
+            "1200"
+        ],
+        [
+            "9600",
+            "9600"
+        ],
+        [
+            "14400",
+            "14400"
+        ],
+        [
+            "19200",
+            "19200"
+        ],
+        [
+            "38400",
+            "38400"
+        ],
+        [
+            "57600",
+            "57600"
+        ],
+        [
+            "115200",
+            "115200"
+        ]
+    ],
+    "spi": [
+        [
+            "SPI",
+            "SPI"
+        ]
+    ],
+    "spiPins": {
+        "SPI": [
+            [
+                "MOSI",
+                7
+            ],
+            [
+                "MISO",
+                -1
+            ],
+            [
+                "SCK",
+                6
+            ]
+        ]
+    },
+    "spiClockDivide": [
+        [
+            "2 (8MHz)",
+            "SPI_CLOCK_DIV2"
+        ],
+        [
+            "4 (4MHz)",
+            "SPI_CLOCK_DIV4"
+        ],
+        [
+            "8 (2MHz)",
+            "SPI_CLOCK_DIV8"
+        ],
+        [
+            "16 (1MHz)",
+            "SPI_CLOCK_DIV16"
+        ],
+        [
+            "32 (500KHz)",
+            "SPI_CLOCK_DIV32"
+        ],
+        [
+            "64 (250KHz)",
+            "SPI_CLOCK_DIV64"
+        ],
+        [
+            "128 (125KHz)",
+            "SPI_CLOCK_DIV128"
+        ]
+    ],
+    "i2c": [
+        [
+            "I2C",
+            "Wire"
+        ]
+    ],
+    "i2cPins": {
+        "Wire": [
+            [
+                "SDA",
+                "20"
+            ],
+            [
+                "SCL",
+                "21"
+            ]
+        ]
+    },
+    "i2cSpeed": [
+        [
+            "100kHz",
+            "100000L"
+        ],
+        [
+            "400kHz",
+            "400000L"
+        ]
+    ],
+    "builtinLed": [
+        [
+            "RGB",
+            "4"
+        ]
+    ],
+    "interruptPins": [
+        [
+            "KEY_A",
+            "10"
+        ],
+        [
+            "BOOT",
+            "9"
+        ],
+        [
+            "KEY_C",
+            "8"
+        ],
+        [
+            "KEY_B",
+            "5"
+        ]
+    ],
+    "interruptMode": [
+        [
+            "RISING",
+            "RISING"
+        ],
+        [
+            "FALLING",
+            "FALLING"
+        ],
+        [
+            "CHANGE",
+            "CHANGE"
+        ],
+        [
+            "ONLOW",
+            "ONLOW"
+        ],
+        [
+            "ONHIGH",
+            "ONHIGH"
+        ],
+        [
+            "ONLOW_WE",
+            "ONLOW_WE"
+        ],
+        [
+            "ONHIGH_WE",
+            "ONHIGH_WE"
+        ]
+    ],
+    "displayConfig": {
+        "controller": "ssd1680",
+        "interface": "spi",
+        "model": "gdey0213z98",
+        "width": 122,
+        "height": 250,
+        "pins": {
+            "sclk": "6",
+            "mosi": "7",
+            "cs": "2",
+            "dc": "3",
+            "rst": "1",
+            "busy": "0"
+        }
+    },
+    "ws2812Pin": "4",
+    "ws2812Config": {
+        "count": 1,
+        "pins": {
+            "din": "4"
+        }
+    },
+    "buttonConfig": {
+        "activeLevel": 0,
+        "pins": {
+            "keyA": "10",
+            "keyB": "5",
+            "keyC": "8"
+        }
+    },
+    "batteryConfig": {
+        "gauge": "bq27220",
+        "interface": "i2c",
+        "address": "0x55",
+        "pins": {
+            "sda": "20",
+            "scl": "21"
+        }
+    }
+}
