@@ -3,12 +3,6 @@
     "sep": true
   },
   {
-    "name": "NABLE.LF_CLOCK_SOURCE",
-    "icon": "fa-light fa-wave-sine",
-    "children": [],
-    "key": "lfclk"
-  },
-  {
     "name": "NABLE.BLE_ROLE",
     "icon": "fa-brands fa-bluetooth-b",
     "children": [],
