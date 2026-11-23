@@ -1,0 +1,20 @@
+{
+  "name": "project_",
+  "version": "1.0.0",
+  "description": "",
+  "board": "ChipIntelli CI1303",
+  "dependencies": {
+    "@aily-project/board-ci1303": "1.0.18",
+    "@aily-project/lib-chipintelli-audio": "1.0.2",
+    "@aily-project/lib-chipintelli-asr": "2.3.0",
+    "@aily-project/lib-core-io": "1.0.0",
+    "@aily-project/lib-core-logic": "0.0.1",
+    "@aily-project/lib-core-loop": "0.0.1",
+    "@aily-project/lib-core-math": "0.0.1",
+    "@aily-project/lib-core-text": "1.0.0",
+    "@aily-project/lib-core-serial": "0.0.1",
+    "@aily-project/lib-core-time": "0.0.1",
+    "@aily-project/lib-core-variables": "1.0.1"
+  },
+  "entry": "src/main.ino"
+}
