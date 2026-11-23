@@ -16,16 +16,13 @@
   },
   "projectConfig": {
     "JTAGAdapter": "default",
-    "FlashSize": "16M",
     "USBMode": "default",
     "CDCOnBoot": "cdc",
     "MSCOnBoot": "default",
     "DFUOnBoot": "default",
-    "UploadMode": "cdc",
     "PartitionScheme": "app3M_fat9M_16MB",
     "UploadSpeed": "921600",
     "DebugLevel": "none",
-    "EraseFlash": "none",
-    "ZigbeeMode": "default"
+    "EraseFlash": "none"
   }
 }

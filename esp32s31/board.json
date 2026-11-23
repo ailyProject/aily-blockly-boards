@@ -1,7 +1,7 @@
 {
   "name": "ESP32S31",
   "version": "1.0.2",
-  "description": "Generic ESP32-S31 chip configuration using the Arduino ESP32 4.0.0-RC1 esp32s31 variant",
+  "description": "Generic ESP32-S31 chip configuration using the esp32s31 variant from the local Arduino ESP32 SDK 4.0.0",
   "compilerTool": "aily-builder",
   "core": "esp32:esp32",
   "mcu": "esp32s31",

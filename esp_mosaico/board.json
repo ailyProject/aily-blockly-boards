@@ -1,12 +1,12 @@
 {
   "name": "ESP-Mosaico",
   "version": "1.0.0",
-  "description": "ESP-Mosaico CoreBoard V1.2 with ESP32-S31NRV16, 16 MB flash and 16 MB OPI PSRAM; Arduino ESP32 4.0.0-RC1",
+  "description": "ESP-Mosaico CoreBoard V1.2 with ESP32-S31NRV16, 16 MB flash and 16 MB OPI PSRAM; Arduino ESP32 SDK 4.0.0 esp_mosaico variant",
   "compilerTool": "aily-builder",
   "core": "esp32:esp32",
   "mcu": "esp32s31",
-  "type": "esp32:esp32:esp32s31",
-  "compilerParam": "compile -v -b esp32:esp32:esp32s31",
+  "type": "esp32:esp32:esp_mosaico",
+  "compilerParam": "compile -v -b esp32:esp32:esp_mosaico",
   "analogPins": [
     ["GPIO46", "46"],
     ["GPIO47", "47"],

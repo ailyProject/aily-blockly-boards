@@ -9,12 +9,6 @@
     "key": "JTAGAdapter"
   },
   {
-    "name": "ESP32.FLASH_SIZE",
-    "icon": "fa-light fa-database",
-    "children": [],
-    "key": "FlashSize"
-  },
-  {
     "name": "ESP32.USB_MODE",
     "icon": "fa-brands fa-usb",
     "children": [],
@@ -42,12 +36,6 @@
     "key": "DFUOnBoot"
   },
   {
-    "name": "ESP32.UPLOAD_MODE",
-    "icon": "fa-light fa-cloud-arrow-up",
-    "children": [],
-    "key": "UploadMode"
-  },
-  {
     "name": "ESP32.PARTITION_SCHEME",
     "icon": "fa-light fa-hard-drive",
     "children": [],
@@ -70,11 +58,5 @@
     "icon": "fa-light fa-eraser",
     "children": [],
     "key": "EraseFlash"
-  },
-  {
-    "name": "ESP32.ZIGBEE_MODE",
-    "icon": "fa-light fa-network-wired",
-    "children": [],
-    "key": "ZigbeeMode"
   }
 ]
