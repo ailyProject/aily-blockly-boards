@@ -12,7 +12,18 @@
     "@aily-project/lib-core-text": "1.0.0",
     "@aily-project/lib-core-serial": "0.0.1",
     "@aily-project/lib-core-time": "0.0.1",
-    "@aily-project/lib-core-variables": "1.0.1"
+    "@aily-project/lib-core-variables": "1.0.1",
+    "@aily-project/lib-es8389": "1.0.0",
+    "@aily-project/lib-ov3660": "1.0.0",
+    "@aily-project/lib-qmi8658": "1.0.1",
+    "@aily-project/lib-qmc6309": "1.0.1",
+    "@aily-project/lib-ltr303": "1.0.1",
+    "@aily-project/lib-xl9555": "1.0.0",
+    "@aily-project/lib-esp32-usb-host": "1.0.0",
+    "@aily-project/lib-esp32-sd-mmc": "0.0.2",
+    "@aily-project/lib-adafruit-ahtx0": "0.0.2",
+    "@aily-project/lib-bq27220": "1.0.1",
+    "@aily-project/lib-fastled": "1.0.5"
   },
   "projectConfig": {
     "JTAGAdapter": "default",

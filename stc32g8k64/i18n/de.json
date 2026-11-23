@@ -2,6 +2,7 @@
   "STC51": {
     "CLOCK": "CPU-Takt (muss der ISP-Konfiguration entsprechen)",
     "MEMORY": "SDCC-Speichermodell",
+    "EEPROM_SIZE": "Größe des Benutzer-EEPROM",
     "CPP_CORE": "Arduino-Core-Sprache"
   }
 }

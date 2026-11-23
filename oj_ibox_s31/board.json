@@ -806,6 +806,12 @@
         ]
     },
     "ws2812Pin": "38",
+    "ws2812Config": {
+        "count": 4,
+        "pins": {
+            "din": "38"
+        }
+    },
     "buttonConfig": {
         "activeLevel": 0,
         "pins": {

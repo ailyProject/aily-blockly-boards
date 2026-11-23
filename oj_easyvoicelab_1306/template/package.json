@@ -14,6 +14,16 @@
     "@aily-project/lib-core-text": "1.0.0",
     "@aily-project/lib-core-serial": "0.0.1",
     "@aily-project/lib-core-time": "0.0.1",
-    "@aily-project/lib-core-variables": "1.0.1"
+    "@aily-project/lib-core-variables": "1.0.1",
+    "@aily-project/lib-fastled": "1.0.4",
+    "@aily-project/lib-u8g2": "1.0.11",
+    "@aily-project/lib-evlab_pcf85063": "1.0.0",
+    "@aily-project/lib-evlabmotion": "1.0.0",
+    "@aily-project/lib-esplink-wifi": "1.0.0",
+    "@aily-project/lib-esplink-ble": "1.0.0",
+    "@aily-project/lib-chipintelli-ir": "1.2.0",
+    "@aily-project/lib-adafruit-dht": "1.0.1",
+    "@aily-project/lib-chipintelli-sd": "1.0.0",
+    "@aily-project/lib-servo": "1.0.0"
   }
 }

@@ -19,5 +19,11 @@
     "icon": "fa-light fa-microchip",
     "children": [],
     "key": "uploadcheck"
+  },
+  {
+    "name": "STC51.EEPROM_SIZE",
+    "icon": "fa-light fa-memory",
+    "children": [],
+    "key": "eeprom"
   }
 ]

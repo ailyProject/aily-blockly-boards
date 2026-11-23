@@ -13,5 +13,11 @@
     "icon": "fa-light fa-memory",
     "children": [],
     "key": "memory"
+  },
+  {
+    "name": "STC51.EEPROM_SIZE",
+    "icon": "fa-light fa-memory",
+    "children": [],
+    "key": "eeprom"
   }
 ]

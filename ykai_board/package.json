@@ -1,0 +1,32 @@
+{
+  "name": "@aily-project/board-ykai_board",
+  "nickname": "研坤AI开发板",
+  "version": "3.3.10",
+  "description": "YanKun AI Board (研坤AI开发板) is an ESP32-based educational AI development board with a 240x240 TFT display, a NeoPixel RGB LED (GPIO17), six capacitive touch keys (C/H/A/N/G/E), two user buttons (A/B), a light sensor (GPIO39), a sound sensor (GPIO36), a buzzer, an MSA300 accelerometer and a PAJ7620U2 gesture sensor, plus Wi-Fi and Bluetooth dual-mode. The P0-P16 to GPIO pin mapping follows the mPython/掌控板2.0 convention and is inferred (not yet hardware-verified).",
+  "description_en": "YanKun AI Board (研坤AI开发板) is an ESP32-based educational AI development board with a 240x240 TFT display, a NeoPixel RGB LED (GPIO17), six capacitive touch keys (C/H/A/N/G/E), two user buttons (A/B), a light sensor (GPIO39), a sound sensor (GPIO36), a buzzer, an MSA300 accelerometer and a PAJ7620U2 gesture sensor, plus Wi-Fi and Bluetooth dual-mode. The P0-P16 to GPIO pin mapping follows the mPython/掌控板2.0 convention and is inferred (not yet hardware-verified).",
+  "description_zh_cn": "研坤AI开发板是一款基于 ESP32 的教育型 AI 开发板，板载 240×240 TFT 显示屏、NeoPixel RGB 彩灯（GPIO17）、六路电容触摸键（C/H/A/N/G/E）、两个用户按键（A/B）、光线传感器（GPIO39）、声音传感器（GPIO36）、蜂鸣器、MSA300 加速度计与 PAJ7620U2 手势识别传感器，并支持 Wi-Fi 与蓝牙双模通信。引脚映射沿用 掌控板2.0 惯例推断得出，尚未经硬件实测验证。",
+  "description_zh_hk": "研坤AI開發板是一款基於 ESP32 的教育型 AI 開發板，板載 240×240 TFT 顯示屏、NeoPixel RGB 彩燈（GPIO17）、六路電容觸摸鍵（C/H/A/N/G/E）、兩個用戶按鍵（A/B）、光線傳感器（GPIO39）、聲音傳感器（GPIO36）、蜂鳴器、MSA300 加速度計與 PAJ7620U2 手勢識別傳感器，並支援 Wi-Fi 與藍牙雙模通訊。引腳映射沿用 掌控板2.0 慣例推斷得出，尚未經硬件實測驗證。",
+  "description_ja": "研坤AI開発ボードはESP32ベースの教育用AI開発ボードで、240×240 TFTディスプレイ、NeoPixel RGB LED（GPIO17）、6つの静電容量式タッチキー（C/H/A/N/G/E）、2つのユーザーボタン（A/B）、光センサー（GPIO39）、音センサー（GPIO36）、ブザー、MSA300加速度センサー、PAJ7620U2ジェスチャーセンサーを搭載し、Wi-FiとBluetoothデュアルモードに対応しています。ピン割り当てはmPython/掌控板2.0の慣例に基づき推測したもので、ハードウェア実測では未検証です。",
+  "description_ko": "研坤AI 보드는 ESP32 기반 교육용 AI 개발 보드로, 240×240 TFT 디스플레이, NeoPixel RGB LED(GPIO17), 6개 정전용량 터치 키(C/H/A/N/G/E), 2개 사용자 버튼(A/B), 조도 센서(GPIO39), 소리 센서(GPIO36), 버저, MSA300 가속도계, PAJ7620U2 제스처 센서를 탑재하고 Wi-Fi와 Bluetooth 듀얼 모드를 지원합니다. 핀 매핑은 mPython/掌控板2.0 관례를 따라 추정한 것으로 하드웨어 실측 검증은 아직 완료되지 않았습니다.",
+  "description_de": "Das YanKun AI Board (研坤AI开发板) ist ein ESP32-basiertes Bildungs-AI-Entwicklungsboard mit einem 240×240-TFT-Display, einer NeoPixel-RGB-LED (GPIO17), sechs kapazitiven Touch-Tasten (C/H/A/N/G/E), zwei Benutzertasten (A/B), einem Lichtsensor (GPIO39), einem Tonsensor (GPIO36), einem Buzzer, einem MSA300-Beschleunigungssensor und einem PAJ7620U2-Gestensensor sowie Wi-Fi- und Bluetooth-Dual-Mode. Die Pinzuordnung folgt der mPython/掌控板2.0-Konvention und ist abgeleitet (noch nicht hardwareverifiziert).",
+  "description_fr": "La carte YanKun AI (研坤AI开发板) est une carte de développement éducative AI basée sur ESP32, dotée d'un écran TFT 240×240, d'une LED RVB NeoPixel (GPIO17), de six touches tactiles capacitives (C/H/A/N/G/E), de deux boutons utilisateur (A/B), d'un capteur de lumière (GPIO39), d'un capteur sonore (GPIO36), d'un buzzer, d'un accéléromètre MSA300 et d'un capteur de gestes PAJ7620U2, avec Wi-Fi et Bluetooth double mode. La correspondance des broches suit la convention mPython/掌控板2.0 et est déduite (non encore vérifiée sur le matériel).",
+  "description_es": "La placa YanKun AI (研坤AI开发板) es una placa de desarrollo educativa de IA basada en ESP32 con una pantalla TFT 240×240, un LED RGB NeoPixel (GPIO17), seis teclas táctiles capacitivas (C/H/A/N/G/E), dos botones de usuario (A/B), un sensor de luz (GPIO39), un sensor de sonido (GPIO36), un zumbador, un acelerómetro MSA300 y un sensor de gestos PAJ7620U2, además de Wi-Fi y Bluetooth de doble modo. La asignación de pines sigue la convención mPython/掌控板2.0 y es inferida (aún no verificada en hardware).",
+  "description_pt": "O YanKun AI Board (研坤AI开发板) é uma placa de desenvolvimento educacional de IA baseada em ESP32 com um display TFT 240×240, um LED RGB NeoPixel (GPIO17), seis teclas touch capacitivas (C/H/A/N/G/E), dois botões de usuário (A/B), um sensor de luz (GPIO39), um sensor de som (GPIO36), um buzzer, um acelerômetro MSA300 e um sensor de gestos PAJ7620U2, além de Wi-Fi e Bluetooth de modo duplo. O mapeamento de pinos segue a convenção mPython/掌控板2.0 e é inferido (ainda não verificado em hardware).",
+  "description_ru": "Плата YanKun AI (研坤AI开发板) — образовательная плата разработки ИИ на базе ESP32 с TFT-дисплеем 240×240, адресной светодиодной лентой NeoPixel (GPIO17), шестью ёмкостными сенсорными кнопками (C/H/A/N/G/E), двумя пользовательскими кнопками (A/B), датчиком освещённости (GPIO39), звуковым датчиком (GPIO36), зуммером, акселерометром MSA300 и датчиком жестов PAJ7620U2, а также с поддержкой Wi-Fi и Bluetooth в двойном режиме. Назначение выводов основано на конвенции mPython/掌控板2.0 и является предполагаемым (пока не проверено на оборудовании).",
+  "description_ar": "لوحة YanKun AI (研坤AI开发板) هي لوحة تطوير تعليمية للذكاء الاصطناعي مبنية على ESP32، تضم شاشة TFT بدقة 240×240، وLED ملون NeoPixel (GPIO17)، وستة مفاتيح لمسية بالسعة (C/H/A/N/G/E)، وزرين للمستخدم (A/B)، ومستشعر إضاءة (GPIO39)، ومستشعر صوت (GPIO36)، وصافرة، ومقياس تسارع MSA300، ومستشعر إيماءات PAJ7620U2، مع دعم Wi-Fi وBluetooth ثنائي الوضع. تم استنتاج تعيين الدبابيس وفقًا لاتفاقية mPython/掌控板2.0 ولم يتم التحقق منه على الجهاز بعد.",
+  "main": "index.js",
+  "brand": "YanKun",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "boardDependencies": {
+    "@aily-project/compiler-esp-x32": "14.2.0",
+    "@aily-project/tool-esptool_py": "5.3.0",
+    "@aily-project/sdk-esp32": "3.3.10",
+    "@aily-project/tool-esp32-libs": "3.3.10",
+    "@aily-project/tool-ctags": "5.8.0"
+  },
+  "pinmap": false
+}

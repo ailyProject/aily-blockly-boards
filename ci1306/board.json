@@ -71,6 +71,11 @@
     ["Serial1", "Serial1"],
     ["Serial2", "Serial2"]
   ],
+  "serialPins": {
+    "Serial": [["RX", "PB6"], ["TX", "PB5"]],
+    "Serial1": [["RX", "PC0"], ["TX", "PB7"]],
+    "Serial2": [["RX", "PB2"], ["TX", "PB1"]]
+  },
   "serialSpeed": [
     ["1200", "1200"],
     ["9600", "9600"],

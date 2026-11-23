@@ -2,6 +2,7 @@
   "STC51": {
     "CLOCK": "CPU 時鐘（須與 ISP 設定一致）",
     "MEMORY": "SDCC 記憶體模型",
+    "EEPROM_SIZE": "用戶 EEPROM 大小",
     "UPLOAD_CHECK": "燒錄型號校驗"
   }
 }

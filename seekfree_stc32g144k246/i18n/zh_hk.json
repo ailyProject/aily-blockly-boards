@@ -2,6 +2,7 @@
   "STC51": {
     "CLOCK": "CPU 時鐘（須與 ISP 設定一致）",
     "MEMORY": "SDCC 記憶體模型",
+    "EEPROM_SIZE": "用戶 EEPROM 大小",
     "USB_CDC": "啟動時啟用 USB CDC",
     "XRAM": "XRAM 配置",
     "UPLOAD_TRANSPORT": "下載介面",
