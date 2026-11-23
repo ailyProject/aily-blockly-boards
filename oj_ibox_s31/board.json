@@ -4,6 +4,7 @@
     "description": "IBOX S31 (ESP32-S31-WROOM-3): ILI9341 320x240 SPI LCD, OV3660 DVP camera, ES8389 + NS4150B audio with dual mics, 4-bit SDIO TF card, QMI8658 IMU, QMC6309 magnetometer, AHT20, LTR-303ALS, BQ27220 fuel gauge, 4x WS2812, XL9555 joystick/A/B keys, CP2102N USB-UART, 40-pin edge connector (D0-D16 + I2C)",
     "compilerTool": "aily-builder",
     "core": "esp32:esp32",
+    "mcu": "esp32s31",
     "type": "esp32:esp32:esp32s31",
     "compilerParam": "compile -v -b esp32:esp32:esp32s31",
     "analogPins": [
@@ -150,7 +151,7 @@
             "38"
         ],
         [
-            "GPIO39/SD_CTRL",
+            "GPIO39/LCD_BL",
             "39"
         ],
         [
@@ -653,7 +654,8 @@
             "mosi": "9",
             "miso": "8",
             "dc": "10",
-            "cs": "60"
+            "cs": "60",
+            "bl": "39"
         }
     },
     "audioConfig": {
